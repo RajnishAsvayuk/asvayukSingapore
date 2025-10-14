@@ -1,6 +1,7 @@
 const AppImages = {
-  team: {
-    team1: "/images/team/team-1.webp",
+  brand: {
+    logo: "/Images/logo/logo.webp",
+    footerBrand: "/Images/logo/footerLogo.webp",
   },
 };
 
