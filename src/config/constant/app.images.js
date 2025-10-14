@@ -1,7 +1,10 @@
 const AppImages = {
   brand: {
     logo: "/Images/logo/logo.webp",
-    footerBrand: "/Images/logo/footerLogo.webp",
+    footerLogo: "/Images/logo/footerLogo.webp",
+  },
+  home: {
+    bannerImg: "/Images/home/bannerHome.webp",
   },
 };
 

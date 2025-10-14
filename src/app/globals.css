@@ -1,20 +1,8 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif !important;
-  font-weight: 400;
-  line-height: 26px;
-  font-size: 14px;
-  margin: 0;
-  scroll-behavior: smooth;
-  top: 0 !important;
 }
 
 :root {
@@ -25,6 +13,17 @@ body {
   --para: #494949;
   --dark: #000;
   --light: #fff;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-poppins) !important;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 14px;
+  margin: 0;
+  scroll-behavior: smooth;
+  top: 0 !important;
 }
 
 ::-moz-selection {
@@ -6368,15 +6367,14 @@ div#root {
   border-radius: 0.5rem;
 }
 
-/* HTML: <div class="loader"></div> */
-.loader-wrapper {
+/* .loader-wrapper {
   min-width: 100vw;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* HTML: <div class="loader"></div> */
+
 .loader {
   width: 50px;
   aspect-ratio: 1;
@@ -6403,4 +6401,4 @@ div#root {
   100% {
     transform: rotate(1turn);
   }
-}
+} */

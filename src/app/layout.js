@@ -1,23 +1,25 @@
-import { Geist } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import HomeLayout from "@/components/layouts/homelayout/HomeLayout";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+  display: "swap",
 });
 
 export const metadata = {
-  title: "Asvayuk Technologies | Best Web Designing & Web Developmnet Company",
+  title: "Asvayuk Technologies | Best Web Designing & Web Development Company",
   description:
-    "GAsvayuk Technologies best Web design and Development Company Chandigarh. Asvayuk Technologies Provide Web design & development. Asvayuk Technologies SEO and Digital Marketing Service provider.",
+    "Asvayuk Technologies - Best Web Design and Development Company in Chandigarh. Providing Web Design, Development, SEO, and Digital Marketing Services.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable}`}>
+      <body className={`${poppins.variable} font-poppins`}>
         <HomeLayout>{children}</HomeLayout>
       </body>
     </html>
