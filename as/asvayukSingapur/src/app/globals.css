@@ -80,7 +80,7 @@ img {
 .heroBtn {
   border: 1px solid var(--main);
   background-color: var(--main);
-  width: 60%;
+  width: 82%;
   -webkit-transition: ease-in-out 0.3s;
   -o-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
@@ -3251,8 +3251,8 @@ footer a {
 /* home  */
 
 .banner_textInfo h1 {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 70px;
   font-weight: 750;
 }
 
@@ -6509,8 +6509,8 @@ h1 {
   }
 
   .banner_textInfo h1 {
-    font-size: 61px !important;
-    line-height: 68px !important;
+    font-size: 50px !important;
+    line-height: 58px !important;
     font-weight: 750;
   }
 }
@@ -9580,8 +9580,8 @@ footer a {
 /* home  */
 
 .banner_textInfo h1 {
-  font-size: 70px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 70px;
   font-weight: 750;
 }
 
