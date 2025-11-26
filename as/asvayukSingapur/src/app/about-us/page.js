@@ -30,7 +30,7 @@ const page = () => {
   return (
     <>
       <main>
-        <div className="about_section">
+        <div className="about_section ">
           <Container>
             <Row className='align-items-center pt-5'>
               <div className="left-box col-lg-6 pt-4 pt-lg-0">
