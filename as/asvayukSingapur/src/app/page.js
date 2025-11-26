@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import AppImages from "../config/constant/app.images";
 import Image from "next/image";
@@ -62,18 +62,21 @@ import Link from "next/link";
 import { MdNavigateNext } from "react-icons/md";
 import Experience from "@/components/Experience/Experience";
 import FullCaseStudy from "@/components/FullCaseStudy/FullCaseStudy";
+import UseClient from "@/components/UseClient/UseClient";
 
 
 export default function Home() {
   return (
     <>
+  
+    
       {/* banner section */}
       <section className="banner p-0 p-lg-5">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
+          <div className="row align-items-start">
+            <div className="col-lg-7">
               <div className="banner_textInfo pe-0 pe-lg-5 pe-md-5">
-                <h1>Engineering the Next Digital Era</h1>
+                <h1>Custom Software & Web Development Company in Singapore</h1>
                 <h2
                   className="py-3"
                   style={{
@@ -83,11 +86,7 @@ export default function Home() {
                     lineHeight: "1.5rem",
                   }}
                 >
-                  At AsvayukTech, we empower businesses with cutting-edge
-                  solutions in Ecommerce, Blockchain, AI, and Web Development.
-                  From scalable digital platforms to intelligent systems, we
-                  help enterprises transform ideas into powerful, data-driven
-                  realities.
+                  Asvayuk Technologies expertly blends cutting-edge web design & app design, state-of-the-art technology solutions, and digital marketing and SEO strategies to boost your business's online visibility and fuel remarkable growth in the Singapore market.
                 </h2>
                 <div className="row justify-content-center justify-content-xl-start mb-4">
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
@@ -110,11 +109,11 @@ export default function Home() {
                   </div>
 
                 </div>
-                <BannerButton btnTitle="Free Consultation" />
+                <BannerButton btnTitle="Book Your Free Singapore Consultation" />
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="bannerImg">
+            <div className="col-lg-5">
+              <div className="bannerImg  ">
                 <Image
                   src={AppImages.home.bannerImg}
                   alt="design-development-marketing"
