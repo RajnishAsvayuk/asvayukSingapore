@@ -83,7 +83,7 @@ export default function Home() {
                     fontSize: "16px",
                     color: "#494949",
                     fontWeight: "500",
-                    lineHeight: "1.5rem",
+                    lineHeight: "1.5rem", 
                   }}
                 >
                   Asvayuk Technologies expertly blends cutting-edge web design & app design, state-of-the-art technology solutions, and digital marketing and SEO strategies to boost your business's online visibility and fuel remarkable growth in the Singapore market.
