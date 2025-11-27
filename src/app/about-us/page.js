@@ -3,7 +3,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { MdKeyboardArrowRight } from 'react-icons/md'
 // Images
-import Image from "next/image";
+import Image from "next/image" ;
 import right_logo from '../../../public/Images/right-logo-2.webp'
 import about_bg from '../../../public/Images/about-img.jpg'
 import circle_1 from '../../../public/Images/circle_1.png'
