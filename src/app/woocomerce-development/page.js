@@ -33,7 +33,7 @@ const woocomerce = () => {
           pageName={"WooCommerce Development"}
           pageHeading={"WooCommerce Development Services in Singapore"}
           pagePara={
-            "In Singapore’s fast-growing e-commerce landscape, businesses need robust and scalable online stores to stay competitive. Asvayuk Technologies Private Ltd. provides top-tier WooCommerce Development Services in Singapore, making us a trusted WooCommerce development partner in the region. Our expertise ensures that your online store is feature-rich, secure, and optimized for conversions, helping your business build a strong digital presence."
+            "In Singapore's fast-growing e-commerce landscape, businesses need robust and scalable online stores to stay competitive. Asvayuk Technologies Pvt. Ltd. provides top-tier WooCommerce Development Services in Singapore, making us a trusted e-commerce partner in the region. Our expertise ensures that your online store is feature-rich, secure, and optimized for conversions, helping your business build a strong digital presence."
           }
           pageImg={woocomerceBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -45,7 +45,7 @@ const woocomerce = () => {
               <div className="woocomerce-heading position-relative">
                 <h2>
                   We ensure <br />
-                  <span style={{ color: "#249f81" }}> Web Development</span>
+                  <span style={{ color: "#249f81" }}> WooCommerce Development</span>
                   <br />
                   best Practices
                 </h2>
@@ -86,13 +86,10 @@ const woocomerce = () => {
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
                 <h2>
-                  Our Comprehensive WooCommerce Development Services in
-                  Singapore
+                  Our Comprehensive WooCommerce Development Services in Singapore
                 </h2>
                 <p className="mt-3">
-                  We offer a comprehensive range of WooCommerce Development
-                  Services in Singapore to help businesses build, manage, and
-                  scale their online stores efficiently:
+                  We offer a comprehensive range of WooCommerce Development Services in Singapore to help businesses build, manage, and scale their online stores efficiently.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -107,9 +104,7 @@ const woocomerce = () => {
 "
                       cardParaGraph={
                         <>
-                          Our WooCommerce website experts in Singapore create
-                          fully customized online stores that reflect your brand
-                          identity and meet your business requirements.
+                          Our WooCommerce website experts in Singapore create fully customized online stores that reflect your brand identity and meet your business requirements.
                         </>
                       }
                     />
@@ -125,9 +120,7 @@ const woocomerce = () => {
                       cardParaGraph={
                         <>
                           {" "}
-                          We design and develop visually appealing and
-                          user-friendly WooCommerce themes that enhance the
-                          shopping experience and improve customer engagement.
+                          We design and develop visually appealing and user-friendly WooCommerce themes that enhance the shopping experience and improve customer engagement.
                         </>
                       }
                     />
@@ -138,14 +131,10 @@ const woocomerce = () => {
                       altText="Static Website Design Singapore
 "
                       cardHeading="WooCommerce Plugin Development and Integration
-
-
 "
                       cardParaGraph={
                         <>
-                          Extend the functionality of your online store with
-                          custom plugin development and seamless third-party
-                          integrations.
+                          Extend the functionality of your online store with custom plugin development and seamless third-party integrations.
                         </>
                       }
                     />
@@ -155,15 +144,8 @@ const woocomerce = () => {
                       ServiceCardImg={c14}
                       altText="Shopify Website Development Singapore
 "
-                      cardHeading="WooCommerce Migration Services
-
-
-"
-                      cardParaGraph="If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Singapore ensure a smooth and hassle-free transition with minimal downtime.
-
-
-
-"
+                      cardHeading="WooCommerce Migration Services"
+                      cardParaGraph="If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Singapore ensure a smooth and hassle-free transition with minimal downtime."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -171,12 +153,8 @@ const woocomerce = () => {
                       ServiceCardImg={c15}
                       altText="Mobile Responsive Design
 "
-                      cardHeading="WooCommerce SEO and Performance Optimization
-
-"
-                      cardParaGraph="Our WooCommerce website creators in Singapore implement best SEO practices to improve search engine rankings and enhance website speed for better user experience.
-
-"
+                      cardHeading="WooCommerce SEO and Performance Optimization"
+                      cardParaGraph="Our WooCommerce website creators in Singapore implement best SEO practices to improve search engine rankings and enhance website speed for better user experience."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -187,9 +165,7 @@ const woocomerce = () => {
                       cardHeading="WooCommerce Maintenance and Support
 
 "
-                      cardParaGraph="We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly.
-
-"
+                      cardParaGraph="We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly."
                     />
                   </div>
                 </div>
@@ -239,8 +215,7 @@ const woocomerce = () => {
         <Experience
           expTitle={
             <>
-              Why Choose Asvayuk Technologies Private Ltd for WooCommerce
-              Development?
+              Why Choose Asvayuk Technologies Private Ltd for WooCommerce Development?
             </>
           }
           ExpPara={
@@ -258,15 +233,13 @@ const woocomerce = () => {
 "
           pointPara1={
             <>
-              Our team has the best developers in Singapore with years of
-              expertise in building successful e-commerce stores.
+              Experienced Developers: Our team has the best developers in Singapore with years of expertise in building successful e-commerce stores.
             </>
           }
           point2="SEO-Optimized Stores"
           pointPara2={
             <>
-              Our WooCommerce development in Singapore city ensures that your
-              store is search engine friendly, driving more traffic and sales.
+              Tailored Solutions: We offer customized WooCommerce solutions to meet your unique business requirements.
             </>
           }
           point3="Tailored Solutions
@@ -275,8 +248,7 @@ const woocomerce = () => {
 "
           pointPara3={
             <>
-              We offer customized WooCommerce solutions to meet your unique
-              business requirements.
+             SEO-Optimized Stores: Our WooCommerce development in Singapore city ensures that your store is search engine friendly, driving more traffic and sales.
             </>
           }
           point4="Affordable Pricing
@@ -284,8 +256,7 @@ const woocomerce = () => {
 "
           pointPara4={
             <>
-              We provide cost-effective WooCommerce solutions without
-              compromising on quality.
+              Affordable Pricing: We provide cost-effective WooCommerce solutions without compromising on quality.
             </>
           }
           altTags={{

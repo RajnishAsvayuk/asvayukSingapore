@@ -40,12 +40,12 @@ const Enterprise = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Enterprise Portal Development"}
-          pageHeading={"Web Portal Development Chandigarh"}
+          pageHeading={"Web Portal Development Singapore"}
           pagePara={
-            "In today's digital era, having a robust and user-friendly web portal is essential for businesses looking to enhance their online presence.Asvayuk Technologies Private Ltd, a leading web portal development company in Chandigarh specializes in creating dynamic and highly functional portals tailored to meet diverse business needs. Whether you need a classified website, an eCommerce platform, or a corporate portal, we provide customized solutions that drive engagement and success."
+            "In today's digital era, having a robust and user-friendly web portal is essential for businesses looking to enhance their online presence.Asvayuk Technologies Private Ltd, a leading web portal development company in Singapore specializes in creating dynamic and highly functional portals tailored to meet diverse business needs. Whether you need a classified website, an eCommerce platform, or a corporate portal, we provide customized solutions that drive engagement and success."
           }
           pageImg={EnterprisesBanner}
-          pageAlt={"web portal development Chandigarh"}
+          pageAlt={"web portal development Singapore"}
         />
 
         <section className="below-banner">
@@ -63,11 +63,11 @@ const Enterprise = () => {
                     In today's fast-paced business environment, fragmented
                     information and isolated processes can impede productivity
                     and customer satisfaction. An enterprise portal development
-                    in Chandigarh serves as a centralized web platform,
+                    in Singapore serves as a centralized web platform,
                     providing unified access to crucial information,
                     applications, and functionalities. At Asvayuk Technologies,
                     we specialize in developing customized portals Development
-                    in Panchkula that seamlessly integrate with existing
+                    in Singapore that seamlessly integrate with existing
                     enterprise systems such as CRM, ERP, and HR, offering a
                     cohesive user experience tailored to distinct roles and
                     requirements. Essentially, our enterprise portals act as
@@ -160,7 +160,7 @@ const Enterprise = () => {
                   <p>
                     Deliver targeted content based on customer behavior and
                     preferences, enhancing engagement and satisfaction through
-                    Enterprise Portal Development in Mohali
+                    Enterprise Portal Development in Singapore
                   </p>
                 </div>
               </div>
@@ -234,8 +234,8 @@ const Enterprise = () => {
 
         {/* <!-- Experience   --> */}
         <Experience
-          expTitle="Why Choose Our Web Portal Development Services in Chandigarh?"
-          ExpPara="At Asvayuk Technologies Private Ltd, we take pride in delivering top-notch website portal services designed to offer seamless user experiences. Our team of expert web developers for website portal development in Chandigarh leverages the latest technologies to build responsive and scalable portals that align with your business goals"
+          expTitle="Why Choose Our Web Portal Development Services in Singapore?"
+          ExpPara="At Asvayuk Technologies Private Ltd, we take pride in delivering top-notch website portal services designed to offer seamless user experiences. Our team of expert web developers for website portal development in Singapore leverages the latest technologies to build responsive and scalable portals that align with your business goals"
           point1="Custom Web Portal Development"
           pointPara1="Tailored solutions to meet your specific requirements."
           point2="Secure & Scalable Architecture"
@@ -245,12 +245,12 @@ const Enterprise = () => {
           point4="SEO-Optimized Portals"
           pointPara4="Built to rank higher in search engines."
           altTags={{
-            group1: "Best IT Solutions Company in Chandigarh",
-            group2: "Custom Software Development in Panchkula",
-            group3: "Top Website Design Company in Mohali",
-            group4: "Custom Magento Development Chandigarh",
-            mockups: "Best SaaS Development Company in Chandigarh",
-            whiteLogo: "Reliable E-commerce Development Services in Mohali",
+            group1: "Best IT Solutions Company in Singapore",
+            group2: "Custom Software Development in Singapore",
+            group3: "Top Website Design Company in Singapore",
+            group4: "Custom Magento Development Singapore",
+            mockups: "Best SaaS Development Company in Singapore",
+            whiteLogo: "Reliable E-commerce Development Services in Singapore",
           }}
         />
 
@@ -259,7 +259,7 @@ const Enterprise = () => {
           <div className="container magentoCon">
             <div className="Empowering_demo_title text-center pb-2 pb-md-5">
               <h1 className="fw-semibold pt-5">
-                Expert Web Portal Development in Chandigarh <br /> for Scalable
+                Expert Web Portal Development in Singapore <br /> for Scalable
                 Business Solutions
               </h1>
             </div>
@@ -269,15 +269,15 @@ const Enterprise = () => {
                   <div className="row align-items-center">
                     <div className="col-8">
                       <div className="Empowering_content text-white">
-                        <h5>Website Development in Panchkula and Mohali</h5>
+                        <h5>Website Development in Singapore</h5>
                         <p className="text-white py-1">
-                          Apart from Chandigarh, we extend our website
-                          development services in Panchkula and Mohali, ensuring
+                          Apart from Singapore, we extend our website
+                          development services in Singapore, ensuring
                           businesses in the Tricity region have access to
                           cutting-edge web solutions. Whether you need website
-                          development in Mohali or custom portal solutions in
-                          Panchkula, our team is ready to assist. Our web portal
-                          development Chandigarh services cater to businesses of
+                          development in Singapore or custom portal solutions in
+                          Singapore, our team is ready to assist. Our web portal
+                          development Singapore services cater to businesses of
                           all sizes.
                         </p>
                       </div>
@@ -286,7 +286,7 @@ const Enterprise = () => {
                       <div className="solution_img">
                         <Image
                           src={Solutions5}
-                          alt="WEB PORTAL DEVELOPMENT COMPANY IN CHANDIGARH"
+                          alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
                           className="img-fluid"
                         />
                       </div>
@@ -299,15 +299,15 @@ const Enterprise = () => {
                   <div className="row align-items-center">
                     <div className="col-8">
                       <div className="Empowering_content text-white">
-                        <Link href="/web-portal-development-chandigarh">
+                        <Link href="/web-portal-development-Singapore">
                           <h5>
                             Get the Best Web Portal Development Services Today!
                           </h5>
                         </Link>
                         <p className="text-white py-1">
                           If you're looking for a web designing company in
-                          Chandigarh that excels in website development provider
-                          Chandigarh, look no further than
+                          Singapore that excels in website development provider
+                          Singapore, look no further than
                           <b>
                             <i>
                               <u>
@@ -321,7 +321,7 @@ const Enterprise = () => {
                             </i>
                           </b>{" "}
                           . We offer end-to-end web portal development services
-                          in Chandigarh, helping businesses thrive in the
+                          in Singapore, helping businesses thrive in the
                           digital world. Contact us today to get started!
                         </p>
                       </div>
@@ -330,7 +330,7 @@ const Enterprise = () => {
                       <div className="solution_img">
                         <Image
                           src={Solutions6}
-                          alt="Web portal development services in chandigarh"
+                          alt="Web portal development services in Singapore"
                           className="img-fluid"
                         />
                       </div>
@@ -355,7 +355,7 @@ const Enterprise = () => {
                 <p className="pt-2">
                   We understand that every business has unique needs. Asvayuk
                   Technologies offers a comprehensive approach to web portal
-                  development in Chandigarh, encompassing various portal types:
+                  development in Singapore, encompassing various portal types:
                 </p>
               </div>
               <div className="tabs">
@@ -666,7 +666,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={eCommerce}
-                            alt="Best web portal agency in chandigarh"
+                            alt="Best web portal agency in Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -755,7 +755,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={CustomerPortals}
-                            alt="Web developers for website portal development in chandigarh"
+                            alt="Web developers for website portal development in Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -855,7 +855,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={Emp}
-                            alt="web designing company in chandigarh"
+                            alt="web designing company in Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -941,7 +941,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={SupplierVendor}
-                            alt="website development provider chandigarh"
+                            alt="website development provider Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -1030,7 +1030,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={IntranetPortals}
-                            alt="Classified Website Development in Chandigarh"
+                            alt="Classified Website Development in Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -1120,7 +1120,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={Extranet}
-                            alt="Responsive web development chandigarh"
+                            alt="Responsive web development Singapore"
                             className="img-fluid"
                           />
                         </div>
@@ -1206,7 +1206,7 @@ const Enterprise = () => {
                         <div className="b2b-right">
                           <Image
                             src={Banking}
-                            alt="website development in panchkula and mohali"
+                            alt="website development in Singapore "
                             className="img-fluid"
                           />
                         </div>
@@ -1224,23 +1224,23 @@ const Enterprise = () => {
           heading="Our Web Portal Development Process"
           para="At Asvayuk Technologies, we follow a structured and transparent development process to ensure the delivery of high-quality apps."
           col1Img={AppImages.processImg.container}
-          col1Alt="website developement in mohali"
+          col1Alt="website developement in Singapore"
           col1head="Requirement Analysis"
           col1para="We take time to understand your specific requirements, business objectives, and target audience. This helps us design the perfect app strategy."
           col2Img={AppImages.processImg.planning}
-          col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN CHANDIGARH"
+          col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
           col2head="Design & Prototyping"
           col2para="Our designers craft intuitive and engaging designs. We create wireframes and prototypes to give you an idea of how the final app will function."
           col3Img={AppImages.processImg.pen}
-          col3Alt="Web portal development services in chandigarh"
+          col3Alt="Web portal development services in Singapore"
           col3head="Development"
           col3para="Using cutting-edge technologies, our development team brings your app to life, ensuring it is optimized for speed, security, and scalability."
           col4Img={AppImages.processImg.development}
-          col4Alt="Web developers for website portal development in chandigarh"
+          col4Alt="Web developers for website portal development in Singapore"
           col4head="Quality Assurance & Testing"
           col4para="Our rigorous testing procedures help ensure that your app is bug-free and functions as expected on all devices and platforms."
           col5Img={AppImages.processImg.test}
-          col5Alt="Responsive web development chandigarh"
+          col5Alt="Responsive web development Singapore"
           col5head="Launch & Post-Launch Support"
           col5para="Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app."
         />

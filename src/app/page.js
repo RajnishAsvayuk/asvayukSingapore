@@ -1,4 +1,6 @@
-import Homepage from "@/components/Home/Homepage";
+import Homepage from "../components/HomePage/Homepage";
+
+
 
 
 
@@ -10,6 +12,6 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <Homepage  />
+   <Homepage />
   );
 }

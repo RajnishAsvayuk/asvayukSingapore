@@ -3359,6 +3359,7 @@ footer a {
 
 .industries_info {
   padding: 10px;
+  cursor: pointer;
 }
 
 .industries_info:hover {
@@ -4919,6 +4920,9 @@ section.bannerMlm .container {
   font-weight: 700;
   line-height: 62px;
   text-align: center;
+}
+.woocomerce-imgs img{
+  width: auto;
 }
 
 .woocomerce-imgs-left {

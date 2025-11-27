@@ -44,25 +44,25 @@ const socialLinks = [
 ];
 
 const serviceLinks = [
-  { href: "/best-ui-ux-designers-in-chandigarh", label: "UI/UX Design" },
+  { href: "/ui-ux-design", label: "UI/UX Design" },
   {
-    href: "/website-development-company-in-chandigarh-and-mohali",
+    href: "/website-designing",
     label: "Website Development",
   },
   {
-    href: "/mobile-app-development-chandigarh",
+    href: "/mobile-app-development",
     label: "Mobile App Development",
   },
   {
-    href: "/ecommerce-website-designing-company-chandigarh",
+    href: "/ecomerce-websites",
     label: "eCommerce Development",
   },
   {
-    href: "/best-seo-services-in-chandigarh",
+    href: "/search-engine-optimization",
     label: "Search Engine Optimization",
   },
   {
-    href: "/web-portal-development-chandigarh",
+    href: "/enterprise-portal-development",
     label: "Enterprise Portal Development",
   },
 ];
@@ -202,7 +202,8 @@ function Footer() {
             <div className="footer_wrapper">
               <div className="img_logo">
                 <Link href="/">
-                  <img src="/Images/logo/footerLogo.webp"
+                  <img
+                    src="/Images/logo/footerLogo.webp"
                     alt="Asvayuk Technologies"
                     className="img-fluid"
                     width={200}
@@ -212,11 +213,11 @@ function Footer() {
               </div>
               <div className="footer_left_sec">
                 <p className="mb-0 text-light">
-                  For cutting-edge technological solutions anywhere in the
-                  world, Asvayuk Technologies Private Limited is your go-to
-                  partner. With a powerful combination of cutting-edge
-                  infrastructure, advanced talents, and next-generation
-                  experience, we enable enterprises.
+                  Asvayuk Technologies is your partner for cutting-edge
+                  technological solutions in FinTech, Smart Nation, and Digital
+                  Transformation. We empower enterprises in Singapore and the
+                  region with world-class infrastructure, specialized AI,
+                  Cybersecurity, Cloud talent, and next-generation experience.
                 </p>
               </div>
             </div>
