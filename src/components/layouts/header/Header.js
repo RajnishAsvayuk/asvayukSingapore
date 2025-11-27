@@ -1,6 +1,6 @@
 "use client";
 
-import AppImages from "@/config/constant/app.images";
+import AppImages from "../../../config/constant/app.images";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useCallback, useMemo } from "react";
@@ -33,116 +33,116 @@ const SERVICE_TABS = [
     key: "technology",
     title: "Technology",
     items: [
-      { href: "/web-portal-development-chandigarh", label: "Enterprise Portal Development" },
+      { href: "/web-portal-development", label: "Enterprise Portal Development" },
       { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
-      { href: "/blockchain-web-development-chandigarh", label: "Blockchain Development" },
-      { href: "/saas-app-development-company-in-chandigarh", label: "Saas Development" },
-      { href: "/laravel-development-company-in-chandigarh", label: "Laravel Development" },
+      { href: "/blockchain-web-development", label: "Blockchain Development" },
+      { href: "/saas-app-development-company-in", label: "Saas Development" },
+      { href: "/laravel-development-company-in", label: "Laravel Development" },
     ]
   },
   {
     key: "marketing", 
     title: "Marketing",
     items: [
-      { href: "/digital-marketing-services-in-chandigarh", label: "Performance Marketing" },
-      { href: "/social-media-marketing-agency-in-chandigarh", label: "Social Media Marketing" },
-      { href: "/best-seo-services-in-chandigarh", label: "Search Engine Optimization" },
+      { href: "/digital-marketing", label: "Performance Marketing" },
+      { href: "/socialMedia-marketing", label: "Social Media Marketing" },
+      { href: "/search-engine-optimization", label: "Search Engine Optimization" },
     ]
   },
   {
     key: "design",
     title: "Design", 
     items: [
-      { href: "/best-ui-ux-designers-in-chandigarh", label: "UI UX Design" },
+      { href: "/ui-ux-design", label: "UI UX Design" },
     ]
   },
   {
     key: "products",
     title: "Products",
     items: [
-      { href: "/ai-chatbot-chandigarh-panchkula", label: "AI Chat Bot" },
-      { href: "/crypto-wallet-solutions-chandigarh-panchkula", label: "Crypto Wallet" },
-      { href: "/24-games-panchkula-chandigarh", label: "Game (24 Game)" },
-      { href: "/crypto-exchange-chandigarh-panchkula", label: "Crypto Exchange" },
-      { href: "/layer1-layer2-blockchain-panchkula-chandigarh", label: "Layer 1/Layer 2 BlockChain" },
+      { href: "/ai-chatbot", label: "AI Chat Bot" },
+      { href: "/crypto-wallet", label: "Crypto Wallet" },
+      { href: "/game-development", label: "Game (24 Game)" },
+      { href: "/crypto-exchange", label: "Crypto Exchange" },
+      { href: "/layer1-layer2-blockchain", label: "Layer 1/Layer 2 BlockChain" },
     ]
   },
   {
     key: "developers",
     title: "Developers",
     items: [
-      { href: "/best-crypto-exchange-developer-chandigarh", label: "Best Crypto Developers" },
-      { href: "/best-blockchain-developer-chandigarh", label: "Best Blockchain Developers" },
-      { href: "/best-mlm-software-developer-chandigarh", label: "Best MLM Developers" },
+      { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
+      { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
+      { href: "/mlm-developers", label: "Best MLM Developers" },
     ]
   }
 ];
 
 const TECHNOLOGY_ITEMS_COL1 = [
-  { href: "/web-portal-development-chandigarh", label: "Enterprise Portal Development" },
+  { href: "/enterprise-portal-development", label: "Enterprise Portal Development" },
   { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
-  { href: "/blockchain-web-development-chandigarh", label: "Blockchain Development" },
-  { href: "/saas-app-development-company-in-chandigarh", label: "Saas Development" },
-  { href: "/laravel-development-company-in-chandigarh", label: "Laravel Development" },
+  { href: "/blockchain-development", label: "Blockchain Development" },
+  { href: "/saas-development", label: "Saas Development" },
+  { href: "/laravel-development", label: "Laravel Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL2 = [
-  { href: "/mobile-app-development-chandigarh", label: "Mobile App Development" },
-  { href: "/woocommerce-development-services-in-chandigarh", label: "WooCommerce Development" },
-  { href: "/best-magento-developers-in-chandigarh", label: "Magento Development" },
+  { href: "/mobile-app-development", label: "Mobile App Development" },
+  { href: "/woocomerce-development", label: "WooCommerce Development" },
+  { href: "/magento-development", label: "Magento Development" },
   { href: "/shopify-development", label: "Shopify Development" },
   { href: "/ar-vr-development", label: "AR/VR Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL3 = [
-  { href: "/website-designing-company-in-chandigarh", label: "Website Designing" },
-  { href: "/ecommerce-website-designing-company-chandigarh", label: "E-commerce Development" },
-  { href: "/react-native-developers-chandigarh", label: "React Native Development" },
-  { href: "/software-development-company-in-chandigarh", label: "Software Development" },
+  { href: "/website-designing", label: "Website Designing" },
+  { href: "/ecomerce-websites", label: "E-commerce Development" },
+  { href: "/react-native", label: "React Native Development" },
+  { href: "/software-development", label: "Software Development" },
 ];
 
 const PRODUCTS_ITEMS_COL1 = [
-  { href: "/ai-chatbot-chandigarh-panchkula", label: "AI Chat Bot" },
-  { href: "/crypto-wallet-solutions-chandigarh-panchkula", label: "Crypto Wallet" },
-  { href: "/24-games-panchkula-chandigarh", label: "Game (24 Game)" },
-  { href: "/crypto-exchange-chandigarh-panchkula", label: "Crypto Exchange" },
-  { href: "/layer1-layer2-blockchain-panchkula-chandigarh", label: "Layer 1/Layer 2 BlockChain" },
+  { href: "/ai-chatbot", label: "AI Chat Bot" },
+  { href: "/crypto-wallet", label: "Crypto Wallet" },
+  { href: "/game-development", label: "Game (24 Game)" },
+  { href: "/crypto-exchange", label: "Crypto Exchange" },
+  { href: "/layer1-layer2-blockchain", label: "Layer 1/Layer 2 BlockChain" },
 ];
 
 const PRODUCTS_ITEMS_COL2 = [
   { href: "/crm-erp", label: "CRM/ERP" },
-  { href: "/trading-bot-chandigarh-panchkula", label: "Trading Bot" },
-  { href: "/mlm-software-chandigarh-panchkula", label: "MLM Software" },
-  { href: "/school-management-panchkula-chandigarh", label: "School Management" },
-  { href: "/hospital-management-panchkula-chandigarh", label: "Hospital Management" },
+  { href: "/trading-bot-solution", label: "Trading Bot" },
+  { href: "/mlm-software", label: "MLM Software" },
+  { href: "/school-management", label: "School Management" },
+  { href: "/hospital-management", label: "Hospital Management" },
 ];
 
 const PRODUCTS_ITEMS_COL3 = [
-  { href: "/dap-dao-chandigarh-panchkula", label: "DAP/DAO" },
-  { href: "/job-portal-solutions", label: "Job Portal" },
-  { href: "/uber-ola-clone-panchkula-chandigarh", label: "Uber/Ola Clone" },
-  { href: "/zomato-urbanup-clone-panchkula-chandigarh", label: "Zomato/Urbanup Clone" },
-  { href: "/multi-vendor-ecommerce-panchkula-chandigarh", label: "Multivendor Ecommerce" },
+  { href: "/dap-dao-solution", label: "DAP/DAO" },
+  { href: "/job-portal-solution", label: "Job Portal" },
+  { href: "/uber-ola-clone", label: "Uber/Ola Clone" },
+  { href: "/zomato-urban", label: "Zomato/Urbanup Clone" },
+  { href: "/multi-vendor-eccomerce", label: "Multivendor Ecommerce" },
 ];
 
 const DEVELOPERS_ITEMS_COL1 = [
-  { href: "/best-crypto-exchange-developer-chandigarh", label: "Best Crypto Developers" },
+  { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
 ];
 
 const DEVELOPERS_ITEMS_COL2 = [
-  { href: "/best-blockchain-developer-chandigarh", label: "Best Blockchain Developers" },
+  { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
 ];
 
 const DEVELOPERS_ITEMS_COL3 = [
-  { href: "/best-mlm-software-developer-chandigarh", label: "Best MLM Developers" },
+  { href: "/mlm-developers", label: "Best MLM Developers" },
 ];
 
 const DEVELOPERS_ITEMS_ROW2_COL1 = [
-  { href: "/best-shopify-developer-chandigarh", label: "Best Shopify Developers" },
+  { href: "/shopify-developers", label: "Best Shopify Developers" },
 ];
 
 const DEVELOPERS_ITEMS_ROW2_COL2 = [
-  { href: "/best-smart-contract-developer-chandigarh", label: "Smart Contract Developers" },
+  { href: "/smart-contract-developers", label: "Smart Contract Developers" },
 ];
 
 const Header = () => {
@@ -188,13 +188,13 @@ const Header = () => {
   ), []);
 
   const CallButton = useMemo(() => (
-    <a href="tel:+91 09876475990" aria-label="Call Now for Consultation">
+    <Link href="tel:+91 09876475990" aria-label="Call Now for Consultation">
       <div className="content">
         <div className="pulse">
           <IoCall />
         </div>
       </div>
-    </a>
+    </Link>
   ), []);
 
   // Render functions for tab content (keeping original column structure)
@@ -239,21 +239,21 @@ const Header = () => {
         <h5 className="pb-3 fw-semibold">Marketing</h5>
         <Col lg={4}>
           <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
-            <Link href="/digital-marketing-services-in-chandigarh" onClick={handleMegaMenuLinkClick}>
+            <Link href="/digital-marketing" onClick={handleMegaMenuLinkClick}>
               Performance Marketing
             </Link>
           </div>
         </Col>
         <Col lg={4}>
           <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
-            <Link href="/social-media-marketing-agency-in-chandigarh" onClick={handleMegaMenuLinkClick}>
+            <Link href="/socialMedia-marketing" onClick={handleMegaMenuLinkClick}>
               Social Media Marketing
             </Link>
           </div>
         </Col>
         <Col lg={4}>
           <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
-            <Link href="/best-seo-services-in-chandigarh" onClick={handleMegaMenuLinkClick}>
+            <Link href="/search-engine-optimization" onClick={handleMegaMenuLinkClick}>
               Search Engine Optimization
             </Link>
           </div>
@@ -268,7 +268,7 @@ const Header = () => {
         <h5 className="pb-3 fw-semibold">Design</h5>
         <Col lg={4}>
           <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
-            <Link href="/best-ui-ux-designers-in-chandigarh" onClick={handleMegaMenuLinkClick}>
+            <Link href="/ui-ux-design" onClick={handleMegaMenuLinkClick}>
               UI UX Design
             </Link>
           </div>
@@ -391,46 +391,49 @@ const Header = () => {
               </NavLink>
 
               {/* Dropdown Menu with hover functionality - same structure */}
-              <NavLink
-                as={Link}
-                href="#"
-                className="dropdownMenu"
-                onMouseEnter={handleMegaMenuMouseEnter}
-                onMouseLeave={handleMegaMenuMouseLeave}
-              >
-                Our Services <FaAngleDown />
-                {isMegaMenuOpen && (
-                  <div className="megaMenu d-flex justify-content-between">
-                    <TabContainer id="left-tabs-example" defaultActiveKey="technology">
-                      <div className="side-tab-list">
-                        <Row>
-                          <Nav variant="pills" className="flex-column">
-                            {SERVICE_TABS.map((tab) => (
-                              <NavItem key={tab.key}>
-                                <NavLink eventKey={tab.key}>
-                                  <div className="tabIcons d-flex w-100 justify-content-between align-items-center">
-                                    <span>{tab.title}</span>
-                                    <FaAngleRight />
-                                  </div>
-                                </NavLink>
-                              </NavItem>
-                            ))}
-                          </Nav>
-                        </Row>
-                      </div>
-                      <div className="submenu-list px-5 py-5 mx-3">
-                        <TabContent>
-                          {renderTechnologyTab()}
-                          {renderMarketingTab()}
-                          {renderDesignTab()}
-                          {renderProductsTab()}
-                          {renderDevelopersTab()}
-                        </TabContent>
-                      </div>
-                    </TabContainer>
-                  </div>
-                )}
-              </NavLink>
+              <Nav.Item
+  className="dropdownMenu"
+  onMouseEnter={handleMegaMenuMouseEnter}
+  onMouseLeave={handleMegaMenuMouseLeave}
+>
+  <div className="nav-link d-flex align-items-center gap-1">
+    Our Services <FaAngleDown />
+  </div>
+
+  {isMegaMenuOpen && (
+    <div className="megaMenu d-flex justify-content-between">
+      <TabContainer id="left-tabs-example" defaultActiveKey="technology">
+        <div className="side-tab-list">
+          <Row>
+            <Nav variant="pills" className="flex-column">
+              {SERVICE_TABS.map((tab) => (
+                <NavItem key={tab.key}>
+                  <Nav.Link
+                    eventKey={tab.key}
+                    className="tabIcons d-flex w-100 justify-content-between align-items-center"
+                  >
+                    <span>{tab.title}</span>
+                    <FaAngleRight />
+                  </Nav.Link>
+                </NavItem>
+              ))}
+            </Nav>
+          </Row>
+        </div>
+        <div className="submenu-list px-5 py-5 mx-3">
+          <TabContent>
+            {renderTechnologyTab()}
+            {renderMarketingTab()}
+            {renderDesignTab()}
+            {renderProductsTab()}
+            {renderDevelopersTab()}
+          </TabContent>
+        </div>
+      </TabContainer>
+    </div>
+  )}
+</Nav.Item>
+
 
               <NavLink as={Link} href="/blog">
                 Blog
@@ -523,17 +526,17 @@ const Header = () => {
                           <div>
                             <ul className="list-unstyled d-flex flex-column">
                               <li className="py-2 border-bottom">
-                                <Link href="/digital-marketing-services-in-chandigarh" onClick={toggleMenu}>
+                                <Link href="/digital-marketing-services-in" onClick={toggleMenu}>
                                   Performance Marketing
                                 </Link>
                               </li>
                               <li className="py-2 border-bottom">
-                                <Link href="/social-media-marketing-agency-in-chandigarh" onClick={toggleMenu}>
+                                <Link href="/socialMedia-marketing" onClick={toggleMenu}>
                                   Social Media Marketing
                                 </Link>
                               </li>
                               <li className="py-2 border-bottom">
-                                <Link href="/best-seo-services-in-chandigarh" onClick={toggleMenu}>
+                                <Link href="/search-engine-optimization" onClick={toggleMenu}>
                                   Search Engine Optimization
                                 </Link>
                               </li>
@@ -547,7 +550,7 @@ const Header = () => {
                           <div>
                             <ul className="list-unstyled d-flex flex-column">
                               <li className="py-2 border-bottom">
-                                <Link href="/best-ui-ux-designers-in-chandigarh" onClick={toggleMenu}>
+                                <Link href="/ui-ux-design" onClick={toggleMenu}>
                                   UI UX Design
                                 </Link>
                               </li>

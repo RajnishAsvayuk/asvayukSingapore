@@ -22,7 +22,7 @@ import {
   FaWhatsapp,
 } from "react-icons/fa6";
 import { MdMail } from "react-icons/md";
-import AppImages from "@/config/constant/app.images";
+import AppImages from "../../../config/constant/app.images";
 import Image from "next/image";
 
 const socialLinks = [
@@ -202,8 +202,7 @@ function Footer() {
             <div className="footer_wrapper">
               <div className="img_logo">
                 <Link href="/">
-                  <Image
-                    src={AppImages.brand.footerLogo}
+                  <img src="/Images/logo/footerLogo.webp"
                     alt="Asvayuk Technologies"
                     className="img-fluid"
                     width={200}
