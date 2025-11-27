@@ -62,7 +62,6 @@ import Link from "next/link";
 import { MdNavigateNext } from "react-icons/md";
 import Experience from "@/components/Experience/Experience";
 import FullCaseStudy from "@/components/FullCaseStudy/FullCaseStudy";
-import UseClient from "@/components/UseClient/UseClient";
 
 const Homepage = () => {
     return (
