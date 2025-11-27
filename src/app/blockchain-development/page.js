@@ -2,14 +2,14 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import reviewGoogle from "../../../public/Images/review_google.webp";
-import GoodFirms from "../../../public/Images/GoodFirms.webp";
-import Glassdoor from "../../../public/Images/Glassdoor.webp";
-import blockchainSmallBanner from "../../../public/Images/blockchainSmallBanner.jpg";
-import BlockChainBan4 from "../../../public/Images/BlockChainBan4.png";
-import work1 from '../../../public/Images/crypotoImg1.png'
-import work2 from '../../../public/Images/crypotoImg2.png'
-import work3 from '../../../public/Images/crypotoImg3.png'
+import reviewGoogle from "/public/Images/review_google.webp";
+import GoodFirms from "/public/Images/GoodFirms.webp";
+import Glassdoor from "/public/Images/Glassdoor.webp";
+import blockchainSmallBanner from "/public/Images/blockchainSmallBanner.jpg";
+import BlockChainBan4 from "/public/Images/BlockChainBan4.png";
+import work1 from '/public/Images/crypotoImg1.png'
+import work2 from '/public/Images/crypotoImg2.png'
+import work3 from '/public/Images/crypotoImg3.png'
 import Link from "next/link";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import { FaBullseye, FaEnvelopeOpenText, FaMugHot, FaRecycle, FaRocket, FaSearch } from "react-icons/fa";

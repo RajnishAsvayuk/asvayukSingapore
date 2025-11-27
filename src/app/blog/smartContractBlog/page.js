@@ -2,9 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import seoImg from "../../../../public/Images/seo_banner.webp";
-import c3 from "../../../../public/Images/smart.webp";
-import author_thumb from "../../../../public/Images/vipasha2.jpg";
+import seoImg from "/public/Images/seo_banner.webp";
+import c3 from "/public/Images/smart.webp";
+import author_thumb from "/public/Images/vipasha2.jpg";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 

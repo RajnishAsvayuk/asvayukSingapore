@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import moonLight from "../../../../public/Images/rel20.png";
-import optimization from "../../../../public/Images/optimization.png";
-import technicalseo from "../../../../public/Images/technicalseo.png";
-import backlink from "../../../../public/Images/backlink.png";
-import content from "../../../../public/Images/content.png";
-import layerXImg from "../../../../public/Images/btCash.webp";
-import conclusion from "../../../../public/Images/conclusion.webp";
+import moonLight from "/public/Images/rel20.png";
+import optimization from "/public/Images/optimization.png";
+import technicalseo from "/public/Images/technicalseo.png";
+import backlink from "/public/Images/backlink.png";
+import content from "/public/Images/content.png";
+import layerXImg from "/public/Images/btCash.webp";
+import conclusion from "/public/Images/conclusion.webp";
 import AppImages from "@/config/constant/app.images";
 import CaseStudySlider from "@/components/CaseStudySlider/CaseStudySlider";
 

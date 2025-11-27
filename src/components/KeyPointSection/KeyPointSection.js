@@ -1,5 +1,6 @@
+'use client'
 import React from "react";
-import check from "../../../public/Images/check.webp";
+import check from "/public/Images/check.webp";
 import { FaChevronRight } from "react-icons/fa";
 import Image from "next/image";
 const KeyPointSection = ({

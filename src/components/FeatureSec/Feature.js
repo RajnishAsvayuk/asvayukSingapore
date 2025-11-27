@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import Group_652 from "../../../public/Images/Group-652.webp";
-import Group_859 from "../../../public/Images/Group-859.webp";
-import Group_105519 from "../../../public/Images/Group-105519.webp";
-import Group_649 from "../../../public/Images/Group-649.webp";
-import Group_650 from "../../../public/Images/Group-650 (1).webp";
+import Group_652 from "/public/Images/Group-652.webp";
+import Group_859 from "/public/Images/Group-859.webp";
+import Group_105519 from "/public/Images/Group-105519.webp";
+import Group_649 from "/public/Images/Group-649.webp";
+import Group_650 from "/public/Images/Group-650 (1).webp";
 
 const Feature = ({
   featureheading,
