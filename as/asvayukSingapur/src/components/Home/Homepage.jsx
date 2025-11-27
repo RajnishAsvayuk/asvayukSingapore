@@ -62,6 +62,7 @@ import Link from "next/link";
 import { MdNavigateNext } from "react-icons/md";
 import Experience from "@/components/Experience/Experience";
 import FullCaseStudy from "@/components/FullCaseStudy/FullCaseStudy";
+import Discuss from "../Discuss/Discuss";
 
 const Homepage = () => {
     return (
@@ -667,6 +668,7 @@ const Homepage = () => {
                     </div>
                 </div>
             </section>
+            <Discuss heading={"Ready to partner with a trusted technology expert? Let's discuss how our custom solutions can accelerate your growth in the Singapore market."} btn={"Get a Free Project Estimate"} />
 
 
         </>
