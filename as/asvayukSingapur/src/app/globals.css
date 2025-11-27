@@ -11261,7 +11261,9 @@ section.bannerMlm .container {
   line-height: 62px;
   text-align: center;
 }
-
+.woocomerce-imgs img{
+  width: auto;
+}
 .woocomerce-imgs-left {
   bottom: -6.9rem;
   left: 27rem;
