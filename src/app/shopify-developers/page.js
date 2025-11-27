@@ -2,15 +2,15 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import reviewGoogle from "../../../public/Images/review_google.webp";
-import GoodFirms from "../../../public/Images/GoodFirms.webp";
-import Glassdoor from "../../../public/Images/Glassdoor.webp";
-import work1 from "../../../public/Images/shopifyworkImg1.png";
-import work2 from "../../../public/Images/shopifyworkImg2.png";
-import banShopSml from "../../../public/Images/banSY.png";
-import work3 from "../../../public/Images/work3.png";
-import ReactNativeSmallBan2 from "../../../public/Images/shopifyImgbg.png";
-import ReactNativeSmallBan3 from "../../../public/Images/shopifyImgbg2.png";
+import reviewGoogle from "/public/Images/review_google.webp";
+import GoodFirms from "/public/Images/GoodFirms.webp";
+import Glassdoor from "/public/Images/Glassdoor.webp";
+import work1 from "/public/Images/shopifyworkImg1.png";
+import work2 from "/public/Images/shopifyworkImg2.png";
+import banShopSml from "/public/Images/banSY.png";
+import work3 from "/public/Images/work3.png";
+import ReactNativeSmallBan2 from "/public/Images/shopifyImgbg.png";
+import ReactNativeSmallBan3 from "/public/Images/shopifyImgbg2.png";
 import Link from "next/link";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import {

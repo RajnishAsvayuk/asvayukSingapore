@@ -2,14 +2,14 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import reviewGoogle from "../../../public/Images/review_google.webp";
-import GoodFirms from "../../../public/Images/GoodFirms.webp";
-import Glassdoor from "../../../public/Images/Glassdoor.webp";
-import work1 from "../../../public/Images/NativeImg1.jpg";
-import work2 from "../../../public/Images/NativeImg2.jpg";
-import work3 from "../../../public/Images/NativeImg3.jpg";
-import ReactNativeSmallBan2 from "../../../public/Images/ReactNativeSmallBan2.png";
-import ReactNativeSmallBan3 from "../../../public/Images/ReactNativeSmallBan3.png";
+import reviewGoogle from "/public/Images/review_google.webp";
+import GoodFirms from "/public/Images/GoodFirms.webp";
+import Glassdoor from "/public/Images/Glassdoor.webp";
+import work1 from "/public/Images/NativeImg1.jpg";
+import work2 from "/public/Images/NativeImg2.jpg";
+import work3 from "/public/Images/NativeImg3.jpg";
+import ReactNativeSmallBan2 from "/public/Images/ReactNativeSmallBan2.png";
+import ReactNativeSmallBan3 from "/public/Images/ReactNativeSmallBan3.png";
 import Link from "next/link";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import {

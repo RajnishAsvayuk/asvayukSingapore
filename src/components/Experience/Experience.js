@@ -1,3 +1,4 @@
+'use client'
 import AppImages from "@/config/constant/app.images";
 import Image from "next/image";
 function Experience({
