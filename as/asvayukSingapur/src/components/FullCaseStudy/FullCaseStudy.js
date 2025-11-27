@@ -35,7 +35,7 @@ const FullCaseStudy = () => {
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
                                                 FASHION BUSINESS.</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -71,7 +71,7 @@ const FullCaseStudy = () => {
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
                                                 FASHION BUSINESS.</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -112,7 +112,7 @@ const FullCaseStudy = () => {
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
                                                 FASHION BUSINESS.</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -148,7 +148,7 @@ const FullCaseStudy = () => {
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
                                                 FASHION BUSINESS.</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -184,7 +184,7 @@ const FullCaseStudy = () => {
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
                                                 FASHION BUSINESS.</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -220,7 +220,7 @@ const FullCaseStudy = () => {
                                         </div>
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">Welcome To LayerEx – Your Gateway To Seamless Crypto Trading!</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>
@@ -254,7 +254,7 @@ const FullCaseStudy = () => {
                                         </div>
                                         <div className="fullCaseStudy_textContent py-4">
                                             <h2 className="fw-semibold lh-base">MTHT Token Listing</h2>
-                                            <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                            <div className="subfullCaseStudy d-flex gap-1 gap-md-3 py-4">
                                                 <div className="bg-dark text-white py-1 px-2 rounded-2">
                                                     <span>UI/UX</span>
                                                 </div>

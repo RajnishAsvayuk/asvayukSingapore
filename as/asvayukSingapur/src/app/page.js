@@ -62,7 +62,8 @@ import Link from "next/link";
 import { MdNavigateNext } from "react-icons/md";
 import Experience from "@/components/Experience/Experience";
 import FullCaseStudy from "@/components/FullCaseStudy/FullCaseStudy";
-import UseClient from "@/components/UseClient/UseClient";
+import UseClient from "@/components/Discuss/Discuss";
+import Discuss from "@/components/Discuss/Discuss";
 
 
 export default function Home() {
@@ -71,7 +72,7 @@ export default function Home() {
   
     
       {/* banner section */}
-      <section className="banner p-0 p-lg-5">
+      <section className="banner pb-2 p-0 p-lg-5">
         <div className="container">
           <div className="row align-items-start">
             <div className="col-lg-7">
@@ -91,19 +92,19 @@ export default function Home() {
                 <div className="row justify-content-center justify-content-xl-start mb-4">
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                     <div className="text-center ">
-                      <div className="value text-success fw-bold mi-value d-flex align-items-center fs-5 gap-1">17<span className="fs-5">+</span></div>
+                      <div className="value text-success fw-bold mi-value d-flex align-items-center justify-content-center justify-content-md-start fs-5 gap-1">17<span className="fs-5">+</span></div>
                       <div className="label fw-semibold  mi-lable-count">Years of Presence</div>
                     </div>
                   </div>
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                     <div className="text-center ">
-                      <div className="value text-success fw-bold mi-value d-flex align-items-center fs-5 gap-1">23,00<span className="fs-5">+</span></div>
+                      <div className="value text-success fw-bold mi-value d-flex align-items-center justify-content-center justify-content-md-start fs-5 gap-1">23,00<span className="fs-5">+</span></div>
                       <div className="label fw-semibold  mi-lable-count">Active Clients</div>
                     </div>
                   </div>
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                     <div className="text-center ">
-                      <div className="value text-success fw-bold mi-value d-flex align-items-center fs-5 gap-1">500<span className="fs-5">+</span></div>
+                      <div className="value text-success fw-bold mi-value d-flex align-items-center justify-content-center justify-content-md-start fs-5 gap-1">500<span className="fs-5">+</span></div>
                       <div className="label fw-semibold  mi-lable-count">Dedicated Staff</div>
                     </div>
                   </div>
@@ -347,7 +348,7 @@ export default function Home() {
       <section className="Empowering py-4 py-lg-0 py-md-0 pb-md-5">
         <div className="container">
           <div className="Empowering_title text-center pb-2 pb-md-5">
-            <h2 className="fw-semibold">Fueling Your Growth with Customized Solutions
+            <h2 className="fw-semibold">Fueling Your Growth with Customized Solutions for Singapore
             </h2>
           </div>
           <div className="row pt-0 pt-lg-3 pt-md-3">
@@ -376,7 +377,7 @@ export default function Home() {
                   <div className="col-12">
                     <div className="Empowering_content text-white servicetype">
                       <Link href="/website-development-company-in-chandigarh-and-mohali"> <h5>Web Development <MdNavigateNext /></h5></Link>
-                      <p className="text-white py-1"> Asvayuk Technologies builds responsive, SEO-friendly, and high-performance websites that drive visibility and conversions. From custom web apps to secure eCommerce solutions, we craft future-ready digital experiences.
+                      <p className="text-white py-1"> Our comprehensive web development suite delivers secure eCommerce, scalable corporate portals, and high-performance Progressive Web Apps (PWAs) built for the future.
                       </p>
                     </div>
                   </div>
@@ -396,7 +397,7 @@ export default function Home() {
                   <div className="col-12">
                     <div className="Empowering_content text-white servicetype">
                       <Link href="/mobile-app-development-chandigarh"><h5>Mobile App Development <MdNavigateNext /></h5></Link>
-                      <p className="text-white py-1"> Asvayuk Technologies transforms your ideas into intuitive Android and iOS mobile apps. Our user-focused development approach ensures seamless performance, engagement, and long-term customer retention.
+                      <p className="text-white py-1"> Leveraging extensive experience to transform your vision into user-centric mobile applications (iOS & Android) that drive high conversions and brand loyalty in Singapore.
                       </p>
                     </div>
                   </div>
@@ -414,7 +415,7 @@ export default function Home() {
                   <div className="col-12">
                     <div className="Empowering_content text-white servicetype">
                       <Link href="/best-seo-services-in-chandigarh"><h5>Search Engine Optimization(SEO)<MdNavigateNext /></h5></Link>
-                      <p className="text-white py-1"> Boost your online presence with Asvayuk Technologies’ data-driven SEO services. We optimize your website with targeted keywords, technical SEO, and link-building strategies that increase rankings and organic traffic.
+                      <p className="text-white py-1"> A strategic blend of SEO techniques and digital marketing services to dramatically increase organic website traffic, boost lead conversions, and solidify your brand authority in the region.
                       </p>
                     </div>
                   </div>
@@ -468,7 +469,7 @@ export default function Home() {
       </section>
 
       {/* <!-- Experience   --> */}
-      <Experience expTitle='Discover Customized Solutions for Dynamic Businesses' ExpPara='From sparking innovative ideas to transforming them into market-ready products, Asvayuk Technologies offers an extensive range of solutions crafted to enhance your business value..' point1='Innovative Minds' pointPara1='Engineers with a visionary approach craft solutions beyond conventional boundaries.' point2='Craft Engaging Experiences' pointPara2='We engineer visually stunning interfaces that elevate user engagement.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Client-Centric Approach' pointPara4='Engineers with a visionary approach craft solutions beyond conventional boundaries.'
+      <Experience expTitle='Discover Custom Technology Solutions for Dynamic Businesses in Singapore' ExpPara='From sparking innovative ideas to transforming them into market-ready products, Asvayuk Technologies offers an extensive range of solutions crafted to enhance your business value..' point1='Innovative Minds' pointPara1='Our engineers approach problems with a visionary mindset, crafting bespoke software solutions that move beyond conventional boundaries.' point2='Craft Engaging Experiences' pointPara2='We engineer visually stunning interfaces that elevate user engagement.' point3='Global Trust, Local Impact' pointPara3='By blending global expertise with crucial insights from the Singaporean market, we ensure a seamless technological experience.' point4='Client-Centric Approach' pointPara4='Engineers with a visionary approach craft solutions beyond conventional boundaries.'
         altTags={{
           group1: "Best IT Solutions Company in Chandigarh",
           group2: "Custom Software Development in Panchkula",
@@ -487,9 +488,9 @@ export default function Home() {
         <div className="container ">
           <div className=" mx-auto mb-5">
           <div className="row center-div">
-            <div className="col-md-12 col-lg-8 mb-5 mb-lg-0 text-center text-lg-left text-md-center">
-              <h2 className="display-4 mi-text-primary mb-3 fs-1 fw-semibold">Get Up to 50% Grant Support </h2>
-              <p className=" mx-auto mb-3 ">SMEs are eligible for up to 50% Productivity Solutions Grant <a href="productivity-solutions-grant fs-5"> (PSG)</a> support for the adoption of Info-Tech HRMS and <a href="cloud-accounting-software">Accounting Software</a>, a Pre-Approved Solution under the IMDA SMEs Go
+            <div className="col-md-12 col-lg-8 mb-5 mb-lg-0 text-start text-lg-left text-md-center">
+              <h2 className="display-4 mi-text-primary mb-3 fs-1 fw-semibold text-start">Get Up to 50% Grant Support </h2>
+              <p className=" mx-auto mb-3 text-start">SMEs are eligible for up to 50% Productivity Solutions Grant <a href="productivity-solutions-grant fs-5"> (PSG)</a> support for the adoption of Info-Tech HRMS and <a href="cloud-accounting-software">Accounting Software</a>, a Pre-Approved Solution under the IMDA SMEs Go
                 Digital programme.
 
 
@@ -497,10 +498,10 @@ export default function Home() {
               <p className=" mx-auto mb-0 ">Streamline your operations and save on our HRMS and accounting software.
               </p>
               <br />
-              <div className="heroBtn mx-auto w-75">
+              <div className="heroBtn mx-auto w-100">
                 <a className="d-flex justify-content-between align-items-center text-decoration-none" href="#">
                   <div className="btnText px-3 py-3 text-light">
-                    <span>Schedule a demo</span>
+                    <span>Claim Your 50% PSG Grant Today</span>
                     </div><div className="btn_icon px-4 py-2 align-content-center"><svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg></div></a></div>
               {/* <button className="btn mi-btn-warning" data-toggle="modal" data-target="#enquireModal">Schedule a demo</button> */}
             </div>
@@ -670,7 +671,7 @@ export default function Home() {
         </div>
       </section>
 
-      
+      <Discuss heading="Ready to partner with a trusted technology expert? Let's discuss how our custom solutions can accelerate your growth in the Singapore market." btn="Get a Free Project Estimate"/>
     </>
   );
 }

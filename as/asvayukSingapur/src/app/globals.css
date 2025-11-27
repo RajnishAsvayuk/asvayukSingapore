@@ -111,7 +111,7 @@ img {
 }
 
 .Experience .container {
-  max-width: 1000px !important;
+  max-width: 1200px !important;
 }
 
 .bg-section {
@@ -161,7 +161,7 @@ img {
 }
 
 .fullcase_details {
-  padding-left: 30px !important;
+  padding-left: 0px !important;
   margin-top: 10px !important;
 }
 
@@ -689,8 +689,8 @@ img {
   }
 
   .banner_textInfo h1 {
-    font-size: 30px !important;
-    line-height: 33px !important;
+    font-size: 25px !important;
+    line-height: 31px !important;
   }
 
   .Empowering_title h1 {
@@ -1419,8 +1419,8 @@ textarea.input {
   }
 
   .fullCaseStudy_textContent h2 {
-    font-size: 2rem !important;
-    line-height: 2.5rem !important;
+    font-size: 1.8rem !important;
+    line-height: 2.1rem !important;
   }
 
   .perTitle h2 {
@@ -6379,7 +6379,7 @@ h1 {
 .heroBtn {
   border: 1px solid var(--main);
   background-color: var(--main);
-  width: 60%;
+  width: 82%;
   -webkit-transition: ease-in-out 0.3s;
   -o-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
@@ -6410,7 +6410,7 @@ h1 {
 }
 
 .Experience .container {
-  max-width: 1000px !important;
+  max-width: 1200px !important;
 }
 
 .bg-section {
@@ -6448,7 +6448,7 @@ h1 {
 }
 
 .fullcase_details {
-  padding-left: 30px !important;
+  padding-left: 0px !important;
   margin-top: 10px !important;
 }
 
@@ -6873,6 +6873,9 @@ h1 {
     font-size: 25px !important;
     font-weight: 600;
   }
+  .btn_icon {
+    display: none;
+  }
 
   .b2b-main {
     gap: 2rem !important;
@@ -6959,11 +6962,11 @@ h1 {
   }
 
   .Relationships_title h1 {
-    font-size: 23px !important;
+    font-size: 25px !important;
   }
 
   .Relationships_title h2 {
-    font-size: 23px !important;
+    font-size: 25px !important;
   }
 
   .Empowering_content h5,
@@ -6975,9 +6978,9 @@ h1 {
     font-size: 20px !important;
   }
 
-  .banner_textInfo h1 {
-    font-size: 30px !important;
-    line-height: 33px !important;
+    .banner_textInfo h1 {
+    font-size: 25px !important;
+    line-height: 31px !important;
   }
 
   .Empowering_title h1 {
@@ -7706,8 +7709,8 @@ textarea.input {
   }
 
   .fullCaseStudy_textContent h2 {
-    font-size: 2rem !important;
-    line-height: 2.5rem !important;
+    font-size: 1.8rem !important;
+    line-height: 2.1rem !important;
   }
 
   .perTitle h2 {
@@ -9712,9 +9715,9 @@ footer a {
   z-index: -1;
 }
 
-.Experience .container {
+/* .Experience .container {
   max-width: 950px;
-}
+} */
 
 .experience_content h6 {
   font-size: 14px;
@@ -11011,6 +11014,10 @@ section.bannerMlm .container {
     -o-object-fit: cover;
     object-fit: cover;
   }
+  .Empowering_content h5, .Empowering_content p {
+    font-size: 16px !important;
+    line-height: 23px;
+}
 }
 
 /* service  */
@@ -12623,6 +12630,14 @@ div#root {
 .loader::after {
   margin: 8px;
   animation-duration: 3s;
+}
+@media (max-width: 768px) {
+    .Empowering_title h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
 }
 
 @keyframes l15 {
