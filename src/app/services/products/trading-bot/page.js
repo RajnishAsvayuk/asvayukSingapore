@@ -11,6 +11,7 @@ import Link from 'next/link'
 import BannerButton from '@/components/BannerBtn/BannerButton'
 import Experience from '@/components/Experience/Experience'
 import Magento_service_card from '@/components/ui/Cards/Magento_service_card'
+import KeyPointSection from '@/components/KeyPointSection/KeyPointSection'
 
 const page = () => {
   return (
