@@ -3308,22 +3308,25 @@ footer a {
 
 .bg_empowering {
   background: rgb(44, 190, 154);
-  background: -o-linear-gradient(163deg,
+  /* background: -o-linear-gradient(163deg,
       rgba(44, 190, 154, 1) 0%,
       rgb(7 48 38) 62%);
   background: linear-gradient(287deg,
       rgba(44, 190, 154, 1) 0%,
-      rgb(7 48 38) 62%);
+      rgb(7 48 38) 62%); */
+  background: linear-gradient(287deg, rgba(44, 190, 154, 1) 0%, rgb(2 114 86) 62%);
+      
   height: 100%;
 }
 
 .bg_demo_empowering {
-  background: -o-linear-gradient(163deg,
+  /* background: -o-linear-gradient(163deg,
       rgba(44, 190, 154, 1) 0%,
       rgb(7 48 38) 62%);
   background: linear-gradient(287deg,
       rgba(44, 190, 154, 1) 0%,
-      rgb(7 48 38) 62%);
+      rgb(7 48 38) 62%); */
+      background: linear-gradient(287deg, rgba(44, 190, 154, 1) 0%, rgb(2 114 86) 62%);
   height: 100%;
 }
 
@@ -9636,23 +9639,25 @@ footer a {
 }
 
 .bg_empowering {
-  background: rgb(44, 190, 154);
+  /* background: rgb(44, 190, 154);
   background: -o-linear-gradient(163deg,
       rgba(44, 190, 154, 1) 0%,
       rgb(7 48 38) 62%);
   background: linear-gradient(287deg,
       rgba(44, 190, 154, 1) 0%,
-      rgb(7 48 38) 62%);
+      rgb(7 48 38) 62%); */
+      background: linear-gradient(287deg, rgba(44, 190, 154, 1) 0%, rgb(2 114 86) 62%);
   height: 100%;
 }
 
 .bg_demo_empowering {
-  background: -o-linear-gradient(163deg,
+  /* background: -o-linear-gradient(163deg,
       rgba(44, 190, 154, 1) 0%,
       rgb(7 48 38) 62%);
   background: linear-gradient(287deg,
       rgba(44, 190, 154, 1) 0%,
-      rgb(7 48 38) 62%);
+      rgb(7 48 38) 62%); */
+      background: linear-gradient(287deg, rgba(44, 190, 154, 1) 0%, rgb(2 114 86) 62%);
   height: 100%;
 }
 
