@@ -79,7 +79,7 @@ const page = () => {
                   <div className="row justify-content-center justify-content-xl-start mb-4">
                     <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                       <div className="text-center ">
-                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">17<span className="fs-5">+</span></div>
+                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">12<span className="fs-5">+</span></div>
                         <div className="label fw-  mi-lable-count">Years of Presence</div>
                       </div>
                     </div>
