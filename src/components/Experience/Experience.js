@@ -1,6 +1,7 @@
 'use client'
 import AppImages from "@/config/constant/app.images";
 import Image from "next/image";
+import services3d from "/public/Images/services3d.webp"
 function Experience({
     expTitle,
     ExpPara,
@@ -63,6 +64,7 @@ function Experience({
                         <div className="center_logo_img col-lg-4 d-flex align-items-center justify-content-center d-none d-lg-block">
                             <Image
                                 src={AppImages.experinece.Mockups}
+                                // src={services3d}
                                 alt={altTags.mockups || "null"}
                                 className="img-fluid h-100 w-100"
                                 width={200}
