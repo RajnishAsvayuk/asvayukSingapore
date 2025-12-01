@@ -32,7 +32,7 @@ const page = () => {
       <main>
         <div className="about_section ">
           <Container>
-            <Row className='align-items-center pt-5'>
+            <Row className='align-items-center pt-md-5'>
               <div className="left-box col-lg-6 pt-4 pt-lg-0">
                 <nav
                   style={{ bsBreadcrumbDivider: '">"' }}
@@ -59,7 +59,7 @@ const page = () => {
                 <Image src={right_logo} alt="Best IT Solutions Company in Chandigarh" className="img-fluid" />
               </div> */}
             </Row>
-            <Row className="py-5 my-0">
+            <Row className="py-md-5 my-0">
               <Col lg={5} pb={2} pb-lg={0} pb-md={0}>
                 <div className="about_img">
                   <Image src={about_bg} className="img-fluid h-md-75 w-100" alt="web designing company in chandigarh it park" />

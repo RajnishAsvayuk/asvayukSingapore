@@ -507,9 +507,9 @@ img {
     z-index: 9999 !important;
   }
 
-  .mobile-navbar+main {
+  /* .mobile-navbar+main {
     padding-top: 69px;
-  }
+  } */
 
   .woocomerce-heading h2 {
     font-size: 25px !important;
@@ -773,7 +773,12 @@ img {
   background-color: #1abc9c;
   position: relative;
 }
-
+.city-img img {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+}
 .circle {
   border-radius: 50%;
   background: -o-linear-gradient(315deg, transparent 20%, #198754);
@@ -4924,7 +4929,12 @@ section.bannerMlm .container {
 .woocomerce-imgs img{
   width: auto;
 }
-
+section.choice-section img {
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+    object-position: left;
+}
 .woocomerce-imgs-left {
   bottom: -6.9rem;
   left: 27rem;
@@ -6455,7 +6465,7 @@ h1 {
 }
 
 .fullcase_details {
-  padding-left: 0px !important;
+  padding-left: 30px !important;
   margin-top: 10px !important;
 }
 
@@ -6801,9 +6811,9 @@ h1 {
     z-index: 9999 !important;
   }
 
-  .mobile-navbar+main {
+  /* .mobile-navbar+main {
     padding-top: 69px;
-  }
+  } */
 
   .woocomerce-heading h2 {
     font-size: 25px !important;
@@ -7729,9 +7739,10 @@ textarea.input {
     font-size: 25px !important;
   }
 
-  .tool-heading h2 {
-    font-size: 22px !important;
-  }
+ .tool-heading h2 {
+    font-size: 25px !important;
+    padding-top: 20px;
+}
 
   .caseStuides_content .row div {
     text-align: left !important;
@@ -12651,7 +12662,88 @@ div#root {
     font-weight: 600;
     line-height: 30px;
 }
-
+.fullcase_details {
+  padding-left: 10px !important;
+  margin-top: 10px !important;
+}
+.peformance_card2_heading h2 {
+   
+    font-size: 25px !important;
+    font-weight: 600;
+}
+.low-code h4 {
+    font-size: 18px;
+}
+.tool-img img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.saas-technology-heading h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 31px;
+}
+.work-para p {
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 28px !important;
+}
+.caseStuides {
+    padding-block: 60px;
+    background-color: var(--mainlight);
+}
+.customer-ex h2 {
+    font-size: 25px !important;
+    line-height: 31px !important;
+}
+.choice h2 {
+    font-size: 25px !important;
+    line-height: 31px !important;
+}
+.Empowering_demo_title h1{
+  font-size: 25px !important;
+}
+.Empowering_demo {
+    padding-bottom: 10px;
+    background-color: #e3fbf5;
+}
+.tabs-section {
+    padding-block: 30px;
+    background-color: var(--mainlight);
+}
+.b2b-left h1 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.woocomerce-heading h2 {
+   
+    line-height: 31px;
+  
+}
+.woocomerce-heading h2 br{
+  display: none;
+}
+.woocomerce {
+    background-color: var(--dark);
+    padding-block: 30px;
+    overflow: visible;
+}
+.performance_card2 {
+    background-color: #e3fbf5;
+    padding-block: 40px;
+}
+.bannerAreaTop_content .h1 {
+    font-size: 25px;
+}
+.font_36 {
+    font-size: 25px !important;
+    line-height: 31px !important;
+}
 }
 
 @keyframes l15 {
