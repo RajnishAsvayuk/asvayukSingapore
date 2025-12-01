@@ -773,7 +773,12 @@ img {
   background-color: #1abc9c;
   position: relative;
 }
-
+.city-img img {
+    border-radius: 50%;
+    width: 225px;
+    height: 225px;
+    object-fit: cover;
+}
 .circle {
   border-radius: 50%;
   background: -o-linear-gradient(315deg, transparent 20%, #198754);

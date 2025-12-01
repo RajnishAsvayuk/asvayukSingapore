@@ -798,7 +798,7 @@ const Homepage = () => {
                   Pre-Approved Solution under the IMDA SMEs Go Digital
                   programme.
                 </p>
-                <p className=" mx-auto mb-0 ">
+                <p className=" mx-auto mb-0 text-start">
                   Streamline your operations and save on our HRMS and accounting
                   software.
                 </p>
