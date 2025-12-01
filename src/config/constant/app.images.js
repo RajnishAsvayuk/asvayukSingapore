@@ -26,7 +26,7 @@ const AppImages = {
     group2: "/Images/experinece/Group-2.webp",
     group3: "/Images/experinece/Group-3.webp",
     group4: "/Images/experinece/Group-4.webp",
-    Mockups: "/Images/experinece/Mockups.webp",
+    Mockups: "/Images/experinece/mockup.webp",
     WhiteLogo: "/Images/experinece/WhiteLogo.webp",
   },
 
