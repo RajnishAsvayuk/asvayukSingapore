@@ -9589,9 +9589,14 @@ footer a {
 
 /* home  */
 
-.banner_textInfo h1 {
+/* .banner_textInfo h1 {
   font-size: 60px;
   line-height: 70px;
+  font-weight: 750;
+} */
+.banner_textInfo h1 {
+  font-size: 48px;
+  line-height: 1.2;
   font-weight: 750;
 }
 
