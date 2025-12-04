@@ -3,6 +3,7 @@ import React from "react";
 import check from "/public/Images/check.webp";
 import { FaChevronRight } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 const KeyPointSection = ({
   keyHeading,
   keyPara,
@@ -42,7 +43,7 @@ const KeyPointSection = ({
                     ].map(
                       (point, index) =>
                         point && (
-                          <li key={index} className="d-flex gap-1 py-1">
+                          <li key={index} className="d-flex gap-1 py-1 align-items-start">
                             <span>
                               <Image src={check} />
                             </span>
@@ -55,6 +56,7 @@ const KeyPointSection = ({
                 </div>
 
                 <div className="heroBtn">
+                 <Link href="/contact-us">
                   <div
                     className="d-flex justify-content-between"
                     style={{ cursor: "pointer" }} // ✅ optional
@@ -66,6 +68,7 @@ const KeyPointSection = ({
                       <FaChevronRight />
                     </div>
                   </div>
+                 </Link>
                 </div>
                 {/* 
                             <Modal show={show} onHide={handleClose} size="lg">

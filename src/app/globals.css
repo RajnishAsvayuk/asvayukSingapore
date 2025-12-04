@@ -773,6 +773,9 @@ img {
   background-color: #1abc9c;
   position: relative;
 }
+.low-code-sec-tool img{
+  width: 23px;
+}
 .city-img img {
     border-radius: 50%;
     width: 225px;
