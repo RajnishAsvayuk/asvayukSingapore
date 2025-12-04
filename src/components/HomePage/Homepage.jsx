@@ -99,7 +99,7 @@ const Homepage = () => {
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                     <div className="text-center ">
                       <div className="value text-success fw-bold mi-value d-flex justify-content-center justify-content-md-start  align-items-center fs-5 gap-1">
-                        23,00<span className="fs-5">+</span>
+                        50<span className="fs-5">+</span>
                       </div>
                       <div className="label fw-semibold  mi-lable-count">
                         Active Clients
@@ -109,7 +109,7 @@ const Homepage = () => {
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                     <div className="text-center ">
                       <div className="value text-success fw-bold mi-value d-flex justify-content-center  justify-content-md-start align-items-center fs-5 gap-1">
-                        500<span className="fs-5">+</span>
+                        50<span className="fs-5">+</span>
                       </div>
                       <div className="label fw-semibold  mi-lable-count">
                         Dedicated Staff
