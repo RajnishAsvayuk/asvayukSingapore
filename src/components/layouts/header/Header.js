@@ -34,10 +34,10 @@ const SERVICE_TABS = [
     title: "Technology",
     items: [
       { href: "/web-portal-development", label: "Enterprise Portal Development" },
-      { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
+      // { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
       { href: "/blockchain-web-development", label: "Blockchain Development" },
-      { href: "/saas-app-development-company-in", label: "Saas Development" },
-      { href: "/laravel-development-company-in", label: "Laravel Development" },
+      // { href: "/saas-app-development-company-in", label: "Saas Development" },
+      // { href: "/laravel-development-company-in", label: "Laravel Development" },
     ]
   },
   {
@@ -56,49 +56,49 @@ const SERVICE_TABS = [
       { href: "/ui-ux-design", label: "UI UX Design" },
     ]
   },
-  {
-    key: "products",
-    title: "Products",
-    items: [
-      { href: "/ai-chatbot", label: "AI Chat Bot" },
-      { href: "/crypto-wallet", label: "Crypto Wallet" },
-      { href: "/game-development", label: "Game (24 Game)" },
-      { href: "/crypto-exchange", label: "Crypto Exchange" },
-      { href: "/layer1-layer2-blockchain", label: "Layer 1/Layer 2 BlockChain" },
-    ]
-  },
-  {
-    key: "developers",
-    title: "Developers",
-    items: [
-      { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
-      { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
-      { href: "/mlm-developers", label: "Best MLM Developers" },
-    ]
-  }
+  // {
+  //   key: "products",
+  //   title: "Products",
+  //   items: [
+  //     { href: "/ai-chatbot", label: "AI Chat Bot" },
+  //     { href: "/crypto-wallet", label: "Crypto Wallet" },
+  //     { href: "/game-development", label: "Game (24 Game)" },
+  //     { href: "/crypto-exchange", label: "Crypto Exchange" },
+  //     { href: "/layer1-layer2-blockchain", label: "Layer 1/Layer 2 BlockChain" },
+  //   ]
+  // },
+  // {
+  //   key: "developers",
+  //   title: "Developers",
+  //   items: [
+  //     { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
+  //     { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
+  //     { href: "/mlm-developers", label: "Best MLM Developers" },
+  //   ]
+  // }
 ];
 
 const TECHNOLOGY_ITEMS_COL1 = [
   { href: "/enterprise-portal-development", label: "Enterprise Portal Development" },
-  { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
+  // { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
   { href: "/blockchain-development", label: "Blockchain Development" },
-  { href: "/saas-development", label: "Saas Development" },
-  { href: "/laravel-development", label: "Laravel Development" },
+  // { href: "/saas-development", label: "Saas Development" },
+  // { href: "/laravel-development", label: "Laravel Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL2 = [
   { href: "/mobile-app-development", label: "Mobile App Development" },
   { href: "/woocomerce-development", label: "WooCommerce Development" },
-  { href: "/magento-development", label: "Magento Development" },
-  { href: "/shopify-development", label: "Shopify Development" },
-  { href: "/ar-vr-development", label: "AR/VR Development" },
+  // { href: "/magento-development", label: "Magento Development" },
+  // { href: "/shopify-development", label: "Shopify Development" },
+  // { href: "/ar-vr-development", label: "AR/VR Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL3 = [
-  { href: "/website-designing", label: "Website Designing" },
-  { href: "/ecomerce-websites", label: "E-commerce Development" },
-  { href: "/react-native", label: "React Native Development" },
-  { href: "/software-development", label: "Software Development" },
+  // { href: "/website-designing", label: "Website Designing" },
+  // { href: "/ecomerce-websites", label: "E-commerce Development" },
+  // { href: "/react-native", label: "React Native Development" },
+  // { href: "/software-development", label: "Software Development" },
 ];
 
 const PRODUCTS_ITEMS_COL1 = [

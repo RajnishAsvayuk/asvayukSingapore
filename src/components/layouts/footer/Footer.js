@@ -45,18 +45,18 @@ const socialLinks = [
 
 const serviceLinks = [
   { href: "/ui-ux-design", label: "UI/UX Design" },
-  {
-    href: "/website-designing",
-    label: "Website Development",
-  },
+  // {
+  //   href: "/website-designing",
+  //   label: "Website Development",
+  // },
   {
     href: "/mobile-app-development",
     label: "Mobile App Development",
   },
-  {
-    href: "/ecomerce-websites",
-    label: "eCommerce Development",
-  },
+  // {
+  //   href: "/ecomerce-websites",
+  //   label: "eCommerce Development",
+  // },
   {
     href: "/search-engine-optimization",
     label: "Search Engine Optimization",
