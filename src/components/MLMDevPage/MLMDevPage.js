@@ -101,7 +101,7 @@ const MLMDevPage = () => {
                   </div>
                 </div>
               </Col>
-              <Col xm={5} sm={12} lg={5} md={6} className="bannerAreaTop">
+              <Col xm={5} sm={12} lg={5} md={6} className="bannerAreaTop ">
                 <div className="overflow-hidden w-100 h-100">
                   {/* <iframe
                     width="100%"
