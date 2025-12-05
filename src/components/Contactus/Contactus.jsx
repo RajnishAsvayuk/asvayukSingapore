@@ -146,7 +146,7 @@ function Contact() {
                     you shortly.
                   </p>
                   <Tab.Container
-                    id="left-tabs-example"
+                    id="left-tabs-example "
                     defaultActiveKey="Company"
                   >
                     {/* <div>
