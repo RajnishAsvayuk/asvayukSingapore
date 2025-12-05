@@ -3618,6 +3618,10 @@ footer a {
   color: #007bff;
   font-weight: bold;
 }
+.languages img {
+    width: auto;
+    height: auto;
+}
 
 /* top developers  */
 
@@ -3629,7 +3633,7 @@ footer a {
 }
 
 .bannerAreaTop_content .h1 {
-  font-size: 58px;
+  font-size: 50px;
 }
 
 .FormBannerTop {
@@ -4716,9 +4720,9 @@ section.bannerMlm .container {
 
 .banner_textInfo-en h1 {
   color: var(--dark);
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 800;
-  line-height: 61px;
+  line-height: 51px;
 }
 
 .digital-ex {
@@ -4845,9 +4849,9 @@ section.bannerMlm .container {
 /* -------------------------------------- */
 
 .tool-heading h2 {
-  font-size: 47px;
+  font-size: 35px;
   font-weight: 600;
-  line-height: 55px;
+  line-height: 41px;
 }
 
 .tool-img img {
@@ -5333,9 +5337,9 @@ section.choice-section img {
 
 .banner_textInfo-en h1 {
   color: var(--dark);
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 59px;
+  line-height: 51px;
 }
 
 .peformance_card2_heading h2 {
@@ -9977,7 +9981,7 @@ footer a {
 }
 
 .bannerAreaTop_content .h1 {
-  font-size: 58px;
+  font-size: 50px;
 }
 
 .FormBannerTop {
@@ -11197,9 +11201,9 @@ section.bannerMlm .container {
 /* -------------------------------------- */
 
 .tool-heading h2 {
-  font-size: 47px;
+  font-size: 35px;
   font-weight: 600;
-  line-height: 55px;
+  line-height: 41px;
 }
 
 .tool-img img {
@@ -11680,9 +11684,9 @@ section.bannerMlm .container {
 
 .banner_textInfo-en h1 {
   color: var(--dark);
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 700;
-  line-height: 59px;
+  line-height: 51px;
 }
 
 .peformance_card2_heading h2 {

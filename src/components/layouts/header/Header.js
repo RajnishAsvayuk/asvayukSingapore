@@ -98,7 +98,8 @@ const TECHNOLOGY_ITEMS_COL3 = [
   // { href: "/website-designing", label: "Website Designing" },
   // { href: "/ecomerce-websites", label: "E-commerce Development" },
   // { href: "/react-native", label: "React Native Development" },
-  // { href: "/software-development", label: "Software Development" },
+  { href: "/software-development", label: "Software Development" },
+   { href: "/ar-vr-development", label: "AR/VR Development" },
 ];
 
 const PRODUCTS_ITEMS_COL1 = [
