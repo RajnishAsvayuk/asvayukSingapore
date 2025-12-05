@@ -10,20 +10,20 @@ import Experience from "@/components/Experience/Experience";
 import { IoCheckmark } from "react-icons/io5";
 import AppImages from "@/config/constant/app.images";
 // Images
-import EnterprisesBanner from "/public/Images/EnterprisesBanner.webp";
-import adobe from "/public/Images/adobe.webp";
-import liferay from "/public/Images/liferay.webp";
-import siteonly from "/public/Images/siteonly.webp";
-import Solutions5 from "/public/Images/Solutions5.webp";
-import Solutions6 from "/public/Images/Solutions6.webp";
-import B2b from "/public/Images/B2b.webp";
-import eCommerce from "/public/Images/eCommerce.webp";
-import CustomerPortals from "/public/Images/Customer-portals.webp";
-import Emp from "/public/Images/Employee.webp";
-import SupplierVendor from "/public/Images/Supplier-Vendor.webp";
-import IntranetPortals from "/public/Images/Intranet-Portals.webp";
-import Extranet from "/public/Images/Extranet.webp";
-import Banking from "/public/Images/Banking.webp";
+import EnterprisesBanner from "@/assets/Images/EnterprisesBanner.webp";
+import adobe from "@/assets/Images/adobe.webp";
+import liferay from "@/assets/Images/liferay.webp";
+import siteonly from "@/assets/Images/siteonly.webp";
+import Solutions5 from "@/assets/Images/Solutions5.webp";
+import Solutions6 from "@/assets/Images/Solutions6.webp";
+import B2b from "@/assets/Images/B2b.webp";
+import eCommerce from "@/assets/Images/eCommerce.webp";
+import CustomerPortals from "@/assets/Images/Customer-portals.webp";
+import Emp from "@/assets/Images/Employee.webp";
+import SupplierVendor from "@/assets/Images/Supplier-Vendor.webp";
+import IntranetPortals from "@/assets/Images/Intranet-Portals.webp";
+import Extranet from "@/assets/Images/Extranet.webp";
+import Banking from "@/assets/Images/Banking.webp";
 import Process from "@/components/ProcessSection/Process";
 
 const EnterPrisePage = () => {

@@ -7,12 +7,12 @@ import React from 'react'
 import { Breadcrumb, BreadcrumbItem, Col, Container, Row } from 'react-bootstrap';
 
 
-import service1 from '/public/Images/services1.webp'
-import service2 from '/public/Images/services2.webp'
-import service3 from '/public/Images/services3.webp'
-import service4 from '/public/Images/services4.webp'
-import service5 from '/public/Images/services5.webp'
-import service6 from '/public/Images/services6.webp'
+import service1 from '@/assets/Images/services1.webp'
+import service2 from '@/assets/Images/services2.webp'
+import service3 from '@/assets/Images/services3.webp'
+import service4 from '@/assets/Images/services4.webp'
+import service5 from '@/assets/Images/services5.webp'
+import service6 from '@/assets/Images/services6.webp'
 
 const page = () => {
     return (

@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import arVrBanner from "/public/Images/Ar_Vr.webp";
-import Group105518 from "/public/Images/Group-105518.webp";
-import Group_989 from "/public/Images/Group-989.webp";
+import arVrBanner from "@/assets/Images/Ar_Vr.webp";
+import Group105518 from "@/assets/Images/Group-105518.webp";
+import Group_989 from "@/assets/Images/Group-989.webp";
 import HeroServices from "@/components/HeroServices/HeroServices";
 import { Col, Container, Row } from "react-bootstrap";
 import KeyPointSection from "@/components/KeyPointSection/KeyPointSection";

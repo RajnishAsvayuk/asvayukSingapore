@@ -1,23 +1,23 @@
 "use client";
 import { Breadcrumb, Container } from "react-bootstrap";
-import caseStuBanner from "/public/Images/caseStuBanner.webp";
+import caseStuBanner from "@/assets/Images/caseStuBanner.webp";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import CaseCard from "@/components/CaseCard/CaseCard";
-import caseLogo1 from "/public/Images/caseLogo1.webp";
-import caseLogo2 from "/public/Images/moonlight_logo.webp";
-import caseLogo3 from "/public/Images/caseLogo3.webp";
-import caseLogo4 from "/public/Images/49thcoffee_logo.webp";
-import caseLogo5 from "/public/Images/kri_logo.webp";
-import caseLogo6 from "/public/Images/SpiceTribe_logo.webp";
-import caseLogo7 from "/public/Images/bookmytask_logo.webp";
-import caseLogo8 from "/public/Images/kre.webp";
-import layerx from "/public/Images/layerX.webp";
-import btCash from "/public/Images/btCash.webp";
-import layerlogo from "/public/Images/layerLogo.jpg";
-import rel20 from "/public/Images/rel20.png";
+import caseLogo1 from "@/assets/Images/caseLogo1.webp";
+import caseLogo2 from "@/assets/Images/moonlight_logo.webp";
+import caseLogo3 from "@/assets/Images/caseLogo3.webp";
+import caseLogo4 from "@/assets/Images/49thcoffee_logo.webp";
+import caseLogo5 from "@/assets/Images/kri_logo.webp";
+import caseLogo6 from "@/assets/Images/SpiceTribe_logo.webp";
+import caseLogo7 from "@/assets/Images/bookmytask_logo.webp";
+import caseLogo8 from "@/assets/Images/kre.webp";
+import layerx from "@/assets/Images/layerX.webp";
+import btCash from "@/assets/Images/btCash.webp";
+import layerlogo from "@/assets/Images/layerLogo.jpg";
+import rel20 from "@/assets/Images/rel20.png";
 import AppImages from "@/config/constant/app.images";
 
 const caseStudy = () => {

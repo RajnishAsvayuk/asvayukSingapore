@@ -1,3 +1,6 @@
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -146,7 +149,7 @@ img {
 }
 
 .curly-img {
-  background-image: url("../../public/Images/curly-img.webp");
+  background-image: url("/Images/curly-img.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -1465,7 +1468,7 @@ li.resent_post a img {
 /* Riyadh Developement */
 .riyadhBanner-wrapper {
   min-height: 100vh;
-  background: url("../../public/Images/devbg.jpg");
+  background: url("/Images/devbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1608,7 +1611,7 @@ li.resent_post a img {
 
 .trustedContent-Row {
   padding-block: 7rem;
-  background: url(../../public/Images/mapDev.jpg);
+  background: url(/Images/mapDev.jpg);
   background-repeat: no-repeat;
   background-size: 60% 130%;
   background-position: center;
@@ -1640,7 +1643,7 @@ li.resent_post a img {
   border-radius: 2rem;
   background-color: var(--main2);
   color: var(--light);
-  background: url("../../public/Images/art.jpg");
+  background: url("/Images/art.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1650,82 +1653,82 @@ li.resent_post a img {
 }
 
 .experienceCardWrapper.experienceCardWrapper1 {
-  /* background-image: url("../../public/Images/crmbg1.jpg"); */
-  background-image: url("../../public/Images/crmbg1.jpg");
+  /* background-image: url("/Images/crmbg1.jpg"); */
+  background-image: url("/Images/crmbg1.jpg");
   background-position: bottom;
 }
 
 .experienceCardWrapper.experienceCardWrapper2 {
-  background-image: url("../../public/Images/crmbg2.jpg");
+  background-image: url("/Images/crmbg2.jpg");
   background-position: bottom;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery1 {
-  background: url("../../public/Images/Delivery1.jpg");
+  background: url("/Images/Delivery1.jpg");
   background-size: cover;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery21 {
-  background: url("../../public/Images/Delivery2.jpg");
+  background: url("/Images/Delivery2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery3 {
-  background: url("../../public/Images/Delivery3.jpg");
+  background: url("/Images/Delivery3.jpg");
   background-size: cover;
 }
 
 .experienceEcommerce1 {
-  background: url("../../public/Images/experienceEcommerce1.jpg");
+  background: url("/Images/experienceEcommerce1.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceEcommerce2 {
-  background: url("../../public/Images/experienceEcommerce2.jpg");
+  background: url("/Images/experienceEcommerce2.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceEcommerce3 {
-  background: url("../../public/Images/experienceEcommerce3.jpg");
+  background: url("/Images/experienceEcommerce3.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceCardWrapper.experienceMernStack1 {
-  background: url("../../public/Images/experienceMernStack1.jpg");
+  background: url("/Images/experienceMernStack1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceMernStack2 {
-  background: url("../../public/Images/experienceMernStack2.jpg");
+  background: url("/Images/experienceMernStack2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceMernStack3 {
-  background: url("../../public/Images/experienceMernStack3.jpg");
+  background: url("/Images/experienceMernStack3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceShopifyDev1 {
-  background: url("../../public/Images/experienceShopifyDev1.jpg");
+  background: url("/Images/experienceShopifyDev1.jpg");
   background-size: cover;
   background-position: 50%;
 }
 
 .experienceShopifyDev2 {
-  background: url("../../public/Images/experienceShopifyDev2.jpg");
+  background: url("/Images/experienceShopifyDev2.jpg");
   background-size: cover;
   background-position: top;
 }
 
 .experienceShopifyDev3 {
-  background: url("../../public/Images/experienceShopifyDev3.jpg");
+  background: url("/Images/experienceShopifyDev3.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -1833,27 +1836,27 @@ div#goog-gt-tt {
 }
 
 .riyadhBanner-wrapper.erpDevelopments {
-  background-image: url("../../public/Images/erpDev.jpg") !important;
+  background-image: url("/Images/erpDev.jpg") !important;
 }
 
 .deliveryDev {
-  background-image: url("../../public/Images/deliveryDev.jpg") !important;
+  background-image: url("/Images/deliveryDev.jpg") !important;
 }
 
 .ecommeDev {
-  background-image: url("../../public/Images/ecommeDev.jpg") !important;
+  background-image: url("/Images/ecommeDev.jpg") !important;
 }
 
 .merndevebg {
-  background-image: url("../../public/Images/merndevebg.jpg") !important;
+  background-image: url("/Images/merndevebg.jpg") !important;
 }
 
 .mobileDevbg {
-  background-image: url("../../public/Images/mobileDevbg.jpeg") !important;
+  background-image: url("/Images/mobileDevbg.jpeg") !important;
 }
 
 .shopifyDevBg {
-  background-image: url("../../public/Images/shopifyDevBg.webp") !important;
+  background-image: url("/Images/shopifyDevBg.webp") !important;
 }
 
 html[dir="ltr"] {
@@ -2067,7 +2070,7 @@ html[dir="ltr"] {
 }
 
 .curly-img {
-  background-image: url("../../public/Images/curly-img.webp");
+  background-image: url("/Images/curly-img.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -2077,7 +2080,7 @@ html[dir="ltr"] {
 }
 
 .curley-img {
-  background-image: url("../../public/Images/Vector.webp");
+  background-image: url("/Images/Vector.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -2165,7 +2168,6 @@ html[dir="ltr"] {
 
 /* blog  */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
 
 .form-container {
   max-width: 600px;
@@ -2552,7 +2554,7 @@ html[dir="ltr"] {
 }
 
 .caseBanner {
-  /* background: url("../../public/Images/12.webp"); */
+  /* background: url("/Images/12.webp"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4356,7 +4358,7 @@ footer a {
   background-color: #186e59;
   padding: 50px;
   color: #fff;
-  background-image: url("../../public/Images/backgroundImg.jpg");
+  background-image: url("/Images/backgroundImg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -4630,35 +4632,35 @@ section.bannerMlm .container {
 }
 
 .crytoExchange {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .mlmbgImg {
-  background: url("../../public/Images/mlmgImg.jpg");
+  background: url("/Images/mlmgImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockchainbg {
-  background: url("../../public/Images/blockchainbgImg.jpg");
+  background: url("/Images/blockchainbgImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .SmartContractbg {
-  background: url("../../public/Images/SmartContractImg.jpg");
+  background: url("/Images/SmartContractImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .shopifyImageBg {
-  background: url("../../public/Images/shopifyImgbg3.jpg");
+  background: url("/Images/shopifyImgbg3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -5003,7 +5005,7 @@ section.choice-section img {
 }
 
 .peformance_card1_right-sec {
-  background: url("../../public/Images/12.webp");
+  background: url("/Images/12.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -5125,7 +5127,7 @@ section.choice-section img {
 
 /*  Website Development */
 .bannerImg {
-  /* background: url("../../public/Images/12.webp"); */
+  /* background: url("/Images/12.webp"); */
   background-repeat: no-repeat !important;
   background-size: contain;
   background-position: center;
@@ -5164,7 +5166,7 @@ section.choice-section img {
 }
 
 .peformance_card1_right-sec {
-  background: url("../../public/Images/12.webp");
+  background: url("/Images/12.webp");
   background-repeat: no-repeat;
   background-size: content;
   background-position: center;
@@ -5602,7 +5604,7 @@ section.choice-section img {
 /* Ar_Vr_Sec */
 
 .Ar-sec {
-  /* background-image: url("../../public/Images/Group-986.webp"); */
+  /* background-image: url("/Images/Group-986.webp"); */
   background-position: top center;
   padding: 65px 0px 75px 0px;
   background-size: cover;
@@ -5851,28 +5853,28 @@ section.choice-section img {
 }
 
 .blockChainBanner {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockChainMainBanner {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockChainDevMainBanner {
-  background: url("../../public/Images/blockchainBanner.jpg");
+  background: url("/Images/blockchainBanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .reactNativeMainBanner {
-  background: url("../../public/Images/ReactNativeBanner.webp");
+  background: url("/Images/ReactNativeBanner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -6143,7 +6145,7 @@ div#root {
   border: 1px solid var(--maindark) !important;
   border-radius: 2rem;
   overflow: hidden;
-  /* background: url("../../public/Images/tabSoftDev.jpg"); */
+  /* background: url("/Images/tabSoftDev.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -6321,7 +6323,7 @@ div#root {
 
 
 /* asvayuk styles */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 
 * {
   margin: 0;
@@ -6453,7 +6455,7 @@ h1 {
 
 
 .curly-img {
-  background-image: url("../../public/Images/curly-img.webp");
+  background-image: url("/Images/curly-img.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -7768,7 +7770,7 @@ li.resent_post a img {
 /* Riyadh Developement */
 .riyadhBanner-wrapper {
   min-height: 100vh;
-  background: url("../../public/Images/devbg.jpg");
+  background: url("/Images/devbg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7911,7 +7913,7 @@ li.resent_post a img {
 
 .trustedContent-Row {
   padding-block: 7rem;
-  background: url('../../public/Images/mapDev.jpg');
+  background: url('/Images/mapDev.jpg');
   background-repeat: no-repeat;
   background-size: 60% 130%;
   background-position: center;
@@ -7943,7 +7945,7 @@ li.resent_post a img {
   border-radius: 2rem;
   background-color: var(--main2);
   color: var(--light);
-  background: url("../../public/Images/art.jpg");
+  background: url("/Images/art.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7953,81 +7955,81 @@ li.resent_post a img {
 }
 
 .experienceCardWrapper.experienceCardWrapper1 {
-  background-image: url("../../public/Images/crmbg1.jpg");
+  background-image: url("/Images/crmbg1.jpg");
   background-position: bottom;
 }
 
 .experienceCardWrapper.experienceCardWrapper2 {
-  background-image: url("../../public/Images/crmbg2.jpg");
+  background-image: url("/Images/crmbg2.jpg");
   background-position: bottom;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery1 {
-  background: url("../../public/Images/Delivery1.jpg");
+  background: url("/Images/Delivery1.jpg");
   background-size: cover;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery21 {
-  background: url("../../public/Images/Delivery2.jpg");
+  background: url("/Images/Delivery2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceCardWrapperDelivery3 {
-  background: url("../../public/Images/Delivery3.jpg");
+  background: url("/Images/Delivery3.jpg");
   background-size: cover;
 }
 
 .experienceEcommerce1 {
-  background: url("../../public/Images/experienceEcommerce1.jpg");
+  background: url("/Images/experienceEcommerce1.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceEcommerce2 {
-  background: url("../../public/Images/experienceEcommerce2.jpg");
+  background: url("/Images/experienceEcommerce2.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceEcommerce3 {
-  background: url("../../public/Images/experienceEcommerce3.jpg");
+  background: url("/Images/experienceEcommerce3.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .experienceCardWrapper.experienceMernStack1 {
-  background: url("../../public/Images/experienceMernStack1.jpg");
+  background: url("/Images/experienceMernStack1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceMernStack2 {
-  background: url("../../public/Images/experienceMernStack2.jpg");
+  background: url("/Images/experienceMernStack2.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceCardWrapper.experienceMernStack3 {
-  background: url("../../public/Images/experienceMernStack3.jpg");
+  background: url("/Images/experienceMernStack3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .experienceShopifyDev1 {
-  background: url("../../public/Images/experienceShopifyDev1.jpg");
+  background: url("/Images/experienceShopifyDev1.jpg");
   background-size: cover;
   background-position: 50%;
 }
 
 .experienceShopifyDev2 {
-  background: url("../../public/Images/experienceShopifyDev2.jpg");
+  background: url("/Images/experienceShopifyDev2.jpg");
   background-size: cover;
   background-position: top;
 }
 
 .experienceShopifyDev3 {
-  background: url("../../public/Images/experienceShopifyDev3.jpg");
+  background: url("/Images/experienceShopifyDev3.jpg");
   background-size: cover;
   background-position: 50%;
 }
@@ -8135,27 +8137,27 @@ div#goog-gt-tt {
 }
 
 .riyadhBanner-wrapper.erpDevelopments {
-  background-image: url("../../public/Images/erpDev.jpg") !important;
+  background-image: url("/Images/erpDev.jpg") !important;
 }
 
 .deliveryDev {
-  background-image: url("../../public/Images/deliveryDev.jpg") !important;
+  background-image: url("/Images/deliveryDev.jpg") !important;
 }
 
 .ecommeDev {
-  background-image: url("../../public/Images/ecommeDev.jpg") !important;
+  background-image: url("/Images/ecommeDev.jpg") !important;
 }
 
 .merndevebg {
-  background-image: url("../../public/Images/merndevebg.jpg") !important;
+  background-image: url("/Images/merndevebg.jpg") !important;
 }
 
 .mobileDevbg {
-  background-image: url("../../public/Images/mobileDevbg.jpeg") !important;
+  background-image: url("/Images/mobileDevbg.jpeg") !important;
 }
 
 .shopifyDevBg {
-  background-image: url("../../public/Images/shopifyDevBg.webp") !important;
+  background-image: url("/Images/shopifyDevBg.webp") !important;
 }
 
 html[dir="ltr"] {
@@ -8408,7 +8410,7 @@ html[dir="ltr"] {
 }
 
 .curly-img {
-  background-image: url("../../public/Images/curly-img.webp");
+  background-image: url("/Images/curly-img.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -8418,7 +8420,7 @@ html[dir="ltr"] {
 }
 
 .curley-img {
-  background-image: url("../../public/Images/Vector.webp");
+  background-image: url("/Images/Vector.webp");
   background-repeat: no-repeat;
   background-position: top;
   -webkit-box-pack: justify;
@@ -8506,7 +8508,7 @@ html[dir="ltr"] {
 
 /* blog  */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+
 
 .form-container {
   max-width: 600px;
@@ -8893,7 +8895,7 @@ html[dir="ltr"] {
 }
 
 .caseBanner {
-  /* background: url("../../public/Images/12.webp"); */
+  /* background: url("/Images/12.webp"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10704,7 +10706,7 @@ footer a {
   background-color: #186e59;
   padding: 50px;
   color: #fff;
-  background-image: url("../../public/Images/backgroundImg.jpg");
+  background-image: url("/Images/backgroundImg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -10978,35 +10980,35 @@ section.bannerMlm .container {
 }
 
 .crytoExchange {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .mlmbgImg {
-  background: url("../../public/Images/mlmgImg.jpg");
+  background: url("/Images/mlmgImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockchainbg {
-  background: url("../../public/Images/blockchainbgImg.jpg");
+  background: url("/Images/blockchainbgImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .SmartContractbg {
-  background: url("../../public/Images/SmartContractImg.jpg");
+  background: url("/Images/SmartContractImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .shopifyImageBg {
-  background: url("../../public/Images/shopifyImgbg3.jpg");
+  background: url("/Images/shopifyImgbg3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11350,7 +11352,7 @@ section.bannerMlm .container {
 }
 
 .peformance_card1_right-sec {
-  background: url("../../public/Images/12.webp");
+  background: url("/Images/12.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -11472,7 +11474,7 @@ section.bannerMlm .container {
 
 /*  Website Development */
 .bannerImg {
-  /* background: url("../../public/Images/12.webp"); */
+  /* background: url("/Images/12.webp"); */
   background-repeat: no-repeat !important;
   background-size: contain;
   background-position: center;
@@ -11511,7 +11513,7 @@ section.bannerMlm .container {
 }
 
 .peformance_card1_right-sec {
-  background: url("../../public/Images/12.webp");
+  background: url("/Images/12.webp");
   background-repeat: no-repeat;
   background-size: content;
   background-position: center;
@@ -11949,7 +11951,7 @@ section.bannerMlm .container {
 /* Ar_Vr_Sec */
 
 .Ar-sec {
-  /* background-image: url("../../public/Images/Group-986.webp"); */
+  /* background-image: url("/Images/Group-986.webp"); */
   background-position: top center;
   padding: 65px 0px 75px 0px;
   background-size: cover;
@@ -12199,28 +12201,28 @@ section.bannerMlm .container {
 }
 
 .blockChainBanner {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockChainMainBanner {
-  background: url("../../public/Images/bgcrImg.jpg");
+  background: url("/Images/bgcrImg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .blockChainDevMainBanner {
-  background: url("../../public/Images/blockchainBanner.jpg");
+  background: url("/Images/blockchainBanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .reactNativeMainBanner {
-  background: url("../../public/Images/ReactNativeBanner.webp");
+  background: url("/Images/ReactNativeBanner.webp");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -12491,7 +12493,7 @@ div#root {
   border: 1px solid var(--maindark) !important;
   border-radius: 2rem;
   overflow: hidden;
-  /* background: url("../../public/Images/tabSoftDev.jpg"); */
+  /* background: url("/Images/tabSoftDev.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
