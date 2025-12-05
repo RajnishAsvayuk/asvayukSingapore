@@ -24,6 +24,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { PiMonitorPlayFill } from "react-icons/pi";
 import { FaBuildingUser } from "react-icons/fa6";
 import { GiUpgrade } from "react-icons/gi";
+import ContactForm from "@/components/Contactus/ContactFrom";
 
 const reactNative = () => {
   return (
@@ -96,14 +97,17 @@ const reactNative = () => {
               </Col>
               <Col xm={5} sm={12} lg={5} md={6} className="bannerAreaTop">
                 <div className="overflow-hidden w-100 h-100">
-                  <iframe
+                  <div className='overflow-hidden w-100 h-100 bg-light rounded-4'>
+                                   {/* <iframe
                     width="100%"
                     height="480px"
                     src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
                     allowfullscreen
                     className="mb-0 rounded-4"
                     style={{ background: "transparent" }}
-                  ></iframe>
+                  ></iframe> */}
+                                    <ContactForm/>
+                                </div>
                 </div>
               </Col>
             </Row>

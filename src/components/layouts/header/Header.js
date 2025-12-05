@@ -67,15 +67,15 @@ const SERVICE_TABS = [
   //     { href: "/layer1-layer2-blockchain", label: "Layer 1/Layer 2 BlockChain" },
   //   ]
   // },
-  // {
-  //   key: "developers",
-  //   title: "Developers",
-  //   items: [
-  //     { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
-  //     { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
-  //     { href: "/mlm-developers", label: "Best MLM Developers" },
-  //   ]
-  // }
+  {
+    key: "developers",
+    title: "Developers",
+    items: [
+      { href: "/crypto-exchange-developers", label: "Best Crypto Developers" },
+      { href: "/blockchain-devlopers", label: "Best Blockchain Developers" },
+      { href: "/mlm-developers", label: "Best MLM Developers" },
+    ]
+  }
 ];
 
 const TECHNOLOGY_ITEMS_COL1 = [

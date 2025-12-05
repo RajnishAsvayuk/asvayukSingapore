@@ -2717,34 +2717,34 @@ html[dir="ltr"] {
   border-radius: 0.2rem;
   padding: 10px 15px;
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group select {
   border-radius: 0.2rem;
   padding: 10px 15px;
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::-webkit-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::-moz-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input:-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea:focus {
@@ -2757,27 +2757,27 @@ html[dir="ltr"] {
 
 .contact_form_info form textarea {
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d !important;
 }
 
 .contact_form_info form textarea::-webkit-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::-moz-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea:-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form_parent {
@@ -6095,7 +6095,7 @@ section.choice-section img {
   }
 
   .accelerate-bx ul.accelerate-lst {
-    -ms-grid-columns: (1fr) [1] !important;
+    -ms-grid-columns: (1fr) !important;
     grid-template-columns: repeat(1, 1fr) !important;
   }
 
@@ -9062,34 +9062,34 @@ html[dir="ltr"] {
   border-radius: 0.2rem;
   padding: 10px 15px;
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d !important;
 }
 
 .form-group select {
   border-radius: 0.2rem;
   padding: 10px 15px;
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d !important;
 }
 
 .form-group input::-webkit-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::-moz-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input:-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form-group input::placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea:focus {
@@ -9102,27 +9102,27 @@ html[dir="ltr"] {
 
 .contact_form_info form textarea {
   border: 1px solid #bfbfbf;
-  color: #bfbfbf !important;
+  color: #4d4d4d !important;
 }
 
 .contact_form_info form textarea::-webkit-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::-moz-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea:-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::-ms-input-placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .contact_form_info form textarea::placeholder {
-  color: #bfbfbf !important;
+  color: #4d4d4d  !important;
 }
 
 .form_parent {
@@ -12443,7 +12443,7 @@ section.bannerMlm .container {
   }
 
   .accelerate-bx ul.accelerate-lst {
-    -ms-grid-columns: (1fr) [1] !important;
+    -ms-grid-columns: (1fr) !important;
     grid-template-columns: repeat(1, 1fr) !important;
   }
 

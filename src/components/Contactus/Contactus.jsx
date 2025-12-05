@@ -17,6 +17,7 @@ import contactImg from "@/assets/Images/project-discuss.jpg";
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
+import ContactForm from "./ContactFrom";
 
 function Contact() {
   return (
@@ -148,7 +149,7 @@ function Contact() {
                     id="left-tabs-example"
                     defaultActiveKey="Company"
                   >
-                    <div>
+                    {/* <div>
                       <Nav variant="pills" className="d-flex gap-2">
                         <Nav.Item className="contactForm">
                           <Nav.Link eventKey="Company">Company</Nav.Link>
@@ -157,7 +158,7 @@ function Contact() {
                           <Nav.Link eventKey="Individual">Individual</Nav.Link>
                         </Nav.Item>
                       </Nav>
-                    </div>
+                    </div> */}
 
                     <Tab.Content>
                       <Tab.Pane eventKey="Company">
@@ -212,7 +213,7 @@ function Contact() {
                                                         </div>
                                                     </div>
                                                 </Form> */}
-                          <iframe
+                          {/* <iframe
                             id="iframeForm"
                             width="100%"
                             height="480px"
@@ -220,7 +221,8 @@ function Contact() {
                             className=" rounded-3"
                             style={{ background: "transparent" }}
                             allowfullscreen
-                          ></iframe>
+                          ></iframe> */}
+                          <ContactForm/>
                         </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="Individual">

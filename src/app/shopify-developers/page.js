@@ -31,6 +31,7 @@ import {
   MdMiscellaneousServices,
 } from "react-icons/md";
 import { GrSupport } from "react-icons/gr";
+import ContactForm from "@/components/Contactus/ContactFrom";
 
 const shopifyDev = () => {
   return (
@@ -107,14 +108,17 @@ const shopifyDev = () => {
               </Col>
               <Col xm={5} sm={12} lg={5} md={6} className="bannerAreaTop">
                 <div className="overflow-hidden w-100 h-100">
-                  <iframe
+                  <div className='overflow-hidden w-100 h-100 bg-light rounded-4'>
+                                   {/* <iframe
                     width="100%"
                     height="480px"
                     src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
-                    allowFullScreen
+                    allowfullscreen
                     className="mb-0 rounded-4"
                     style={{ background: "transparent" }}
-                  ></iframe>
+                  ></iframe> */}
+                                    <ContactForm/>
+                                </div>
                 </div>
               </Col>
             </Row>
