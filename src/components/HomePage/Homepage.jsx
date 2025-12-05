@@ -10,7 +10,7 @@ import CaseStudySlider from "@/components/CaseStudySlider/CaseStudySlider";
 
 // image
 import ISO from "@/assets/Images/ISO.webp "; 
-import sitecore from "@/assets/Images/sitecore.webp";
+import sitecore from "@/assets/Images/sitecore.webp ";
 import Unicommerce from "@/assets/Images/Unicommerce.webp";
 import Odoo from "@/assets/Images/Odoo.webp";
 import Vinculum from "@/assets/Images/Vinculum.webp";
