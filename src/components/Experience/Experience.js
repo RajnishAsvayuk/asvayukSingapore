@@ -1,7 +1,7 @@
 'use client'
 import AppImages from "@/config/constant/app.images";
 import Image from "next/image";
-import services3d from "/public/Images/services3d.webp"
+import services3d from "@/assets/Images/services3d.webp"
 function Experience({
     expTitle,
     ExpPara,

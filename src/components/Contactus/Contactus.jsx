@@ -9,11 +9,11 @@ import {
 } from "react-bootstrap";
 // import { Form, Link } from "react-router-dom"
 // import './Contact.css'
-import amritsar from "/public/Images/amritsar.webp";
-import dubai from "/public/Images/dubai.webp";
-import canada from "/public/Images/singapore.webp";
-import Mumbai from "/public/Images/bang.webp";
-import contactImg from "/public/Images/project-discuss.jpg";
+import amritsar from "@/assets/Images/amritsar.webp";
+import dubai from "@/assets/Images/dubai.webp";
+import canada from "@/assets/Images/singapore.webp";
+import Mumbai from "@/assets/Images/bang.webp";
+import contactImg from "@/assets/Images/project-discuss.jpg";
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
