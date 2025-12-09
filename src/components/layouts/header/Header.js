@@ -80,26 +80,26 @@ const SERVICE_TABS = [
 
 const TECHNOLOGY_ITEMS_COL1 = [
   { href: "/enterprise-portal-development", label: "Enterprise Portal Development" },
-  // { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
+  { href: "/lowcode-nocode-app", label: "lowCode/noCode-app" },
   { href: "/blockchain-development", label: "Blockchain Development" },
   // { href: "/saas-development", label: "Saas Development" },
-  // { href: "/laravel-development", label: "Laravel Development" },
+  { href: "/laravel-development", label: "Laravel Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL2 = [
   { href: "/mobile-app-development", label: "Mobile App Development" },
   { href: "/woocomerce-development", label: "WooCommerce Development" },
-  // { href: "/magento-development", label: "Magento Development" },
-  // { href: "/shopify-development", label: "Shopify Development" },
+  { href: "/magento-development", label: "Magento Development" },
+  { href: "/shopify-development", label: "Shopify Development" },
   // { href: "/ar-vr-development", label: "AR/VR Development" },
 ];
 
 const TECHNOLOGY_ITEMS_COL3 = [
-  // { href: "/website-designing", label: "Website Designing" },
-  // { href: "/ecomerce-websites", label: "E-commerce Development" },
-  // { href: "/react-native", label: "React Native Development" },
+  { href: "/website-designing", label: "Website Designing" },
+  { href: "/ecomerce-websites", label: "E-commerce Development" },
+  { href: "/react-native", label: "React Native Development" },
   { href: "/software-development", label: "Software Development" },
-   { href: "/ar-vr-development", label: "AR/VR Development" },
+  //  { href: "/ar-vr-development", label: "AR/VR Development" },
 ];
 
 const PRODUCTS_ITEMS_COL1 = [
