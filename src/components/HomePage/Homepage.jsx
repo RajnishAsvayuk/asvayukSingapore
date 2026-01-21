@@ -73,12 +73,15 @@ const Homepage = () => {
           <div className="row align-items-start">
             <div className="col-lg-7">
               <div className="banner_textInfo pe-0 pe-lg-5 pe-md-5">
-                <h1>Custom Software & Web Development Company in Singapore</h1>
-                <div class="slider-text-container">
-                  <ul class="dynamic-text">
-                    <li><span>Marketing</span></li>
-                    <li><span>Designing</span></li>
-                    <li><span>Crypto</span></li>
+                <h1>Singapore’s Trusted Partner for AI-Driven Solutions</h1>
+                <div className="slider-text-container">
+                  <ul className="dynamic-text">
+                    <li><span>Agentic AI</span></li>
+                    <li><span>E-Commerce - B2B , B2C</span></li>
+                    <li><span>Fintech Developement</span></li>
+                    <li><span>Custom Software Developement</span></li>
+                    <li><span>App Developement</span></li>
+                    <li><span>CRM ERP Solutions</span></li>
                   </ul>
                 </div>
                 <h2

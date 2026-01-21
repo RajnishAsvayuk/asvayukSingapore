@@ -24,7 +24,7 @@ function Experience({
                         <p className="mb-0">{ExpPara}</p>
                     </div>
 
-                    <div className="experience_row row py-5">
+                    <div className="experience_row row justify-content-center py-5">
                         <div className="col-lg-4 col-md-6 col-sm-12">
                             <div className="d-flex flex-column justify-content-xl-between align-items-center h-100">
                                 <div className="position-relative">
@@ -61,14 +61,14 @@ function Experience({
                             </div>
                         </div>
 
-                        <div className="center_logo_img col-lg-4 d-flex align-items-center justify-content-center d-none d-lg-block">
+                        <div className="center_logo_img align-content-center  col-lg-2 d-flex align-items-center justify-content-center d-none d-lg-block">
                             <Image
                                 src={AppImages.experinece.Mockups}
                                 // src={services3d}
                                 alt={altTags.mockups || "null"}
-                                className="img-fluid h-100 w-100"
-                                width={200}
-                                height={200}
+                                className="img-fluid  w-100"
+                                width={150}
+                                height={150}
                             />
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 ">
