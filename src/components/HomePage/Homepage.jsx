@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import CaseStudySlider from "@/components/CaseStudySlider/CaseStudySlider";
 
 // image
-import ISO from "@/assets/Images/ISO.webp"; 
+import ISO from "@/assets/Images/ISO.webp";
 import sitecore from "@/assets/Images/sitecore.webp";
 import Unicommerce from "@/assets/Images/Unicommerce.webp";
 import Odoo from "@/assets/Images/Odoo.webp";
@@ -74,6 +74,13 @@ const Homepage = () => {
             <div className="col-lg-7">
               <div className="banner_textInfo pe-0 pe-lg-5 pe-md-5">
                 <h1>Custom Software & Web Development Company in Singapore</h1>
+                <div class="slider-text-container">
+                  <ul class="dynamic-text">
+                    <li><span>Marketing</span></li>
+                    <li><span>Designing</span></li>
+                    <li><span>Crypto</span></li>
+                  </ul>
+                </div>
                 <h2
                   className="py-3"
                   style={{
@@ -83,7 +90,7 @@ const Homepage = () => {
                     lineHeight: "1.5rem",
                   }}
                 >
-                  Asvayuk Technologies expertly blends cutting-edge web design & app design, state-of-the-art technology solutions, and digital marketing and SEO strategies to boost your business's online visibility and fuel remarkable growth in the Singapore market.
+                  Layerex Technologies expertly blends cutting-edge web design & app design, state-of-the-art technology solutions, and digital marketing and SEO strategies to boost your business's online visibility and fuel remarkable growth in the Singapore market.
                 </h2>
                 <div className="row justify-content-center justify-content-xl-start mb-4">
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
@@ -582,7 +589,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        At Asvayuk Technologies, we design captivating and
+                        At Layerex Technologies, we design captivating and
                         user-centric interfaces that enhance usability and
                         engagement. Our UI/UX experts blend creativity and
                         functionality to strengthen your digital brand identity.
@@ -614,7 +621,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                       Our comprehensive web development suite delivers secure eCommerce, scalable corporate portals, and high-performance Progressive Web Apps (PWAs) built for the future.
+                        Our comprehensive web development suite delivers secure eCommerce, scalable corporate portals, and high-performance Progressive Web Apps (PWAs) built for the future.
                       </p>
                     </div>
                   </div>
@@ -704,7 +711,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        At Asvayuk Technologies, we create secure and scalable
+                        At Layerex Technologies, we create secure and scalable
                         eCommerce platforms that drive sales and deliver smooth
                         user experiences. Our conversion-focused approach helps
                         your business grow faster online.
@@ -735,7 +742,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        Asvayuk Technologies offers robust enterprise portal
+                        Layerex Technologies offers robust enterprise portal
                         solutions designed to streamline workflows and enhance
                         collaboration. Our custom portals integrate data,
                         systems, and teams to boost productivity and digital
@@ -762,7 +769,7 @@ const Homepage = () => {
       {/* <!-- Experience   --> */}
       <Experience
         expTitle="Discover Custom Technology Solutions for Dynamic Businesses in Singapore"
-        ExpPara="From sparking innovative ideas to transforming them into market-ready products, Asvayuk Technologies offers an extensive range of solutions crafted to enhance your business value.."
+        ExpPara="From sparking innovative ideas to transforming them into market-ready products, Layerex Technologies offers an extensive range of solutions crafted to enhance your business value.."
         point1="Innovative Minds"
         pointPara1="Our engineers approach problems with a visionary mindset, crafting bespoke software solutions that move beyond conventional boundaries."
         point2="Craft Engaging Experiences"
@@ -784,7 +791,7 @@ const Homepage = () => {
       {/* <!-- Industries  --> */}
       <section className="Industries">
         <div className="container ">
-          <div className=" mx-auto mb-5">
+          {/* <div className=" mx-auto mb-5">
             <div className="row center-div">
               <div className="col-md-12 col-lg-8 mb-5 mb-lg-0 text-center text-lg-left text-md-center">
                 <h2 className="display-4 mi-text-primary mb-3 fs-1 fw-semibold text-start">
@@ -826,7 +833,7 @@ const Homepage = () => {
                     </div>
                   </a>
                 </div>
-                {/* <button className="btn mi-btn-warning" data-toggle="modal" data-target="#enquireModal">Schedule a demo</button> */}
+               
               </div>
               <div className="col-md-12 col-lg-4">
                 <div className="position-relative">
@@ -841,11 +848,11 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div>
             <h2 className="fw-semibold fs-1">Industries We Serve</h2>
             <p>
-              Staying attuned to diverse industries, Asvayuk Technologies serves
+              Staying attuned to diverse industries, Layerex Technologies serves
               a wide range of sectors, providing customized solutions that set
               new benchmarks and drive innovation.
             </p>

@@ -11,6 +11,7 @@ import {
   AccordionItem,
   Col,
   Container,
+  Dropdown,
   Nav,
   Navbar,
   NavbarBrand,
@@ -41,7 +42,7 @@ const SERVICE_TABS = [
     ]
   },
   {
-    key: "marketing", 
+    key: "marketing",
     title: "Marketing",
     items: [
       { href: "/digital-marketing", label: "Performance Marketing" },
@@ -51,7 +52,7 @@ const SERVICE_TABS = [
   },
   {
     key: "design",
-    title: "Design", 
+    title: "Design",
     items: [
       { href: "/ui-ux-design", label: "UI UX Design" },
     ]
@@ -385,63 +386,192 @@ const Header = () => {
         <Container>
           {Logo}
           <NavbarToggle aria-controls="basic-navbar-nav" />
-          <NavbarCollapse id="basic-navbar-nav" className="menu-list">
-            <Nav className="align-items-center">
+          <NavbarCollapse id="basic-navbar-nav" className="menu-list justify-content-end w-100">
+            <Nav className="align-items-center ">
+
+              <NavLink as={Link} href="/about-us">
+                Home
+              </NavLink>
+              {/* Dropdown Menu with hover functionality - same structure */}
+              {/* <Nav.Item
+                className="dropdownMenu"
+                onMouseEnter={handleMegaMenuMouseEnter}
+                onMouseLeave={handleMegaMenuMouseLeave}
+              >
+
+                <div className="nav-link d-flex align-items-center gap-1">
+                  Our Services <FaAngleDown />
+                </div>
+
+                {isMegaMenuOpen && (
+                  <div className="megaMenu d-flex justify-content-between">
+                    <TabContainer id="left-tabs-example" defaultActiveKey="technology">
+                      <div className="side-tab-list">
+                        <Row>
+                          <Nav variant="pills" className="flex-column">
+                            {SERVICE_TABS.map((tab) => (
+                              <NavItem key={tab.key}>
+                                <Nav.Link
+                                  eventKey={tab.key}
+                                  className="tabIcons d-flex w-100 justify-content-between align-items-center"
+                                >
+                                  <span>{tab.title}</span>
+                                  <FaAngleRight />
+                                </Nav.Link>
+                              </NavItem>
+                            ))}
+                          </Nav>
+                        </Row>
+                      </div>
+                      <div className="submenu-list px-5 py-5 mx-3">
+                        <TabContent>
+                          {renderTechnologyTab()}
+                          {renderMarketingTab()}
+                          {renderDesignTab()}
+                          {renderProductsTab()}
+                          {renderDevelopersTab()}
+                        </TabContent>
+                      </div>
+                    </TabContainer>
+                  </div>
+                )}
+              </Nav.Item> */}
+
+              <NavLink as={Link} href="/about-us">
+                AI Solutions
+              </NavLink>
+              {/* <NavLink as={Link} href="/about-us">
+                Partnerships <FaAngleDown />
+              </NavLink> */}
+              <Dropdown>
+                <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
+                  Our Services <FaAngleDown />
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className="menudropdowns row">
+                  <div class="row align-items-center" style={{ width: "800px" }}>
+
+
+                    <div class="col-lg-7">
+                      <div class="row">
+
+
+                        <div class="col-md-6">
+                          <h5 class="service-title">Software Development</h5>
+
+                          <div class="service-item">
+                            <i class="bi bi-laptop"></i> Website Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-phone"></i> Mobile App Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-building"></i> Enterprise Portal Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-diagram-3"></i> Blockchain Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-lightning"></i> Low Code / No Code Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-badge-vr"></i> AR / VR Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-cloud"></i> SAAS Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-pencil-square"></i> UI/UX Design
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-clipboard-data"></i> UI UX Analysis & Audit
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <h5 class="service-title">E-commerce Solutions</h5>
+
+                          <div class="service-item">
+                            <i class="bi bi-cart"></i> Magento Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-shop"></i> Shopify Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-code-slash"></i> Laravel Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-bag"></i> WooCommerce Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-phone-flip"></i> React Native Development
+                          </div>
+                          <div class="service-item">
+                            <i class="bi bi-graph-up-arrow"></i> Search Engine Optimisation
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                    <div class="col-lg-5 text-center right-logo mt-4 mt-lg-0">
+                      <Image
+                        src={AppImages.brand.logo}
+                        alt="Logo"
+                        className="logo"
+                        width={200}
+                        height={50}
+                      />
+                    </div>
+
+                  </div>
+
+                 
+                </Dropdown.Menu>
+              </Dropdown>
+              <Dropdown>
+                <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
+                  Partnerships <FaAngleDown />
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className="menudropdowns">
+                  <Dropdown.Item href="/blogs">Shopify</Dropdown.Item>
+                  <Dropdown.Item href="/case-studies">Google</Dropdown.Item>
+                  <Dropdown.Item href="/blogs">Razor Pay</Dropdown.Item>
+                  <Dropdown.Item href="#">Grab Pay</Dropdown.Item>
+                  <Dropdown.Item href="#">Adobe</Dropdown.Item>
+                  <Dropdown.Item href="#">Salesforce</Dropdown.Item>
+                  <Dropdown.Item href="#">XT.com</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+
+              <Dropdown>
+                <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
+                  Resources <FaAngleDown />
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className="menudropdowns">
+                  <Dropdown.Item href="/blogs">Blogs</Dropdown.Item>
+                  <Dropdown.Item href="/case-studies">Case Studies</Dropdown.Item>
+                  <Dropdown.Item href="/blogs">News Room</Dropdown.Item>
+                  <Dropdown.Item href="#">Careers</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
               <NavLink as={Link} href="/about-us">
                 About Us
               </NavLink>
 
-              {/* Dropdown Menu with hover functionality - same structure */}
-              <Nav.Item
-  className="dropdownMenu"
-  onMouseEnter={handleMegaMenuMouseEnter}
-  onMouseLeave={handleMegaMenuMouseLeave}
->
-  <div className="nav-link d-flex align-items-center gap-1">
-    Our Services <FaAngleDown />
-  </div>
-
-  {isMegaMenuOpen && (
-    <div className="megaMenu d-flex justify-content-between">
-      <TabContainer id="left-tabs-example" defaultActiveKey="technology">
-        <div className="side-tab-list">
-          <Row>
-            <Nav variant="pills" className="flex-column">
-              {SERVICE_TABS.map((tab) => (
-                <NavItem key={tab.key}>
-                  <Nav.Link
-                    eventKey={tab.key}
-                    className="tabIcons d-flex w-100 justify-content-between align-items-center"
-                  >
-                    <span>{tab.title}</span>
-                    <FaAngleRight />
-                  </Nav.Link>
-                </NavItem>
-              ))}
-            </Nav>
-          </Row>
-        </div>
-        <div className="submenu-list px-5 py-5 mx-3">
-          <TabContent>
-            {renderTechnologyTab()}
-            {renderMarketingTab()}
-            {renderDesignTab()}
-            {renderProductsTab()}
-            {renderDevelopersTab()}
-          </TabContent>
-        </div>
-      </TabContainer>
-    </div>
-  )}
-</Nav.Item>
 
 
-              <NavLink as={Link} href="/blog">
+
+
+
+              {/* <NavLink as={Link} href="/blog">
                 Blog
               </NavLink>
               <NavLink as={Link} href="/case-studies">
                 Case Studies
-              </NavLink>
+              </NavLink> */}
               <NavLink as={Link} href="/contact-us">
                 Contact Us
               </NavLink>

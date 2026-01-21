@@ -3064,7 +3064,7 @@ footer a {
 }
 
 .header {
-  height: 95px;
+  /* height: 95px; */
   border-bottom: 1px solid #dee2e6;
   background-color: #fff !important;
 }
@@ -3113,7 +3113,7 @@ footer a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 .menu-list .navbar-nav .nav-link {
@@ -9429,12 +9429,12 @@ footer a {
 
 .logo {
   max-width: 252px;
-  height: 59px !important;
+  height: unset !important;
   -webkit-box-align: unset;
   -ms-flex-align: unset;
   align-items: unset;
-  margin-top: 9px;
-  margin-left: 4px;
+  margin-top: unset;
+  margin-left: unset;
 }
 
 .megaMenu {
@@ -9462,15 +9462,15 @@ footer a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 100px;
+  /* padding-left: 100px; */
 }
 
 .menu-list .navbar-nav .nav-link {
-  padding-inline: 1.5rem !important;
-  font-weight: 600;
+  padding-inline: .75rem !important;
+  font-weight: 400;
   color: #000;
   display: block;
-  padding-block: 2rem;
+  padding-block: 1rem;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -12759,4 +12759,83 @@ div#root {
   100% {
     transform: rotate(1turn)
   }
+}
+
+
+.menudropdowns {
+    padding: 2rem 0 !important;
+    min-width: 230px !important;
+}
+.menudropdowns .dropdown-item {
+    margin-bottom: .75rem;
+    transition: all .3s ease-in-out;
+    padding: 0 2.5rem 0 1.5rem  !important;
+}
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
+    background-color: transparent !important;
+    padding-left: 2.25rem !important;
+    
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+
+
+.slider-text-container {
+	display: flex;
+}
+.static-text {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 400;
+}
+.dynamic-text {
+	height: 90px;
+	line-height: 90px;
+	overflow: hidden;
+	/* margin-inline-start: 15px; */
+  padding-left: 0;
+}
+
+.dynamic-text li {
+  font-family: var(--font-poppins);
+	color: #249f81;
+	list-style: none;
+	font-size: 50px;
+	font-weight: 700;
+	position: relative;
+	top: 0;
+	animation: animate 12s steps(4) infinite;
+}
+
+@keyframes animate {
+	100% {
+		top: -360px;
+	}
+}
+
+.dynamic-text li span {
+	position: relative;
+	margin: 5px 0;
+	line-height: 90px;
+}
+.dynamic-text li span::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 110%;
+	background-color: #fff;
+	border-left: 2px solid #249f81;
+	animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+	40%,
+	60% {
+		left: calc(100% + 30px);
+	}
+	100% {
+		left: 0;
+	}
 }

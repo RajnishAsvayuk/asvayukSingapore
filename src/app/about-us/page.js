@@ -72,7 +72,7 @@ const page = () => {
                     </span> & Website Development Company in Singapore
                   </h2>
                   <p className="para-below mt-4 ">
-                    Asvayuk Technologies is a reliable IT and website development firm in Singapore, providing end-to-end solutions.
+                    Layerex Technologies is a reliable IT and website development firm in Singapore, providing end-to-end solutions.
                     Our range of expertise includes software development, web design, mobile application development, blockchain, and AI-powered digital transformation. We empower businesses to grow, optimize operations, and drive quantifiable outcomes with cutting-edge technology and experts.
 
                   </p>
@@ -85,13 +85,13 @@ const page = () => {
                     </div>
                     <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                       <div className="text-center ">
-                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">23,00<span className="fs-5">+</span></div>
+                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">70 <span className="fs-5">+</span></div>
                         <div className="label fw-  mi-lable-count">Active Clients</div>
                       </div>
                     </div>
                     <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">
                       <div className="text-center ">
-                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">500<span className="fs-5">+</span></div>
+                        <div className="value text-success fw-bold mi-value d-flex align-items-center fs-4 gap-1">50<span className="fs-5">+</span></div>
                         <div className="label fw-  mi-lable-count">Dedicated Staff</div>
                       </div>
                     </div>
@@ -141,11 +141,11 @@ const page = () => {
               </div>
             </Col>
             <Row className="py-5 signi-img">
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+              {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image src={iso_img} className="img-fluid" alt='it park chandigarh companies list' />
                 </div>
-              </Col>
+              </Col> */}
               <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image src={shopify_img} className="img-fluid" alt='it companies in chandigarh for freshers' />
@@ -176,31 +176,31 @@ const page = () => {
                   <Image src={it_firms} className="img-fluid" alt='best it services in chandigarh and mohali' />
                 </div>
               </Col>
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+              {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image src={msme_img} className="img-fluid" alt='top it company in mohali' />
                 </div>
-              </Col>
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+              </Col> */}
+              {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image src={silicoon_india} className="img-fluid" alt='it software companies in chandigarh' />
                 </div>
-              </Col>
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
-                <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                  <Image src={magento_img} className="img-fluid" alt='it solutions chandigarh' />
-                </div>
-              </Col>
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+              </Col> */}
+                {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+                  <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
+                    <Image src={magento_img} className="img-fluid" alt='it solutions chandigarh' />
+                  </div>
+                </Col> */}
+              {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image className="startup-india" src={startup_india} alt='it park chandigarh companies list' />
                 </div>
-              </Col>
-              <Col lg={2} md={3} sm={6} className="px-1 pb-2">
+              </Col> */}
+              {/* <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                 <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
                   <Image src={iso_20} className="img-fluid" alt='it companies in chandigarh for freshers' />
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </section>
@@ -213,7 +213,7 @@ const page = () => {
                   <h1 className="">What We Do Here?</h1>
                   <div className="work-para mt-5 ">
                     <p className='text-center'>
-                      At Asvayuk Technologies, we take pride in our collaborative approach, working hand-in-hand with your team to dive deep into your unique goals and challenges. By fostering this partnership, we craft tailored solutions that harness the power of advanced technology. Our commitment ensures that your journey to success is not just guided but fueled with precision and passion. Together, we will turn your vision into reality!
+                      At Layerex Technologies, we take pride in our collaborative approach, working hand-in-hand with your team to dive deep into your unique goals and challenges. By fostering this partnership, we craft tailored solutions that harness the power of advanced technology. Our commitment ensures that your journey to success is not just guided but fueled with precision and passion. Together, we will turn your vision into reality!
                     </p>
                   </div>
 

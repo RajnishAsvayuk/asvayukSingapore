@@ -1,10 +1,11 @@
 const AppImages = {
   brand: {
-    logo: "/Images/logo/logo.webp",
+    logo: "/Images/logolayerextech.png",
     footerLogo: "/Images/logo/footerLogo.webp",
   },
   home: {
-    bannerImg: "/Images/home/bannerHome.jpg",
+    // bannerImg: "/Images/home/bannerHome.jpg",
+    bannerImg: "/Images/home/bannerHome.png",
   },
 
   casestudySliderImg: {

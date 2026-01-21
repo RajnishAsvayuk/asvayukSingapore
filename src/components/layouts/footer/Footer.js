@@ -200,10 +200,10 @@ function Footer() {
         <div className="row pt-4">
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="footer_wrapper">
-              <div className="img_logo">
+              <div className="img_logo mb-5">
                 <Link href="/">
                   <img
-                    src="/Images/logo/footerLogo.webp"
+                    src="/Images/logo-white.png"
                     alt="Asvayuk Technologies"
                     className="img-fluid"
                     width={200}
@@ -213,7 +213,7 @@ function Footer() {
               </div>
               <div className="footer_left_sec">
                 <p className="mb-0 text-light">
-                  Asvayuk Technologies is your partner for cutting-edge
+                  Layerex Technologies is your partner for cutting-edge
                   technological solutions in FinTech, Smart Nation, and Digital
                   Transformation. We empower enterprises in Singapore and the
                   region with world-class infrastructure, specialized AI,
@@ -274,7 +274,9 @@ function Footer() {
                       <p className="text-white mb-0">
                         <b>Our Address :</b>
                         <br />
-                        SCO-44, Sector 5-MDC, Panchkula, Haryana
+                        20 Cecil Street
+                        #05-03 Plus
+                        Singapore 049705
                       </p>
                     </Link>
                   </li>
@@ -282,20 +284,20 @@ function Footer() {
                     <div className="d-flex gap-3 align-items-center">
                       <FaPhoneAlt />
                       <p className="text-white mb-0">
-                        <Link href="tel:+9109876475990">+91 09876475990</Link>
+                        <Link href="tel:+6590554745">+6590554745</Link>
                       </p>
                     </div>
                   </li>
                   <li>
                     <Link
-                      href="mailto:info@asvayuktech.com"
+                      href="mailto:info@layerextech.com"
                       className="d-flex gap-3 align-items-center"
                     >
                       <FaEnvelope />
-                      <p className="text-white mb-0">info@asvayuktech.com</p>
+                      <p className="text-white mb-0">info@layerextech.com</p>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="//www.dmca.com/Protection/Status.aspx?ID=06d48c27-faa9-4f11-b7e9-5e0e5ccc0c99"
                       title="DMCA.com Protection Status"
@@ -311,7 +313,7 @@ function Footer() {
                         }}
                       ></div>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -324,7 +326,7 @@ function Footer() {
   const FloatingIcons = () => (
     <>
       <section className="call-icons call2">
-        <Link href="tel:+9109876475990" aria-label="Call Now for Consultation">
+        <Link href="tel:+6590554745" aria-label="Call Now for Consultation">
           <div className="content">
             <div className="pulse pulse2">
               <IoCall />
@@ -340,7 +342,7 @@ function Footer() {
       >
         {hovered && <span className="chat-text">Chat with us</span>}
         <Link
-          href="https://wa.me/9041065990"
+          href="https://wa.me/+6590554745"
           target="_blank"
           rel="noopener noreferrer"
           className="whatsapp-icon"
@@ -359,7 +361,7 @@ function Footer() {
 
       <section className="footer_bottom bg-light text-center py-2">
         <p className="mb-0 fw-medium">
-          © Copyright 2024 - Asvayuk Technologies Private Limited.
+          © Copyright 2026 - Layerex Technologies PTE LTD.
         </p>
       </section>
 
