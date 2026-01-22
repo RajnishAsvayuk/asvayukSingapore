@@ -81,7 +81,7 @@ const Homepage = () => {
                     <li><span>Fintech Developement</span></li>
                     <li><span>Custom Software Developement</span></li>
                     <li><span>App Developement</span></li>
-                    <li><span>CRM ERP Solutions</span></li>
+                    <li><span>CRM ERP Solutions </span></li>
                   </ul>
                 </div>
                 <h2
