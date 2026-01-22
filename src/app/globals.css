@@ -180,6 +180,19 @@ img {
   object-position: top;
   object-fit: cover;
 }
+.service-item-parent .service-item li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all .3s ease-in-out;
+
+}
+.service-item-parent .service-item li:hover {
+    padding-left: 1.25rem;
+}
+.service-item-parent .service-item li img {
+    width: 32px;
+}
 
 /* ---------------------------------- */
 /*---------- Responsive Media --------*/
@@ -6483,7 +6496,32 @@ h1 {
   top: 70px;
   left: 22px;
 }
-
+img.logo.vertical-logo {
+    transform: rotate(270deg);
+    transform-origin: center;
+    width: 200px;
+}
+.navbar-expand-lg .navbar-nav .services{
+ position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  padding:20px !important;
+}
+h5.service-title {
+    color: #2cbe9a;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+    border-width: 1px;
+    display: inline-block;
+}
+.service-item-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
 .layerX-img {
   height: 192px !important;
   width: 100%;

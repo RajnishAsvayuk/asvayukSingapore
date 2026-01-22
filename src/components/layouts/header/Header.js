@@ -448,77 +448,94 @@ const Header = () => {
                   Our Services <FaAngleDown />
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu className="menudropdowns row">
-                  <div class="row align-items-center" style={{ width: "800px" }}>
+                <Dropdown.Menu className="menudropdowns services row">
+                  <div class="row align-items-center">
 
 
-                    <div class="col-lg-7">
-                      <div class="row">
+                    <div class="col-lg-10">
+                      <div class="row gx-5">
 
 
                         <div class="col-md-6">
                           <h5 class="service-title">Software Development</h5>
 
-                          <div class="service-item">
-                            <i class="bi bi-laptop"></i> Website Development
+                        <div className="service-item-parent">
+                            <div class="service-item">
+                          <li> <Image src="/Images/laptop.svg" width={100} height={100}/> Website Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-phone"></i> Mobile App Development
+                              <li> <Image src="/Images/mobile.svg" width={100} height={100}/>Mobile App Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-building"></i> Enterprise Portal Development
+                           
+                             <li> <Image src="/Images/enterprise.svg" width={100} height={100}/>Enterprise Portal Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-diagram-3"></i> Blockchain Development
+                           
+                              <li> <Image src="/Images/blockchain.svg" width={100} height={100}/>Blockchain Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-lightning"></i> Low Code / No Code Development
+                           
+                              <li> <Image src="/Images/low.svg" width={100} height={100}/>Low Code / No Code Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-badge-vr"></i> AR / VR Development
+                            
+                              <li> <Image src="/Images/ar.svg" width={100} height={100}/> AR / VR Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-cloud"></i> SAAS Development
+                            
+                              <li> <Image src="/Images/saas.svg" width={100} height={100}/>SAAS Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-pencil-square"></i> UI/UX Design
+                            
+                              <li> <Image src="/Images/ui.svg" width={100} height={100}/>UI/UX Design</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-clipboard-data"></i> UI UX Analysis & Audit
+                         
+                              <li> <Image src="/Images/ux.svg" width={100} height={100}/>UI UX Analysis & Audit</li>
                           </div>
+                        </div>
                         </div>
 
                         <div class="col-md-6">
                           <h5 class="service-title">E-commerce Solutions</h5>
 
-                          <div class="service-item">
-                            <i class="bi bi-cart"></i> Magento Development
+                         <div className="service-item-parent">
+                           <div class="service-item">
+                           
+                             <li> <Image src="/Images/mgento.svg" width={100} height={100}/>Magento Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-shop"></i> Shopify Development
+                          
+                             <li> <Image src="/Images/shopy.svg" width={100} height={100}/>Shopify Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-code-slash"></i> Laravel Development
+                          
+                             <li> <Image src="/Images/lara.svg" width={100} height={100}/>Laravel Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-bag"></i> WooCommerce Development
+                 
+                             <li> <Image src="/Images/woo.svg" width={100} height={100}/>WooCommerce Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-phone-flip"></i> React Native Development
+                          
+                             <li> <Image src="/Images/react.svg" width={100} height={100}/>React Native Development</li>
                           </div>
                           <div class="service-item">
-                            <i class="bi bi-graph-up-arrow"></i> Search Engine Optimisation
+                          
+                             <li> <Image src="/Images/search.svg" width={100} height={100}/>Search Engine Optimisation</li>
                           </div>
+                         </div>
                         </div>
 
                       </div>
                     </div>
 
-                    <div class="col-lg-5 text-center right-logo mt-4 mt-lg-0">
+                    <div class="col-lg-2 text-center right-logo mt-4 mt-lg-0">
                       <Image
                         src={AppImages.brand.logo}
                         alt="Logo"
-                        className="logo"
+                        className="logo vertical-logo"
                         width={200}
                         height={50}
                       />
@@ -608,7 +625,7 @@ const Header = () => {
                   </li>
                   <li>
                     <Link href="/about-us" onClick={toggleMenu}>
-                      About Us
+                    About Us
                     </Link>
                   </li>
                   <li className="d-flex justify-content-between align-items-center">
@@ -682,7 +699,7 @@ const Header = () => {
                             <ul className="list-unstyled d-flex flex-column">
                               <li className="py-2 border-bottom">
                                 <Link href="/ui-ux-design" onClick={toggleMenu}>
-                                  UI UX Design
+                                  UI UX Design 
                                 </Link>
                               </li>
                             </ul>
