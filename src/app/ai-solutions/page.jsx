@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import chatbotBanner from "@/assets/Images/aiChatbot.webp";
+import chatbotBanner from "@/assets/Images/ai-solutions-2.png";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
 import service3 from "@/assets/Images/services3.webp";
@@ -13,6 +13,46 @@ import { Button, Card, Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import Magento_service_card from "@/components/Magento_service_card/Magento_service_card";
 import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
+import AdvancedAIModels from "@/components/AdvancedAIModels";
+
+const services = [
+  {
+    id: 1,
+    title: "Generative AI",
+    content:
+      "Leverage generative models to create text, images, code, and intelligent automation tailored to your business needs."
+  },
+  {
+    id: 2,
+    title: "AI Assistants & Chatbots",
+    content:
+      "Deploy intelligent conversational AI that understands context, learns from interactions, and provides personalized experiences at scale."
+  },
+  {
+    id: 3,
+    title: "AI Product Development",
+    content:
+      "Build scalable AI-powered products from concept to deployment with enterprise-grade architecture."
+  },
+  {
+    id: 4,
+    title: "AI Design",
+    content:
+      "Enhance user experiences using AI-driven UI/UX design, personalization, and intelligent interfaces."
+  },
+  {
+    id: 5,
+    title: "AI Security",
+    content:
+      "Protect AI systems with advanced threat detection, compliance, and data governance strategies."
+  },
+  {
+    id: 6,
+    title: "Automation Solutions",
+    content:
+      "Streamline workflows and operations using intelligent automation and AI-driven decision engines."
+  }
+];
 
 
 
@@ -60,7 +100,14 @@ const models = [
 ];
 
 
+
 const aiChatbot = () => {
+
+    
+ const [active, setActive] = useState(2);
+
+  const activeService = services.find(s => s.id === active);
+
     return (
         <>
             <main>
@@ -68,7 +115,7 @@ const aiChatbot = () => {
                     home={"Home"}
                     pageParent={"Product"}
                     pageName={"AI ChatBot Development"}
-                    pageHeading={"AI ChatBot Development in Singapore"}
+                    pageHeading={"Best AI Solutions in Singapore"}
                     pagePara={
                         "Transform customer engagement strategies with AI ChatBots. At Asvayuk Technologies, we specialize in developing AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency, now in Singapore."
                     }
@@ -78,88 +125,57 @@ const aiChatbot = () => {
 
 
 
-                <Container className="py-5">
-                    <Tab.Container defaultActiveKey="genai">
-                        <Row>
-                            {/* LEFT TABS */}
-                            <h2 className="fw-bold mb-4">
-                                Explore Our <span className="" style={{ color: "#2cbe9a" }}>Artificial Intelligence</span> Services
-                            </h2>
-                            <Col lg={5}>
+                <section className="container py-5">
+      {/* Heading */}
+      <div className="mb-5">
+        <h2 className="fw-bold">
+          Explore Our <span className="text-success">Artificial Intelligence</span> Services
+        </h2>
+        <p className="text-muted col-lg-7">
+          Transform your business with cutting-edge AI solutions designed for enterprise scale and innovation.
+        </p>
+      </div>
 
-                                <Nav variant="pills" className="flex-column ai-tabs">
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="genai">01. Generative AI</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="chatbot">
-                                            02. Smart AI Assistants and Chatbot
-                                        </Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="product">03. AI Product Development</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="design">04. AI Design</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="security">05. AI Security</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item>
-                                        <Nav.Link className="py-3" eventKey="automation">06. Automation Solutions</Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
-                            </Col>
+      <div className="row g-5">
+        {/* Left Tabs */}
+        <div className="col-lg-4">
+          <ul className="list-unstyled ai-tabs">
+            {services.map((service) => (
+              <li
+                key={service.id}
+                className={`ai-tab-item ${active === service.id ? "active" : ""}`}
+                onClick={() => setActive(service.id)}
+              >
+                <span className="tab-number">
+                  {String(service.id).padStart(2, "0")}
+                </span>
+                <span className="tab-title">{service.title}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-                            {/* RIGHT CONTENT */}
-                            <Col lg={7}>
-                                <Tab.Content>
-                                    <Tab.Pane eventKey="genai">
-                                        <ServiceCard
-                                            title="Generative AI"
-                                            description="Leverage state-of-the-art AI models to create high-quality content, innovative designs, and complex code. Whether you need text generation for blogs, realistic image synthesis, or automated code suggestions, generative AI can streamline creativity and production. Perfect for marketers, developers, and designers seeking new ways to enhance their work."
-                                        />
-                                    </Tab.Pane>
+        {/* Right Content */}
+        <div className="col-lg-8">
+          <div key={active} className="ai-content-card fade-up">
+            <span className="badge bg-light text-success mb-3">
+              Service {String(active).padStart(2, "0")}
+            </span>
 
-                                    <Tab.Pane eventKey="chatbot">
-                                        <ServiceCard
-                                            title="Smart AI Assistants & Chatbots"
-                                            description="Transform your customer service with AI-powered virtual agents capable of handling inquiries, scheduling appointments, and providing personalized recommendations. These assistants can learn from past interactions to continuously improve, delivering faster and more accurate responses that enhance customer satisfaction while freeing up human agents for complex tasks."
-                                        />
-                                    </Tab.Pane>
+            <h3 className="fw-bold mb-3">{activeService.title}</h3>
 
-                                    <Tab.Pane eventKey="product">
-                                        <ServiceCard
-                                            title="AI Product Development"
-                                            description="From brainstorming to deployment, we help businesses build intelligent products that solve real-world problems. This includes integrating AI features like voice recognition, predictive analytics, and personalization into your apps or platforms, turning innovative ideas into market-ready solutions."
-                                        />
-                                    </Tab.Pane>
+            <p className="text-muted mb-4">
+              {activeService.content}
+            </p>
 
-                                    <Tab.Pane eventKey="design">
-                                        <ServiceCard
-                                            title="AI Design"
-                                            description="Design smarter with AI-driven insights. Our AI design solutions analyze user behavior and preferences to suggest layouts, color palettes, and interface elements that enhance usability and engagement. This streamlines the design process, reducing guesswork and creating more compelling digital experiences."
-                                        />
-                                    </Tab.Pane>
+            <button className="btn btn-success px-4">
+              Let’s Discuss →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                                    <Tab.Pane eventKey="security">
-                                        <ServiceCard
-                                            title="AI Security"
-                                            description="Protect your business from evolving cyber threats with AI-powered security systems. These systems use machine learning to detect anomalies, flag suspicious activity, and respond to real-time attacks. By continuously learning from new threats, AI security can outpace traditional methods, keeping your data and infrastructure safe."
-                                        />
-                                    </Tab.Pane>
-
-                                    <Tab.Pane eventKey="automation">
-                                        <ServiceCard
-                                            title="Automation Solutions"
-                                            description="Boost efficiency with intelligent automation tools. Whether automating invoice processing, streamlining supply chains, or accelerating decision-making, AI-powered automation reduces human error and speeds up operations. This frees your team to focus on strategic initiatives rather than repetitive manual tasks."
-                                        />
-                                    </Tab.Pane>
-                                </Tab.Content>
-                            </Col>
-                        </Row>
-                    </Tab.Container>
-                </Container>
 
                 {/* <section className="bg-white py-5">
                     <Container>
@@ -281,8 +297,8 @@ const aiChatbot = () => {
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service3}
-                                        altText="AI Chatbot Development in Singapore "
-                                        cardHeading="AI Chatbot Development in Singapore "
+                                        altText="Best AI Solutions in Singapore "
+                                        cardHeading="Best AI Solutions in Singapore "
                                         cardPara="We develop robust AI ChatBots for businesses looking to offer automated support, intelligent interaction, and improved workflow efficiency."
                                     />
                                 </Col>
@@ -318,38 +334,12 @@ const aiChatbot = () => {
                     </Container>
                 </section>
 
+<AdvancedAIModels/>
 
-                <section className="ai-models-section">
-                    <Container>
-                        {/* Heading */}
-                        <div className="text-center mb-5">
-                            <h2 className="fw-bold text-white">
-                                Advanced AI Models We Leverage
-                            </h2>
-                            <p className="text-muted mt-3">
-                                Unlock new possibilities with state-of-the-art AI models that power our solutions.
-                            </p>
-                        </div>
-
-                        {/* Grid */}
-                        <Row className="ai-models-grid">
-                            {models.map((item, index) => (
-                                <Col
-                                    key={index}
-                                    lg={3}
-                                    md={6}
-                                    className="ai-model-card"
-                                >
-                                    <h5 className="fw-bold text-white mb-3">{item.title}</h5>
-                                    <p className="text-light">{item.desc}</p>
-                                </Col>
-                            ))}
-                        </Row>
-                    </Container>
-                </section>
+               
 
                 <Industry />
-                <ServicesCaseStudy />
+                {/* <ServicesCaseStudy /> */}
             </main>
         </>
     );

@@ -22,7 +22,7 @@ const aiChatbot = () => {
           home={"Home"}
           pageParent={"Product"}
           pageName={"AI ChatBot Development"}
-          pageHeading={"AI ChatBot Development in Singapore"}
+          pageHeading={"Best AI Solutions in Singapore"}
           pagePara={
             "Transform customer engagement strategies with AI ChatBots. At Asvayuk Technologies, we specialize in developing AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency, now in Singapore."
           }
@@ -147,8 +147,8 @@ const aiChatbot = () => {
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service3}
-                    altText="AI Chatbot Development in Singapore "
-                    cardHeading="AI Chatbot Development in Singapore "
+                    altText="Best AI Solutions in Singapore "
+                    cardHeading="Best AI Solutions in Singapore "
                     cardPara="We develop robust AI ChatBots for businesses looking to offer automated support, intelligent interaction, and improved workflow efficiency."
                   />
                 </Col>

@@ -21,7 +21,7 @@ function Experience({
                 <div className="container">
                     <div className="Experienceg_title text-center">
                         <h2 className="fw-bold mb-4">{expTitle}</h2>
-                        <p className="mb-0">{ExpPara}</p>
+                        <p className="mb-0 w-75 mx-auto">{ExpPara}</p>
                     </div>
 
                     <div className="experience_row row justify-content-center py-5">

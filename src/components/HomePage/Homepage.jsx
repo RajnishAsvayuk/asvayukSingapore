@@ -575,7 +575,7 @@ const Homepage = () => {
         <div className="container">
           <div className="Empowering_title text-center pb-2 pb-md-5">
             <h2 className="fw-semibold">
-              Fueling Your Growth with Customized Solutions for Singapore
+              Powering Your Business Growth with Tailored Solutions
             </h2>
           </div>
           <div className="row pt-0 pt-lg-3 pt-md-3">
@@ -592,10 +592,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        At Layerex Technologies, we design captivating and
-                        user-centric interfaces that enhance usability and
-                        engagement. Our UI/UX experts blend creativity and
-                        functionality to strengthen your digital brand identity.
+                        Layerex Technologies, designs seamless user interfaces and engaging user experiences, crafted with precision to strengthen your digital presence and improve user engagement.
                       </p>
                     </div>
                   </div>
@@ -624,7 +621,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        Our comprehensive web development suite delivers secure eCommerce, scalable corporate portals, and high-performance Progressive Web Apps (PWAs) built for the future.
+                        Our end-to-end web development solutions deliver responsive design, secure eCommerce, and high-performance PWAs that drive long-term brand growth.
                       </p>
                     </div>
                   </div>
@@ -654,7 +651,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        Leveraging extensive experience to transform your vision into user-centric mobile applications (iOS & Android) that drive high conversions and brand loyalty in Singapore.
+                        Our expertise helps create user-centric mobile applications designed to increase conversions and grow brand loyalty.
                       </p>
                     </div>
                   </div>
@@ -683,7 +680,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        A strategic blend of SEO techniques and digital marketing services to dramatically increase organic website traffic, boost lead conversions, and solidify your brand authority in the region.
+                        Targeted SEO solutions designed to increase traffic, maximize conversions, and elevate your brand’s online presence.
                       </p>
                     </div>
                   </div>
@@ -714,10 +711,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        At Layerex Technologies, we create secure and scalable
-                        eCommerce platforms that drive sales and deliver smooth
-                        user experiences. Our conversion-focused approach helps
-                        your business grow faster online.
+                        Empowering brands with secure and intuitive eCommerce platforms that increase revenue and enhance customer satisfaction.
                       </p>
                     </div>
                   </div>
@@ -745,11 +739,7 @@ const Homepage = () => {
                       </Link>
                       <p className="text-white py-1">
                         {" "}
-                        Layerex Technologies offers robust enterprise portal
-                        solutions designed to streamline workflows and enhance
-                        collaboration. Our custom portals integrate data,
-                        systems, and teams to boost productivity and digital
-                        efficiency.{" "}
+                        Empowering businesses with integrated, high-performance enterprise portals that optimize operations and improve efficiency.{" "}
                       </p>
                     </div>
                   </div>
@@ -771,16 +761,16 @@ const Homepage = () => {
 
       {/* <!-- Experience   --> */}
       <Experience
-        expTitle="Discover Custom Technology Solutions for Dynamic Businesses in Singapore"
-        ExpPara="From sparking innovative ideas to transforming them into market-ready products, Layerex Technologies offers an extensive range of solutions crafted to enhance your business value.."
-        point1="Innovative Minds"
-        pointPara1="Our engineers approach problems with a visionary mindset, crafting bespoke software solutions that move beyond conventional boundaries."
-        point2="Craft Engaging Experiences"
-        pointPara2="We engineer visually stunning interfaces that elevate user engagement."
-        point3="Global Trust, Local Impact"
-        pointPara3="By blending global expertise with crucial insights from the Singaporean market, we ensure a seamless technological experience."
-        point4="Client-Centric Approach"
-        pointPara4="Engineers with a visionary approach craft solutions beyond conventional boundaries."
+        expTitle="Tailored Solutions for Growing, Dynamic Businesses"
+        ExpPara="From innovative ideas to market-ready products, Layerex Technologies delivers comprehensive solutions designed to maximize your business value."
+        point1="Custom Software Development"
+        pointPara1="We design and build secure, scalable software—from MVPs to enterprise platforms—focused on performance, reliability, and seamless web and mobile experiences."
+        point2="Custom AI Development"
+        pointPara2="From predictive analytics to intelligent automation, we build tailored AI and machine learning solutions that adapt, learn, and enhance operational efficiency and decision-making."
+        point3="AI-Ready Cloud & Data"
+        pointPara3="We design scalable cloud architectures and data pipelines that power advanced analytics and machine learning, enabling secure, high-performance, and insight-driven operations."
+        point4="AI Optimization & Governance"
+        pointPara4="We continuously monitor, refine, and govern AI systems to ensure accuracy, compliance, and sustained performance as your business evolves."
         altTags={{
           group1: "Best IT Solutions Company in Chandigarh",
           group2: "Custom Software Development in Panchkula",
@@ -853,11 +843,9 @@ const Homepage = () => {
             </div>
           </div> */}
           <div>
-            <h2 className="fw-semibold fs-1">Industries We Serve</h2>
+            <h2 className="fw-semibold fs-1">Serving Diverse Industries</h2>
             <p>
-              Staying attuned to diverse industries, Layerex Technologies serves
-              a wide range of sectors, providing customized solutions that set
-              new benchmarks and drive innovation.
+              We deliver industry-specific solutions designed to solve complex challenges, create impact, and drive innovation across sectors.
             </p>
           </div>
           <div className="row pt-3">
@@ -895,7 +883,7 @@ const Homepage = () => {
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-3">
               <div className="industries_info border border-2 border-dark rounded-3 text-center h-100 align-content-center">
-                <h3 className="mb-0">tecFintechh</h3>
+                <h3 className="mb-0">Fintech</h3>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2 mb-3">
@@ -1085,7 +1073,7 @@ const Homepage = () => {
       </section>
       <Discuss
         heading={
-          "Ready to partner with a trusted technology expert? Let's discuss how our custom solutions can accelerate your growth in the Singapore market."
+          "Partner with a trusted technology expert and discover how our customized solutions can accelerate your growth in Singapore."
         }
         btn={"Get a Free Project Estimate"}
       />

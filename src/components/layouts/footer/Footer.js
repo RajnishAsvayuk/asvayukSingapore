@@ -68,11 +68,10 @@ const serviceLinks = [
 ];
 
 const quickLinks = [
-  { href: "/blog", label: "Blog" },
+  { href: "/", label: "Home" },
+  { href: "/ai-solutions", label: "AI Solutions" },
   { href: "/about-us", label: "About Us" },
   { href: "/contact-us", label: "Contact Us" },
-  { href: "/case-studies", label: "Case Studies" },
-  { href: "/privacy-policy", label: "Privacy & Policy" },
 ];
 
 function Footer() {

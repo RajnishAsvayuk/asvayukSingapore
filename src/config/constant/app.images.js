@@ -10,12 +10,12 @@ const AppImages = {
 
   casestudySliderImg: {
     caseStu: '/Images/casestudy/caseStu.webp',
-    caseStu1: '/Images/casestudy/caseStu1.webp',
-    caseStu2: '/Images/casestudy/caseStu2.webp',
-    caseStu3: '/Images/casestudy/caseStu3.webp',
-    caseStu4: '/Images/casestudy/caseStu4.webp',
-    caseStu5: '/Images/casestudy/caseStu5.webp',
-    caseStu6: '/Images/casestudy/caseStu6.webp',
+    caseStu1: '/Images/casestudy/newcase/caseStu1.webp',
+    caseStu2: '/Images/casestudy/newcase/caseStu2.webp',
+    caseStu3: '/Images/casestudy/newcase/caseStu3.webp',
+    caseStu4: '/Images/casestudy/newcase/caseStu4.webp',
+    caseStu5: '/Images/casestudy/newcase/caseStu5.png',
+    caseStu6: '/Images/casestudy/newcase/caseStu6.webp',
     caseStu8: '/Images/casestudy/caseStu8.webp',
     caseStu9: '/Images/casestudy/caseStu9.webp',
     btCash: '/Images/casestudy/btCash.webp',
@@ -32,14 +32,17 @@ const AppImages = {
   },
 
   fullCase: {
-    moonlight: '/Images/fullCase/moonlight_logo.webp',
-    coffee: '/Images/fullCase/49thcoffee_logo.webp',
+    moonlight: '/Images/fullCase/aryanslogo.png',
+    coffee: '/Images/fullCase/kamconlogo.png',
     btCash: '/Images/fullCase/btCash.webp',
     kre: '/Images/fullCase/kre.webp',
     kri: '/Images/fullCase/kri_logo.webp',
     layerLogo: '/Images/fullCase/layerLogo.jpg',
     layerX: '/Images/fullCase/layerX.webp',
     rel: '/Images/fullCase/rel20.png',
+    lxtechlogo: '/Images/fullCase/layerextechlogo.webp',
+    s5logo: '/Images/fullCase/s5logo.png',
+    wibizlogo: '/Images/fullCase/wibizlogo.png',
   },
 
   processImg: {

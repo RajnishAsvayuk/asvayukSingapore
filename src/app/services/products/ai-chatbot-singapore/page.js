@@ -27,7 +27,7 @@ const page = () => {
                             <BreadcrumbItem linkAs={Link} linkProps={{ href: "#" }}>Services</BreadcrumbItem>
                             <BreadcrumbItem active>AI ChatBot Development</BreadcrumbItem>
                         </Breadcrumb> */}
-                                <h1><Link href="https://maps.app.goo.gl/3DnK7WYuYJzXw8eK7">AI ChatBot Development in Singapore</Link></h1>
+                                <h1><Link href="https://maps.app.goo.gl/3DnK7WYuYJzXw8eK7">Best AI Solutions in Singapore</Link></h1>
                                 <p className="py-3">
                                     Revolutionize your business communication with AI ChatBots. At Asvayuk Technologies, we build intelligent AI-driven ChatBots that automate customer interactions, streamline operations, and deliver seamless digital experiences for businesses across Singapore.
                                 </p>
@@ -36,7 +36,7 @@ const page = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="bannerImg d-flex justify-content-center align-items-center">
-                                <img src={"/Images/Crm.webp"} alt="AI ChatBot Development in Singapore" className='w-100 h-100 image-bounce' />
+                                <img src={"/Images/Crm.webp"} alt="Best AI Solutions in Singapore" className='w-100 h-100 image-bounce' />
                             </div>
                         </div>
                     </Row>
@@ -85,7 +85,7 @@ const page = () => {
                     <div className='magento_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} altText='AI Chatbot Development in Singapore' cardHeading="Custom AI ChatBot Development" cardPara="Develop fully customized AI ChatBots that fit your business goals, ensuring improved customer engagement and faster support." />
+                                <Magento_service_card cardImg={service1} altText='Best AI Solutions in Singapore' cardHeading="Custom AI ChatBot Development" cardPara="Develop fully customized AI ChatBots that fit your business goals, ensuring improved customer engagement and faster support." />
                             </Col>
                             <Col lg={4}>
                                 <Magento_service_card cardImg={service2} altText='AI Chatbot for Businesses in Singapore' cardHeading="AI ChatBot for Customer Support" cardPara="Build 24/7 AI support ChatBots that handle customer queries efficiently and reduce human workload." />
