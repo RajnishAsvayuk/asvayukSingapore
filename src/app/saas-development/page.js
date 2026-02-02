@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import saasBanner from "@/assets/Images/Saas.webp";
+import saasBanner from "@/assets/Images/saas.png";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -46,9 +46,9 @@ const saasDev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Saas Development"}
-          pageHeading={"SaaS App Development Company in Singapore"}
+          pageHeading={"Top-Tier SaaS Application Engineering in Singapore"}
           pagePara={
-            "In today's digital era, businesses are rapidly shifting towards cloud-based solutions to streamline operations and enhance user experience. Asvayuk Technologies Private Ltd., a leading SaaS App Development Company in Singapore, specializes in crafting high-performance software solutions tailored to meet diverse industry needs. Whether you need a robust SaaS platform for your startup or a scalable enterprise application, our expert team ensures seamless development, deployment, and maintenance of cutting-edge SaaS applications."
+            "In the fast-evolving digital era, forward-thinking enterprises are pivoting toward cloud-centric ecosystems to refine operations and elevate user engagement. Layerex, a premier SaaS development partner in Singapore, specializes in architecting high-velocity software solutions tailored for diverse industry verticals. Whether you are launching a disruptive startup platform or scaling an enterprise-grade application, our elite engineering team ensures frictionless deployment, robust security, and continuous platform evolution."
           }
           pageImg={saasBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -66,10 +66,9 @@ const saasDev = () => {
           <div className="container">
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
-                <h2>Our Expertise in SaaS App Development</h2>
+                <h2>Our Proficiency in SaaS Product Development</h2>
                 <p className="mt-3">
-                  At Asvayuk Technologies Private Ltd., we provide top-tier SaaS
-                  Application Development Services in Singapore, focusing on :
+                  At Layerex, we deliver world-class SaaS engineering services across Singapore, focusing on :
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -79,9 +78,9 @@ const saasDev = () => {
                       ServiceCardImg={c11}
                       altText="Custom SaaS Development  
 "
-                      cardHeading="Custom eCommerce Design & Development"
+                      cardHeading="Bespoke Enterprise Design & Build"
                       cardParaGraph={
-                        <>Tailored solutions for startups and enterprises.</>
+                        <>Tailored cloud environments designed to empower both emerging startups and established corporate leaders.</>
                       }
                     />
                   </div>
@@ -90,9 +89,9 @@ const saasDev = () => {
                       ServiceCardImg={c12}
                       altText="E-commerce Website Development Singapore
 "
-                      cardHeading="SaaS Mobile & Website Development"
+                      cardHeading="Unified Mobile & Web SaaS Portals"
                       cardParaGraph={
-                        <> Cross-platform applications with responsive UI/UX.</>
+                        <> Cross-platform digital products featuring high-responsiveness and intuitive UI/UX for a global user base.</>
                       }
                     />
                   </div>
@@ -101,9 +100,9 @@ const saasDev = () => {
                       ServiceCardImg={c13}
                       altText="Static Website Design Singapore
 "
-                      cardHeading="Multi-Tenant Architecture"
+                      cardHeading="Scalable Multi-Tenant Architecture"
                       cardParaGraph={
-                        <>Scalable solutions for businesses of all sizes.</>
+                        <>Robust, secure frameworks engineered to support business growth and handle high-volume user traffic.</>
                       }
                     />
                   </div>
@@ -112,8 +111,8 @@ const saasDev = () => {
                       ServiceCardImg={c14}
                       altText="Shopify Website Development Singapore
 "
-                      cardHeading="API Integration & Development"
-                      cardParaGraph="Seamless connectivity with third-party services"
+                      cardHeading="Advanced API & System Connectivity"
+                      cardParaGraph="Creating a cohesive tech stack through seamless, secure integrations with essential third-party business tools."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -121,8 +120,8 @@ const saasDev = () => {
                       ServiceCardImg={c15}
                       altText="Mobile Responsive Design
 "
-                      cardHeading="AI & Machine Learning Integration"
-                      cardParaGraph="Data-driven insights for better decision-making."
+                      cardHeading="Integrated AI & Predictive Analytics"
+                      cardParaGraph="Leveraging machine learning to provide actionable, data-driven insights for smarter business decisions."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -130,8 +129,8 @@ const saasDev = () => {
                       ServiceCardImg={c16}
                       altText="SEO-Optimized Web Design
 "
-                      cardHeading="MLM Software Development"
-                      cardParaGraph="Reliable solutions for multi-level marketing businesses."
+                      cardHeading="Strategic Growth Software Solutions"
+                      cardParaGraph="High-performance platforms built to support complex organizational structures and multi-level operational needs."
                     />
                   </div>
                 </div>
@@ -141,24 +140,19 @@ const saasDev = () => {
         </section>
 
         <KeyPointSection
-          keyHeading={<>Why Choose SaaS Application Development?</>}
+          keyHeading={<>Why Invest in Modern SaaS Architecture?</>}
           keyPara={
             <>
-              SaaS (Software as a Service) applications offer flexibility,
-              security, and scalability. Unlike traditional software, SaaS
-              applications eliminate the need for installation, enabling users
-              to access them via a web browser or mobile app. Businesses across
-              Singapore are increasingly adopting SaaS solutions for their
-              cost-effectiveness and easy maintenance.
+              Cloud-native SaaS applications provide unparalleled flexibility, data protection, and vertical scalability. By removing the friction of local installations, these platforms allow your clients to access tools via any browser or mobile interface. Across Singapore’s tech landscape, businesses are rapidly transitioning to SaaS models to benefit from cost efficiency and simplified long-term maintenance.
             </>
           }
-          keyPoint1="CFaster Time to Market"
-          keyPoint2="Seamless Integration"
-          keyPoint3="Future-Proof Scalability"
-          keyPoint4="Lower Total Cost of Ownership (TCO)"
+          keyPoint1="Drastically Reduced Time-to-Market"
+          keyPoint2="Frictionless Third-Party Ecosystem Integration"
+          keyPoint3="Future-Ready Elastic Scalability"
+          keyPoint4="Optimized Total Cost of Ownership (TCO)"
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Request Consultation"
+          btnTitle="Request a Strategic Quote"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -346,7 +340,7 @@ const saasDev = () => {
           col5para="Launching with continuous support, updates, and scalability."
         />
         <Industry />
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
       </main>
     </>
   );

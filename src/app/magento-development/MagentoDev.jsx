@@ -27,9 +27,9 @@ const MagentoDev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Magento Development"}
-          pageHeading={"Best Magento Developers in Singapore"}
+          pageHeading={"Leading Magento Development Experts in Singapore"}
           pagePara={
-            "When it comes to developing highly efficient and scalable eCommerce websites, Magento stands out as one of the most powerful platforms. Asvayuk Technologies is your trusted partner for Magento website development."
+            "In the competitive digital retail space, your e-commerce platform needs more than just a presence—it needs a performance edge. Layerex is a premier Magento development agency in Singapore, specializing in architecting scalable, secure, and feature-rich online storefronts. From complex B2B ecosystems to high-traffic B2C marketplaces, we leverage Adobe Commerce to accelerate your growth and dominate the local market."
           }
           pageImg={magentoBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -38,9 +38,9 @@ const MagentoDev = () => {
         <section className="magento_service_card">
           <Container>
             <div className="card_heading text-center">
-              <h2>Comprehensive Magento Development Services</h2>
+              <h2>Comprehensive Magento Development Solutions </h2>
               <p>
-                Our expertise extends across a range of website designing services that are fully customizable to meet your specific business needs in Singapore.
+                Our certified developers in Singapore provide specialized end-to-end services to ensure your Magento store is optimized for the 2026 digital economy.
               </p>
             </div>
             <div className="magento_cards">
@@ -49,48 +49,48 @@ const MagentoDev = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Magento Website Development Singapore"
-                    cardHeading="Magento Custom Development"
-                    cardPara="We create custom Magento themes and extensions to enhance the functionality and design of your website, making it stand out in the crowded eCommerce space."
+                    cardHeading="Custom Magento Store Engineering"
+                    cardPara="We build bespoke e-commerce platforms from the ground up, ensuring every feature is tailored to your specific business model and Singaporean customer base."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="Magento Web Design Singapore"
-                    cardHeading="Magento Migration Services"
-                    cardPara="If you are looking to migrate your website from another platform to Magento, our experts make this seamless, ensuring data integrity and minimal downtime."
+                    cardHeading="Adobe Commerce Cloud Management"
+                    cardPara="Leverage the full power of the cloud. We handle setup, optimization, and scaling for Adobe Commerce to ensure 99.9% uptime during peak SG shopping festivals."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="Custom Magento Development Singapore"
-                    cardHeading="Magento Integration"
-                    cardPara="We integrate third-party applications and services with your Magento store to enhance functionality and provide a smoother shopping experience for your customers."
+                    cardHeading="Seamless Third-Party Integrations"
+                    cardPara="Connect your store with local payment gateways like PayNow and GrabPay, plus ERP, CRM, and logistics providers for a fully automated workflow."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
                     altText="Commerce website development Singapore"
-                    cardHeading="eCommerce Development"
-                    cardPara="We ensure a swift and secure migration to Magento with our expert migration services, transferring data, performance-driven design elements and functionality seamlessly."
+                    cardHeading="Platform Migration & Upgrades"
+                    cardPara="Smoothly transition from Magento 1 or other platforms to the latest Adobe Commerce version with zero data loss and minimal downtime for your operations."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
                     altText="Magento Web development provider in Singapore"
-                    cardHeading="Magento Maintenance and Support"
-                    cardPara="We offer ongoing support and maintenance services to keep your Magento store running smoothly, with regular updates, security patches, and performance enhancements."
+                    cardHeading="Performance & Speed Optimization"
+                    cardPara="In the fast-paced SG market, every second counts. We optimize your store’s code and assets to deliver lightning-fast load times and improve SEO rankings."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
                     altText="Magento Website comapny in Singapore"
-                    cardHeading="Headless Development"
-                    cardPara="Future-proof your eCommerce store with headless architecture, ensuring enhanced flexibility, faster performance, seamless integrations, and a scalable online shopping experience"
+                    cardHeading="24/7 Managed Support & Maintenance"
+                    cardPara="Keep your business running around the clock. Our local support team provides security patches, bug fixes, and performance monitoring whenever you need it."
                   />
                 </Col>
               </Row>
@@ -101,20 +101,18 @@ const MagentoDev = () => {
         <KeyPointSection
           keyHeading={
             <>
-              Transform your eCommerce experience with our innovative solutions.
+              The Layerex Advantage for E-Commerce Success.
             </>
           }
           keyPara={
             <>
-              Explore the synergy of cutting-edge Magento solutions. Enhance
-              your online store's performance with our expertise. Connect with
-              us for a transformative journey in eCommerce.
+              Choosing Layerex means partnering with a team that understands the intersection of high-end engineering and the unique shopping behaviors of the Singaporean audience. We don't just build websites; we build high-converting sales engines that drive measurable ROI.
             </>
           }
-          keyPoint1="Seamless Integration with Latest Technologies"
-          keyPoint2="Tailored Solutions for Your Unique Needs"
-          keyPoint3="Proven Track Record of Successful Implementations"
-          keyPoint4="Dedicated Support and Maintenance Services"
+          keyPoint1="Certified Adobe Commerce Experts"
+          keyPoint2="Security & PDPA Compliance"
+          keyPoint3="Omnichannel Growth Strategy"
+          keyPoint4="Data-Driven UX Design"
           hideKeyPoints={true}
           url="/contact-us"
           btnTitle="Request Consultation"
@@ -172,31 +170,31 @@ const MagentoDev = () => {
         />
 
         <Process
-          heading="Our Process of Expertise"
-          para="Our team of expert mobile app developers plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences."
+          heading="Our Strategic Magento Development Roadmap"
+          // para="Our team of expert mobile app developers plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences."
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Product Design"
-          col1para="Crafting innovative and user-centric design strategies for a captivating app experience"
+          col1head="Discovery & Architecture"
+          col1para="Defining your business goals and mapping out the technical store structure."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="Mobile App Consulting"
-          col2para="Tailored guidance and strategies to shape your app concept into a successful product."
+          col2head="Custom Design & Prototyping"
+          col2para="Crafting a high-conversion UI/UX tailored for the Singaporean shopper."
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="UI/UX Compatibility"
-          col3para="Seamless integration of compelling design and intuitive user experiences for enhanced engagement."
+          col3head="Agile Core Development"
+          col3para="Building your store with clean, scalable code and essential integrations."
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Development"
-          col4para="Utilizing cutting-edge technologies to build robust, scalable, and high-performance mobile applications."
+          col4head="Rigorous Quality Assurance"
+          col4para="Exhaustive testing for security, speed, and mobile responsiveness."
           col5Img={AppImages.processImg.test}
           col5Alt="Support & Maintenance"
-          col5head="QA & Testing"
-          col5para="experts performs testing and debugging to ensure a reliable and optimal functioning app."
+          col5head="Launch & Continuous Growth"
+          col5para="Deploying your platform and providing ongoing updates to stay ahead."
         />
 
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
 
         <Industry />
 
@@ -205,8 +203,7 @@ const MagentoDev = () => {
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
                 <h2>
-                  Top Magento Developers in Singapore Build a Scalable &
-                  High-Performance eCommerce Store
+                  Build a Scalable & High-Performance eCommerce Store
                 </h2>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -217,23 +214,10 @@ const MagentoDev = () => {
                       altText="Custom Website Design
 "
                       cardHeading="
-Expert Magento Developers in Singapore"
+Elite Magento Engineering Specialists in Singapore"
                       cardParaGraph={
                         <>
-                          Finding the right team of developers is key to the
-                          success of your eCommerce website. Asvayuk
-                          Technologies offers the best Magento development
-                          services in Singapore, with a team of certified
-                          developers who have years of experience working with
-                          Magento’s robust features. Our team stays up-to-date
-                          with the latest trends and updates in the Magento
-                          ecosystem, ensuring that your website is equipped with
-                          the best tools to succeed in the competitive online
-                          market. As the best web development agency in
-                          Singapore, we are committed to delivering results that
-                          matter. We focus on building Magento websites that are
-                          not only visually appealing but also optimized for
-                          performance, user experience, and conversion.
+                          Partnering with the right technical team is the foundation of your e-commerce success. Layerex houses a team of certified Magento architects in Singapore with deep expertise in Adobe Commerce’s robust ecosystem. We stay ahead of 2026’s digital trends, ensuring your platform is equipped with cutting-edge tools to outperform competitors. As a premier SG agency, we don’t just build websites; we engineer high-performance environments focused on speed, superior user experience, and maximum conversion rates.
                         </>
                       }
                     />
@@ -243,24 +227,11 @@ Expert Magento Developers in Singapore"
                       ServiceCardImg={service2}
                       altText="E-commerce Website Development Singapore
 "
-                      cardHeading="Affordable Magento Development Services in Singapore"
+                      cardHeading="Scalable & High-Value Adobe Commerce Solutions"
                       cardParaGraph={
                         <>
                           {" "}
-                          Asvayuk Technologies is a leading website development
-                          provider in Singapore that offers affordable and
-                          efficient Magento development services. Whether you're
-                          a small business just starting out or a large
-                          enterprise looking to scale, we provide solutions that
-                          fit your budget and goals. Our developers ensure that
-                          your Magento website is built with quality at its
-                          core, using the latest technologies to drive growth
-                          and increase online sales. With our best Magento
-                          developers in Singapore, you don’t need to compromise
-                          on quality or affordability. We help you get the most
-                          out of your investment by building a highly functional
-                          Magento eCommerce store that brings value to your
-                          business
+                          Layerex is a leading provider of efficient, enterprise-grade Magento development services tailored for the Singaporean business landscape. Whether you are a rising SME or a large-scale enterprise ready to scale globally, we deliver solutions that align with your strategic budget and long-term goals. Our developers ensure quality is baked into every line of code, utilizing the latest cloud technologies to drive online sales growth. With Layerex, you get world-class functionality and localized expertise that maximizes your digital ROI.
                         </>
                       }
                     />
@@ -270,21 +241,10 @@ Expert Magento Developers in Singapore"
                       ServiceCardImg={service3}
                       altText="Static Website Design Singapore
 "
-                      cardHeading="Contact Us for Magento Development Services in Singapore"
+                      cardHeading="Comprehensive Consultation & Magento Support SG"
                       cardParaGraph={
                         <>
-                          Choosing the Best Magento Developers in Singapore is
-                          essential for building a successful and scalable
-                          eCommerce platform. Asvayuk Technologies Private Ltd.
-                          offers expert Magento development services in
-                          Singapore and Mohali, helping businesses harness the
-                          power of Magento to create outstanding online stores.
-                          Our team of certified Magento developers provides
-                          customized solutions to meet your specific needs,
-                          ensuring that your eCommerce website performs at its
-                          best. Whether you need custom development,
-                          integration, migration, or ongoing maintenance, we
-                          have the expertise to deliver exceptional results.
+                          Securing the best Magento developers in Singapore is vital for building a future-proof, scalable e-commerce platform. Layerex offers end-to-end expertise, helping businesses harness the full power of Adobe Commerce to create iconic online stores. From bespoke custom development and complex third-party integrations to seamless migrations and proactive 24/7 maintenance, our local team has the technical mastery to deliver exceptional, result-oriented digital products.
                         </>
                       }
                     />

@@ -22,9 +22,9 @@ const ArVrPage = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"AR/VR Development"}
-          pageHeading={"Pioneering AR/VR Development in Singapore"}
+          pageHeading={"Driving the Future of AR/VR Development in Singapore"}
           pagePara={
-            "Asvayuk Technologies is a leading AR/VR development company providing innovative, immersive solutions for businesses in Singapore. We build custom AR/VR applications that transform operations, training, and marketing."
+            "Layerex stands as a premier AR/VR innovation hub, delivering deep-tech immersive solutions for the modern Singaporean enterprise. We engineer bespoke AR/VR environments that revolutionize industrial workflows, professional training, and high-impact digital marketing."
           }
           pageImg={arVrBanner}
           pageAlt={"Website banners-52-1Company in Singapore"}
@@ -151,15 +151,15 @@ const ArVrPage = () => {
         </section>
 
         <Experience
-          expTitle="Why Choose Us?"
-          point1="Proven Expertise"
-          pointPara1="Enhance your e-commerce strategy with our proven WooCommerce development prowess."
-          point2="Commitment to Quality"
-          pointPara2="Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform."
-          point3="Client-centric Approach"
-          pointPara3="We prioritize your needs, ensuring a personalized and effective development journey."
-          point4="Transparent Communication"
-          pointPara4="We uphold transparent communication throughout your project, keeping you informed at every step."
+          expTitle="The Layerex Advantage"
+          point1="Deep-Tech Mastery"
+          pointPara1="Enhance your digital presence with our proven track record in sophisticated AR/VR engineering."
+          point2="Localized Client Focus"
+          pointPara2="We prioritize your specific operational needs, ensuring a transparent and results-oriented development journey."
+          point3="Uncompromising Performance"
+          pointPara3="Our dedicated SG-based QA team ensures every AR/VR asset is optimized for speed and visual clarity."
+          point4="Clear & Open Partnership"
+          pointPara4="We maintain constant, honest communication throughout the project, keeping you updated at every milestone."
           altTags={{
             group1: "AR/VR Development Services in Singapore & Panchkula",
             group2: "Best Virtual Reality Solutions in Panchkula & Mohali",
@@ -172,24 +172,20 @@ const ArVrPage = () => {
 
         <KeyPointSection
           keyHeading={
-            <>Why Singapore Businesses Choose Asvayuk for AR/VR Innovation?</>
+            <>Why Singapore Enterprises Partner with Layerex for AR/VR Excellence?</>
           }
           keyPara={
             <>
-              We combine cutting-edge technology with deep market understanding
-              to deliver highly customized, secure, and scalable AR/VR
-              solutions. Our goal is to ensure your investment in immersive
-              technology provides maximum ROI in the competitive Singapore
-              landscape.
+              We merge state-of-the-art spatial engineering with a deep understanding of the local market to provide highly secure, scalable, and custom AR/VR frameworks. Our mission is to ensure your investment in immersive tech yields measurable ROI within Singapore’s competitive digital economy.
             </>
           }
-          keyPoint1="Tailored AR/VR Strategy for specific Singapore business needs."
-          keyPoint2="Experienced Development Team with expertise in Unity, Unreal Engine, ARKit, and ARCore."
-          keyPoint3="Focus on High ROI and measurable business outcomes in the SG market."
-          keyPoint4="Dedicated 24/7 Technical Support for seamless deployment and ongoing maintenance. (ADDED)"
+          keyPoint1="Strategic AR/VR roadmaps built specifically for Singaporean business goals."
+          keyPoint2="Elite development team proficient in Unity, Unreal Engine, ARKit, and ARCore."
+          keyPoint3="Focus on high-conversion outcomes and data-driven results for the SG market."
+          keyPoint4="Reliable, localized technical assistance for deployment and long-term maintenance."
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Request Consultation"
+          btnTitle="Request a Custom Quote"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -197,31 +193,31 @@ const ArVrPage = () => {
         />
 
         <Process
-          heading="Our Process of Expertise"
-          para="Our team of expert mobile app developers plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences."
+          heading="Our Strategic Framework for AR/VR Success"
+          para="Our specialized AR/VR architects plan, prototype, build, and deploy immersive applications that redefine how users interact with your brand."
           col1Img={AppImages.processImg.container}
           col1Alt="Top Augmented Reality Developers in Mohali & Singapore"
-          col1head="Product Design"
-          col1para="Crafting innovative and user-centric design strategies for a captivating app experience."
+          col1head="Immersive Strategy & Design"
+          col1para="Developing creative and user-focused spatial concepts for a truly engaging AR/VR experience."
           col2Img={AppImages.processImg.planning}
           col2Alt="Best Virtual Reality Solutions in Panchkula & Mohali"
-          col2head="Mobile App Consulting"
-          col2para="Tailored guidance and strategies to shape your app concept into a successful product."
+          col2head="AR/VR Technical Consulting"
+          col2para="Expert guidance to transform your initial ideas into a technically viable and successful product."
           col3Img={AppImages.processImg.pen}
           col3Alt="Immersive AR/VR App Development in Singapore"
-          col3head="UI/UX Compatibility"
-          col3para="Seamless integration of compelling design and intuitive user experiences for enhanced engagement."
+          col3head="Cross-Platform UI/UX Optimization"
+          col3para="Designing intuitive interfaces that ensure seamless user navigation within 3D environments."
           col4Img={AppImages.processImg.development}
           col4Alt="Custom AR/VR Software Development in Panchkula"
-          col4head="Development"
-          col4para="Utilizing cutting-edge technologies to build robust, scalable, and high-performance mobile applications."
+          col4head="Advanced AR/VR Development"
+          col4para="Utilizing the latest 2026 rendering engines to build high-performance and stable immersive apps."
           col5Img={AppImages.processImg.test}
           col5Alt="Leading AR/VR Company in Mohali & Singapore"
-          col5head="QA & Testing"
-          col5para="Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app."
+          col5head="Rigorous Quality Assurance"
+          col5para="Our local testing experts perform exhaustive debugging to guarantee a flawless, high-fidelity final launch."
         />
 
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
         <Industry />
       </main>
     </>

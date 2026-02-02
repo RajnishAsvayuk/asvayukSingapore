@@ -1,63 +1,63 @@
 const models = [
   {
-    tag: "NLP",
-    title: "GPT-4",
-    desc: "Advanced language intelligence for reasoning, automation, and human-like conversations",
+    tag: "GPT-4 & LLMs",
+    title: "GPT-4 & LLMs",
+    desc: "Advanced language intelligence for complex reasoning, enterprise automation, and human-like customer dialogues.",
     color: "nlp",
   },
   {
-    tag: "Vision",
-    title: "DALL·E",
-    desc: "AI-powered image generation for creative and production use cases",
+    tag: "DALL·E & Generative Vision",
+    title: "DALL·E & Generative Vision",
+    desc: "AI-powered image synthesis and creative asset generation tailored for modern production use cases.",
     color: "vision",
     highlight: true,
   },
   {
-    tag: "NLP",
-    title: "BERT",
-    desc: "Deep contextual language understanding for intent and semantic analysis",
+    tag: "BERT (NLP)",
+    title: "BERT (NLP)",
+    desc: "Deep contextual language understanding for precise intent recognition and semantic data analysis.",
     color: "nlp",
   },
   {
     tag: "Vision",
     title: "Stable Diffusion",
-    desc: "High-quality image generation from text prompts",
+    desc: "Industrial-grade visual generation from text prompts, ideal for rapid prototyping and marketing automation.",
     color: "vision",
   },
   {
     tag: "Vision",
-    title: "YOLO",
-    desc: "Real-time object detection for intelligent vision systems",
+    title: "YOLO (You Only Look Once)",
+    desc: "Real-time object detection and computer vision systems for smart logistics and security.",
     color: "vision",
   },
   {
     tag: "Audio",
-    title: "Whisper",
-    desc: "Accurate, multilingual speech recognition and transcription",
+    title: "Whisper AI",
+    desc: "High-accuracy, multilingual speech recognition and transcription, perfect for Singapore's diverse linguistic environment.",
     color: "audio",
   },
   {
     tag: "Multimodal",
-    title: "CLIP",
-    desc: "Multimodal understanding connecting text and images",
+    title: "CLIP (Multimodal)",
+    desc: "Advanced multimodal understanding that bridges the gap between textual descriptions and visual data.",
     color: "multimodal",
   },
   {
     tag: "Vision",
     title: "ResNet",
-    desc: "High-performance image classification using deep neural networks",
+    desc: "High-performance neural networks for deep image classification and pattern recognition.",
     color: "vision",
   },
   {
     tag: "NLP",
     title: "Transformer Models",
-    desc: "Core architecture powering scalable NLP and sequence tasks",
+    desc: "The core scalable architecture powering our most advanced NLP and sequence-to-sequence tasks.",
     color: "nlp",
   },
   {
     tag: "NLP",
-    title: "T5",
-    desc: "Unified text-to-text model for diverse language applications",
+    title: "T5 (Text-to-Text)",
+    desc: "A unified framework for diverse language applications, from document summarisation to automated translation.",
     color: "nlp",
   },
 ];
@@ -67,9 +67,9 @@ export default function AdvancedAIModels() {
     <section className="ai-section">
       <div className="container">
         <div className="text-center mb-5">
-          <h2 className="ai-title">Advanced AI Models We Leverage</h2>
+          <h2 className="ai-title">High-Performance AI Frameworks & Architectures</h2>
           <p className="ai-subtitle">
-            Powering intelligent solutions with cutting-edge machine learning and deep learning technologies
+            We leverage a world-class tech stack to build production-ready intelligence for the Singapore market.
           </p>
         </div>
 

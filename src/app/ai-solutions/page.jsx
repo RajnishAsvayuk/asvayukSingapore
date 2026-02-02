@@ -18,39 +18,39 @@ import AdvancedAIModels from "@/components/AdvancedAIModels";
 const services = [
   {
     id: 1,
-    title: "Generative AI",
+    title: "Generative AI Implementation",
     content:
-      "Leverage generative models to create text, images, code, and intelligent automation tailored to your business needs."
+      "Deploy custom LLMs and creative automation tailored to your brand’s unique voice."
   },
   {
     id: 2,
-    title: "AI Assistants & Chatbots",
+    title: "Smart Virtual Assistants",
     content:
-      "Deploy intelligent conversational AI that understands context, learns from interactions, and provides personalized experiences at scale."
+      "Beyond basic bots—intelligent agents that handle complex customer journeys and internal queries."
   },
   {
     id: 3,
-    title: "AI Product Development",
+    title: "Scalable AI Product Engineering",
     content:
-      "Build scalable AI-powered products from concept to deployment with enterprise-grade architecture."
+      "From MVP to enterprise-grade AI applications built on robust architecture."
   },
   {
     id: 4,
-    title: "AI Design",
+    title: "AI-Driven UI/UX Design",
     content:
-      "Enhance user experiences using AI-driven UI/UX design, personalization, and intelligent interfaces."
+      "Crafting intuitive interfaces that bridge the gap between human users and complex machine learning data."
   },
   {
     id: 5,
-    title: "AI Security",
+    title: "Enterprise AI Security",
     content:
-      "Protect AI systems with advanced threat detection, compliance, and data governance strategies."
+      "Future-proof your data with advanced threat detection and secure AI governance frameworks."
   },
   {
     id: 6,
-    title: "Automation Solutions",
+    title: "AHyper-Automation Solutions",
     content:
-      "Streamline workflows and operations using intelligent automation and AI-driven decision engines."
+      "Minimise manual overhead with autonomous AI workflows for Singapore SMEs."
   }
 ];
 
@@ -115,9 +115,9 @@ const aiChatbot = () => {
                     home={"Home"}
                     pageParent={"Product"}
                     pageName={"AI ChatBot Development"}
-                    pageHeading={"Best AI Solutions in Singapore"}
+                    pageHeading={"Leading Artificial Intelligence Solutions for Singapore Enterprises"}
                     pagePara={
-                        "Transform customer engagement strategies with AI ChatBots. At Asvayuk Technologies, we specialize in developing AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency, now in Singapore."
+                        "Empower your business with next-generation automation and intelligent decision-making. As a premier AI development company in Singapore, we craft bespoke neural networks and agentic workflows that drive measurable growth and operational excellence."
                     }
                     pageImg={chatbotBanner}
                     pageAlt={"Website Designing Company in Singapore"}
@@ -129,10 +129,10 @@ const aiChatbot = () => {
       {/* Heading */}
       <div className="mb-5">
         <h2 className="fw-bold">
-          Explore Our <span className="text-success">Artificial Intelligence</span> Services
+          Explore Our  <span className="text-success">Full-Stack AI </span> Ecosystem
         </h2>
         <p className="text-muted col-lg-7">
-          Transform your business with cutting-edge AI solutions designed for enterprise scale and innovation.
+          Accelerate growth with next-generation AI solutions designed for enterprise-scale impact.
         </p>
       </div>
 
@@ -264,13 +264,10 @@ const aiChatbot = () => {
                     <Container>
                         <div className="card_heading text-center">
                             <h2 className="px-5 mx-5">
-                                Boost Your Business Growth with Our Extensive
+                                Scale Smarter with Advanced Machine Learning Capabilities
                             </h2>
                             <p className="mt-3 pb-3">
-                                Our team at Asvayuk Technologies specializes in creating
-                                customized AI ChatBots to enhance business performance in
-                                Singapore, offering services from automated support to
-                                e-commerce integration.
+                                Our Singapore-based technical team specialises in deploying high-performance AI automation for local businesses, ensuring your digital infrastructure is ready for the 2026 tech landscape.
                             </p>
                         </div>
 
@@ -279,54 +276,54 @@ const aiChatbot = () => {
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service1}
-                                        altText="AI Chatbot for E-commerce Websites"
-                                        cardHeading="AI Chatbot for E-commerce Websites"
-                                        cardPara="Improve the shopping experience with AI-powered ChatBots that assist customers, answer product queries, and process orders."
+                                        altText="AI for Smart Retail & E-commerce"
+                                        cardHeading="AI for Smart Retail & E-commerce"
+                                        cardPara="Optimise the path-to-purchase with predictive product recommendations and 24/7 automated shopping assistance."
                                     />
                                 </Col>
 
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service2}
-                                        altText="Custom AI ChatBot Development"
-                                        cardHeading="Custom AI ChatBot Development"
-                                        cardPara="Create a fully customized AI ChatBot that suits your business requirements, improving customer service and engagement."
+                                        altText="Bespoke Neural Network Development"
+                                        cardHeading="Bespoke Neural Network Development"
+                                        cardPara="Build proprietary algorithms designed to solve your specific industry challenges, from logistics to fintech."
                                     />
                                 </Col>
 
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service3}
-                                        altText="Best AI Solutions in Singapore "
-                                        cardHeading="Best AI Solutions in Singapore "
-                                        cardPara="We develop robust AI ChatBots for businesses looking to offer automated support, intelligent interaction, and improved workflow efficiency."
+                                        altText="Top AI Consultancy in Singapore "
+                                        cardHeading="Top AI Consultancy in Singapore"
+                                        cardPara="Expert-led digital transformation strategies that integrate seamlessly with your existing legacy systems."
                                     />
                                 </Col>
 
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service4}
-                                        altText="AI ChatBot for Customer Support"
-                                        cardHeading="AI ChatBot for Customer Support"
-                                        cardPara="Build an AI-driven support system capable of answering customer inquiries 24/7, reducing wait times and enhancing satisfaction."
+                                        altText="Next-Gen Customer Support Hubs"
+                                        cardHeading="Next-Gen Customer Support Hubs"
+                                        cardPara="Reduce response times by 90% with multilingual support systems capable of handling complex Singlish and regional nuances."
                                     />
                                 </Col>
 
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service5}
-                                        altText="ChatBot with NLP Capabilities"
-                                        cardHeading="ChatBot with NLP Capabilities"
-                                        cardPara="Integrate natural language processing into your ChatBot for a more intelligent and human-like conversation experience."
+                                        altText="Natural Language Processing (NLP)"
+                                        cardHeading="Natural Language Processing (NLP)"
+                                        cardPara="Extract deep insights from unstructured data through advanced sentiment analysis and context-aware processing."
                                     />
                                 </Col>
 
                                 <Col lg={4} className="d-flex">
                                     <Magento_service_card
                                         cardImg={service6}
-                                        altText="ChatBot Integration Services"
-                                        cardHeading="ChatBot Integration"
-                                        cardPara="Seamlessly integrate ChatBots into your existing platforms like CRM, websites, and mobile apps for enhanced user experience."
+                                        altText="Unified Platform Integration"
+                                        cardHeading="Unified Platform Integration"
+                                        cardPara="Connect your AI tools directly into your CRM, ERP, or custom dashboard for a single source of truth."
                                     />
                                 </Col>
                             </Row>

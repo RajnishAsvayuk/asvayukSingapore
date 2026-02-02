@@ -28,7 +28,7 @@ const HeroServices = ({ home, pageParent, pageName, pageHeading, pagePara, pageI
                                 <h1><Link href="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">{pageHeading}</Link></h1>
                                 <p className="py-3">{pagePara}</p>
                                 <div className='pb-4'>
-                                    <BannerButton btnTitle='Free Consultation' url='/contact-us' />
+                                    <BannerButton btnTitle='Start Your Project Today' url='/contact-us' />
                                 </div>
                             </div>
                         </div>

@@ -47,22 +47,13 @@ const BlockChainPage = () => {
                     <h1 className="h1 mb-5 text-white">
                       <Link href="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">
                         <span className="fw-bold" style={{ color: "#ffbf0b" }}>
-                          Blockchain{" "}
+                          Pioneering Blockchain Engineering{" "}
                         </span>
-                        Web Development Singapore
+                        for the Singapore Digital Economy
                       </Link>
                     </h1>
                     <p className="text-white">
-                      Blockchain technology is revolutionizing the digital world
-                      by offering secure, decentralized, and transparent
-                      solutions. At Asvayuk Technologies Private Ltd., we
-                      specialize in blockchain web development in Singapore,
-                      helping businesses build advanced blockchain-powered
-                      platforms that enhance security, efficiency, and user
-                      trust. Whether you need private blockchain solutions in
-                      Singapore, crypto web development, or Web3 Android app
-                      development, our expert team is here to deliver customized
-                      solutions tailored to your business needs.
+                      Accelerate your transition to Web3 with decentralized, ultra-secure, and transparent ledger solutions. At LayerEx, we specialise in high-calibre blockchain architecture in Singapore, empowering enterprises to build trust-less systems, crypto-assets, and specialized dApps tailored to unique commercial goals.
                     </p>
                   </div>
                   <div className="review_section mb-5">
@@ -89,11 +80,9 @@ const BlockChainPage = () => {
                     <div className="item1">
                       <div className="ml-0">
                         <p className="text-white">
-                          *Premium Customization <span className="mx-1"></span>{" "}
-                          | <span className="mx-1"></span>*Industry-Leading
-                          Security Standards<span className="mx-1"></span> |{" "}
-                          <span className="mx-1"></span> *24/7 Expert Technical
-                          Support
+                          *Elite Customisation <span className="mx-1"></span>{" "}
+                          | <span className="mx-1"></span>*Global Security Benchmarks<span className="mx-1"></span> |{" "}
+                          <span className="mx-1"></span> *Round-the-clock Technical Governance
                         </p>
                       </div>
                     </div>
@@ -103,7 +92,7 @@ const BlockChainPage = () => {
               <Col xm={5} sm={12} lg={5} md={6} className="bannerAreaTop">
                 <div className="overflow-hidden w-100 h-100">
                   <div className='overflow-hidden w-100 h-100 bg-light rounded-4'>
-                                   {/* <iframe
+                    {/* <iframe
                     width="100%"
                     height="480px"
                     src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
@@ -111,8 +100,8 @@ const BlockChainPage = () => {
                     className="mb-0 rounded-4"
                     style={{ background: "transparent" }}
                   ></iframe> */}
-                                    <ContactForm/>
-                                </div>
+                    <ContactForm />
+                  </div>
                 </div>
               </Col>
             </Row>
@@ -188,20 +177,17 @@ const BlockChainPage = () => {
               <div className="col-lg-6 col-md-65 col-sm-12 ">
                 <div className="mt-5">
                   <h2>
-                    Empowering Businesses <br />
-                    with Blockchain Development
-                    <br /> in Singapore
+                   Revolutionise Your<br />
+                     Operations with 
+                    <br /> LayerEx Blockchain Expertise
                   </h2>
                   <p className="my-3">
-                    If you are looking for top-tier blockchain web development
-                    in Singapore, Asvayuk Technologies Private Ltd. is your
-                    go-to partner. Contact us today to explore how blockchain
-                    can transform your business operations!
+                    If you are searching for a premier blockchain consultancy in Singapore, LayerEx is your dedicated strategic partner. Contact our technical team today to discover how distributed ledger technology can future-proof your business model.
                   </p>
                 </div>
                 <div className="my-5">
                   <BannerButton
-                    btnTitle="Explore Blockchain Development Solutions!"
+                    btnTitle="Discover Our Web3 Solutions"
                     blockChainClass="blue_btn"
                   />
                 </div>
@@ -236,13 +222,10 @@ const BlockChainPage = () => {
                       />
                     </div>
                     <h3 className="font_22 font_weight_extra_bold">
-                      <a>Expert Blockchain Developers</a>
+                      <a>Master Blockchain Architects</a>
                     </h3>
                     <p>
-                      Our blockchain development experts in Singapore have
-                      extensive experience in creating scalable and
-                      high-performance blockchain applications, ensuring
-                      seamless integration with existing systems.
+                      Our Singapore-based engineering team possesses deep-domain expertise in crafting high-performance, scalable decentralised applications that integrate flawlessly with your existing infrastructure.
                     </p>
                   </div>
                 </div>
@@ -254,13 +237,10 @@ const BlockChainPage = () => {
                       <FaBullseye alt="Top Blockchain Technology Solutions in Singapore" />
                     </div>
                     <h3 className="font_22 font_weight_extra_bold">
-                      <a>Customized Blockchain Solutions</a>
+                      <a>Tailored Decentralised Frameworks</a>
                     </h3>
                     <p>
-                      We understand that every business has unique requirements.
-                      Our blockchain app development services in Singapore are
-                      designed to provide tailor-made solutions for industries
-                      such as finance, healthcare, logistics, and more.
+                      We recognise that every enterprise has distinct hurdles. Our blockchain app services in Singapore are engineered to provide custom-coded environments for finance, healthcare, and logistics.
                     </p>
                   </div>
                 </div>
@@ -272,13 +252,10 @@ const BlockChainPage = () => {
                       <FaRocket alt="Secure & Decentralized Blockchain Apps in Singapore" />
                     </div>
                     <h3 className="font_22 font_weight_extra_bold">
-                      <a>Comprehensive Web3 Development</a>
+                      <a>End-to-End Web3 Engineering</a>
                     </h3>
                     <p>
-                      Our team specializes in Web3 Android app development,
-                      ensuring businesses can leverage decentralized
-                      applications (DApps) and smart contracts for enhanced
-                      digital operations
+                      From private chain development to decentralized application (dApp) deployment, we ensure local businesses can leverage smart contracts to automate complex digital operations.
                     </p>
                   </div>
                 </div>
@@ -300,31 +277,21 @@ const BlockChainPage = () => {
               <div className="col-lg-6">
                 <div className="section-title">
                   <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 mt-xl-3 text-white text-start">
-                    Why choose Asvayuk Technologies for Blockchain Development?
+                   Why Leading Brands Trust LayerEx for Blockchain Innovation
                   </h2>
                 </div>
                 <div className="about-item text-white">
                   <p className="text-white">
-                    At Asvayuk Technologies in Singapore, we offer secure,
-                    transparent, and efficient blockchain development solutions.
-                    Our expert team specializes in smart contracts, dApps, DeFi,
-                    NFT platforms, and private blockchain networks, ensuring
-                    seamless development, integration, and decentralization for
-                    future-ready applications.
+                    As a top-tier blockchain developer in Singapore, we provide robust, immutable, and high-efficiency technical roadmaps. Our specialists excel in dApps, DeFi protocols, NFT ecosystems, and private consortium networks, ensuring your project is ready for the 2026 digital landscape.
                   </p>
-                  <p className="font_16 text-white">
-                    At Asvayuk Technologies, our expert team builds secure,
-                    scalable, and innovative blockchain solutions, offering
-                    development, integration, smart contracts, tokenization, and
-                    support for seamless implementation.
-                  </p>
+                 
                   <div className="list_view_text">
                     <ul>
-                      <li>Custom Blockchain Development</li>
-                      <li>Secure & Scalable Smart Contracts</li>
-                      <li>Decentralized Application (dApp) Development</li>
-                      <li>Enterprise-Grade Blockchain Solutions</li>
-                      <li>24/7 Technical Support & Maintenance</li>
+                      <li>Bespoke Decentralised Engineering</li>
+                      <li>Hardened & Audit-Ready Smart Contracts</li>
+                      <li>Decentralised Application (dApp) Ecosystems</li>
+                      <li>Enterprise-Grade Distributed Ledgers</li>
+                      <li>Dedicated 24/7 Node Support & Maintenance</li>
                     </ul>
                   </div>
                 </div>
@@ -337,7 +304,7 @@ const BlockChainPage = () => {
           <div className="container">
             <div className="section-title">
               <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">
-                Blockchain Solutions for Various Industries
+                Cross-Sector Blockchain Integration
               </h2>
             </div>
             <div className="row">
@@ -346,10 +313,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <RiMoneyRupeeCircleFill alt="Custom Blockchain Solutions for Businesses in Singapore" />
                   </div>
-                  <h3 className="color_343a40">Finance & Banking</h3>
+                  <h3 className="color_343a40">Banking & Fintech</h3>
                   <p>
-                    Secure and fast transactions, fraud prevention, and
-                    automated compliance through smart contracts.
+                    Facilitate instantaneous, borderless transactions and eliminate manual compliance overhead through automated, secure smart contracts.
                   </p>
                 </div>
               </div>
@@ -358,10 +324,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <MdHealthAndSafety alt="Expert Web3 Development Services in Singapore" />
                   </div>
-                  <h3 className="color_343a40">Healthcare</h3>
+                  <h3 className="color_343a40">Modern Healthcare</h3>
                   <p>
-                    Improved patient data security, seamless record management,
-                    and interoperability between providers.
+                    Protect sensitive patient data with immutable records, ensuring seamless interoperability and privacy across regional provider networks.
                   </p>
                 </div>
               </div>
@@ -370,10 +335,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <FaRecycle alt="Blockchain-Powered Platform Development in Singapore" />
                   </div>
-                  <h3 className="color_343a40">Supply Chain Management</h3>
+                  <h3 className="color_343a40">Logistics & Supply Chain</h3>
                   <p>
-                    Real-time tracking, transparency, and efficient management
-                    of logistics and transactions.
+                    Achieve total visibility with real-time asset tracking and transparent verification of global transaction histories.
                   </p>
                 </div>
               </div>
@@ -382,11 +346,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <MdRealEstateAgent alt="Leading Blockchain App Developers in Singapore" />
                   </div>
-                  <h3 className="color_343a40">Real Estate</h3>
+                  <h3 className="color_343a40">Secure Real Estate</h3>
                   <p>
-                    Secure property transactions, reduced fraud through smart
-                    contracts, and transparent ownership records for buyers and
-                    sellers.
+                    Streamline property transfers and mitigate title fraud using transparent ownership ledgers and smart escrow protocols.
                   </p>
                 </div>
               </div>
@@ -395,11 +357,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <IoSchool alt="Advanced Smart Contract & Blockchain Integration in Singapore" />
                   </div>
-                  <h3 className="color_343a40">Education</h3>
+                  <h3 className="color_343a40">Academic Credentials</h3>
                   <p>
-                    Tamper-proof academic credentials, secure digital
-                    certificates, and streamlined verification for employers and
-                    institutions.
+                    Issue tamper-proof digital certificates and simplify qualification verification for employers throughout Singapore.
                   </p>
                 </div>
               </div>
@@ -408,10 +368,9 @@ const BlockChainPage = () => {
                   <div className="service-icon">
                     <MdLocalGroceryStore alt="Best Blockchain Web Development Company in Singapore" />
                   </div>
-                  <h3 className="color_343a40">E-commerce</h3>
+                  <h3 className="color_343a40">Web3 E-commerce</h3>
                   <p>
-                    Decentralized marketplaces, secure payment gateways, and
-                    fraud prevention through transparent transaction tracking.
+                    Build decentralised marketplaces with lower fees, secure native payment gateways, and fraud-resistant tracking systems.
                   </p>
                 </div>
               </div>
@@ -459,7 +418,7 @@ const BlockChainPage = () => {
           <Container>
             <div className="section-title">
               <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">
-                Our Approach to Blockchain Web Development
+                Our Precision Approach to Web3 Development
               </h2>
             </div>
             <Row>
@@ -480,10 +439,10 @@ const BlockChainPage = () => {
                         <span className="work-process-divider"></span>
                         <div className="work-process-content mt-4">
                           <h3 className="color_343a40 font_weight_semi_bold">
-                            Requirement Analysis
+                            Strategic Discovery
                           </h3>
                           <p className="mb-0 font_weight_light">
-                            Understanding your business needs and goals
+                            We evaluate your specific business logic to select the ideal blockchain protocol and consensus mechanism for your goals.
                           </p>
                         </div>
                       </div>
@@ -502,11 +461,10 @@ const BlockChainPage = () => {
                         <span className="work-process-divider"></span>
                         <div className="work-process-content mt-4">
                           <h3 className="color_343a40 font_weight_semi_bold">
-                            Blockchain Architecture Design
+                            Infrastructure Blueprinting
                           </h3>
                           <p className="mb-0 font_weight_light">
-                            Choosing the right blockchain protocol and
-                            framework.
+                            Designing a scalable architecture that prioritises high throughput, security, and long-term network stability.
                           </p>
                         </div>
                       </div>
@@ -525,11 +483,10 @@ const BlockChainPage = () => {
                         <span className="work-process-divider"></span>
                         <div className="work-process-content mt-4">
                           <h3 className="color_343a40 font_weight_semi_bold">
-                            Smart Contract Development
+                            Smart Contract Engineering
                           </h3>
                           <p className="mb-0 font_weight_light">
-                            Developing automated agreements that execute
-                            predefined conditions without manual intervention.{" "}
+                            Developing sophisticated, self-executing agreements that handle complex logic without the need for human intervention.{" "}
                           </p>
                         </div>
                       </div>
@@ -548,10 +505,10 @@ const BlockChainPage = () => {
                         <span className="work-process-divider"></span>
                         <div className="work-process-content mt-4">
                           <h3 className="color_343a40 font_weight_semi_bold">
-                            Deployment & Maintenance
+                            Deployment & Governance
                           </h3>
                           <p className="mb-0 font_weight_light">
-                            Launching the solution and providing ongoing support
+                            Launching your solution to the mainnet and providing the continuous monitoring required to ensure 100% uptime.
                           </p>
                         </div>
                       </div>

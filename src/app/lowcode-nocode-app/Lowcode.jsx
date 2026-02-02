@@ -24,10 +24,10 @@ const Lowcode = () => {
           pageParent={"Technology"}
           pageName={"lowCode/noCode-app"}
           pageHeading={
-            "Unlocking Innovation with the Power of LowCode NoCode App"
+            "Accelerate Digital Transformation with Top-Tier Low-Code/No-Code Solutions"
           }
           pagePara={
-            "With Asvayuk Technologies' future-oriented low-code development services, you can create scalable, customized, and enterprise-grade web, mobile, and intranet applications in Singapore, becoming a pioneer of digital transformation."
+            "At Layerex, we deliver high-performance, enterprise-grade web and mobile applications through agile low-code frameworks. Empower your business in Singapore with scalable, custom-built software that drives innovation and secures your position as a local industry leader."
           }
           pageImg={lowcodeBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -37,9 +37,9 @@ const Lowcode = () => {
           <div className="container">
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
-                <h2>Our Low-Code/No-Code App Development Services</h2>
+                <h2>Comprehensive Low-Code & No-Code Development Services in Singapore</h2>
                 <p className="mt-3">
-                  Our OutSystems and Mendix certified developers, consultants, and MVPs are adept at implementing low-code and no-code solutions in Singapore, ensuring your project is in capable hands.
+                  Our team of certified OutSystems and Mendix specialists provides end-to-end consultancy and technical execution, ensuring your digital products are robust, secure, and market-ready.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -49,11 +49,11 @@ const Lowcode = () => {
                       ServiceCardImg={c11}
                       altText="Custom Website Design
 "
-                      cardHeading="Outsytems Consulting Services
+                      cardHeading="OutSystems Strategic Consulting
 "
                       cardParaGraph={
                         <>
-                          We conduct a comprehensive evaluation of your existing infrastructure to define the scope for OutSystems app development or optimization, strategically planning the SDLC.
+                          We analyze your current IT landscape to architect a roadmap for OutSystems implementation, ensuring every phase of the SDLC is optimized for maximum efficiency and local compliance.
                         </>
                       }
                     />
@@ -63,12 +63,12 @@ const Lowcode = () => {
                       ServiceCardImg={c12}
                       altText="E-commerce Website Development Singapore
 "
-                      cardHeading="Low-Code Application Development
+                      cardHeading="Bespoke Low-Code App Creation
 "
                       cardParaGraph={
                         <>
                           {" "}
-                          We craft bespoke web, mobile, and intranet applications aligned with your business growth objectives, using expertise in OutSystems or Mendix.
+                          From internal portals to customer-facing mobile apps, we build tailored software using Mendix and OutSystems that aligns perfectly with your Singapore business growth targets.
                         </>
                       }
                     />
@@ -78,12 +78,12 @@ const Lowcode = () => {
                       ServiceCardImg={c13}
                       altText="Static Website Design Singapore
 "
-                      cardHeading="Enterprise Application Integration
+                      cardHeading="Seamless Enterprise Integration
 
 "
                       cardParaGraph={
                         <>
-                         Unlock the full potential of your applications and establish a connected and agile digital ecosystem with our dedicated integration specialists in Singapore.
+                         Bridge the gap between your legacy systems and modern tech. Our Singapore-based integration experts create a unified digital ecosystem that enhances data flow and operational agility.
                         </>
                       }
                     />
@@ -93,10 +93,10 @@ const Lowcode = () => {
                       ServiceCardImg={c14}
                       altText="Shopify Website Development Singapore
 "
-                      cardHeading="Platform Upgrades and Migrations
+                      cardHeading="Modernization & Platform Migration
 
 "
-                      cardParaGraph="We manage the entire lifecycle of platform upgrades and migrations seamlessly, ensuring minimal downtime and zero data loss, safeguarding your business continuity in Singapore.
+                      cardParaGraph="Upgrade your existing platforms with zero data loss. We handle complex migrations with precision, maintaining business continuity for Singaporean firms while future-proofing your tech stack.
 
 "
                     />
@@ -106,9 +106,9 @@ const Lowcode = () => {
                       ServiceCardImg={c15}
                       altText="Mobile Responsive Design
 "
-                      cardHeading="Support and Maintenance Solutions
+                      cardHeading="24/7 Managed Support & Maintenance
 "
-                      cardParaGraph="We provide round-the-clock support, on-demand maintenance, and technical assistance to keep your apps running smoothly and securely."
+                      cardParaGraph="Keep your applications running at peak performance with our dedicated local support team. We offer proactive monitoring, security updates, and rapid troubleshooting whenever you need it."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -116,9 +116,9 @@ const Lowcode = () => {
                       ServiceCardImg={c16}
                       altText="SEO-Optimized Web Design
 "
-                      cardHeading="Resource Augmentation Services
+                      cardHeading="Flexible Resource Augmentation
 "
-                      cardParaGraph="Scale your development capabilities and accelerate project timelines by leveraging our flexible outsourcing solutions for OutSystems Champions, Mendix consultants, or MVPs."
+                      cardParaGraph="Scale your internal tech team instantly. Access our pool of elite Mendix consultants and OutSystems developers to accelerate your project timelines without the overhead of full-time hiring."
                     />
                   </div>
                 </div>
@@ -134,37 +134,24 @@ const Lowcode = () => {
                 <div className="col-lg-7 col-md-6 col-sm-12 col-12">
                   <div className="tool-heading lowCodeExp">
                     <h2>
-                      Exploring the Tools of Low-Code and No-Code Development
+                      Mastering Leading-Edge Low-Code Platforms for Rapid Delivery
                     </h2>
                     <p className="mt-4">
-                      At Asvayuk Technologies, we utilize advanced tools to expedite the development process and empower our clients in Singapore to realize their ideas effortlessly.
+                      leverages world-class development tools to slash time-to-market, allowing Singaporean enterprises to transition from concept to deployment in record time.
                     </p>
                   </div>
                   <div className="tool-heading-list mt-3">
                     <h6 className="fw-bold">1. OutSystems</h6>
                     <p className="mt-3">
-                      OutSystems, a leading low-code platform, allows us to
-                      develop and deploy enterprise-grade applications with
-                      minimal coding. Its user-friendly visual development
-                      environment enables rapid application design,
-                      construction, and iteration. The platform's extensive
-                      collection of pre-built components and integrations
-                      accelerates development, boosting productivity.
+                      As a premier low-code platform, OutSystems enables us to engineer sophisticated, enterprise-level apps with visual modeling. Its vast library of pre-integrated modules ensures your project is both high-quality and highly adaptable.
                     </p>
                     <h6 className="fw-bold">2. Mendix</h6>
                     <p className="mt-3">
-                      Mendix is another robust low-code platform we employ for
-                      swift and efficient custom application creation. Featuring
-                      a drag-and-drop interface and model-driven development
-                      approach, Mendix facilitates building and deploying
-                      applications up to ten times faster than traditional
-                      methods. Its comprehensive collaboration tools and
-                      integrated version control ensure seamless teamwork and
-                      timely project delivery.
+                      We utilize Mendix for its superior collaborative features and model-driven approach. It allows for development speeds up to 10x faster than traditional coding, fostering seamless teamwork and ensuring your Singapore business stays ahead of the curve.
                     </p>
                   </div>
                   <BannerButton
-                    btnTitle="Free Consultation"
+                    btnTitle="Get Expert Advice"
                     url="/contact-us"
                   />
                 </div>
@@ -183,46 +170,40 @@ const Lowcode = () => {
         </section>
 
         <Experience
-          expTitle={<>Why Choose Us For Website Development?</>}
+          expTitle={<>Why Partner with Layerex for Your Next Digital Project?</>}
           ExpPara={
             <>
-              As a leading web development company, we craft websites that align
-              with your goals and inspire your customers. Here is why you should
-              choose us.
+              As a premier technology partner in Singapore, we don't just build apps; we create digital experiences that captivate your audience and solve real business challenges.
             </>
           }
-          point1="Unmatched Expertise
+          point1="Top-Tier Technical Prowess
 
 
 "
           pointPara1={
             <>
-              Our developers excel in low-code and no-code development, crafting
-              tailored, high-performance solutions to meet your specific needs.
+              Our developers are masters of low-code environments, delivering high-utility solutions that are custom-engineered for your specific operational needs.
             </>
           }
-          point2="Client-Centric Approach"
+          point2="Agile & Adaptive Strategy"
           pointPara2={
             <>
-              We craft tailored websites to ensure seamless user experiences,
-              prioritizing your needs and preferences every step of the way.
+              In the fast-moving Singapore tech landscape, we provide future-ready solutions that evolve alongside your business and the latest industry trends.
             </>
           }
-          point3="Adaptive Solutions
+          point3="User-First Philosophy
 
 "
           pointPara3={
             <>
-              Specializing in dynamic and future-proof websites that seamlessly
-              adapt to the ever-evolving digital landscape.
+              Every app we design focuses on the end-user. We prioritize intuitive navigation and seamless UX to ensure your Singaporean customers stay engaged and satisfied.
             </>
           }
-          point4="Robust Support
+          point4="Reliable Local Assistance
 "
           pointPara4={
             <>
-              Count on us for prompt and efficient assistance for tech support,
-              updates, or enhancements anytime you need it.
+              Benefit from dependable, localized technical support. Whether it's an urgent update or a routine enhancement, our team is always ready to assist your SG operations.
             </>
           }
           altTags={{

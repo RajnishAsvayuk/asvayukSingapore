@@ -32,9 +32,9 @@ const WebsiteDesign = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Website Development"}
-          pageHeading={"Website Designing Company in Singapore"}
+          pageHeading={"Premier Website Development Agency in Singapore"}
           pagePara={
-            "Looking for a trusted and creative website designing company in Singapore? Asvayuk Technologies Private Ltd. is here to bring your digital vision to life with precision and style."
+            "Elevate your digital presence with high-performance, conversion-optimised websites. As a leading web design company in Singapore, we blend creative aesthetics with robust engineering to turn your vision into a powerful business asset."
           }
           pageImg={designingBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -47,12 +47,12 @@ const WebsiteDesign = () => {
                 <h2>
                   <span style={{ color: "#249f81" }}>
                     {" "}
-                    Best Website Designing Services
+                    Delivering the Gold Standard of Web Design 
                   </span>
                   <br />
                   in Singapore
                 </h2>
-                <div className="woocomerce-imgs d-flex justify-content-center d-none d-md-block">
+                {/* <div className="woocomerce-imgs d-flex justify-content-center d-none d-md-block">
                   <Image
                     src={Group_558}
                     className="position-absolute woocomerce-imgs-left"
@@ -63,20 +63,20 @@ const WebsiteDesign = () => {
                     className="position-absolute woocomerce-imgs-right"
                     alt="website designers Singapore, mohali"
                   />
-                </div>
+                </div> */}
               </div>
               <div className="woocomerce-buttons d-flex flex-column flex-md-row justify-content-center gap-3 text-center">
                 <Link href="#">
                   <span>
-                    Responsiveness <br />
-                    Web Designs
+                    Adaptive Responsive  <br />
+                    Layouts
                   </span>
                 </Link>
                 <Link href="#">
                   <span>
-                    Mobile Friendly &amp;
+                    Mobile-First  
                     <br />
-                    Optimized
+                    Performance
                   </span>
                 </Link>
               </div>
@@ -88,11 +88,9 @@ const WebsiteDesign = () => {
           <div className="container">
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
-                <h2>What We Offer in Website Design & Development</h2>
+                <h2>Comprehensive Web Engineering for Every Industry</h2>
                 <p className="mt-3">
-                  At Asvayuk Technologies, we offer a comprehensive range of
-                  website development services in Singapore,ensuring customized
-                  solutions for diverse business needs.
+                  From agile startups to established enterprises, we provide bespoke web solutions in Singapore that drive measurable results.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -100,17 +98,13 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c11}
-                      altText="Custom Website Design
+                      altText="Custom Corporate Web Design
 "
-                      cardHeading="Custom Website Design
+                      cardHeading="Custom Corporate Web Design
 "
                       cardParaGraph={
                         <>
-                          We create tailored websites based on your brand
-                          identity, industry standards, and business goals,
-                          delivering high-performance solutions that reflect
-                          your vision and engage your target audience
-                          effectively.
+                          Unique brand-aligned interfaces that establish authority and trust in the local market.
                         </>
                       }
                     />
@@ -118,17 +112,14 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c12}
-                      altText="E-commerce Website Development Singapore
+                      altText="Enterprise E-commerce Architectures
 "
-                      cardHeading="E-commerce Website Development Singapore
+                      cardHeading="Enterprise E-commerce Architectures
 "
                       cardParaGraph={
                         <>
                           {" "}
-                          We develop scalable and secure online stores for
-                          singapore businesses, offering powerful features,
-                          intuitive layouts, and seamless user experiences that
-                          boost conversions and grow online revenue rapidly.
+                          Scalable online storefronts equipped with secure payment gateways and seamless inventory management for SG retailers.
                         </>
                       }
                     />
@@ -136,16 +127,13 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c13}
-                      altText="Static Website Design Singapore
+                      altText="Performance-Led Static Sites
 "
-                      cardHeading="Static Website Design Singapore
+                      cardHeading="Performance-Led Static Sites
 "
                       cardParaGraph={
                         <>
-                          We craft fast, efficient, and lightweight static
-                          websites for singapore businesses with limited
-                          content, ensuring a professional look, smooth
-                          navigation, and responsive design across all devices.
+                          Ultra-fast, lightweight web presences perfect for portfolios and information-driven business hubs.
                         </>
                       }
                     />
@@ -153,11 +141,11 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c14}
-                      altText="Shopify Website Development Singapore
+                      altText="Expert Shopify Development
 "
-                      cardHeading="Shopify Website Development Singapore
+                      cardHeading="Expert Shopify Development
 "
-                      cardParaGraph="We build Shopify-powered websites for Singapore businesses, offering customized designs, secure payment setups, SEO-ready features, and responsive layouts to boost visibility and online store success.
+                      cardParaGraph="Customised Shopify ecosystems designed to maximise ROI and streamline the checkout experience.
 
 "
                     />
@@ -165,11 +153,11 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c15}
-                      altText="Mobile Responsive Design
+                      altText="Fluid Mobile-First Design
 "
-                      cardHeading="Mobile Responsive Design
+                      cardHeading="Fluid Mobile-First Design
 "
-                      cardParaGraph="We design websites that flawlessly adapt across all screen sizes, ensuring consistent user experience, fast load times, and smooth interactions on mobile, tablet, laptop, and desktop devices.
+                      cardParaGraph="Engineering websites that load instantly and interact smoothly on all handheld devices.
 
 "
                     />
@@ -177,11 +165,11 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c16}
-                      altText="SEO-Optimized Web Design
+                      altText="SEO-Centric Development
 "
-                      cardHeading="SEO-Optimized Web Design
+                      cardHeading="SEO-Centric Development
 "
-                      cardParaGraph=" We develop websites that follow Google’s SEO guidelines, incorporating keyword-rich content, fast loading speed, and user-friendly layouts to help your website rank better on search engines."
+                      cardParaGraph="Every line of code is written with search visibility in mind, ensuring you rank for top local Singapore keywords."
                     />
                   </div>
                 </div>
@@ -191,41 +179,36 @@ const WebsiteDesign = () => {
         </section>
 
         <Experience
-          expTitle={<>Web Development Company in Singapore</>}
+          expTitle={<>Your Trusted Partner for Digital Growth in Singapore</>}
           ExpPara={
             <>
-              At Asvayuk Technologies Private Ltd., we also offer end-to-end web
-              development services in Singapore, delivered by our expert team of
-              professional website developers. We ensure high-quality, scalable,
-              and future-ready digital solutions tailored to meet your business
-              needs.
+              We don’t just build websites; we build engines for business expansion through technical mastery.
             </>
           }
-          point1="Website Development Company in Singapore
+          point1="Scalable Growth Support
 
 "
           pointPara1={
             <>
-              Delivering quality development for growing businesses in
-              Singapore.
+              Tailored development for rapidly expanding Singaporean companies looking to future-proof their tech stack.
             </>
           }
-          point2="Website Development Company in Singapore"
+          point2="End-to-End Lifecycle Management"
           pointPara2={
             <>
-              Helping local businesses go online with effective web solutions.
+              From the initial blueprint to final deployment, we handle every technical hurdle for you.
             </>
           }
-          point3="Website Development Company in Singapore
+          point3="Local Market Expertise:
 "
           pointPara3={
             <>
-              From design to deployment, we support all stages of development.
+              Deep understanding of the Singapore digital landscape to help local SMEs dominate their niche.
             </>
           }
-          point4="Website Development Company in Singapore"
+          point4="Versatile Development Talent"
           pointPara4={
-            <>Experienced developers to handle both static and dynamic needs.</>
+            <>A dedicated team of senior developers proficient in both static architectures and complex dynamic applications.</>
           }
           altTags={{
             group1: "mobile app development company",
@@ -308,7 +291,7 @@ const WebsiteDesign = () => {
           </div>
         </section>
 
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
 
         <section className="performance_card2">
           <div className="container">
@@ -316,7 +299,7 @@ const WebsiteDesign = () => {
               <div className="peformance_card2_heading text-center">
                 <h2>
                   {" "}
-                  The Best
+                  The Top-Rated 
                   <span style={{ color: "#249f81" }}>
                     {" "}
                     Web Developers in Singapore
@@ -328,17 +311,13 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c11}
-                      altText="Custom Website Design
+                      altText="Technical Mastery
 "
-                      cardHeading="Top Web Development Wizards of Singapore , Unleashing Digital Brilliance!
+                      cardHeading="Technical Mastery
 "
                       cardParaGraph={
                         <>
-                          Our team of skilled website designers in Singapore
-                          works with the latest technologies, including HTML,
-                          CSS, JavaScript, PHP, Python, and frameworks like
-                          React, Angular, and Laravel, ensuring high-performance
-                          websites tailored to your business goals.
+                          Our "digital wizards" utilise React, Angular, and Node.js to create high-speed, interactive experiences tailored to your goals.
                         </>
                       }
                     />
@@ -346,18 +325,14 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c12}
-                      altText="E-commerce Website Development Singapore
+                      altText="Strategic Investment
 "
-                      cardHeading="Why Invest in Professional Website Development
+                      cardHeading="Strategic Investment
 "
                       cardParaGraph={
                         <>
                           {" "}
-                          A professionally designed website boosts credibility,
-                          improves user engagement, and enhances search engine
-                          rankings. By partnering with a website development
-                          company in Singapore, like Asvayuk Technologies, you
-                          gain a competitive edge in the digital landscape.
+                          A professional website is your #1 sales tool. We focus on enhancing credibility and user retention to give you a competitive edge.
                         </>
                       }
                     />
@@ -365,11 +340,11 @@ const WebsiteDesign = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c14}
-                      altText="Shopify Website Development Singapore
+                      altText="Localised Support
 "
-                      cardHeading="Contact Us for Website Development Services in Singapore
+                      cardHeading="Localised Support
 "
-                      cardParaGraph="If you're looking for a website development provider in Singapore , Asvayuk Technologies Private Ltd. is here to help. Contact us today for a free consultation and take your business online with a powerful website!
+                      cardParaGraph="Contact our Singapore web consultancy today for a transparent, result-oriented approach to your next digital project.
 
 "
                     />
@@ -381,43 +356,43 @@ const WebsiteDesign = () => {
         </section>
 
         <Process
-          heading="Our Method of Specialization
+          heading="Method of Specialisation
 
 "
           para="Our team of expert website developers plan, design, develop, test, optimize, and launch website that redefine user experiences.
 "
           col1Img={AppImages.processImg.container}
-          col1Alt="Product Design
+          col1Alt="Strategic Blueprinting
 "
-          col1head="Product Design
+          col1head="Strategic Blueprinting
 "
-          col1para="We specialize in crafting innovative and user-centric design strategies to deliver a captivating app experience.
+          col1para="Crafting a roadmap based on user-centric design principles.
 
 "
           col2Img={AppImages.processImg.planning}
-          col2Alt="Website Consulting"
-          col2head="Website Consulting
+          col2Alt="Digital Consulting"
+          col2head="Digital Consulting
 "
-          col2para="Tailored guidance and strategic insights to shape your app concept into a successful product.
+          col2para="Expert guidance to refine your concept into a market-ready product.
 
 "
           col3Img={AppImages.processImg.pen}
-          col3Alt="Web portal development services in Singapore"
-          col3head="UI/UX Compatibility"
-          col3para="Seamlessly integrate compelling design with intuitive user experiences for enhanced engagement.."
+          col3Alt="UI/UX Synchronisation"
+          col3head="UI/UX Synchronisation"
+          col3para="Merging stunning visuals with intuitive user journeys."
           col4Img={AppImages.processImg.development}
-          col4Alt="Web developers for website portal development in Singapore"
-          col4head="Development
+          col4Alt="Advanced Engineering"
+          col4head="Advanced Engineering
 "
-          col4para="Leveraging cutting-edge technologies to build robust, scalable, and high-performance mobile applications.
+          col4para="Building robust, scalable, and secure web applications.
 
 "
           col5Img={AppImages.processImg.test}
-          col5Alt="Responsive web development Singapore"
-          col5head="QA & Testing
+          col5Alt="Rigorous QA & Launch"
+          col5head="Rigorous QA & Launch
 
 "
-          col5para="Our team of mobile testing experts conducts rigorous testing and debugging to ensure a reliable and optimal-functioning app.
+          col5para="Intensive testing to ensure a bug-free, high-performance debut.
 
 "
         />

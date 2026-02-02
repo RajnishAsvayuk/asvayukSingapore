@@ -153,6 +153,21 @@ const Header = () => {
   const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null);
+
+
+  let closeTimeout;
+
+  const handleEnter = (key) => {
+    clearTimeout(closeTimeout);
+    setActiveDropdown(key);
+  };
+
+  const handleLeave = () => {
+    closeTimeout = setTimeout(() => {
+      setActiveDropdown(null);
+    }, 150);
+  };
 
   // Optimized handlers with useCallback
   const handleMegaMenuLinkClick = useCallback(() => {
@@ -443,7 +458,10 @@ const Header = () => {
               {/* <NavLink as={Link} href="/about-us">
                 Partnerships <FaAngleDown />
               </NavLink> */}
-              <Dropdown>
+
+              <Dropdown show={activeDropdown === "services"}
+                onMouseEnter={() => handleEnter("services")}
+                onMouseLeave={handleLeave}>
                 <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
                   Our Services <FaAngleDown />
                 </Dropdown.Toggle>
@@ -468,19 +486,19 @@ const Header = () => {
                               </li>
                             </div>
                             <div class="service-item">
-                              <li> 
+                              <li>
                                 <Link href={"/mobile-app-development"}>
-                                <Image className="menuicons me-3" src="/Images/mobile.svg" width={100} height={100} />Mobile App Development
+                                  <Image className="menuicons me-3" src="/Images/mobile.svg" width={100} height={100} />Mobile App Development
                                 </Link>
-                                </li>
+                              </li>
                             </div>
                             <div class="service-item">
 
                               <li>
                                 <Link href={"#"}>
-                                <Image className="menuicons me-3" src="/Images/enterprise.svg" width={100} height={100} />Enterprise Portal Development
-                                </Link> 
-                                </li>
+                                  <Image className="menuicons me-3" src="/Images/enterprise.svg" width={100} height={100} />Enterprise Portal Development
+                                </Link>
+                              </li>
                             </div>
                             <div class="service-item">
 
@@ -494,33 +512,33 @@ const Header = () => {
 
                               <li>
                                 <Link href={"/lowcode-nocode-app"}>
-                                 <Image className="menuicons me-3" src="/Images/low.svg" width={100} height={100} />Low Code / No Code 
+                                  <Image className="menuicons me-3" src="/Images/low.svg" width={100} height={100} />Low Code / No Code
                                 </Link>
-                                 </li>
+                              </li>
                             </div>
                             <div class="service-item">
 
                               <li>
                                 <Link href={"/ar-vr-development"}>
-                                 <Image className="menuicons me-3" src="/Images/ar.svg" width={100} height={100} />AR / VR Development
+                                  <Image className="menuicons me-3" src="/Images/ar.svg" width={100} height={100} />AR / VR Development
                                 </Link>
-                                 </li>
+                              </li>
                             </div>
                             <div class="service-item">
 
                               <li>
                                 <Link href={"/saas-development"}>
-                                 <Image className="menuicons me-3" src="/Images/saas.svg" width={100} height={100} />SAAS Development
+                                  <Image className="menuicons me-3" src="/Images/saas.svg" width={100} height={100} />SAAS Development
                                 </Link>
-                                 </li>
+                              </li>
                             </div>
                             <div class="service-item">
 
                               <li>
                                 <Link href={"/ui-ux-design"}>
-                                 <Image className="menuicons me-3" src="/Images/ui.svg" width={100} height={100} />UI/UX Design
+                                  <Image className="menuicons me-3" src="/Images/ui.svg" width={100} height={100} />UI/UX Design
                                 </Link>
-                                 </li>
+                              </li>
                             </div>
                             {/* <div class="service-item">
 
@@ -535,27 +553,45 @@ const Header = () => {
                           <div className="service-item-parent">
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/mgento.svg" width={100} height={100} />Magento Development</li>
+                              <li> <Link href={"/magento-development"}>
+                               <Image className="menuicons me-3" src="/Images/mgento.svg" width={100} height={100} />Magento Development
+                              </Link>
+                               </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/shopy.svg" width={100} height={100} />Shopify Development</li>
+                              <li> <Link href={"/ui-ux-design"}>
+                               <Image className="menuicons me-3" src="/Images/shopy.svg" width={100} height={100} />Shopify Development
+                              </Link>
+                               </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/lara.svg" width={100} height={100} />Laravel Development</li>
+                              <li> <Link href={"/ui-ux-design"}>
+                               <Image className="menuicons me-3" src="/Images/lara.svg" width={100} height={100} />Laravel Development
+                              </Link>
+                               </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/woo.svg" width={100} height={100} />WooCommerce Development</li>
+                              <li> <Link href={"/ui-ux-design"}>
+                               <Image className="menuicons me-3" src="/Images/woo.svg" width={100} height={100} />WooCommerce Development
+                              </Link>
+                               </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/react.svg" width={100} height={100} />React Native Development</li>
+                              <li> <Link href={"/ui-ux-design"}>
+                               <Image className="menuicons me-3" src="/Images/react.svg" width={100} height={100} />React Native Development
+                              </Link>
+                               </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Image className="menuicons me-3" src="/Images/search.svg" width={100} height={100} /> Search Engine Optimisation</li>
+                              <li> <Link href={"/ui-ux-design"}>
+                               <Image className="menuicons me-3" src="/Images/search.svg" width={100} height={100} /> Search Engine Optimisation
+                              </Link>
+                               </li>
                             </div>
                           </div>
                         </div>
@@ -578,7 +614,9 @@ const Header = () => {
 
                 </Dropdown.Menu>
               </Dropdown>
-              <Dropdown>
+              <Dropdown show={activeDropdown === "Partnerships"}
+  onMouseEnter={() => handleEnter("Partnerships")}
+  onMouseLeave={handleLeave}>
                 <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
                   Partnerships <FaAngleDown />
                 </Dropdown.Toggle>
@@ -602,7 +640,9 @@ const Header = () => {
                 </Dropdown.Menu>
               </Dropdown>
 
-              <Dropdown>
+              <Dropdown show={activeDropdown === "Resources"}
+  onMouseEnter={() => handleEnter("Resources")}
+  onMouseLeave={handleLeave}>
                 <Dropdown.Toggle className=" bg-transparent p-0 text-dark border-0 nav-link d-flex align-items-center gap-1" id="dropdown-basic">
                   Resources <FaAngleDown />
                 </Dropdown.Toggle>

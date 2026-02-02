@@ -32,9 +32,9 @@ const MobilePage = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Mobile App Development"}
-          pageHeading={"Leading Mobile App Development Company Serving Singapore"}
+          pageHeading={"Singapore’s Elite Mobile Application Architects"}
           pagePara={
-            "We transform innovative ideas into high-performance, user-centric mobile applications for iOS and Android, driving engagement and success for Singapore businesses and global enterprises."
+            "Unlock new revenue streams with high-impact digital products. At LayerEx, we engineer sophisticated iOS and Android applications that redefine user engagement for the modern Singaporean enterprise."
           }
           pageImg={mobileAppBanner}
           pageAlt={"Leading Mobile App Development Company Serving Singapore"}
@@ -45,15 +45,11 @@ const MobilePage = () => {
             <div className="main-bg">
               <div className="tool-heading pt-5 pb-2">
                 <h2 className="conclusion_title mb-2">
-                  Why Our App Development Service Singapore Stands Out
+                  What Sets Our Singapore App Development Apart?
                 </h2>
                 <div>
                   <p className="text-white lh-md fs-6 pt-3 text-start pb-2">
-                    We are a trusted mobile app development company with a
-                    strong presence in Singapore. Our approach blends
-                    creativity, advanced technology, and strategic planning to
-                    deliver mobile applications that engage users, elevate brand
-                    experiences, and accelerate business growth.
+                    LayerEx stands as a premier technology partner in the heart of Singapore. We merge bold creative vision with rigorous technical execution to build mobile platforms that don’t just function—they dominate their market niche and scale effortlessly.
                   </p>
                 </div>
               </div>
@@ -65,11 +61,9 @@ const MobilePage = () => {
           <div className="container">
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
-                <h2>Our Core App Development Services</h2>
+                <h2>Specialized Mobile Solutions for Every Ambition</h2>
                 <p className="mt-3">
-                  At Asvayuk Technologies, we provide end-to-end mobile app
-                  development services Singapore that cater to all types of
-                  businesses. Here’s a brief overview of our expertise:
+                  From streamlined startups to complex multi-national corporations, LayerEx provides the specialized technical depth required to succeed in Singapore’s fast-paced digital economy.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -77,15 +71,11 @@ const MobilePage = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c11}
-                      altText="Custom Mobile App Development Services"
-                      cardHeading="Custom Mobile App Development Services"
+                      altText="Bespoke Application Engineering:"
+                      cardHeading="Bespoke Application Engineering:"
                       cardParaGraph={
                         <>
-                          We offer custom mobile app development services in
-                          Singapore, crafting tailored solutions that align
-                          perfectly with your brand and business goals—delivered
-                          by expert mobile app developers committed to top
-                          performance and innovation.
+                          We move beyond "off-the-shelf" solutions to build custom software that mirrors your specific business logic and brand DNA.
                         </>
                       }
                     />
@@ -93,16 +83,12 @@ const MobilePage = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c12}
-                      altText="Best Mobile App Development Company In Singapore"
-                      cardHeading="iOS App Development"
+                      altText="Premium iOS Craftsmanship"
+                      cardHeading="Premium iOS Craftsmanship"
                       cardParaGraph={
                         <>
                           {" "}
-                          Our healthcare app development services are secure,
-                          scalable, and HIPAA-compliant. As a leading mobile
-                          application company, we build apps for hospitals and
-                          wellness platforms that meet medical standards and
-                          performance.
+                          As a top iPhone app development firm in Singapore, we build native Apple experiences that are sleek, secure, and incredibly fast.
                         </>
                       }
                     />
@@ -110,14 +96,11 @@ const MobilePage = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c13}
-                      altText="mobile App Developers in Singapore"
-                      cardHeading="E-commerce App Development Services"
+                      altText="Next-Gen Mobile Commerce"
+                      cardHeading="Next-Gen Mobile Commerce"
                       cardParaGraph={
                         <>
-                          We provide powerful e-commerce app development
-                          services that drive conversions, increase loyalty, and
-                          enhance shopping experiences—making us one of the top
-                          app making companies for retail and online businesses.
+                          Capture the SG retail market with high-converting e-commerce apps featuring integrated local payment gateways and smart inventory sync.
                         </>
                       }
                     />
@@ -125,25 +108,25 @@ const MobilePage = () => {
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c14}
-                      altText="mobile app development companies in Singapore"
-                      cardHeading="Cloud App Development Services"
-                      cardParaGraph="Our cloud app development services deliver scalable and secure mobile solutions with real-time data access. Trusted among top mobile software companies, we enable seamless integration across platforms and devices."
+                      altText="Secure Cloud Architectures"
+                      cardHeading="Secure Cloud Architectures"
+                      cardParaGraph="We build the 'brains' behind the app, ensuring real-time data synchronisation and military-grade security for your users."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c15}
-                      altText="Singapore's Leading Mobile App Development Company"
-                      cardHeading="Custom Android App Development Services"
-                      cardParaGraph="As a skilled android app development company, we deliver custom android app development services using Java and Kotlin for high-performance, reliable Android apps that meet your business goals effectively."
+                      altText="High-Performance Android Hubs"
+                      cardHeading="High-Performance Android Hubs"
+                      cardParaGraph="Our developers utilise the latest frameworks to reach the vast Android user base with stability and fluid performance."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
                     <ServicesCard
                       ServiceCardImg={c16}
-                      altText="Singapore's Most Trusted Mobile App Development Company"
-                      cardHeading="Mobile Application Development Service"
-                      cardParaGraph=" We provide end-to-end mobile application development services—from design to deployment. As a leading mobile app development company in Singapore, we ensure smooth project delivery along with reliable post-launch support and continuous optimization."
+                      altText="Total Lifecycle Partnership"
+                      cardHeading="Total Lifecycle Partnership"
+                      cardParaGraph=" We stay with you long after the launch, providing the continuous optimisation and support needed to stay ahead of the competition."
                     />
                   </div>
                 </div>
@@ -154,13 +137,11 @@ const MobilePage = () => {
 
         <KeyPointSection
           keyHeading={
-            <> Why Asvayuk Technologies is Among the Top App Making Companies</>
+            <>Why LayerEx Ranks Among the Best</>
           }
           keyPara={
             <>
-              As a seasoned kotlin app development company, we’ve earned a spot
-              among top mobile software companies in Singapore. Our apps are
-              known for their intuitive design and flawless performance.
+              With a track record of excellence, LayerEx has become the best app development company in Singapore for brands that refuse to settle. We build for the future, ensuring every pixel and line of code serves a purpose.
             </>
           }
           hideKeyPoints={true}
@@ -175,45 +156,40 @@ const MobilePage = () => {
         <Experience
           expTitle={
             <>
-              Best <span style={{ color: "#249f81" }}>App Development </span>{" "}
-              Company For Diverse Industries
+              Delivering <span style={{ color: "#249f81" }}>Excellence Across  </span>{" "}
+              Every Sector 
             </>
           }
           ExpPara={
             <>
-              We serve clients across industries with our expert team of{" "}
-              <b> mobile app developers </b>, delivering custom solutions for
-              retail, healthcare, logistics, and more.
+              We serve a diverse range of clients with our elite team of {" "}
+              <b> mobile app developers in Singapore,</b> providing custom-engineered software solutions for retail, healthcare, fintech, logistics, and beyond.
             </>
           }
-          point1="Mobile Application Company
+          point1="Strategic Mobile Consulting
 "
           pointPara1={
             <>
-              We build intuitive mobile applications with modern design, secure
-              architecture, and seamless functionality across platforms.
+              We create intuitive, cross-platform tools designed to solve real-world operational bottlenecks.
             </>
           }
-          point2="Android App Development Service"
+          point2="Award-Winning App Services"
           pointPara2={
             <>
-              We develop secure, high-performance Android apps using Kotlin,
-              Java, and the latest frameworks for scalability.
+              LayerEx is celebrated for delivering dependable, forward-thinking mobile tech on time and within budget.
             </>
           }
-          point3="Best App Development Services
+          point3="Specialised Tech Stacks
 "
           pointPara3={
             <>
-              We’re recognized for delivering reliable, innovative, and timely
-              mobile app development services tailored to business needs.
+              We leverage Kotlin, Swift, and Flutter to ensure your application is built on a foundation of modern scalability.
             </>
           }
-          point4="Top Mobile Software Companies"
+          point4="Localised Digital Strategy"
           pointPara4={
             <>
-              Ranked among top mobile software companies in Singapore, known for
-              performance, design, and business-driven development.
+              As a leading tech consultancy in Singapore, we understand the local consumer behaviour better than anyone else.
             </>
           }
           altTags={{
@@ -301,39 +277,39 @@ const MobilePage = () => {
         </section>
 
         <Process
-          heading="Our Seamless Mobile App Development Process
+          heading="Our Proven Development Methodology
 "
-          para="At Asvayuk Technologies, we follow a structured and transparent development process to ensure the delivery of high-quality apps.
+          para="Success isn't accidental. At LayerEx, we follow a precision-engineered process to ensure your digital product is world-class.
 "
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Requirement Analysis"
-          col1para="We take time to understand your specific requirements, business objectives, and target audience. This helps us design the perfect app strategy."
+          col1head="Strategic Discovery"
+          col1para="We dissect your goals to create a roadmap that targets the right Singaporean keywords and user demographics."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN CHANDIGARH"
-          col2head="Design & Development
+          col2head="Creative Visualisation
 "
-          col2para="Our designers craft intuitive and engaging designs. We create wireframes and prototypes to give you an idea of how the final app will function.
+          col2para="Our designers build interactive prototypes so you can experience the flow of your app before a single line of code is written.
 
 "
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in chandigarh"
-          col3head="Testing & Deployment"
-          col3para="Using cutting-edge technologies, our development team brings your app to life, ensuring it is optimized for speed, security, and scalability.
+          col3head="Advanced Coding"
+          col3para="Our engineering team builds the core engine of your app, focusing on rapid load times and rock-solid security.
 
 "
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in chandigarh"
-          col4head="Quality Assurance & Testing"
-          col4para="Our rigorous testing procedures help ensure that your app is bug-free and functions as expected on all devices and platforms."
+          col4head="Exhaustive Quality Control"
+          col4para="We break things so your users don't have to. Every feature undergoes rigorous stress testing across dozens of devices."
           col5Img={AppImages.processImg.test}
           col5Alt="Responsive web development chandigarh"
-          col5head="Maintenance & Support
+          col5head="Strategic Deployment
 "
-          col5para="Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.."
+          col5para="We manage the entire store submission process and provide the analytical tools to track your growth from day one."
         />
 
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
       </main>
     </>
   )

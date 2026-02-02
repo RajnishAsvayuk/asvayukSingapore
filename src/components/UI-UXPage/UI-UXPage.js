@@ -32,9 +32,9 @@ const UIUXPage = () => {
           home={"Home"}
           pageParent={"Design"}
           pageName={"UI/UX Design"}
-          pageHeading={"Best UI/UX Designers in Singapore"}
+          pageHeading={"Leading UI/UX Specialists Driving Digital Excellence in Singapore"}
           pagePara={
-            "In today's digital era, an intuitive and visually appealing user interface (UI) combined with a seamless user experience (UX) is essential for any business operating in the Singapore market. At Asvayuk Technologies Private Ltd., we take pride in being one of the best UI/UX Designers in Singapore, delivering innovative and user-friendly digital solutions tailored to your business needs to ensure success in the competitive SG region."
+            "In today's fast-paced digital landscape, a captivating user interface (UI) blended with a frictionless user experience (UX) is the cornerstone of any successful Singaporean enterprise. At Layerex, we excel at delivering human-centric, high-converting digital designs. Our team creates sophisticated interfaces tailored to the unique behavioral trends of the SG market, ensuring your brand achieves peak engagement and operational success."
           }
           pageImg={seoBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -46,17 +46,11 @@ const UIUXPage = () => {
               <div className="main-bg p-3">
                 <div className="tool-heading py-5">
                   <h2 className="conclusion_title mb-2">
-                    Elevate Your Brand with Expert UI/UX Design Solutions in
-                    Singapore
+                    Elevating E-Commerce Performance through Strategic Design
                   </h2>
                   <div>
                     <p className="text-white lh-lg fs-6 pt-3">
-                      A well-crafted UI/UX design is the key to a successful
-                      digital presence. As one of the best UI/UX designers in
-                      Singapore, Asvayuk Technologies Private Ltd. is committed
-                      to delivering top-notch UI/UX solutions for businesses
-                      looking to enhance their online platforms. Contact us
-                      today and take your digital experience to the next level!
+                      We recently transformed a multi-vendor retail platform for a major Singaporean client, integrating hyper-intuitive navigation and secure, localized payment flows. This resulted in a significant boost in user retention and a total overhaul of their digital growth trajectory.
                     </p>
                   </div>
                 </div>
@@ -68,12 +62,10 @@ const UIUXPage = () => {
           <Container>
             <div className="card_heading text-center">
               <h2 className="px-5 mx-5">
-                Our UI/UX Design Services in Singapore
+                Our Comprehensive UI/UX Design Suite in Singapore
               </h2>
               <p className="mt-3 pb-3">
-                At Asvayuk Technologies Private Ltd., we offer a wide range of
-                UI/UX design services to cater to different industries and
-                business needs in Singapore:
+                Layerex offers a full spectrum of creative and analytical design services to help businesses across Singapore dominate their digital niche: 
               </p>
             </div>
             <div>
@@ -82,48 +74,48 @@ const UIUXPage = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Top UI UX development companies in Singapore"
-                    cardHeading="Mobile App UI/UX Design Singapore"
-                    cardPara="Our team specializes in mobile app UI/UX development in Singapore, ensuring that your app delivers an engaging and effortless user experience. From wireframing to interactive prototypes, we design mobile apps that captivate and convert in the SG market."
+                    cardHeading="Mobile-First Experience Engineering"
+                    cardPara="We architect mobile app interfaces that prioritize speed and ease of use, ensuring your Singaporean users enjoy a seamless journey from the first tap to the final conversion."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service2}
                     altText="Affordable UI UX design company in Singapore"
-                    cardHeading="Website UI/UX Design Company in Singapore"
-                    cardPara="We create responsive, visually stunning, and user-friendly website designs. Our website UI/UX design company in Singapore ensures that your website is optimized for both desktop and mobile users in the region."
+                    cardHeading="Responsive Web Design Hub"
+                    cardPara="Our studio builds visually immersive and adaptive websites optimized for the diverse device landscape in Singapore, ensuring a premium look on both desktop and mobile."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service3}
                     altText="Best UI UX designers in Singapore"
-                    cardHeading="UI/UX Consulting Services Singapore"
-                    cardPara="Looking for expert advice on improving your digital product's design? Our UI/UX consulting services in Singapore help businesses enhance their UI/UX strategies through research-driven insights and data analysis focused on the APAC market."
+                    cardHeading="Strategic UX Consultancy SG"
+                    cardPara="Get expert guidance on refining your digital product’s flow. Our consultants use data-driven insights to enhance user satisfaction and align your design with local market demands."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service4}
                     altText="Custom UI UX solutions in Singapore"
-                    cardHeading="E-Commerce UI/UX Design in Singapore"
-                    cardPara="We design conversion-focused e-commerce UI/UX, ensuring high sales and smooth user journeys, which is vital for the thriving Singapore e-commerce sector."
+                    cardHeading="Conversion-Led E-Commerce Design"
+                    cardPara="We design high-performance online storefronts that streamline the path to purchase, a critical factor for thriving in Singapore’s competitive e-retail sector."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service5}
                     altText="User experience design company Singapore"
-                    cardHeading="UI/UX Development Agency in Singapore"
-                    cardPara="As a full-service UI /X development agency in Singapore, we offer end-to-end solutions, including UX research, UI design, prototyping, and testing to deliver the best results."
+                    cardHeading="End-to-End Design Agency Services"
+                    cardPara="From deep-dive user research and interactive prototyping to final visual polish, we provide a holistic design journey that guarantees measurable results."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service6}
                     altText="Mobile app UI UX development Singapore"
-                    cardHeading="E-Commerce UI/UX Design in Singapore"
-                    cardPara="We design conversion-focused e-commerce UI/UX for seamless navigation, engaging product displays, and a smooth checkout experience."
+                    cardHeading="Seamless Checkout & UI Optimization"
+                    cardPara="We focus on the fine details of the user journey, creating intuitive navigation and frictionless checkout experiences that maximize your sales potential."
                   />
                 </Col>
               </Row>
@@ -168,18 +160,18 @@ const UIUXPage = () => {
         </section>
 
         <KeyPointSection
-          keyHeading="Why UI/UX Design Matters for Your Singapore Business?"
-          keyPara={
-            <>
-              A well-structured UI/UX design plays a crucial role in the success
-              of any digital platform. Here's why investing in UI/UX design
-              services in Singapore can transform your business:
-            </>
-          }
-          keyPoint1="Enhanced User Engagement: Captivating Singaporean audiences with seamless interactions."
-          keyPoint2="Higher Conversion Rates: Design focused on driving sales and business goals in the SG market."
-          keyPoint3="Brand Credibility: Building trust and authority through professional, high-quality digital interfaces."
-          keyPoint4="Lower Bounce Rates: Keeping Singapore users engaged with an effortless digital journey."
+          keyHeading="The Business Impact of Superior UI/UX in Singapore"
+          // keyPara={
+          //   <>
+          //     A well-structured UI/UX design plays a crucial role in the success
+          //     of any digital platform. Here's why investing in UI/UX design
+          //     services in Singapore can transform your business:
+          //   </>
+          // }
+          keyPoint1="Intensified User Loyalty: Hook your Singaporean audience with meaningful, fluid interactions."
+          keyPoint2="Peak Conversion Performance: Design flows engineered to turn visitors into long-term customers."
+          keyPoint3="Fortified Brand Authority: Establish market trust with professional, world-class digital aesthetics."
+          keyPoint4="Reduced Bounce Rates: Keep users engaged with a logical, effortless, and fast-loading digital path."
           url="/contact-us"
           btnTitle="Request Consultation"
           Group105518={Group105518}
@@ -194,16 +186,16 @@ const UIUXPage = () => {
         />
 
         <Experience
-          expTitle="Why Choose Asvayuk Technologies Private Ltd. for UI/UX Design?"
+          expTitle="Why Partner with Layerex for UI/UX Innovation?"
           ExpPara="If you're searching for top UI/UX development companies in Singapore, here's why we stand out:"
-          point1="Experienced Designers"
-          pointPara1="Our team comprises highly skilled designers with years of experience in UI/UX design, possessing a keen eye for Singaporean user preferences and market trends."
-          point2="Affordable UI/UX Design Company in Singapore"
-          pointPara2="We offer cost-effective UI/UX solutions without compromising on quality, ensuring maximum value for your investment in the SG region."
-          point3="Innovative Approach"
-          pointPara3="We integrate the latest design trends and technologies to create future-ready solutions that perform flawlessly across all devices used by the Singapore audience."
-          point4="Client-Centric Solutions"
-          pointPara4="Our UI/UX designs are tailored to meet the unique needs of our clients, focusing entirely on delivering a superior experience for your specific Singapore target audience."
+          point1="Elite Local Talent"
+          pointPara1="Our designers possess a deep understanding of Singaporean user preferences and evolving 2026 design trends."
+          point2="Future-Ready Methodology"
+          pointPara2="We merge the latest creative tech with proven psychological principles to build interfaces that perform flawlessly."
+          point3="High-Value Creative Solutions"
+          pointPara3="We deliver premium design quality at competitive rates, ensuring you get the best ROI for your project in the SG region."
+          point4="Bespoke, Result-Oriented Design"
+          pointPara4="No templates—just custom-built experiences designed to solve your specific business challenges."
           altTags={{
             group1: "Top UI UX development companies in Singapore",
             group2: "Affordable UI UX design company in Singapore",
@@ -219,12 +211,12 @@ const UIUXPage = () => {
             <Row className="d-flex flex-column text-center">
               <div className="main-bg w-100">
                 <div className="inside-main py-5">
-                  <h1>How We Ensure Exceptional UI/UX Design</h1>
+                  <h1>Our Strategic 5-Step Design Framework</h1>
                   <div>
-                    <p className="text-white fs-5 pt-2 pb-4">
+                    {/* <p className="text-white fs-5 pt-2 pb-4">
                       Our approach to UI/UX design follows a strategic and
                       user-centered methodology:
-                    </p>
+                    </p> */}
                   </div>
                   <Row className="curly-img curley-img mt-2">
                     <Col xs={6} lg={2}>
@@ -233,10 +225,9 @@ const UIUXPage = () => {
                           src={container}
                           alt="Affordable UI/UX design company in Singapore"
                         />
-                        <h6 className="mt-3">User Research & Analysis</h6>
+                        <h6 className="mt-3">Discovery & User Analysis</h6>
                         <p className="text-light">
-                          Understanding your target audience, their needs, and
-                          pain points to create a user-focused design.
+                          Identifying your audience’s core needs to build a solid design foundation.
                         </p>
                       </div>
                     </Col>
@@ -247,11 +238,10 @@ const UIUXPage = () => {
                           alt="Mobile app UI/UX design Singapore"
                         />
                         <h6 className="mt-3">
-                          Information Architecture & Wireframing{" "}
+                         Architecture & Wireframing{" "}
                         </h6>
                         <p className="text-light">
-                          Structuring content and designing wireframes to ensure
-                          seamless navigation and user flow.
+                          Mapping out a logical structural flow to ensure intuitive navigation.
                         </p>
                       </div>
                     </Col>
@@ -262,11 +252,10 @@ const UIUXPage = () => {
                           alt="UI/UX consulting services Singapore"
                         />
                         <h6 className="mt-3">
-                          Prototyping & Interaction Design
+                          Interactive Prototyping
                         </h6>
                         <p className="text-light">
-                          Developing interactive prototypes to visualize
-                          functionality before final implementation.
+                          Developing functional models to visualize the experience before final build.
                         </p>
                       </div>
                     </Col>
@@ -276,10 +265,9 @@ const UIUXPage = () => {
                           src={development}
                           alt="Website UI/UX design company in Singapore"
                         />
-                        <h6 className="mt-3">User Testing & Feedback</h6>
+                        <h6 className="mt-3">User Validation & Feedback</h6>
                         <p className="text-light">
-                          Gathering real user insights to refine and optimize
-                          the design for the best experience.
+                          Gathering real-world insights to fine-tune the interface for maximum impact.
                         </p>
                       </div>
                     </Col>
@@ -289,10 +277,9 @@ const UIUXPage = () => {
                           src={test}
                           alt="UI/UX development agency in Singapore"
                         />
-                        <h6 className="mt-3">Visual Design & Development</h6>
+                        <h6 className="mt-3">Final High-Fidelity Launch</h6>
                         <p className="text-light">
-                          Crafting an aesthetically pleasing, high-performing,
-                          and responsive UI for a polished final product.
+                          Crafting a polished, high-performance visual product that reflects your brand’s excellence.
                         </p>
                       </div>
                     </Col>
@@ -304,7 +291,7 @@ const UIUXPage = () => {
         </section>
 
         <Industry />
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
       </main>
     </>
   )
