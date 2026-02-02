@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import seoBanner from "@/assets/Images/c18.webp";
+import seoBanner from "@/assets/Images/seo.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
 import service3 from "@/assets/Images/services3.webp";
@@ -28,14 +28,14 @@ import BannerButton from "@/components/BannerBtn/BannerButton";
 const SearchEngineOptiPage = () => {
   return (
     <>
-         <main>
+      <main>
         <HeroServices
           home={"Home"}
           pageParent={"Marketing"}
           pageName={"SEO"}
-          pageHeading={"Best SEO Services in Singapore"}
+          pageHeading={"Dominate the Singapore Market with Premium SEO"}
           pagePara={
-            "Having trouble improving your website's Google ranking in Singapore? Asvayuk Technologies Private Ltd. offers the best SEO Services in Singapore, ensuring your business reaches its target audience effectively. With our expert search engine optimization services, we enhance your online visibility, drive organic traffic, and improve conversion rates. Whether you're a startup or an established enterprise, our customized SEO solutions are designed to fit your specific needs in the competitive Singapore market."
+            "Stop losing leads to your competitors. At Layerex, we engineer aggressive search strategies designed to put your brand on the first page of Google. By combining data science with creative content, we scale your organic visibility and turn searchers into long-term customers. Whether you are a local SME or a global enterprise, our Singapore-based experts build the authority your business deserves."
           }
           pageImg={seoBanner}
           pageAlt={"Website Designing Company in Singapore"}
@@ -45,12 +45,10 @@ const SearchEngineOptiPage = () => {
           <Container>
             <div className="card_heading text-center">
               <h2>
-                Elevate Your Online Presence with the Best SEO Services in
-                Singapore
+                Comprehensive SEO Solutions for Scalable Growth
               </h2>
               <p>
-                We provide a wide range of search engine optimization services
-                in Singapore, including:
+                We deploy a multi-layered approach to ensure your website outperforms the competition in every category:
               </p>
             </div>
             <div className="game_cards">
@@ -59,48 +57,48 @@ const SearchEngineOptiPage = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="SEO Company in Singapore"
-                    cardHeading="Local SEO for Singapore"
-                    cardPara="Targeting Singapore and surrounding areas to improve visibility in local searches, Google Maps rankings, and local business directories (GMB, Yelp SG, etc.)."
+                    cardHeading="Hyper-Local SEO"
+                    cardPara="Capture high-intent traffic in Singapore by ranking for geo-specific keywords and Google Map results."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="search engine optimization Services Singapore"
-                    cardHeading="E-commerce SEO"
-                    cardPara="Optimizing product pages and categories for better rankings on online stores, maximizing visibility in the highly competitive Singapore e-commerce space."
+                    cardHeading="E-commerce Growth"
+                    cardPara="Drive transactional traffic to your storefront with advanced schema markup and product-level optimization."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="OFF Page SEO agency Singapore"
-                    cardHeading="Technical SEO"
-                    cardPara="Fixing website speed, mobile responsiveness, and indexing issues to ensure a clean site architecture that search engines love, crucial for the SG mobile-first market."
+                    cardHeading="Deep Technical Audits"
+                    cardPara="We eliminate crawl errors, optimize Core Web Vitals, and ensure your site architecture is flawless."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service4}
                     altText="best seo expert in Singapore"
-                    cardHeading="Content Marketing & Blogging"
-                    cardPara="Creating high-quality, keyword-rich content using Singapore-specific search intent to attract organic traffic and establish authority in the region."
+                    cardHeading="Authority-Driven Content"
+                    cardPara="High-value copywriting that satisfies user intent while ranking for competitive industry terms."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service5}
                     altText="Website SEO provider in Singapore"
-                    cardHeading="Link Building & Authority Development"
-                    cardPara="Building authoritative backlinks from reputable websites in Singapore and the wider APAC region for domain credibility."
+                    cardHeading="Premium Link Acquisition"
+                    cardPara="Ethical outreach to secure high-DA backlinks that strengthen your domain’s trust signal."
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service6}
                     altText="high rank seo website creator in Singapore"
-                    cardHeading="Analytics & Performance Tracking"
-                    cardPara="Monitoring site performance and user behavior to refine SEO strategies for better results and maximum ROI in Singapore."
+                    cardHeading="Conversion Intelligence"
+                    cardPara="Granular tracking and GA4 reporting to ensure every click contributes to your bottom line."
                   />
                 </Col>
               </Row>
@@ -112,15 +110,13 @@ const SearchEngineOptiPage = () => {
           <Container>
             <div className="pb-4">
               <h1 className="fw-bold">
-                The Importance of SEO for Your Business in Singapore{" "}
+                Unlock Business Growth with SEO {" "}
                 <span className="text-uppercase" style={{ color: "#2cbe9a" }}>
                   in Singapore
                 </span>
               </h1>
               <p className="powered_php pt-3">
-                SEO is about more than just achieving rankings; it's about
-                reaching and engaging the right audience in the Singapore
-                market.
+                SEO is not just about higher rankings; it’s about connecting with the right audience and driving meaningful business growth
               </p>
             </div>
             <div className="row">
@@ -131,19 +127,17 @@ const SearchEngineOptiPage = () => {
                       href="#"
                       title="School Management App Development Panchkula"
                     >
-                      Improves brand visibility and credibility within the SG
-                      market
+                      Improves brand visibility and builds strong credibility
                     </a>
                   </li>
                   <li>
                     <a href="#" title="Custom School Solutions Singapore">
-                      Enhances user experience and website performance.
+                      Increases website traffic and customer engagement
                     </a>
                   </li>
                   <li>
                     <a href="#" title="Student Management Systems Panchkula">
-                      Increases website traffic and engagement from qualified
-                      Singaporean users.
+                      Generates high-quality leads and better conversions
                     </a>
                   </li>
                 </ul>
@@ -152,14 +146,12 @@ const SearchEngineOptiPage = () => {
                 <ul className="development_links">
                   <li>
                     <a href="#" title="Real-Time Student Tracking">
-                      Boosts Long-Term Growth and Competitive Advantage in the
-                      region.
+                      Enhances user experience and overall website performance
                     </a>
                   </li>
                   <li>
                     <a href="#" title="Parent-Teacher Communication System">
-                      Generates high-quality leads and conversions specific to
-                      Singapore.
+                      Supports long-term growth and sustainable success with Layerex
                     </a>
                   </li>
                 </ul>
@@ -173,14 +165,11 @@ const SearchEngineOptiPage = () => {
             <div className="main-bg p-3">
               <div className="inside-main mt-1">
                 <h1 className="conclusion_title mb2">
-                  Begin your journey with top-notch SEO services in Singapore.
+                  Start your journey with professional SEO services in Singapore.
                 </h1>
                 <div>
                   <p className="fs-6 pt-3 text-white">
-                    If you're looking for a trusted Website SEO provider in
-                    Singapore, Asvayuk Technologies Private Ltd. is your go-to
-                    partner. Contact us today and take your business to the next
-                    level with our expert SEO solutions.
+                    If you're searching for a trusted website SEO partner in Singapore, Layerex is your reliable choice. Contact us today and elevate your business with our expert SEO solutions designed for higher rankings, traffic, and growth.
                   </p>
                 </div>
               </div>
@@ -243,14 +232,11 @@ const SearchEngineOptiPage = () => {
           <Row className="align-items-center mb-4 text-center">
             <Col lg={10} className="mx-auto">
               <h2 className="fw-bold display-4">
-                Why Choose Our Expert SEO Services in Singapore?
+                Why Leading Brands Partner with Layerex
               </h2>
               <p>
-                At Asvayuk Technologies Private Ltd., we specialize in SEO
-                services in Singapore that align with the latest search engine
-                algorithms. Our approach focuses on ethical and data-driven SEO
-                techniques that yield long-term results in the SG region. Here's
-                what sets us apart:
+                We don't just deliver rankings; we deliver revenue through a transparent and ethical framework.
+                
               </p>
             </Col>
           </Row>
@@ -271,13 +257,10 @@ const SearchEngineOptiPage = () => {
                   </Col>
                   <Col xs={9} sm={10}>
                     <h6 className="fw-bold mb-2">
-                      High-Ranking SEO Website Creation
+                      Data-Backed Roadmap
                     </h6>
                     <p className="mb-0 text-muted">
-                      Our services also include designing SEO-optimized websites
-                      for the Singapore market that load faster, offer seamless
-                      navigation, and strictly comply with Google's ranking
-                      factors for the APAC region.
+                      Every move is based on real-time competitor intelligence and deep keyword gap analysis.
                     </p>
                   </Col>
                 </Row>
@@ -311,14 +294,10 @@ const SearchEngineOptiPage = () => {
                   </Col>
                   <Col xs={9} sm={10}>
                     <h6 className="fw-bold mb-2">
-                      Comprehensive On-Page and Off-Page SEO
+                      360° Optimization
                     </h6>
                     <p className="mb-0 text-muted">
-                      On-Page SEO: Keyword optimization, meta tags, content
-                      optimization, and technical SEO improvements, all focused
-                      on Singaporean search terms.Off-Page SEO: High-quality
-                      link building, guest blogging, social bookmarking, and
-                      influencer outreach within the SG digital landscape.
+                      A holistic strategy covering everything from backend code to front-facing digital PR and outreach.
                     </p>
                   </Col>
                 </Row>
@@ -354,14 +333,10 @@ const SearchEngineOptiPage = () => {
                   </Col>
                   <Col xs={9} sm={10}>
                     <h6 className="fw-bold mb-2">
-                      Tailored SEO Strategy for Every Singapore Business
+                      White-Hat Integrity
                     </h6>
                     <p className="mb-0 text-muted">
-                      Every business in Singapore is unique, and so should its
-                      SEO strategy. Our experts conduct in-depth keyword
-                      research, competitor analysis, and website audits to
-                      develop a tailored SEO plan that ensures your website
-                      ranks higher in Singapore search results.
+                      We follow strict Google guidelines to ensure your growth is sustainable and safe from future algorithm updates.
                     </p>
                   </Col>
                 </Row>
@@ -392,13 +367,10 @@ const SearchEngineOptiPage = () => {
                   </Col>
                   <Col xs={9} sm={10}>
                     <h6 className="fw-bold mb-2">
-                      Expert Search Engine Optimizers
+                      Performance-First Architecture: 
                     </h6>
                     <p className="mb-0 text-muted">
-                      As a leading SEO Company in Singapore, our team comprises
-                      experienced search engine optimizers who follow ethical
-                      practices to boost rankings without risking penalties,
-                      ensuring long-term success.
+                      We build fast, responsive web environments that search engines prioritize and users love.
                     </p>
                   </Col>
                 </Row>
@@ -422,7 +394,7 @@ const SearchEngineOptiPage = () => {
           <Container>
             <Row>
               <div className="software-sec-heading text-center">
-                <h2>How Our SEO Services Improve Your Business?</h2>
+                <h2>Proven Success in the Singaporean Landscape</h2>
               </div>
               <div className="software-sec-card">
                 <Row className="gy-4">
@@ -433,11 +405,7 @@ const SearchEngineOptiPage = () => {
                       </h3>
                       <div className="languages row pt-4">
                         <p>
-                          A local restaurant in Singapore wasn't getting online
-                          orders due to poor search rankings. After implementing
-                          our SEO strategies, including Local SEO and content
-                          optimization, the business saw a 60% Increase in
-                          online reservations within three months.
+                          A Singaporean service provider achieved a 150% boost in organic leads within 4 months through localized keyword targeting and technical fixes.
                         </p>
                       </div>
                     </div>
@@ -449,11 +417,7 @@ const SearchEngineOptiPage = () => {
                       </h3>
                       <div className="languages row pt-4">
                         <p>
-                          An IT company in Singapore struggled with lead
-                          generation. Our OFF Page SEO agency in Singapore
-                          helped them gain 200% more leads by improving their
-                          domain authority and ranking for competitive keywords
-                          in the B2B tech sector.
+                           An enterprise B2B platform secured top-3 rankings for high-competition industry terms, resulting in a 3x increase in monthly organic revenue.
                         </p>
                       </div>
                     </div>

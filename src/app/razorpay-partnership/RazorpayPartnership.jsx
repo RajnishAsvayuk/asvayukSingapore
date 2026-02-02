@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import shopifyBanner from "@/assets/Images/Group-105527.webp";
+import razorpayicon from "@/assets/Images/Razorpay-icon.webp";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -19,7 +19,7 @@ import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
 import Magento_service_card from "@/components/Magento_service_card/Magento_service_card";
 
-const Shopifydev = () => {
+const RazorpayPartnership = () => {
   return (
     <>
       <main>
@@ -27,19 +27,19 @@ const Shopifydev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Shopify Development"}
-          pageHeading={"Leading Shopify Development Agency in Singapore"}
+          pageHeading={"Singapore’s Gateway to Frictionless Global Payments"}
           pagePara={
-            "We engineer high-converting Shopify stores that combine world-class design with localized e-commerce strategies to scale your brand across the region."
+            "Layerex is proud to be a strategic partner of Razorpay Singapore, the region’s powerhouse for digital finance. This partnership allows us to equip your business with a unified payment infrastructure that supports 100+ currencies and local payment methods like PayNow. Together, we bridge the gap between complex financial tech and seamless customer checkouts, ensuring your revenue flows without borders."
           }
-          pageImg={shopifyBanner}
+          pageImg={razorpayicon}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
         <section className="magento_service_card">
           <Container>
             <div className="card_heading text-center">
-              <h2>Comprehensive Shopify Solutions</h2>
-              <p>Tailored strategies to elevate your digital storefront.</p>
+              <h2>Next-Gen Fintech Tools for Modern Merchants</h2>
+              <p>Through our Razorpay collaboration, we deploy a high-performance stack that automates your entire financial workflow:</p>
             </div>
             <div className="magento_cards">
               <Row className="gy-4">
@@ -47,48 +47,48 @@ const Shopifydev = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Magento Website Development Singapore"
-                    cardHeading="Custom Shopify Development"
-                    cardPara="We build bespoke, scalable stores optimized for the unique shopping behaviors of the Singaporean market."
+                    cardHeading="Unified Payment Gateway"
+                    cardPara="Accept everything from international credit cards to regional wallets via a single, secure integration."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="Magento Web Design Singapore"
-                    cardHeading="Theme Architecture"
-                    cardPara="Creating high-fidelity, mobile-first themes that ensure a seamless user journey from discovery to checkout."
+                    cardHeading="Hyper-Fast Checkout"
+                    cardPara="Reduce cart abandonment with a mobile-optimized interface designed for one-click conversions."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="Custom Magento Development Singapore"
-                    cardHeading="App Ecosystems"
-                    cardPara="Custom app development and integration with local logistics like NinjaVan and payment gateways like PayNow."
+                    cardHeading="Cross-Border Intelligence"
+                    cardPara="Slash transaction fees by up to 40% with smart routing for international settlements."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
                     altText="Commerce website development Singapore"
-                    cardHeading="Seamless Migration"
-                    cardPara="Risk-free data migration from platforms like Magento or WooCommerce with zero impact on your SEO."
+                    cardHeading="Real-Time Payouts"
+                    cardPara="Automate vendor payments and employee payroll with 24/7 instant fund transfers."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
                     altText="Magento Web development provider in Singapore"
-                    cardHeading="Headless Commerce"
-                    cardPara="Implementing fast, flexible headless architectures to provide app-like speeds on mobile browsers."
+                    cardHeading="Smart Subscription Billing"
+                    cardPara="Manage recurring revenue effortlessly with automated invoicing and dunning management."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
                     altText="Magento Website comapny in Singapore"
-                    cardHeading="Store Configuration"
-                    cardPara="Expert setup of shipping rules, GST compliance, and backend workflows for operational excellence."
+                    cardHeading="Advanced Fraud Shield"
+                    cardPara="Protect your bottom line with AI-driven security that detects and blocks suspicious activity in real-time."
                   />
                 </Col>
               </Row>
@@ -99,21 +99,21 @@ const Shopifydev = () => {
         <KeyPointSection
           keyHeading={
             <>
-              Revolutionize Your Retail Experience
+              Experience the Future of Business Banking
             </>
           }
           keyPara={
             <>
-              Leverage our specialized Shopify expertise to transform your online presence into a high-performance sales engine.
+              Why settle for slow traditional banking? Layerex and Razorpay provide Singaporean SMEs with the agility to scale. Our integrated dashboard gives you total control over your money movement, from the first click to the final settlement.
             </>
           }
-          keyPoint1="Optimized Checkout Flows: Reducing friction to maximize conversion rates."
-          keyPoint2="Cross-Channel Integration: Syncing your store with marketplaces like Shopee and Lazada."
-          keyPoint3="Robust Data Protection: Ensuring full compliance with Singapore’s PDPA standards."
-          keyPoint4="24/7 Strategic Support: Proactive maintenance to keep your business running smoothly."
+          keyPoint1="Instant Onboarding with Zero Paperwork"
+          keyPoint2="Deep Analytics for Data-Driven Growth"
+          keyPoint3="Seamless Integration with Shopify & WooCommerce"
+          keyPoint4="Optimized Success Rates for Global Cards"
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Consult Our Architects"
+          btnTitle="Audit My Payment Flow"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -121,34 +121,34 @@ const Shopifydev = () => {
         />
 
         <Experience
-          expTitle={<>Why Partner with Layerex??</>}
-          ExpPara={
-            <>
-              Delivering market-ready Shopify products that drive real business value.
-            </>
-          }
-          point1="Proven Mastery"
+          expTitle={<>Why Partner with a Razorpay-Certified Agency?</>}
+        //   ExpPara={
+        //     <>
+        //       Delivering market-ready Shopify products that drive real business value.
+        //     </>
+        //   }
+          point1="The India-Singapore Corridor"
           pointPara1={
             <>
-              Deep technical expertise in Shopify Plus and advanced Liquid programming.
+              We are experts in facilitating seamless trade and payments between these two massive digital economies.
             </>
           }
-          point2="Client-First Focus"
+          point2="Developer-First Integration"
           pointPara2={
             <>
-              Personalized development journeys designed to hit your specific 2026 growth targets.
+              Our technical team uses Razorpay’s robust APIs to build custom, bug-free payment experiences.
             </>
           }
-          point3="Quality Assurance"
+          point3="Priority Compliance"
           pointPara3={
             <>
-              Rigorous testing protocols ensuring a flawless, high-performance shopping experience.
+              We ensure your payment flow meets all PCI DSS and Singaporean financial regulations automatically.
             </>
           }
-          point4="Direct Communication"
+          point4="Revenue-First Approach"
           pointPara4={
             <>
-              Transparent, local support that keeps you informed at every stage of the project.
+              Our strategies focus on increasing your "Success Rate" so you never lose a sale to a technical glitch.
             </>
           }
           altTags={{
@@ -162,28 +162,28 @@ const Shopifydev = () => {
         />
 
         <Process
-          heading="Our Mission: Empowering Singaporean Brands to Lead"
-          para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
+          heading="Your Seamless Integration Journey"
+        //   para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Strategy"
-          col1para="Defining your niche and optimizing for the local retail landscape."
+          col1head="Financial Audit"
+          col1para="We analyze your current payment costs and identify areas to save on transaction fees."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="UX Design"
-          col2para="Designing intuitive, high-conversion interfaces for the modern shopper."
+          col2head="Custom Stack Setup"
+          col2para="Configuring your gateway, links, and subscriptions to match your specific business model."
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="Development"
-          col3para="Building your store with clean, scalable code and high-value integrations."
+          col3head="Sandbox Testing"
+          col3para="Rigorous dry-runs to ensure every payment mode works perfectly before you go live."
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Optimization"
-          col4para="Fine-tuning speed and performance to pass all Core Web Vitals."
+          col4head="Launch & Sync"
+          col4para="Activating your live environment and syncing it with your accounting software for auto-reconciliation."
           col5Img={AppImages.processImg.test}
           col5Alt="Support & Maintenance"
-          col5head="QA & Launch"
-          col5para="Exhaustive cross-device testing to ensure a perfect launch day."
+          col5head="Scaling Support"
+          col5para="Ongoing monitoring to optimize conversion rates as your transaction volume grows."
         />
 
         {/* <ServicesCaseStudy /> */}
@@ -194,4 +194,4 @@ const Shopifydev = () => {
   );
 };
 
-export default Shopifydev;
+export default RazorpayPartnership;

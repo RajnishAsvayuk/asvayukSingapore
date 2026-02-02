@@ -26,21 +26,21 @@ import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy"
 
 const WoocommercePage = () => {
   return (
-   <>
-       <main>
+    <>
+      <main>
         <HeroServices
           home={"Home"}
           pageParent={"Technology"}
           pageName={"WooCommerce Development"}
-          pageHeading={"WooCommerce Development Services in Singapore"}
+          pageHeading={"Elevate Your Retail Game with Custom WooCommerce Engineering"}
           pagePara={
-            "In Singapore's fast-growing e-commerce landscape, businesses need robust and scalable online stores to stay competitive. Asvayuk Technologies Pvt. Ltd. provides top-tier WooCommerce Development Services in Singapore, making us a trusted e-commerce partner in the region. Our expertise ensures that your online store is feature-rich, secure, and optimized for conversions, helping your business build a strong digital presence."
+            "We build more than just stores; we create high-performance WordPress ecosystems. From boutique brands to enterprise retailers, Layerex delivers the technical edge needed to dominate the Singaporean market."
           }
           pageImg={woocomerceBanner}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
-        <section className="woocomerce">
+        {/* <section className="woocomerce">
           <Container>
             <Row>
               <div className="woocomerce-heading position-relative">
@@ -80,17 +80,17 @@ const WoocommercePage = () => {
               </div>
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         <section className="performance_card2">
           <div className="container">
             <div className="col-12">
               <div className="peformance_card2_heading text-center">
                 <h2>
-                  Our Comprehensive WooCommerce Development Services in Singapore
+                  Our WooCommerce Mastery
                 </h2>
                 <p className="mt-3">
-                  We offer a comprehensive range of WooCommerce Development Services in Singapore to help businesses build, manage, and scale their online stores efficiently.
+                  Technical precision for every stage of your e-commerce journey.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -100,12 +100,12 @@ const WoocommercePage = () => {
                       ServiceCardImg={c11}
                       altText="Custom Website Design
 "
-                      cardHeading="Custom WooCommerce Website Development
+                      cardHeading="Bespoke Development
 
 "
                       cardParaGraph={
                         <>
-                          Our WooCommerce website experts in Singapore create fully customized online stores that reflect your brand identity and meet your business requirements.
+                          Moving beyond templates to build original, scalable digital storefronts that reflect your brand’s DNA.
                         </>
                       }
                     />
@@ -115,13 +115,13 @@ const WoocommercePage = () => {
                       ServiceCardImg={c12}
                       altText="E-commerce Website Development Singapore
 "
-                      cardHeading="WooCommerce Theme Design and Development
+                      cardHeading="UI/UX Architecture
 
 "
                       cardParaGraph={
                         <>
                           {" "}
-                          We design and develop visually appealing and user-friendly WooCommerce themes that enhance the shopping experience and improve customer engagement.
+                          Designing interfaces that don't just look good but are psychologically mapped to drive Singaporean shoppers to checkout.
                         </>
                       }
                     />
@@ -131,11 +131,11 @@ const WoocommercePage = () => {
                       ServiceCardImg={c13}
                       altText="Static Website Design Singapore
 "
-                      cardHeading="WooCommerce Plugin Development and Integration
+                      cardHeading="Functional Extensions
 "
                       cardParaGraph={
                         <>
-                          Extend the functionality of your online store with custom plugin development and seamless third-party integrations.
+                          Custom-coding plugins and API bridges to connect your store with ERPs, CRMs, and local logistics.
                         </>
                       }
                     />
@@ -145,8 +145,8 @@ const WoocommercePage = () => {
                       ServiceCardImg={c14}
                       altText="Shopify Website Development Singapore
 "
-                      cardHeading="WooCommerce Migration Services"
-                      cardParaGraph="If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Singapore ensure a smooth and hassle-free transition with minimal downtime."
+                      cardHeading="Seamless Data Migration"
+                      cardParaGraph="Expertly shifting your legacy data to WooCommerce with zero downtime and preserved SEO rankings."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -154,8 +154,8 @@ const WoocommercePage = () => {
                       ServiceCardImg={c15}
                       altText="Mobile Responsive Design
 "
-                      cardHeading="WooCommerce SEO and Performance Optimization"
-                      cardParaGraph="Our WooCommerce website creators in Singapore implement best SEO practices to improve search engine rankings and enhance website speed for better user experience."
+                      cardHeading="Speed & Search Visibility"
+                      cardParaGraph="Hardened performance tuning to ensure your store passes Core Web Vitals and outranks competitors in local search."
                     />
                   </div>
                   <div className="col-lg-4 pb-4 d-flex">
@@ -163,10 +163,10 @@ const WoocommercePage = () => {
                       ServiceCardImg={c16}
                       altText="SEO-Optimized Web Design
 "
-                      cardHeading="WooCommerce Maintenance and Support
+                      cardHeading="Reliability & Security
 
 "
-                      cardParaGraph="We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly."
+                      cardParaGraph="Continuous monitoring and proactive security patching to keep your business running 24/7 without interruption."
                     />
                   </div>
                 </div>
@@ -176,28 +176,27 @@ const WoocommercePage = () => {
         </section>
 
         <KeyPointSection
-          keyHeading={<>Why Choose WooCommerce for Your Online Store ?</>}
+          keyHeading={<>Why Smart Retailers Choose WooCommerce</>}
           keyPara={
             <>
-              WooCommerce is one of the most powerful and flexible e-commerce
-              platforms available today. It is built on WordPress,offering a
-              user-friendly interface, extensive customization options, and a
-              vast array of plugins to enhance functionality.Whether you are a
-              startup or an established business, WooCommerce provides a
-              cost-effective solution for selling products online.
+              Flexibility meets power. We leverage the open-source nature of WooCommerce to give you total control over your business data and customer experience without monthly subscription "success taxes."
             </>
           }
-          keyPara2={
-            <>
-              At <b>Asvayuk Technologies Private Ltd.</b>, we specialize in{" "}
-              <b>WooCommerce Development Services in Singapore</b>, ensuring
-              seamless integration,mobile responsiveness, and high-performance
-              solutions tailored to your business needs.
-            </>
-          }
-          hideKeyPoints={true}
+          // keyPara2={
+          //   <>
+          //     At <b>Asvayuk Technologies Private Ltd.</b>, we specialize in{" "}
+          //     <b>WooCommerce Development Services in Singapore</b>, ensuring
+          //     seamless integration,mobile responsiveness, and high-performance
+          //     solutions tailored to your business needs.
+          //   </>
+          // }
+          keyPoint1="Ownership of Data & Platform"
+          keyPoint2="Native Mobile Optimisation"
+          keyPoint3="Regional Payment Versatility"
+          keyPoint4="Enterprise-Grade Reliability"
+          // hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Request Consultation"
+          btnTitle="Book a Technical Deep-Dive"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -216,48 +215,45 @@ const WoocommercePage = () => {
         <Experience
           expTitle={
             <>
-              Why Choose Asvayuk Technologies Private Ltd for WooCommerce Development?
+              What Sets Our Engineering Apart?
             </>
           }
           ExpPara={
             <>
-              At Asvayuk Technologies Private Ltd., we specialize in WooCommerce
-              Development Services in Singapore, ensuring seamless integration,
-              mobile responsiveness, and high-performance solutions tailored to
-              your business needs.
+             We focus on the architecture that supports your growth, not just the pixels on the screen.
             </>
           }
-          point1="Experienced Developers
+          point1="Code Integrity
 
 
 
 "
           pointPara1={
             <>
-              Experienced Developers: Our team has the best developers in Singapore with years of expertise in building successful e-commerce stores.
+              We write clean, lightweight PHP that ensures your site remains fast as you scale.
             </>
           }
-          point2="SEO-Optimized Stores"
+          point2="Conversion Intelligence"
           pointPara2={
             <>
-              Tailored Solutions: We offer customized WooCommerce solutions to meet your unique business requirements.
+              Every element we build is tested against real-world user behavior in the SG market.
             </>
           }
-          point3="Tailored Solutions
+          point3="Boutique Support
 
 
 "
           pointPara3={
             <>
-             SEO-Optimized Stores: Our WooCommerce development in Singapore city ensures that your store is search engine friendly, driving more traffic and sales.
+              You work directly with senior architects who understand your 2026 business milestones.
             </>
           }
-          point4="Affordable Pricing
+          point4="Transparent Value
 
 "
           pointPara4={
             <>
-              Affordable Pricing: We provide cost-effective WooCommerce solutions without compromising on quality.
+              High-end results without the hidden costs of proprietary SaaS platforms.
             </>
           }
           altTags={{
@@ -271,66 +267,65 @@ const WoocommercePage = () => {
         />
 
         <Process
-          heading="Our Method of Specialization
+          heading="Our Vision: Democratising High-End E-commerce
 "
-          para="Our team of expert mobile app developers meticulously plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences.
+          para="At Layerex, we believe every Singaporean business deserves a world-class digital storefront. Our mission is to combine the flexibility of WordPress with enterprise-grade engineering to help you scale without limits.
 "
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Product Design"
-          col1para="We specialize in crafting innovative and user-centric design strategies to deliver a captivating app experience
+          col1head="Discovery"
+          col1para="Analysing your market position and technical requirements.
 "
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="Mobile App Consulting
+          col2head="Prototyping
 "
-          col2para="Tailored guidance and strategic insights to shape your app concept into a successful product.
+          col2para="Crafting high-conversion wireframes and user flows.
 "
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="UI/UX Compatibility
+          col3head="Development
 "
-          col3para="Seamlessly integrate compelling design with intuitive user experiences for enhanced engagement.
+          col3para="Engineering your store with a focus on security and speed.
 
 "
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Development
+          col4head="Validation
 "
-          col4para="Leveraging cutting-edge technologies to build robust, scalable, and high-performance mobile applications.
+          col4para="Rigorous stress-testing across all devices and browsers.
 
 "
           col5Img={AppImages.processImg.test}
           col5Alt="Responsive web development Singapore"
-          col5head="QA & Testing
+          col5head="Comprehensive QA & Testing
 
 "
-          col5para="Our team of mobile testing experts conducts rigorous testing and debugging to ensure a reliable and optimal-functioning app."
+          col5para="Delivering bug-free, high-performance applications through thorough testing, validation, and continuous improvement."
         />
 
         <Industry />
-        <ServicesCaseStudy />
+        {/* <ServicesCaseStudy /> */}
 
-          <section className="bg-section">
-                <Container>
-                    <div className="main-bg p-3">
-                    <div className="tool-heading py-5">
-                        <h2 className="conclusion_title mb-2">
-                          Get Started with <br/>WooCommerce Development Today!
-                        </h2>
-                        <div>
-                        <p className="text-white lh-lg fs-6 pt-3">
-                            If you are looking for a reliable WooCommerce website provider in Singapore, Asvayuk Technologies Private Ltd. is here to help.
-                            Our expert team  ensures that your e-commerce store is designed for success. Contact us today to discuss your 
-                            <Link href="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Singapore.</Link> 
-                        </p>
-                        </div>
-                    </div>
-                    </div>
-                </Container>
-            </section>
+        <section className="bg-section">
+          <Container>
+            <div className="main-bg p-3">
+              <div className="tool-heading py-5">
+                <h2 className="conclusion_title mb-2">
+                 Launch Your WooCommerce  <br />Store Today!
+                </h2>
+                <div>
+                  <p className="text-white lh-lg fs-6 pt-3">
+                    Searching for a trusted WooCommerce development company in Singapore? Layerex delivers powerful, scalable, and high-performance eCommerce websites tailored for your business growth. Get in touch with us today to explore our expert WooCommerce development services in Singapore and take your online store to the next level.
+                    {/* <Link href="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Singapore.</Link> */}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
       </main>
-   </>
+    </>
   )
 }
 

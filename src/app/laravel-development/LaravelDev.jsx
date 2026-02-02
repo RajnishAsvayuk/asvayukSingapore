@@ -30,9 +30,9 @@ const LaravelDev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Laravel Development"}
-          pageHeading={"Best Laravel Development Company in Singapore"}
+          pageHeading={"Premier Laravel Development Agency in Singapore"}
           pagePara={
-            "Asvayuk Technologies is a top-rated Laravel Development Company in Singapore, specializing in building high-performance, scalable, and secure web applications. We deliver custom solutions tailored to your business needs."
+            "Layerex specializes in engineering secure, high-performance, and enterprise-grade web applications. From custom APIs to complex SaaS platforms, we deliver robust PHP solutions tailored to your unique business logic and scalability needs."
           }
           pageImg={laravelBanner}
           pageAlt={"Website banners-52-1Company in Singapore"}
@@ -42,12 +42,11 @@ const LaravelDev = () => {
           <div className="container">
             <div className="Empowering_title text-center pb-2 pb-md-5">
               <h1 className="fw-semibold">
-               Our Laravel Development Services 
-                <br /> in Singapore
+                Our Specialized  Laravel Ecosystem
               </h1>
               <p>
-                We offer a wide range of Laravel web development services in Singapore 
-                <br />to cater to different business requirements.
+                Scalable backend engineering
+                for modern digital enterprises.
               </p>
             </div>
             <div className="row pt-2">
@@ -58,9 +57,9 @@ const LaravelDev = () => {
                   cardHeading="Custom Laravel Web Development"
                   cardParaGraph={
                     <>
-                      Tailored solutions to match your unique business goals. 
+                      Tailored web applications built with clean,
                       <br />
-                      High-speed and optimized web applications.
+                      maintainable code to meet specific Singaporean business objectives.
                     </>
                   }
                 />
@@ -69,10 +68,10 @@ const LaravelDev = () => {
                 <ServicesCard
                   ServiceCardImg={c12}
                   altText="Laravel Development Partner in Singapore"
-                  cardHeading="Laravel eCommerce Development Services Singapore"
+                  cardHeading="Laravel eCommerce Solutions"
                   cardParaGraph={
                     <>
-                      Feature-rich, scalable, and secure eCommerce websites. Integration with payment gateways, inventory, and order management.
+                      Developing feature-rich, high-security online stores with seamless inventory and payment gateway integrations.
                     </>
                   }
                 />
@@ -83,10 +82,10 @@ const LaravelDev = () => {
                 <ServicesCard
                   ServiceCardImg={c13}
                   altText="Laravel PHP development services in Singapore"
-                  cardHeading="Laravel API Development in Singapore"
+                  cardHeading="Restful API Development"
                   cardParaGraph={
                     <>
-                      Custom API development for seamless integrations. Secure and scalable API solutions for mobile and web applications.
+                      Engineering secure and scalable APIs for seamless communication between mobile apps and web backends.
                     </>
                   }
                 />
@@ -95,10 +94,10 @@ const LaravelDev = () => {
                 <ServicesCard
                   ServiceCardImg={c14}
                   altText="Laravel eCommerce development services Singapore"
-                  cardHeading="Laravel Web Application Development"
+                  cardHeading="Enterprise App Development"
                   cardParaGraph={
                     <>
-                      Enhance app performance with consistent user experiences across platforms.
+                      Building complex, high-traffic internal systems and SaaS platforms with a focus on performance.
                     </>
                   }
                 />
@@ -109,10 +108,10 @@ const LaravelDev = () => {
                 <ServicesCard
                   ServiceCardImg={c15}
                   altText="Best Laravel development company under budget in Singapore"
-                  cardHeading="Laravel Development Outsourcing in Singapore"
+                  cardHeading="Laravel Outsourcing & Staff Augmentation"
                   cardParaGraph={
                     <>
-                      Leveraging expertise for high-quality, natively compiled applications for mobile and web platforms.
+                      Providing expert local developers to accelerate your project timelines and technical capabilities.
                     </>
                   }
                 />
@@ -121,10 +120,10 @@ const LaravelDev = () => {
                 <ServicesCard
                   ServiceCardImg={c16}
                   altText="Hire Laravel developer in Singapore"
-                  cardHeading="Laravel Website Maintenance and Support"
+                  cardHeading="Maintenance & Performance Tuning"
                   cardParaGraph={
                     <>
-                      Integrating web technologies efficiency to ensure reliable operation.
+                      Proactive 24/7 support and optimization to ensure your Laravel application remains fast and secure.
                     </>
                   }
                 />
@@ -138,12 +137,12 @@ const LaravelDev = () => {
             <div className="main-bg">
               <div className="tool-heading pt-5 pb-3">
                 <h2 className="conclusion_title mb-2 text-center">
-                  Get Started with The Best Laravel Development Company in Singapore
+                  Your Trusted Laravel Development Partner in Singapore
                 </h2>
                 <div>
                   <p className="text-white lh-base fs-6 pt-3 text-center">
-                    Looking for a Laravel development partner in Singapore to build your next web application?
-                    <br />  Asvayuk Technologies is here to provide expert solutions.
+                    If you are seeking a professional Laravel development company in Singapore to develop your next web application,
+                    <br /> Layerex delivers tailored solutions with a focus on quality, security, and scalability.
                   </p>
                 </div>
               </div>
@@ -152,20 +151,16 @@ const LaravelDev = () => {
         </section>
 
         <KeyPointSection
-          keyHeading={<>Leading Laravel Development Company in Singapore</>}
+          keyHeading={<>Leading Laravel Engineering in Singapore</>}
           keyPara={
             <>
-              Get in touch with us to learn about our cutting-edge development
-              solutions that leverage Laravel's capabilities to create safe,
-              scalable, and smooth online solutions. Select Laravel for
-              unrivaled proficiency.
+              Partner with Layerex to leverage the full power of the Laravel framework, ensuring your digital products are safe, smooth, and ready for the 2026 market.
             </>
           }
-          keyPoint1="Innovative Architecture"
-          keyPoint2="High Performance with Flexibility"
-          keyPoint3="Scalability at its Core"
-          keyPoint4="Optimized Performance"
-          keyPoint5="Security Assurance"
+          keyPoint1="Innovative MVC Architecture"
+          keyPoint2="High Performance & Logic Flexibility"
+          keyPoint3="Enterprise-Level Scalability"
+          keyPoint4="Hardened Security Protocols"
           hideKeyPoints={true}
           url="/contact-us"
           btnTitle="Request Consultation"
@@ -178,7 +173,7 @@ const LaravelDev = () => {
         <section className="laravel-projects-section py-5">
           <div className="container">
             <div className="text-center Experienceg_title">
-              <h2>Real-Life Examples of Our Laravel Projects</h2>
+              <h2>Real-World Laravel Success Stories</h2>
             </div>
 
             <div className="row mt-5">
@@ -186,13 +181,10 @@ const LaravelDev = () => {
                 <div className="project-card">
                   <div className="project-text">
                     <h3 className="project-title">
-                      Laravel-Based eCommerce Website
+                      Multi-Vendor Enterprise Marketplace
                     </h3>
                     <p className="project-description">
-                      We developed a Laravel-powered multi-vendor eCommerce
-                      platform for a retail client, integrating features like
-                      real-time inventory updates, secure payment gateways, and
-                      customer tracking.
+                      We architected a robust Laravel platform for a regional retail leader, featuring real-time logistics sync, secure multi-currency payments, and automated vendor tracking.
                     </p>
                   </div>
                   <div className="project-image">
@@ -208,12 +200,10 @@ const LaravelDev = () => {
                 <div className="project-card">
                   <div className="project-text">
                     <h3 className="project-title">
-                      Laravel API Integration for a Mobile App
+                      Fintech API & Backend Synchronization
                     </h3>
                     <p className="project-description">
-                      We built a custom Laravel API for a fintech startup,
-                      ensuring smooth synchronization between their mobile
-                      application and web backend.
+                      Layerex engineered a custom API ecosystem for a rising Singaporean fintech, ensuring flawless data synchronization between their mobile interface and secure web backend.
                     </p>
                   </div>
                   <div className="project-image">
@@ -229,15 +219,15 @@ const LaravelDev = () => {
         </section>
 
         <Experience
-          expTitle="Why Choose Laravel for Web Development?"
-          point1="Fast Development"
-          pointPara1="Laravel simplifies complex tasks, reducing development time."
-          point2="High Security"
-          pointPara2="Built-in security features protect websites from threats."
-          point3="Scalability"
-          pointPara3="Suitable for startups to large enterprises."
-          point4="Eloquent ORM"
-          pointPara4="Simplifies database management."
+          expTitle="Why Choose Laravel for Your Business?"
+          point1="Rapid Deployment"
+          pointPara1="Built-in tools that accelerate the development cycle without compromising quality."
+          point2="Limitless Scalability"
+          pointPara2="Architecture designed to grow alongside your user base and data requirements."
+          point3="Hardened Security"
+          pointPara3="Native protection against SQL injection, cross-site request forgery, and other cyber threats."
+          point4="Elegant Database Mapping"
+          pointPara4="Utilizing Eloquent ORM for simplified, high-speed database management."
           altTags={{
             group1: "Laravel PHP development services in Singapore",
             group2: "Laravel website development agency Singapore",
@@ -249,32 +239,32 @@ const LaravelDev = () => {
         />
 
         <Process
-          heading="Laravel Development Process We Follow"
-          para="To ensure high-quality Laravel solutions, we follow a structured development process."
+          heading="Our Structured Laravel Development Roadmap"
+          // para="To ensure high-quality Laravel solutions, we follow a structured development process."
           col1Img={AppImages.processImg.container}
           col1Alt="Laravel developers in Singapore"
-          col1head="Requirement Analysis"
-          col1para="Understanding client needs and project scope."
+          col1head="Discovery"
+          col1para="In-depth requirement analysis and project scoping."
           col2Img={AppImages.processImg.planning}
           col2Alt="Laravel Development Partner in Singapore"
-          col2head="Planning & Strategy"
-          col2para="Choosing the right development approach."
+          col2head="Strategy"
+          col2para="Choosing the optimal architectural approach for long-term success."
           col3Img={AppImages.processImg.pen}
           col3Alt="laravel website development services Singapore"
-          col3head="Design & Development"
-          col3para="Creating user-friendly and high-performance solutions."
+          col3head="Engineering"
+          col3para="Developing user-centric, high-performance solutions with clean code."
           col4Img={AppImages.processImg.development}
           col4Alt="Laravel PHP development services in Singapore"
-          col4head="Testing & Deployment"
-          col4para="Ensuring bug-free and optimized website launch."
+          col4head="Validation"
+          col4para="Rigorous bug-testing and performance optimization before launch.  "
           col5Img={AppImages.processImg.test}
           col5Alt="Laravel website development agency Singapore"
-          col5head="Maintenance & Support"
-          col5para="Providing ongoing technical support and updates."
+          col5head="Application Maintenance & Support"
+          col5para="Ensuring application stability through proactive maintenance, regular updates, and expert technical support."
         />
 
-        <ServicesCaseStudy />
-        <Industry />
+        {/* <ServicesCaseStudy />
+        <Industry /> */}
       </main>
     </>
   );

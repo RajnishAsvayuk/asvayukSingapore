@@ -9561,7 +9561,7 @@ footer a {
 }
 
 .logo {
-  max-width: 252px;
+  max-width: 200px;
   height: unset !important;
   -webkit-box-align: unset;
   -ms-flex-align: unset;

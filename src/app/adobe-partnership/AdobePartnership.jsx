@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import shopifyBanner from "@/assets/Images/Group-105527.webp";
+import razorpayicon from "@/assets/Images/Razorpay-icon.webp";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -19,7 +19,7 @@ import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
 import Magento_service_card from "@/components/Magento_service_card/Magento_service_card";
 
-const Shopifydev = () => {
+const AdobePartnership = () => {
   return (
     <>
       <main>
@@ -27,19 +27,19 @@ const Shopifydev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Shopify Development"}
-          pageHeading={"Leading Shopify Development Agency in Singapore"}
+          pageHeading={"Elevate Your Digital Experience with Adobe & Layerex"}
           pagePara={
-            "We engineer high-converting Shopify stores that combine world-class design with localized e-commerce strategies to scale your brand across the region."
+            "Layerex is proud to be a certified Adobe Partner, bringing world-class creative and marketing technology to Singapore’s most ambitious brands. We bridge the gap between imagination and execution by leveraging Adobe’s powerhouse suite of tools—from Creative Cloud to Experience Manager. Together, we empower your business to deliver stunning visuals and seamless digital journeys that captivate your audience."
           }
-          pageImg={shopifyBanner}
+          pageImg={razorpayicon}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
         <section className="magento_service_card">
           <Container>
             <div className="card_heading text-center">
-              <h2>Comprehensive Shopify Solutions</h2>
-              <p>Tailored strategies to elevate your digital storefront.</p>
+              <h2>Premium Creative & Marketing Ecosystems</h2>
+              <p>Our Adobe partnership allows us to deploy industry-standard tools that redefine how you communicate with your customers:</p>
             </div>
             <div className="magento_cards">
               <Row className="gy-4">
@@ -47,48 +47,48 @@ const Shopifydev = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Magento Website Development Singapore"
-                    cardHeading="Custom Shopify Development"
-                    cardPara="We build bespoke, scalable stores optimized for the unique shopping behaviors of the Singaporean market."
+                    cardHeading="Creative Cloud Mastery"
+                    cardPara="High-end design, video production, and brand asset creation using Adobe’s professional suite."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="Magento Web Design Singapore"
-                    cardHeading="Theme Architecture"
-                    cardPara="Creating high-fidelity, mobile-first themes that ensure a seamless user journey from discovery to checkout."
+                    cardHeading="Experience Manager (AEM)"
+                    cardPara="Building enterprise-grade websites with a focus on personalized content delivery."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="Custom Magento Development Singapore"
-                    cardHeading="App Ecosystems"
-                    cardPara="Custom app development and integration with local logistics like NinjaVan and payment gateways like PayNow."
+                    cardHeading="Adobe Commerce (Magento)"
+                    cardPara="Scaling your e-commerce platform with the most flexible and robust architecture available."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
                     altText="Commerce website development Singapore"
-                    cardHeading="Seamless Migration"
-                    cardPara="Risk-free data migration from platforms like Magento or WooCommerce with zero impact on your SEO."
+                    cardHeading="Document Cloud & Sign"
+                    cardPara="Modernizing your workflow with secure, cloud-based digital signatures and PDF automation."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
                     altText="Magento Web development provider in Singapore"
-                    cardHeading="Headless Commerce"
-                    cardPara="Implementing fast, flexible headless architectures to provide app-like speeds on mobile browsers."
+                    cardHeading="Marketing Cloud Insights"
+                    cardPara="Using deep data analytics to understand customer behavior across every touchpoint."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
                     altText="Magento Website comapny in Singapore"
-                    cardHeading="Store Configuration"
-                    cardPara="Expert setup of shipping rules, GST compliance, and backend workflows for operational excellence."
+                    cardHeading="Asset Management"
+                    cardPara="Organizing your brand's digital library for seamless collaboration across your entire team."
                   />
                 </Col>
               </Row>
@@ -99,21 +99,21 @@ const Shopifydev = () => {
         <KeyPointSection
           keyHeading={
             <>
-              Revolutionize Your Retail Experience
+              Designing the Future of Customer Engagement
             </>
           }
           keyPara={
             <>
-              Leverage our specialized Shopify expertise to transform your online presence into a high-performance sales engine.
+              In a world driven by aesthetics and speed, Adobe provides the foundation for excellence. Layerex integrates these tools into your daily workflow, ensuring your business stays agile, professional, and visually superior.
             </>
           }
-          keyPoint1="Optimized Checkout Flows: Reducing friction to maximize conversion rates."
-          keyPoint2="Cross-Channel Integration: Syncing your store with marketplaces like Shopee and Lazada."
-          keyPoint3="Robust Data Protection: Ensuring full compliance with Singapore’s PDPA standards."
-          keyPoint4="24/7 Strategic Support: Proactive maintenance to keep your business running smoothly."
+          keyPoint1="Seamless Workflow Integration Across Departments"
+          keyPoint2="Advanced Personalization for Marketing Campaigns"
+          keyPoint3="Enterprise-Level Security for Digital Documents"
+          keyPoint4="Scalable Content Creation for Multi-Channel Reach"
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Consult Our Architects"
+          btnTitle="Start Your Transformation"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -121,34 +121,34 @@ const Shopifydev = () => {
         />
 
         <Experience
-          expTitle={<>Why Partner with Layerex??</>}
-          ExpPara={
-            <>
-              Delivering market-ready Shopify products that drive real business value.
-            </>
-          }
-          point1="Proven Mastery"
+          expTitle={<>Why Partner with an Adobe-Certified Agency?</>}
+        //   ExpPara={
+        //     <>
+        //       Delivering market-ready Shopify products that drive real business value.
+        //     </>
+        //   }
+          point1="Certified Creative Experts"
           pointPara1={
             <>
-              Deep technical expertise in Shopify Plus and advanced Liquid programming.
+              Our team is trained in the latest Adobe updates, ensuring your projects utilize the most efficient features.
             </>
           }
-          point2="Client-First Focus"
+          point2="Enterprise Scalability"
           pointPara2={
             <>
-              Personalized development journeys designed to hit your specific 2026 growth targets.
+              We don't just design; we build systems that grow with your company using Adobe’s cloud infrastructure.
             </>
           }
-          point3="Quality Assurance"
+          point3="Precision Design Standards"
           pointPara3={
             <>
-              Rigorous testing protocols ensuring a flawless, high-performance shopping experience.
+              We maintain the highest level of brand consistency across every digital and print medium.
             </>
           }
-          point4="Direct Communication"
+          point4="Efficiency & Automation"
           pointPara4={
             <>
-              Transparent, local support that keeps you informed at every stage of the project.
+              We use Adobe’s AI-powered tools (Sensei) to speed up production and lower your operational costs.
             </>
           }
           altTags={{
@@ -162,28 +162,28 @@ const Shopifydev = () => {
         />
 
         <Process
-          heading="Our Mission: Empowering Singaporean Brands to Lead"
-          para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
+          heading="Your Path to Digital Excellence"
+        //   para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Strategy"
-          col1para="Defining your niche and optimizing for the local retail landscape."
+          col1head="Creative Audit"
+          col1para="Reviewing your current design and marketing stack to identify gaps and opportunities."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="UX Design"
-          col2para="Designing intuitive, high-conversion interfaces for the modern shopper."
+          col2head="Cloud Integration"
+          col2para="Setting up and syncing Adobe Creative and Document clouds with your existing team workflow."
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="Development"
-          col3para="Building your store with clean, scalable code and high-value integrations."
+          col3head="Strategic Design"
+          col3para="Creating high-impact brand assets and digital experiences tailored to the Singaporean market."
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Optimization"
-          col4para="Fine-tuning speed and performance to pass all Core Web Vitals."
+          col4head="System Deployment"
+          col4para="Launching AEM or Commerce platforms with a focus on speed, UX, and SEO."
           col5Img={AppImages.processImg.test}
           col5Alt="Support & Maintenance"
-          col5head="QA & Launch"
-          col5para="Exhaustive cross-device testing to ensure a perfect launch day."
+          col5head="Continuous Support"
+          col5para="Providing ongoing training and updates to ensure your team stays ahead of creative trends."
         />
 
         {/* <ServicesCaseStudy /> */}
@@ -194,4 +194,4 @@ const Shopifydev = () => {
   );
 };
 
-export default Shopifydev;
+export default AdobePartnership;
