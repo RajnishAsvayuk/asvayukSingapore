@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import shopifyBanner from "@/assets/Images/Group-105527.webp";
+import googleicon from "@/assets/Images/google-icon.webp";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -19,7 +19,7 @@ import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
 import Magento_service_card from "@/components/Magento_service_card/Magento_service_card";
 
-const Shopifydev = () => {
+const GooglePartnership = () => {
   return (
     <>
       <main>
@@ -27,19 +27,19 @@ const Shopifydev = () => {
           home={"Home"}
           pageParent={"Technology"}
           pageName={"Shopify Development"}
-          pageHeading={"Leading Shopify Development Agency in Singapore"}
+          pageHeading={"Singapore’s Elite Google Strategic Partner"}
           pagePara={
-            "We engineer high-converting Shopify stores that combine world-class design with localized e-commerce strategies to scale your brand across the region."
+            "Layerex is proud to be a verified Google Partner, delivering high-performance digital solutions across the Singapore market. This official collaboration gives us direct access to Google’s latest technology, advanced training, and exclusive product betas. We utilize these resources to ensure your brand maintains a competitive edge with search strategies that drive measurable business growth."
           }
-          pageImg={shopifyBanner}
+          pageImg={googleicon}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
         <section className="magento_service_card">
           <Container>
             <div className="card_heading text-center">
-              <h2>Comprehensive Shopify Solutions</h2>
-              <p>Tailored strategies to elevate your digital storefront.</p>
+              <h2>Certified Search Solutions Powered by Google Expertise</h2>
+              <p>As an official partner, we offer specialized services backed by Google’s rigorous certification standards:</p>
             </div>
             <div className="magento_cards">
               <Row className="gy-4">
@@ -47,48 +47,48 @@ const Shopifydev = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Magento Website Development Singapore"
-                    cardHeading="Custom Shopify Development"
-                    cardPara="We build bespoke, scalable stores optimized for the unique shopping behaviors of the Singaporean market."
+                    cardHeading="Advanced Search Strategy"
+                    cardPara="Using partner-level data to dominate high-intent keywords in the Singapore market."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="Magento Web Design Singapore"
-                    cardHeading="Theme Architecture"
-                    cardPara="Creating high-fidelity, mobile-first themes that ensure a seamless user journey from discovery to checkout."
+                    cardHeading="Verified Display Network"
+                    cardPara="Scaling your brand presence with authorized ad placements across premium websites."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="Custom Magento Development Singapore"
-                    cardHeading="App Ecosystems"
-                    cardPara="Custom app development and integration with local logistics like NinjaVan and payment gateways like PayNow."
+                    cardHeading="Smart Shopping Ecosystem"
+                    cardPara="Expertly configuring product feeds for maximum visibility and higher conversion rates."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
                     altText="Commerce website development Singapore"
-                    cardHeading="Seamless Migration"
-                    cardPara="Risk-free data migration from platforms like Magento or WooCommerce with zero impact on your SEO."
+                    cardHeading="Precision Retargeting"
+                    cardPara="Leveraging Google’s audience intelligence to re-engage your most valuable site visitors."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
                     altText="Magento Web development provider in Singapore"
-                    cardHeading="Headless Commerce"
-                    cardPara="Implementing fast, flexible headless architectures to provide app-like speeds on mobile browsers."
+                    cardHeading="Strategic Video Out reach"
+                    cardPara="Crafting YouTube campaigns that resonate with the local audience using certified techniques."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
                     altText="Magento Website comapny in Singapore"
-                    cardHeading="Store Configuration"
-                    cardPara="Expert setup of shipping rules, GST compliance, and backend workflows for operational excellence."
+                    cardHeading="Mobile Growth Optimization"
+                    cardPara="Implementing Google-approved mobile strategies to drive quality app installs and engagement."
                   />
                 </Col>
               </Row>
@@ -99,21 +99,21 @@ const Shopifydev = () => {
         <KeyPointSection
           keyHeading={
             <>
-              Revolutionize Your Retail Experience
+              Elevate Your Search Performance with Layerex
             </>
           }
           keyPara={
             <>
-              Leverage our specialized Shopify expertise to transform your online presence into a high-performance sales engine.
+              Take control of your digital growth with a strategy built on official Google benchmarks. Our Singaporean experts analyze real-time search trends to build a roadmap that ensures your business stays ahead of the competition.
             </>
           }
-          keyPoint1="Optimized Checkout Flows: Reducing friction to maximize conversion rates."
-          keyPoint2="Cross-Channel Integration: Syncing your store with marketplaces like Shopee and Lazada."
-          keyPoint3="Robust Data Protection: Ensuring full compliance with Singapore’s PDPA standards."
-          keyPoint4="24/7 Strategic Support: Proactive maintenance to keep your business running smoothly."
+          keyPoint1="Direct Priority Support for Fast Issue Resolution"
+          keyPoint2="Exclusive Access to Upcoming Google Ad Features"
+          keyPoint3="Strategies Aligned with the Latest Algorithm Updates"
+          keyPoint4="Full Transparency with Certified Reporting Tools"
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Consult Our Architects"
+          btnTitle="Claim Your Free Audit"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -121,34 +121,34 @@ const Shopifydev = () => {
         />
 
         <Experience
-          expTitle={<>Why Partner with Layerex??</>}
-          ExpPara={
-            <>
-              Delivering market-ready Shopify products that drive real business value.
-            </>
-          }
-          point1="Proven Mastery"
+          expTitle={<>Why Our Google Partnership is Your Advantage?</>}
+        //   ExpPara={
+        //     <>
+        //       Delivering market-ready Shopify products that drive real business value.
+        //     </>
+        //   }
+          point1="Beta Access"
           pointPara1={
             <>
-              Deep technical expertise in Shopify Plus and advanced Liquid programming.
+              We give our clients first-to-market access to new Google tools before their competitors see them.
             </>
           }
-          point2="Client-First Focus"
+          point2="Proven Expertise"
           pointPara2={
             <>
-              Personalized development journeys designed to hit your specific 2026 growth targets.
+              Your accounts are managed by professionals who have cleared Google’s strict certification exams.
             </>
           }
-          point3="Quality Assurance"
+          point3="Direct Channel Support"
           pointPara3={
             <>
-              Rigorous testing protocols ensuring a flawless, high-performance shopping experience.
+              We have a dedicated link to Google’s technical team to resolve any hurdles instantly.
             </>
           }
-          point4="Direct Communication"
+          point4="Performance Standards"
           pointPara4={
             <>
-              Transparent, local support that keeps you informed at every stage of the project.
+              Google monitors our client success rates to ensure we consistently deliver high-tier ROI.
             </>
           }
           altTags={{
@@ -162,28 +162,28 @@ const Shopifydev = () => {
         />
 
         <Process
-          heading="Our Mission: Empowering Singaporean Brands to Lead"
-          para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
+          heading="Our Blueprint for Search Excellence"
+        //   para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Strategy"
-          col1para="Defining your niche and optimizing for the local retail landscape."
+          col1head="Strategic Planning"
+          col1para="Aligning your business goals with Google’s official performance benchmarks."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="UX Design"
-          col2para="Designing intuitive, high-conversion interfaces for the modern shopper."
+          col2head="Expert Deployment"
+          col2para="Building campaigns using the latest tools and best practices from our partner training."
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="Development"
-          col3para="Building your store with clean, scalable code and high-value integrations."
+          col3head="Continuous Optimization"
+          col3para="Real-time data monitoring to identify areas for growth and budget efficiency."
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Optimization"
-          col4para="Fine-tuning speed and performance to pass all Core Web Vitals."
+          col4head="Quality Assurance"
+          col4para="Rigorous testing to ensure flawless ad performance and user-friendly landing pages."
           col5Img={AppImages.processImg.test}
           col5Alt="Support & Maintenance"
-          col5head="QA & Launch"
-          col5para="Exhaustive cross-device testing to ensure a perfect launch day."
+          col5head="Launch & Scale"
+          col5para="Expanding your reach with confidence, backed by verified data and direct partner support."
         />
 
         {/* <ServicesCaseStudy /> */}
@@ -194,4 +194,4 @@ const Shopifydev = () => {
   );
 };
 
-export default Shopifydev;
+export default GooglePartnership;

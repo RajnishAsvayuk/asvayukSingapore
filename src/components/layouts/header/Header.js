@@ -198,8 +198,8 @@ const Header = () => {
         src={AppImages.brand.logo}
         alt="Logo"
         className="logo"
-        width={200}
-        height={50}
+        width={150}
+        height={30}
       />
     </NavbarBrand>
   ), []);
@@ -494,11 +494,11 @@ const Header = () => {
                             </div>
                             <div class="service-item">
 
-                              <li>
+                              {/* <li>
                                 <Link href={"#"}>
                                   <Image className="menuicons me-3" src="/Images/enterprise.svg" width={100} height={100} />Enterprise Portal Development
                                 </Link>
-                              </li>
+                              </li> */}
                             </div>
                             <div class="service-item">
 
@@ -560,35 +560,35 @@ const Header = () => {
                             </div>
                             <div class="service-item">
 
-                              <li> <Link href={"/ui-ux-design"}>
+                              <li> <Link href={"/shopify-development"}>
                                <Image className="menuicons me-3" src="/Images/shopy.svg" width={100} height={100} />Shopify Development
                               </Link>
                                </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Link href={"/ui-ux-design"}>
+                              <li> <Link href={"/laravel-development"}>
                                <Image className="menuicons me-3" src="/Images/lara.svg" width={100} height={100} />Laravel Development
                               </Link>
                                </li>
                             </div>
                             <div class="service-item">
 
-                              <li> <Link href={"/ui-ux-design"}>
+                              <li> <Link href={"/woocomerce-development"}>
                                <Image className="menuicons me-3" src="/Images/woo.svg" width={100} height={100} />WooCommerce Development
                               </Link>
                                </li>
                             </div>
-                            <div class="service-item">
+                            {/* <div class="service-item">
 
                               <li> <Link href={"/ui-ux-design"}>
                                <Image className="menuicons me-3" src="/Images/react.svg" width={100} height={100} />React Native Development
                               </Link>
                                </li>
-                            </div>
+                            </div> */}
                             <div class="service-item">
 
-                              <li> <Link href={"/ui-ux-design"}>
+                              <li> <Link href={"/search-engine-optimization"}>
                                <Image className="menuicons me-3" src="/Images/search.svg" width={100} height={100} /> Search Engine Optimisation
                               </Link>
                                </li>
@@ -622,21 +622,21 @@ const Header = () => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="menudropdowns">
-                  <Dropdown.Item href="/blogs">
+                  <Dropdown.Item href="/shopify-development">
                     <Image className="menuicons me-3" src="/Images/shopify.svg" width={10} height={10} />
                     Shopify
                   </Dropdown.Item>
-                  <Dropdown.Item href="/case-studies"> <Image className="menuicons me-3" src="/Images/google.svg" width={100} height={100} /> Google</Dropdown.Item>
-                  <Dropdown.Item href="/blogs"> <Image className="menuicons me-3" src="/Images/razorpay.svg" width={100} height={100} /> Razor Pay</Dropdown.Item>
-                  <Dropdown.Item href="#"> <Image className="menuicons me-3" src="/Images/grabpay.svg" width={100} height={100} />Grab Pay</Dropdown.Item>
-                  <Dropdown.Item href="#">
+                  <Dropdown.Item href="/google-partnership"> <Image className="menuicons me-3" src="/Images/google.svg" width={100} height={100} /> Google</Dropdown.Item>
+                  <Dropdown.Item href="/razorpay-partnership"> <Image className="menuicons me-3" src="/Images/razorpay.svg" width={100} height={100} /> Razor Pay</Dropdown.Item>
+                  <Dropdown.Item href="grabpay-partnership"> <Image className="menuicons me-3" src="/Images/grabpay.svg" width={100} height={100} />Grab Pay</Dropdown.Item>
+                  <Dropdown.Item href="/adobe-partnership">
                     <Image className="menuicons me-3" src="/Images/adobe.svg" width={100} height={100} />
                     Adobe
                   </Dropdown.Item>
-                  <Dropdown.Item href="#">
+                  <Dropdown.Item href="/salesforce-partnership">
                     <Image className="menuicons me-3" src="/Images/salesforce.svg" width={100} height={100} />
                     Salesforce</Dropdown.Item>
-                  <Dropdown.Item href="#">  <Image className="menuicons me-3" src="/Images/xt.svg" width={100} height={100} />XT.com</Dropdown.Item>
+                  <Dropdown.Item href="/xt-partnership">  <Image className="menuicons me-3" src="/Images/xt.svg" width={100} height={100} />XT.com</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
 
