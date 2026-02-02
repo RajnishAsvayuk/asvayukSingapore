@@ -648,10 +648,10 @@ const Header = () => {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu className="menudropdowns">
-                  <Dropdown.Item href="/blogs"> <Image className="menuicons me-3" src="/Images/blogs.svg" width={100} height={100} />Blogs</Dropdown.Item>
+                  <Dropdown.Item href="/blog"> <Image className="menuicons me-3" src="/Images/blogs.svg" width={100} height={100} />Blogs</Dropdown.Item>
                   <Dropdown.Item href="/case-studies"> <Image className="menuicons me-3" src="/Images/casestudy.svg" width={100} height={100} />Case Studies</Dropdown.Item>
-                  <Dropdown.Item href="/blogs"> <Image className="menuicons me-3" src="/Images/newsroom.svg" width={100} height={100} />News Room</Dropdown.Item>
-                  <Dropdown.Item href="#"> <Image className="menuicons me-3" src="/Images/careers.svg" width={100} height={100} />Careers</Dropdown.Item>
+                  <Dropdown.Item href="/news"> <Image className="menuicons me-3" src="/Images/newsroom.svg" width={100} height={100} />News Room</Dropdown.Item>
+                  <Dropdown.Item href="/career"> <Image className="menuicons me-3" src="/Images/careers.svg" width={100} height={100} />Careers</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
               <NavLink as={Link} href="/about-us">

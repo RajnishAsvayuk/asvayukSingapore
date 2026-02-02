@@ -197,6 +197,83 @@ img {
 .service-item-parent .service-item li img {
   width: 32px;
 }
+.news-btn{
+  background-color: #14b58e;
+  font-size: 14px;
+  transition: all 0.3s ease-out 0s;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #ffffff;
+    
+   
+}
+.news-btn:hover{
+  background-color: #14b58e;
+ 
+}
+.news-heading a{
+  transition: all 0.3s ease-out 0s;
+}
+.news-heading a:hover{
+  color:#14b58dbe !important ;
+}
+.career-accordion .accordion-item {
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  padding: 10px 20px;
+}
+
+.career-header {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.career-meta {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-top: 4px;
+}
+
+.career-body {
+  background: #fff;
+}
+
+.career-title {
+  margin-top: 18px;
+  font-weight: 600;
+}
+
+.career-list {
+  padding-left: 18px;
+}
+
+.career-list li {
+    font-size: 16px;
+    padding: 0 !important;
+    margin: 0 !important;
+    line-height: 31px;
+    font-weight: normal;
+}
+.career-accordion .accordion-button:not(.collapsed) {
+    color: #14b58dbe;
+}
+.position-heading span{
+  font-size: 14px;
+}
+.position-heading span{
+  font-size: 14px;
+}
+.position-heading span:nth-of-type(2) {
+  font-weight: 400;
+}
+.below-banner {
+    background-color: #fff !important;
+    padding-block: 90px;
+}
+
 
 /* ---------------------------------- */
 /*---------- Responsive Media --------*/
