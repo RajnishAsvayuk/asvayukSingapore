@@ -9,7 +9,7 @@ import {  Pagination } from "swiper/modules";
 // Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-import c3 from "@/assets/Images/shopi.webp";
+import c3 from "@/assets/Images/managed.webp";
 import seo from "@/assets/Images/it-solution.webp";
 
 import { Col, Container, Row } from "react-bootstrap";
@@ -62,7 +62,7 @@ const BlogPage = () => {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                        
-                                            <CardBlog singleBlogImg={c3} time=' 7 Nov 2024' blogTitle='Revolutionize Your Business with Asvayuks Shopify Development' blogPara='Custom Shopify solutions to grow your e-commerce business with expert setup, app development, and ongoing support.' CommentNum='0' viwer='285' urlSingleBlog='/blog/shopifyBlog' />
+                                            <CardBlog singleBlogImg={c3} time=' 03 feb 2026' blogTitle='Best Managed IT Services in Singapore for Small Businesses | Layerex' blogPara='Running a business these days means utilizing technology extensively. We must keep our networks safe, use cloud systems, and manage our data.' CommentNum='0' viwer='285' urlSingleBlog='/blog/itservice' />
                                        
                                     </Col>
                                     
