@@ -5,6 +5,7 @@ import seoImg from "@/assets/Images/it-solution.webp";
 import author_thumb from "@/assets/Images/vipasha2.jpg";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
+import ContactFormComp from "@/components/ContactFormComp/ContactFormComp";
 
 const seo = () => {
   return (
@@ -181,15 +182,7 @@ const seo = () => {
                 </div>
               </Col>
               <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                <div className="form-container">
-                  <iframe
-                    width="100%"
-                    height="480px"
-                    src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+               <ContactFormComp />
               </div>
             </Row>
           </Container>

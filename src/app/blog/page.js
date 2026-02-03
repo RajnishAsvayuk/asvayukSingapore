@@ -15,6 +15,7 @@ import seo from "@/assets/Images/it-solution.webp";
 import { Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import CardBlog from "@/components/CardBlog/CardBlog";
+import ContactFormComp from "@/components/ContactFormComp/ContactFormComp";
 
 const BlogPage = () => {
   return (
@@ -69,9 +70,7 @@ const BlogPage = () => {
                                 </Row>
                             </Col>
                             <Col lg={4} md={4} sm={12} xs={12}>
-                                <div className="form-container">
-                                    <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" frameBorder="0" allowfullscreen></iframe>
-                                </div>
+                               <ContactFormComp />
                             </Col>
                         </Row>
                     </Container>

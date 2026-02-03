@@ -11,10 +11,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import c3 from "@/assets/Images/news.png";
 import seo from "@/assets/Images/seo_banner.webp";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 import Link from "next/link";
 import CardBlog from "@/components/CardBlog/CardBlog";
 import CardNews from "@/components/CardNews/CardNews";
+import ContactFormComp from "@/components/ContactFormComp/ContactFormComp";
 
 const news = () => {
   return (
@@ -70,7 +71,7 @@ Singapore"
                
               </Col>
               <Col lg={4} md={4} sm={12} xs={12}>
-                <div className="form-container">
+                {/* <div className="form-container">
                   <iframe
                     width="100%"
                     height="480px"
@@ -78,7 +79,8 @@ Singapore"
                     frameBorder="0"
                     allowfullscreen
                   ></iframe>
-                </div>
+                </div> */}
+                  <ContactFormComp />
               </Col>
             </Row>
           </Container>
