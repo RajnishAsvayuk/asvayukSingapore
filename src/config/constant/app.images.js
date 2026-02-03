@@ -5,7 +5,7 @@ const AppImages = {
   },
   home: {
     // bannerImg: "/Images/home/bannerHome.jpg",
-    bannerImg: "/Images/home/bannerHome.png",
+    bannerImg: "/Images/home/bannerHome6.png",
   },
 
   casestudySliderImg: {

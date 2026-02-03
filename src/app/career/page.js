@@ -25,6 +25,7 @@ import IntranetPortals from "@/assets/Images/Intranet-Portals.webp";
 import Extranet from "@/assets/Images/Extranet.webp";
 import Banking from "@/assets/Images/Banking.webp";
 import Process from "@/components/ProcessSection/Process";
+import CareerApplyModal from "@/components/careersmodal/CareerApplyModal";
 
 const EnterPrisePage = () => {
   const [activeTab, setActiveTab] = useState("B2B");
@@ -130,16 +131,19 @@ const EnterPrisePage = () => {
                             <li>Performance-based incentives</li>
                             <li>Opportunity to work with global clients</li>
                           </ul>
+                          <div className="text-end ">
+                            <CareerApplyModal />
+                          </div>
                         </Accordion.Body>
                       </Accordion.Item>
- <div className="position-heading d-flex gap-3">
-                      <span>IT Sales Executive – Ecommerce & Shopify Solutions</span>
-                      <span>1 Positions</span>
-                    </div>
-                    <Accordion.Item eventKey="1" className="career-item">
+                      <div className="position-heading d-flex gap-3">
+                        <span>IT Sales Executive – Ecommerce & Shopify Solutions</span>
+                        <span>1 Positions</span>
+                      </div>
+                      <Accordion.Item eventKey="1" className="career-item">
                         <Accordion.Header>
                           <div className="career-header d-flex justify-content-between w-100">
-                           IT Sales Executive – Ecommerce & Shopify Solutions
+                            IT Sales Executive – Ecommerce & Shopify Solutions
                             <span className="career-meta me-4">
                               Singapore · Full-Time
                             </span>
@@ -148,7 +152,7 @@ const EnterPrisePage = () => {
 
                         <Accordion.Body className="career-body">
                           <p className="career-desc">
-                          We are hiring an IT Sales Executive specialized in ecommerce and Shopify solutions to drive global sales growth. The candidate will play a key role in expanding our ecommerce services worldwide.
+                            We are hiring an IT Sales Executive specialized in ecommerce and Shopify solutions to drive global sales growth. The candidate will play a key role in expanding our ecommerce services worldwide.
                           </p>
 
                           <h6 className="career-title">Key Responsibilities</h6>
@@ -156,19 +160,19 @@ const EnterPrisePage = () => {
                           <ul className="career-list">
                             <li>Shopify Store Development</li>
                             <li>
-                            Shopify App Development
+                              Shopify App Development
                             </li>
                             <li>
-                         Ecommerce Website Development
+                              Ecommerce Website Development
                             </li>
                             <li>
-                             ERP & CRM Development
+                              ERP & CRM Development
                             </li>
                             <li>
                               Lead generation through cold calling, email marketing, LinkedIn, and networking
                             </li>
                             <li>
-                             Prepare proposals, presentations, and pricing models
+                              Prepare proposals, presentations, and pricing models
                             </li>
                             <li>Close deals and manage post-sales client relationships</li>
                             <li>Track sales performance and market trends</li>
@@ -177,11 +181,11 @@ const EnterPrisePage = () => {
                           <h6 className="career-title">Requirements</h6>
                           <ul className="career-list">
                             <li>
-                             Experience in ecommerce or Shopify sales preferred
+                              Experience in ecommerce or Shopify sales preferred
                             </li>
                             <li>Strong understanding of digital commerce platforms</li>
                             <li>
-                             Excellent verbal and written communication skills
+                              Excellent verbal and written communication skills
                             </li>
                             <li>Ability to work with international clients</li>
                             <li>Result-oriented mindset</li>
@@ -192,17 +196,21 @@ const EnterPrisePage = () => {
                             <li>Career growth in a global IT company</li>
                             <li>Exposure to international ecommerce projects</li>
                           </ul>
+
+                          <div className="text-end ">
+                            <CareerApplyModal />
+                          </div>
                         </Accordion.Body>
                       </Accordion.Item>
 
-                       <div className="position-heading d-flex gap-3">
-                      <span>Operations Manager – IT Services</span>
-                      <span>1 Positions</span>
-                    </div>
-                    <Accordion.Item eventKey="2" className="career-item">
+                      <div className="position-heading d-flex gap-3">
+                        <span>Operations Manager – IT Services</span>
+                        <span>1 Positions</span>
+                      </div>
+                      <Accordion.Item eventKey="2" className="career-item">
                         <Accordion.Header>
                           <div className="career-header d-flex justify-content-between w-100">
-                          Operations Manager – IT Services
+                            Operations Manager – IT Services
                             <span className="career-meta me-4">
                               Singapore · Full-Time
                             </span>
@@ -211,7 +219,7 @@ const EnterPrisePage = () => {
 
                         <Accordion.Body className="career-body">
                           <p className="career-desc">
-                         Layerex Technologies Pvt Ltd is seeking an experienced Operations Manager to manage and oversee all business operations in Singapore. The role involves handling sales operations, project coordination, compliance, and service delivery across all IT verticals.
+                            Layerex Technologies Pvt Ltd is seeking an experienced Operations Manager to manage and oversee all business operations in Singapore. The role involves handling sales operations, project coordination, compliance, and service delivery across all IT verticals.
                           </p>
 
                           <h6 className="career-title">Key Responsibilities</h6>
@@ -219,19 +227,19 @@ const EnterPrisePage = () => {
                           <ul className="career-list">
                             <li>Web & Mobile App Development</li>
                             <li>
-                            Ecommerce & Shopify Solutions
+                              Ecommerce & Shopify Solutions
                             </li>
                             <li>
-                         ERP & CRM Development
+                              ERP & CRM Development
                             </li>
                             <li>
-                             Oversee daily business operations in Singapore
+                              Oversee daily business operations in Singapore
                             </li>
                             <li>
-                             Coordinate between sales, technical, and support teams
+                              Coordinate between sales, technical, and support teams
                             </li>
                             <li>
-                             Ensure timely project delivery and client satisfaction
+                              Ensure timely project delivery and client satisfaction
                             </li>
                             <li>Handle vendor management, reporting, and process optimization</li>
                             <li>Maintain compliance with Singapore business regulations</li>
@@ -240,11 +248,11 @@ const EnterPrisePage = () => {
                           <h6 className="career-title">Requirements</h6>
                           <ul className="career-list">
                             <li>
-                            3–7 years of experience in IT operations or project management
+                              3–7 years of experience in IT operations or project management
                             </li>
                             <li>Strong leadership and team management skills</li>
                             <li>
-                            Knowledge of IT services and delivery models
+                              Knowledge of IT services and delivery models
                             </li>
                             <li>Excellent organizational and communication abilities</li>
                             <li>Experience managing global or offshore teams is an advantage</li>
@@ -255,6 +263,10 @@ const EnterPrisePage = () => {
                             <li>Competitive salary package</li>
                             <li>Opportunity to scale international operations</li>
                           </ul>
+
+                          <div className="text-end ">
+                            <CareerApplyModal />
+                          </div>
                         </Accordion.Body>
                       </Accordion.Item>
                     </Accordion>
@@ -265,7 +277,7 @@ const EnterPrisePage = () => {
           </Container>
         </section>
 
-   <Process
+        <Process
           heading="Our Web Portal Development Process"
           para="At Asvayuk Technologies, we follow a structured and transparent development process to ensure the delivery of high-quality apps."
           col1Img={AppImages.processImg.container}
@@ -290,7 +302,7 @@ const EnterPrisePage = () => {
           col5para="Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app."
         />
 
-      
+
 
       </main>
     </>
