@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import razorpayicon from "@/assets/Images/Razorpay-icon.webp";
+import xticon from "@/assets/Images/xt-icon.webp";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -19,27 +19,27 @@ import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
 import Magento_service_card from "@/components/Magento_service_card/Magento_service_card";
 
-const RazorpayPartnership = () => {
+const XtPartnership = () => {
   return (
     <>
       <main>
         <HeroServices
           home={"Home"}
           pageParent={"Technology"}
-          pageName={"Razorpay Partnership"}
-          pageHeading={"Singapore’s Gateway to Frictionless Global Payments"}
+          pageName={"XT Partnership"}
+          pageHeading={"Singapore’s Gateway to Global Digital Asset Liquidity"}
           pagePara={
-            "Layerex is proud to be a strategic partner of Razorpay Singapore, the region’s powerhouse for digital finance. This partnership allows us to equip your business with a unified payment infrastructure that supports 100+ currencies and local payment methods like PayNow. Together, we bridge the gap between complex financial tech and seamless customer checkouts, ensuring your revenue flows without borders."
+            "Layerex is proud to announce its strategic partnership with XT.COM, the world’s first social-infused digital asset trading platform. This collaboration empowers Singaporean blockchain projects and investors with institutional-grade liquidity and a global reach spanning millions of users. Together, we are bridging the gap between traditional finance and the decentralized future, providing a secure, high-speed ecosystem for Web3 innovation."
           }
-          pageImg={razorpayicon}
+          pageImg={xticon}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
         <section className="magento_service_card">
           <Container>
             <div className="card_heading text-center">
-              <h2>Next-Gen Fintech Tools for Modern Merchants</h2>
-              <p>Through our Razorpay collaboration, we deploy a high-performance stack that automates your entire financial workflow:</p>
+              <h2>Comprehensive Digital Asset Infrastructure    </h2>
+              <p>Through our XT.COM alliance, we provide a robust framework for projects looking to scale in the digital economy:</p>
             </div>
             <div className="magento_cards">
               <Row className="gy-4">
@@ -47,48 +47,48 @@ const RazorpayPartnership = () => {
                   <Magento_service_card
                     cardImg={service1}
                     altText="Magento Website Development Singapore"
-                    cardHeading="Unified Payment Gateway"
-                    cardPara="Accept everything from international credit cards to regional wallets via a single, secure integration."
+                    cardHeading="Project Listing Support"
+                    cardPara="Expert guidance on navigating the listing process for the XT.COM ecosystem."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
                     altText="Magento Web Design Singapore"
-                    cardHeading="Hyper-Fast Checkout"
-                    cardPara="Reduce cart abandonment with a mobile-optimized interface designed for one-click conversions."
+                    cardHeading="Liquidity Management"
+                    cardPara="Ensuring deep market depth and stable trading environments for digital assets."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
                     altText="Custom Magento Development Singapore"
-                    cardHeading="Cross-Border Intelligence"
-                    cardPara="Slash transaction fees by up to 40% with smart routing for international settlements."
+                    cardHeading="OTC Desk Services"
+                    cardPara="Facilitating large-scale institutional trades with minimal slippage and maximum security."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
                     altText="Commerce website development Singapore"
-                    cardHeading="Real-Time Payouts"
-                    cardPara="Automate vendor payments and employee payroll with 24/7 instant fund transfers."
+                    cardHeading="Fiat-to-Crypto Gateways"
+                    cardPara="Seamlessly connecting Singaporean banking rails to global digital markets."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
                     altText="Magento Web development provider in Singapore"
-                    cardHeading="Smart Subscription Billing"
-                    cardPara="Manage recurring revenue effortlessly with automated invoicing and dunning management."
+                    cardHeading="Staking & Yield Optimization"
+                    cardPara="Accessing high-tier rewards and decentralized finance (DeFi) opportunities."
                   />
                 </Col>
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
                     altText="Magento Website comapny in Singapore"
-                    cardHeading="Advanced Fraud Shield"
-                    cardPara="Protect your bottom line with AI-driven security that detects and blocks suspicious activity in real-time."
+                    cardHeading="Web3 Incubation"
+                    cardPara="Providing the technical and marketing support needed to launch successful blockchain ventures."
                   />
                 </Col>
               </Row>
@@ -99,21 +99,21 @@ const RazorpayPartnership = () => {
         <KeyPointSection
           keyHeading={
             <>
-              Experience the Future of Business Banking
+              Empowering the Next Generation of Finance
             </>
           }
           keyPara={
             <>
-              Why settle for slow traditional banking? Layerex and Razorpay provide Singaporean SMEs with the agility to scale. Our integrated dashboard gives you total control over your money movement, from the first click to the final settlement.
+              In the rapidly evolving world of blockchain, security and speed are non-negotiable. Layerex leverages XT.COM’s high-performance matching engine to provide our clients with a trading and listing experience that is both reliable and scalable.
             </>
           }
-          keyPoint1="Instant Onboarding with Zero Paperwork"
-          keyPoint2="Deep Analytics for Data-Driven Growth"
-          keyPoint3="Seamless Integration with Shopify & WooCommerce"
-          keyPoint4="Optimized Success Rates for Global Cards"
+          keyPoint1="Social-Infused Trading for enhanced community engagement."
+          keyPoint2="High-Concurrency Engine handling millions of transactions per second."
+          keyPoint3="Multi-Layer Security to protect institutional and retail assets."
+          keyPoint4="24/7 Global Market Access across hundreds of trading pairs."
           hideKeyPoints={true}
           url="/contact-us"
-          btnTitle="Audit My Payment Flow"
+          btnTitle="Connect with Web3 Experts"
           Group105518={Group105518}
           altTags={{
             Group105518: "Mobile app development Singapore",
@@ -121,34 +121,34 @@ const RazorpayPartnership = () => {
         />
 
         <Experience
-          expTitle={<>Why Partner with a Razorpay-Certified Agency?</>}
+          expTitle={<>Why Partner with Layerex & XT.COM?</>}
         //   ExpPara={
         //     <>
         //       Delivering market-ready Shopify products that drive real business value.
         //     </>
         //   }
-          point1="The India-Singapore Corridor"
+          point1="Global Market Reach"
           pointPara1={
             <>
-              We are experts in facilitating seamless trade and payments between these two massive digital economies.
+             Tap into a massive international user base through our direct exchange partnership.
             </>
           }
-          point2="Developer-First Integration"
+          point2="Regulatory Awareness"
           pointPara2={
             <>
-              Our technical team uses Razorpay’s robust APIs to build custom, bug-free payment experiences.
+              We guide projects through the complexities of the Singaporean and global digital asset landscape.
             </>
           }
-          point3="Priority Compliance"
+          point3="Technical Integration"
           pointPara3={
             <>
-              We ensure your payment flow meets all PCI DSS and Singaporean financial regulations automatically.
+              Our developers ensure your project’s smart contracts and APIs sync perfectly with exchange protocols.
             </>
           }
-          point4="Revenue-First Approach"
+          point4="Strategic Growth"
           pointPara4={
             <>
-              Our strategies focus on increasing your "Success Rate" so you never lose a sale to a technical glitch.
+              We don't just list; we provide the marketing and social support to build long-term token utility.
             </>
           }
           altTags={{
@@ -162,28 +162,28 @@ const RazorpayPartnership = () => {
         />
 
         <Process
-          heading="Your Seamless Integration Journey"
+          heading="Your Path to Digital Asset Leadership"
         //   para="At Layerex, we are dedicated to bridging the gap between sophisticated technology and seamless retail. Our mission is to provide local businesses with the agile Shopify tools they need to achieve sustainable, global-scale growth."
           col1Img={AppImages.processImg.container}
           col1Alt="website developement in mohali"
-          col1head="Financial Audit"
-          col1para="We analyze your current payment costs and identify areas to save on transaction fees."
+          col1head="Project Audit"
+          col1para="Reviewing your whitepaper, tokenomics, and technical readiness for the global market."
           col2Img={AppImages.processImg.planning}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="Custom Stack Setup"
-          col2para="Configuring your gateway, links, and subscriptions to match your specific business model."
+          col2head="Ecosystem Integration"
+          col2para="Setting up the necessary infrastructure to connect with XT.COM’s liquidity pools."
           col3Img={AppImages.processImg.pen}
           col3Alt="Web portal development services in Singapore"
-          col3head="Sandbox Testing"
-          col3para="Rigorous dry-runs to ensure every payment mode works perfectly before you go live."
+          col3head="Community Building"
+          col3para="Leveraging social-trading tools to grow an active and engaged supporter base."
           col4Img={AppImages.processImg.development}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Launch & Sync"
-          col4para="Activating your live environment and syncing it with your accounting software for auto-reconciliation."
+          col4head="Live Launch"
+          col4para="Coordinating a high-impact debut on the exchange with full technical oversight."
           col5Img={AppImages.processImg.test}
           col5Alt="Support & Maintenance"
-          col5head="Scaling Support"
-          col5para="Ongoing monitoring to optimize conversion rates as your transaction volume grows."
+          col5head="Liquidity Maintenance"
+          col5para="Ongoing monitoring to ensure a healthy and sustainable trading environment."
         />
 
         {/* <ServicesCaseStudy /> */}
@@ -194,4 +194,4 @@ const RazorpayPartnership = () => {
   );
 };
 
-export default RazorpayPartnership;
+export default XtPartnership;

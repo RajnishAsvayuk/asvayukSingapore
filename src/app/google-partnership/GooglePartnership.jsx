@@ -26,7 +26,7 @@ const GooglePartnership = () => {
         <HeroServices
           home={"Home"}
           pageParent={"Technology"}
-          pageName={"Shopify Development"}
+          pageName={"Google Partnership"}
           pageHeading={"Singapore’s Elite Google Strategic Partner"}
           pagePara={
             "Layerex is proud to be a verified Google Partner, delivering high-performance digital solutions across the Singapore market. This official collaboration gives us direct access to Google’s latest technology, advanced training, and exclusive product betas. We utilize these resources to ensure your brand maintains a competitive edge with search strategies that drive measurable business growth."

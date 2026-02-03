@@ -114,7 +114,7 @@ const aiChatbot = () => {
                 <HeroServices
                     home={"Home"}
                     pageParent={"Product"}
-                    pageName={"AI ChatBot Development"}
+                    pageName={"AI Solutions"}
                     pageHeading={"Leading Artificial Intelligence Solutions for Singapore Enterprises"}
                     pagePara={
                         "Empower your business with next-generation automation and intelligent decision-making. As a premier AI development company in Singapore, we craft bespoke neural networks and agentic workflows that drive measurable growth and operational excellence."

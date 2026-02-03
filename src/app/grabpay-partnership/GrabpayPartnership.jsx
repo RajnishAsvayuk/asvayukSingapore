@@ -26,7 +26,7 @@ const GrabpayPartnership = () => {
         <HeroServices
           home={"Home"}
           pageParent={"Technology"}
-          pageName={"Shopify Development"}
+          pageName={"GrabPay Partnership"}
           pageHeading={"Unlock Growth with Singapore’s Preferred Digital Wallet"}
           pagePara={
             "Layerex has joined forces with GrabPay to bring your business into the heart of the everyday Everything App. As a strategic partner, we help Singaporean merchants tap into a massive ecosystem of active users who prefer cashless, reward-driven transactions. We don’t just integrate a button; we connect your brand to the most trusted mobile wallet in Southeast Asia to drive loyalty and repeat sales."

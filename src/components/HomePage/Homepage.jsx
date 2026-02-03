@@ -93,7 +93,7 @@ const Homepage = () => {
                     lineHeight: "1.5rem",
                   }}
                 >
-                  Layerex Technologies expertly blends cutting-edge web design & app design, state-of-the-art technology solutions, and digital marketing and SEO strategies to boost your business's online visibility and fuel remarkable growth in the Singapore market.
+                  Layerex Technologies provides end-to-end digital solutions—spanning web and application design, technology consulting, and digital marketing and SEO—to support long-term business success in Singapore.
                 </h2>
                 <div className="row justify-content-center justify-content-xl-start mb-4">
                   <div className="col col-auto mi-count-col mb-3 mb-md-0 mb-lg-2">

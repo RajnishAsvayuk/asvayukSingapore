@@ -404,53 +404,10 @@ const Header = () => {
           <NavbarCollapse id="basic-navbar-nav" className="menu-list justify-content-end w-100">
             <Nav className="align-items-center ">
 
-              <NavLink as={Link} href="/about-us">
+              <NavLink as={Link} href="/">
                 Home
               </NavLink>
-              {/* Dropdown Menu with hover functionality - same structure */}
-              {/* <Nav.Item
-                className="dropdownMenu"
-                onMouseEnter={handleMegaMenuMouseEnter}
-                onMouseLeave={handleMegaMenuMouseLeave}
-              >
-
-                <div className="nav-link d-flex align-items-center gap-1">
-                  Our Services <FaAngleDown />
-                </div>
-
-                {isMegaMenuOpen && (
-                  <div className="megaMenu d-flex justify-content-between">
-                    <TabContainer id="left-tabs-example" defaultActiveKey="technology">
-                      <div className="side-tab-list">
-                        <Row>
-                          <Nav variant="pills" className="flex-column">
-                            {SERVICE_TABS.map((tab) => (
-                              <NavItem key={tab.key}>
-                                <Nav.Link
-                                  eventKey={tab.key}
-                                  className="tabIcons d-flex w-100 justify-content-between align-items-center"
-                                >
-                                  <span>{tab.title}</span>
-                                  <FaAngleRight />
-                                </Nav.Link>
-                              </NavItem>
-                            ))}
-                          </Nav>
-                        </Row>
-                      </div>
-                      <div className="submenu-list px-5 py-5 mx-3">
-                        <TabContent>
-                          {renderTechnologyTab()}
-                          {renderMarketingTab()}
-                          {renderDesignTab()}
-                          {renderProductsTab()}
-                          {renderDevelopersTab()}
-                        </TabContent>
-                      </div>
-                    </TabContainer>
-                  </div>
-                )}
-              </Nav.Item> */}
+              
 
               <NavLink as={Link} href="/ai-solutions">
                 AI Solutions

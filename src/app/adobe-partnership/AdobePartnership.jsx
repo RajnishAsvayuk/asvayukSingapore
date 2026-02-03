@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import razorpayicon from "@/assets/Images/Razorpay-icon.webp";
+import adobeicon from "@/assets/Images/adobe.webp";
 import Group105518 from "@/assets/Images/Group-105518.webp";
 import service1 from "@/assets/Images/services1.webp";
 import service2 from "@/assets/Images/services2.webp";
@@ -26,12 +26,12 @@ const AdobePartnership = () => {
         <HeroServices
           home={"Home"}
           pageParent={"Technology"}
-          pageName={"Shopify Development"}
+          pageName={"Adobe Partnership"}
           pageHeading={"Elevate Your Digital Experience with Adobe & Layerex"}
           pagePara={
             "Layerex is proud to be a certified Adobe Partner, bringing world-class creative and marketing technology to Singapore’s most ambitious brands. We bridge the gap between imagination and execution by leveraging Adobe’s powerhouse suite of tools—from Creative Cloud to Experience Manager. Together, we empower your business to deliver stunning visuals and seamless digital journeys that captivate your audience."
           }
-          pageImg={razorpayicon}
+          pageImg={adobeicon}
           pageAlt={"Website Designing Company in Singapore"}
         />
 
