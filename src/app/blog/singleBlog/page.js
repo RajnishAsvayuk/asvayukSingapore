@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import seoImg from "@/assets/Images/seo_banner.webp";
+import seoImg from "@/assets/Images/it-solution.webp";
 import author_thumb from "@/assets/Images/vipasha2.jpg";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
+import ContactFormComp from "@/components/ContactFormComp/ContactFormComp";
 
 const seo = () => {
   return (
@@ -18,8 +19,7 @@ const seo = () => {
                   <h1>
                     <b>
                       {" "}
-                      The Secret Source of SEO: Unleashing Success with Vipasha
-                      Ghai Approach
+                     5 Best IT & Web Development Companies in Singapore (2026)
                     </b>
                   </h1>
                   <div className="blog_card_img mt-4">
@@ -33,179 +33,73 @@ const seo = () => {
                   </div>
                   <div className="blog_card_para mt-3">
                     <p>
-                      SEO in the 21st century is more of a secret power in
-                      delivering success to businesses that navigate the
-                      internet. Vipasha Ghai, helps brands get optimized to
-                      better their online presence and come first in the search
-                      rankings. Here are some tactics known to work, must-dos as
-                      dictated by Vipasha for you to achieve what you would in
-                      terms of mastering the art of your digital marketing
-                      campaign to enable organic growth of your websites.
+                     Singapore’s digital landscape is changing quickly with the Smart Nation 2.0 initiative. For businesses, just "going digital" isn’t enough. You need a partner that combines Agentic AI, secure cloud infrastructure, and effective design.
                     </p>
+                    <p>When choosing the best IT company in Singapore, look beyond their portfolio. You want a team that understands both the local market and global tech standards. Here are the top 5 leaders for 2026.</p>
+                
                     <h3>
-                      <b>What Makes SEO So Important?</b>
+                      <b>1. NCS (National Computer Systems)</b>
                     </h3>
                     <p>
-                      SEO, or Search Engine Optimization, is what makes your
-                      website appear on search engines like Google. Without it,
-                      even the most brilliant content or business ideas can stay
-                      hidden. SEO optimizes your website in such a way that it
-                      appears at the top of search results when users are
-                      searching for relevant keywords. This increases traffic,
-                      leads, and ultimately, conversions.
+                     As a subsidiary of Singtel, NCS is a major player in the local industry. They lead the way in Singapore’s public sector and large-scale enterprise infrastructures.
                     </p>
-                    <h3>
-                      <b>Vipasha Ghai's Proven SEO Tactics for Success</b>
-                    </h3>
-                    <ol>
+                        <ul>
                       <li>
-                        <b>
-                          Keyword Research: Discovering Your Digital Footprint
-                        </b>
+                        <b>Specialization</b> Government-linked projects and large-scale digital transformation.
                       </li>
-                      <ul>
-                        <li>
-                          Why it matters: Keyword research forms the backbone of
-                          SEO. The way you discover the highest traffic keywords
-                          for which people are searching helps you create the
-                          most helpful content for your audience.
-                        </li>
-                        <li>
-                          Vipasha's Take: Vipasha works more on long-tail
-                          keywords, which are longer phrases with fewer people
-                          bidding on them, yet closely related to your business
-                          as compared to general keywords.
-                        </li>
-                      </ul>
-                      <li>
-                        <b>Creating Content That Speaks to Your Audience</b>
-                      </li>
-                      <ul>
-                        <li>
-                          Why it matters: Content is king, but only when it's
-                          valuable, engaging, and solves the audience's
-                          problems.
-                        </li>
-                        <li>
-                          Vipasha's Approach: She suggests creating content
-                          clusters around main topics. This not only helps
-                          improve the relevance of the content but also boosts
-                          rankings by interlinking articles on similar subjects.
-                        </li>
-                      </ul>
-                      <li>
-                        <b> On-Page Optimization: Making Every Page Count</b>
-                      </li>
-                      <ul>
-                        <li>
-                          Why it matters: Each page on your site should be
-                          optimized so that search engines know what each page
-                          is about.
-                        </li>
-                        <li>
-                          Vipasha's Strategy: She emphasizes optimizing the
-                          title tags, meta descriptions, and headers, and also
-                          ensures that the content is informative and
-                          user-friendly. This allows both search engines and
-                          users to navigate your site.
-                        </li>
-                      </ul>
-                      <li>
-                        <b> Building Trust with Quality Backlinks</b>
-                      </li>
-                      <ul>
-                        <li>
-                          Why does it matter? Backlinks are one of the foremost
-                          ranking factors in SEO. Quality backlinks signify that
-                          search engines consider your content valid and worth
-                          reading.{" "}
-                        </li>
-                        <li>
-                          Vipasha's Approach: She believes in obtaining
-                          pertinent and authoritative backlinks over merely the
-                          number of backlinks. The strategies she would use are
-                          guest blogging, influencer collaborations, and
-                          resource link-building.{" "}
-                        </li>
-                      </ul>
-                      <li>
-                        <b>Technical SEO: The Engine Behind the Website</b>
-                      </li>
-                      <ul>
-                        <li>
-                          Why it matters: A technically sound website will help
-                          search engines crawl and index your content properly
-                          and ensure that users have a great experience.
-                        </li>
-                        <li>
-                          Vipasha's Approach: She ensures that websites are
-                          optimized for speed, mobile responsiveness, and secure
-                          connections (HTTPS). The smoother the user experience
-                          is, the better the ranking and the lower the bounce
-                          rates.
-                        </li>
-                      </ul>
-                      <li>
-                        <b>The Power of Continuous Monitoring</b>
-                      </li>
-                      <ul>
-                        <li>
-                          Why it matters: SEO is not static; it is constantly
-                          changing, and so must your strategy.
-                        </li>
-                        <li>
-                          Vipasha's Strategy: Monitoring is important. Vipasha
-                          guides to use of Google Analytics and Google Search
-                          Console to track the performance, decide based on the
-                          data, and take measures based on the actual findings.
-                        </li>
-                      </ul>
-                    </ol>
-                    <h3>
-                      <b>
-                        Implementing Vipasha’s SEO Playbook: A Step-by-Step
-                        Guide
-                      </b>
-                    </h3>
-                    <ul>
-                      <li>
-                        Audit: Understand the current performance of your
-                        website. Know the gaps, issues, and areas that need
-                        improvement.
-                      </li>
-                      <li>
-                        Optimize Content: Utilize long-tail keywords and deliver
-                        useful content to the user.
-                      </li>
-                      <li>
-                        Improve Technical Aspects: Work on speed on site,
-                        mobile-friendliness, and clean code to have a seamless
-                        user experience.
-                      </li>
-                      <li>
-                        Build Backlinks: You must have relationships with
-                        influencers and other high-authority sites for quality
-                        backlink building.
-                      </li>
-                      <li>
-                        Measure & Refine: Use analytics to measure the results
-                        and work out the improvement based on the data.
-                      </li>
+                      <li><b>Why they rank:</b>They have unmatched expertise in national-level cybersecurity and data analytics.</li> 
                     </ul>
+                    <h3>
+                      <b>2. LayerEx: Leading IT Solutions</b>
+                    </h3>
+                    <p>LayerEx is the top choice for SMEs and growth-stage startups in 2026. While larger firms focus on outdated systems, LayerEx specializes in the "Modern Web," including Next.js, Tailwind CSS, and headless architectures.</p>
+                  <ul>
+                      <li>
+                        <b>Specialization</b> High-performance web development and customized Agentic AI solutions.
+                      </li>
+                      <li><b>Why they rank:</b>They provide the best ROI by merging cutting-edge tech with local market flexibility.</li> 
+                    </ul>
+
+                      <h3>
+                      <b>3. Vinova</b>
+                    </h3>
+                    <p>Founded in 2010, Vinova is a trusted name for custom software and mobile applications. They are in high demand from the Fintech and Healthcare sectors due to their strict security measures.</p>
+                  <ul>
+                      <li>
+                        <b>Specialization</b> Mobile app development and secure banking systems.
+                      </li>
+                      <li><b>Why they rank:</b>They have a proven track record of over ten years of local reliability.</li> 
+                    </ul>
+
+                      <h3>
+                      <b>4. MediaPlus Digital</b>
+                    </h3>
+                    <p>If your main goal is to access government funding, MediaPlus is a top PSG pre-approved vendor. They connect high-quality web design with digital marketing.</p>
+                  <ul>
+                      <li>
+                        <b>Specialization</b> E-commerce development and PSG grant-compliant websites.
+                      </li>
+                      <li><b>Why they rank:</b>They excel in navigating the Singaporean SME grant ecosystem.</li> 
+                    </ul>
+
+                    
+                      <h3>
+                      <b>5. OOm Pte Ltd</b>
+                    </h3>
+                    <p>OOm is known for its focus on SEO in development. They don’t just create websites; they design sites that appeal to search engines.</p>
+                  <ul>
+                      <li>
+                        <b>Specialization</b> Technical SEO and performance-driven web design.
+                      </li>
+                      <li><b>Why they rank:</b>They have a strong grasp of Google’s latest search algorithms.</li> 
+                    </ul>
+                  
                   </div>
                   <h4>
                     <b>Conclusion</b>
                   </h4>
                   <p>
-                    SEO is an Ongoing Journey. This means SEO is not done at a
-                    one-time moment in the time frame. One should consider it as
-                    something on the cards with strategy, patience, and
-                    consistency to increase chances of success with your
-                    strategy for online presence using SEO expert Vipasha Ghai.
-                    Whether a fresher to SEO or planning on redefining it
-                    through proper strategy for future and sustainability,
-                    adopting such methods will lead toward guaranteed digital
-                    success.
+                   Ready to scale? Book a free tech audit with LayerEx and see why we are the top-rated IT solution in Singapore.
                   </p>
                 </div>
                 <div className="post_tags">
@@ -229,7 +123,7 @@ const seo = () => {
                     MarketingStrategies
                   </Link>
                 </div>
-                <div className="post_box d-sm-flex align-items-start gap-4">
+                {/* <div className="post_box d-sm-flex align-items-start gap-4">
                   <div className="post_box_author_thumb">
                     <Link href="#">
                       <Image src={author_thumb} className="img-circle" />
@@ -261,7 +155,7 @@ const seo = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="blogditup">
                   <h2>Recent Posts</h2>
                   <ul className="slider-class row">
@@ -288,15 +182,7 @@ const seo = () => {
                 </div>
               </Col>
               <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                <div className="form-container">
-                  <iframe
-                    width="100%"
-                    height="480px"
-                    src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca"
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe>
-                </div>
+               <ContactFormComp />
               </div>
             </Row>
           </Container>
