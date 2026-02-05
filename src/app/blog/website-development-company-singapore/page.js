@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import seoImg from "@/assets/Images/seo_banner.webp";
 // import c4 from "@/assets/Images/managed.webp";
-import c4 from "@/assets/Images/bthumb4.webp";
+import c4 from "@/assets/Images/bthumb5.webp";
 import author_thumb from "@/assets/Images/vipasha2.jpg";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -21,7 +21,7 @@ const blog = () => {
                                     <h1>
                                         <b>
                                             {" "}
-                                            Best Digital Marketing Company in Singapore | Layerex
+                                            Website Development Company Singapore | Layerex
                                         </b>
                                     </h1>
                                     <div className="blog_card_img mt-4">
@@ -35,313 +35,245 @@ const blog = () => {
                                     </div>
                                     <div className="blog_card_para mt-3">
                                         <p>
-                                            Singapore is Asia’s most competitive business hub. Every day, your target audience is searching for your services using
-                                            keywords like:
+                                            Your website is more than just a page; it is a salesperson that works for you 24/7.
+                                        </p>
+                                        <p>
+                                            Think about this: when people search for your business on Google, what is the first thing they see? It isn't your office, your
+                                            team, or even your products.
+                                        </p>
+                                        <p>
+                                            👉 It is your website.
+                                        </p>
+                                        <p>
+                                            That first impression is vital because it determines whether or not people will buy from you. A website that is slow, outdated, or
+                                            confusing will make customers leave in just a few seconds.
+                                            That is why companies today work with the best website development company in Singapore. They need a site that doesn't
+                                            just look nice but actually generates more leads and revenue.
+                                            That is where Layerex comes in to make things easier for you.
                                         </p>
 
-                                        {/* <p>If you are looking for a company you can trust to handle your computer needs in Singapore, <b>Layerex</b> is a top choice. We offer a wide range of services for growing small and medium-sized businesses, including:</p> */}
-                                        <ul>
-                                            <li>
-                                                <b>Best digital marketing company Singapore</b>
-                                            </li>
-                                            <li>
-                                                <b>SEO services Singapore.</b>
-                                            </li>
-                                            <li>
-                                                <b>Google Ads agency near me</b>
-                                            </li>
 
-                                        </ul>
-                                        <p>If your business isn't on the first page of Google, you are losing customers to your competitors. To lead the market, you need
-                                            more than just an online presence—you need dominance.</p>
-
-                                        <p>At Layerex, we use proven strategies to boost your visibility, drive high-quality traffic, and convert leads into sales.</p>
                                         <h3>
                                             <b>
-                                                Digital Marketing Is No Longer Optional
+                                                The problem most businesses face
                                             </b>
                                         </h3>
                                         <p>
-                                            Modern customers just don't trust flyers or cold calls anymore. Instead, they rely on:
+                                            Is that they have to figure out complex technical issues on their own every day. This is a serious challenge that affects their
+                                            growth.
                                         </p>
-                                        {/* <p>Managed IT services include:</p> */}
-                                        <ul>
-                                            <li>Google search results</li>
-                                            <li> Online reviews</li>
-                                            <li>Social media presence</li>
-                                            <li>Professional websites</li>
-                                            <li>Helpful content</li>
+                                        <p>
+                                            A lot of medium-sized companies in Singapore still use: ❌ Old websites, ❌ Poor mobile design ❌ Slow loading pages, ❌
+                                            No SEO optimization, and ❌ No clear call-to-action.
+                                        </p>
+                                        <p>
+                                            The Result? You might get traffic to your website, but you aren't getting conversions. People visit, but they don't make a
+                                            purchase or sign up. A website without a strategy is just an online brochure.
+                                        </p>
+                                        <p>
+                                            To fix this, you need smarter technology that works for you and turns visitors into customers.
+                                        </p>
 
-                                        </ul>
-                                        <p>If your brand isn’t on these platforms, people won't trust you. That is where a reliable Digital Marketing Agency in Singapore
-                                            helps. We ensure your business is visible and successful where it matters most.
-                                        </p>
                                         <h3>
                                             <b>
-                                                What does a digital marketing company actually do?
+                                                A Modern Business Website Should Really Do a Few Things
                                             </b>
                                         </h3>
-                                        <p>A digital marketing company helps your business get noticed online. It isn't just about putting up ads; it’s about creating a plan
-                                            to drive the right people to your website. We make sure that when customers search for what you offer, they find you easily.</p>
-                                        <p>A professional agency like Layerex builds a complete customer acquisition system. This is a proven process designed to find,
-                                            attract, and convert new customers for your business.</p>
-                                        <p>At Layerex, the digital marketing solutions that we have include:</p>
+                                        <p>A modern website is an essential tool for success. It should make it easy for people to find you online, learn what you do, and
+                                            get in touch.</p>
 
-
-                                        <h5>
-                                            <b>
-                                                Google Ads & PPC Advertising
-                                            </b>
-                                        </h5>
-                                        <p>Get leads from people who are ready to buy. We use Search, Display, and Remarketing ads to target the right audience at the
-                                            right time. By focusing on high-intent users, we ensure your ad spend turns into real results.</p>
-                                        <h5>
-                                            <b>
-                                                Social Media Marketing Singapore
-                                            </b>
-                                        </h5>
-                                        <p>Boost brand awareness and engagement through tailored Facebook marketing, Instagram ads, LinkedIn campaigns, and TikTok
-                                            promotions.</p>
-
-                                        <h5>
-                                            <b>
-                                                Content Marketing & Blogging
-                                            </b>
-                                        </h5>
-                                        <p>We write blogs, landing pages, and website copy that people actually want to read. This helpful content builds your authority
-                                            and makes your brand look like an expert, helping you attract more organic visitors.</p>
-
-                                        <h5>
-                                            <b>
-                                                Website Design & Conversion Optimization
-                                            </b>
-                                        </h5>
-                                        <p>A great website should be fast, mobile-friendly, and easy to use. We focus on clean design and user experience to ensure
-                                            visitors can easily find what they need and convert into customers.</p>
-
-                                        <h5>
-                                            <b>
-                                                Lead Generation Funnels
-                                            </b>
-                                        </h5>
-                                        <p>You need a system that turns website visitors into real inquiries and paying customers. We build high-performing funnels
-                                            designed specifically to capture leads and grow your sales.</p>
-
-                                        <h5>
-                                            <b>
-                                                Why Singapore Businesses Prefer Digital Marketing
-                                            </b>
-                                        </h5>
-                                        <p>Most businesses in Singapore choose digital marketing because it is the most effective way to reach both local and global
-                                            customers. It is popular because it is cost-effective, easy to manage, and delivers real results.</p>
                                         <p>
-                                            Simply put, digital marketing is the fastest way to grow a business in today's market.
+                                            A great website must:
+                                        </p>
+                                        <ul class="website-requirements">
+                                            <li><strong>Load fast:</strong> It should load in under 3 seconds and work perfectly on mobile.</li>
+                                            <li><strong>Rank on Google:</strong> It must be SEO-ready so people can find you.</li>
+                                            <li><strong>Build trust:</strong> It should look professional and clearly explain why your services are useful.</li>
+                                            <li><strong>Capture leads:</strong> It must collect the names of interested people so you can turn them into customers.</li>
+                                            <li><strong>Convert visitors:</strong> It should encourage people to take action and buy from you.</li>
+                                            <li><strong>Easy to use:</strong> Your website should work smoothly on both computers and mobile phones.</li>
+                                        </ul>
+
+
+                                        <h5>
+                                            <b>
+                                                What does Layerex actually build that is different?
+                                            </b>
+                                        </h5>
+                                        <p>Layerex builds things in a way that makes us stand out from the rest. At Layerex – Website Development Company Singapore,
+                                            we do not just design pages; we create websites that people actually want to look at. We build sales systems to help
+                                            businesses sell more on the internet.
+                                        </p>
+                                        <h5>
+                                            <b>
+                                                Here’s how:
+                                            </b>
+                                        </h5>
+                                        <ul class="process-list">
+                                            <li>
+                                                🚀 <strong>Strategy First, Design Later:</strong>
+                                                We take time to understand your business goals before writing any code, ensuring the final product fits your exact needs.
+                                            </li>
+                                            <li>
+                                                📱 <strong>Mobile-First Development:</strong>
+                                                Your website is fully responsive, adapting perfectly to all screen sizes for mobile users.
+                                            </li>
+                                            <li>
+                                                ⚡ <strong>Speed Optimisation:</strong>
+                                                Fast-loading websites rank better and convert more visitors, creating a smoother user experience.
+                                            </li>
+                                            <li>
+                                                🔍 <strong>SEO-Friendly Structure:</strong>
+                                                Built with proper keywords, clean URLs, schema, and strong technical SEO foundations.
+                                            </li>
+                                            <li>
+                                                🔒 <strong>Secure & Scalable:</strong>
+                                                Includes SSL, regular backups, and cloud-ready infrastructure for long-term growth.
+                                            </li>
+                                            <li>
+                                                🛒 <strong>Custom Features:</strong>
+                                                Booking systems, e-commerce solutions, payment gateways, and CRM integrations tailored to your business.
+                                            </li>
+                                        </ul>
+
+                                        <h5>
+                                            <b>
+                                                Who Needs a Professional Website?
+                                            </b>
+                                        </h5>
+                                        <p>Anyone who wants a website really needs a professional to do it. High-quality development is necessary for businesses that
+                                            want to sell things on the internet and for companies that want to look good and work properly. Even individuals, like artists and
+                                            writers, need professional websites to show off their work.</p>
+
+                                        <p>
+                                            <b>
+                                                You need professional development if you are a:
+                                            </b>
                                         </p>
 
-
-
-
-                                        <p>What Happens When You Hire Professional Services?</p>
-                                        <p>When you invest in professional digital marketing, you get an expert team dedicated to your success. We don't just "help"; we
-                                            work to:</p>
                                         <ul>
-                                            <li>Rank your website higher on Google searches.</li>
-                                            <li>Drive targeted traffic to your site.</li>
-                                            <li>Improve your website to convert more visitors into buyers.</li>
+                                            <li>Startup founder</li>
+                                            <li>SME owner</li>
+                                            <li>E-commerce seller</li>
+                                            <li>Service provider</li>
+                                            <li>Corporate company</li>
                                         </ul>
+
+
+                                        <h5>
+                                            <b>
+                                                Template Website vs. Custom Website
+                                            </b>
+                                        </h5>
+                                        <p>A custom business website in Singapore is no longer optional—it is essential to stay competitive since most of your
+                                            competitors already have one.</p>
+
 
                                         <table className="transformation-table">
                                             <thead>
                                                 <tr>
-                                                    <th>Without Marketing</th>
-                                                    <th>With Digital Marketing</th>
+                                                    <th>Template Sites</th>
+                                                    <th>Custom Layerex Websites</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Low visibility</td>
-                                                    <td>High Google rankings</td>
+                                                    <td>Slow</td>
+                                                    <td>High performance</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Random traffic</td>
-                                                    <td>Targeted customers</td>
+                                                    <td>Basic design </td>
+                                                    <td>Premium UI/UX
+                                                    </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Slow, uncertain growth</td>
-                                                    <td>Consistent monthly leads</td>
+                                                    <td>Poor SEO </td>
+                                                    <td>SEO-optimized
+                                                    </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Uncertain sales</td>
-                                                    <td>Measurable ROI</td>
+                                                    <td>Limited features </td>
+                                                    <td>Fully scalable
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Low conversions </td>
+                                                    <td>Sales-focused
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
 
                                         <div className="result-box my-4">
-                                            👉 <strong>More customers + predictable revenue + faster growth</strong>
+                                            👉 <strong>When it comes down to it, custom is always the best choice because it is built specifically for your business needs. That is why
+                                                custom websites always win.</strong>
                                         </div>
 
 
                                         <h3>
-                                            <b>Why Choose Layerex?</b>
+                                            <b>Why Businesses in Singapore Choose Layerex</b>
                                         </h3>
                                         <p>
-                                            Many agencies only care about "vanity metrics" like likes and impressions. At Layerex, the best digital marketing company in
-                                            Singapore, we focus on what actually moves the needle for your business.
-                                        </p>
-                                        <p>
-                                            Our team doesn't just run ads; we partner with you to understand your specific needs and build a custom plan that works. We
-                                            use the latest tools and data to ensure your marketing is an investment, not just an expense.
-                                        </p>
-                                        <p>
-                                            We focus on the metrics that matter:
+                                            Many businesses in Singapore choose Layerex because we make their work easier. We are highly valued by our clients for
+                                            being a reliable partner that helps them stay productive and successful in the local market.
+                                            Slow High performance
+                                            Basic design Premium UI/UX
+                                            Poor SEO SEO-optimized
+                                            Limited features Fully scalable
+                                            Low conversions Sales-focused
+                                            We do much more than just development; our focus is on helping your business grow and get better at what you do.
                                         </p>
 
-                                        <ul>
-                                            <li>
-                                                <b> Lead generation </b>
-                                            </li>
-                                            <li>
-                                                <b>Conversion rates</b>
-                                            </li>
-                                            <li>
-                                                <b>Cost per acquisition </b>
-                                            </li>
-                                            <li><b>Revenue growth</b></li>
+                                        <p>
+                                            Why we stand out:
+                                        </p>
 
+                                        <ul class="why-we-stand-out">
+                                            <li>✔ Experienced developers</li>
+                                            <li>✔ Affordable packages</li>
+                                            <li>✔ Fast delivery</li>
+                                            <li>✔ SEO &amp; marketing ready</li>
+                                            <li>✔ Ongoing support</li>
+                                            <li>✔ Local Singapore expertise</li>
                                         </ul>
-                                        <p>Using search engine marketing and automation, we deliver measurable results. We want to see your business grow just as
-                                            much as you do.</p>
+
+                                        <p>
+                                            We are people you can count on for the long term. Rather than just selling you a product, we become your dedicated
+                                            technology partner to help your business grow.
+                                        </p>
+
 
                                         <h3>
-                                            <b>Industries We Serve</b>
+                                            <b>Imagine This…</b>
                                         </h3>
 
-                                        <p>We work with a wide range of diverse industries, which keeps our work exciting and our strategies fresh. Our expertise
-                                            includes:</p>
-                                        <ul>
-                                            <li><b>Technology</b></li>
-                                            <li><b>Healthcare</b></li>
-                                            <li><b>Finance</b></li>
-                                            <li><b>Education</b></li>
+                                        <p>A customer is looking for your service on Google. They want to find out what you have to offer and see if it is exactly what they
+                                            need.</p>
 
-                                        </ul>
-
-                                        <p>Our digital marketing services in Singapore are ideal for:</p>
-                                        <ul>
-                                            <li><b>IT & Tech companies</b></li>
-                                            <li><b>Startups</b></li>
-                                            <li><b>E-commerce brands</b></li>
-                                            <li><b>Real estate businesses</b></li>
-                                            <li><b>Finance & consultants</b></li>
-                                            <li><b>Healthcare clinics</b></li>
-                                            <li><b>Local SMEss</b></li>
-
-                                        </ul>
-                                        <p>When people search for your services online, we make sure they find your business before they find anyone else. We help your
-                                            customers find you first.</p>
-
-
-                                        <h5>Final Thoughts</h5>
-
-                                        <p>
-                                            Your competitors are already investing in digital marketing here in Singapore.
-                                            They know it is the most effective way to reach customers and stay ahead in the market.
-                                        </p>
-
-                                        <p>
-                                            The real question is:
-                                        </p>
-
-                                        <p>
-                                            <strong>Will customers find you first, or your competitors?</strong>
-                                        </p>
-
-                                        <p>
-                                            If you want better rankings, more leads, and consistent growth, it’s time to work
-                                            with the professionals.
-                                        </p>
-
-                                        <hr />
-
-                                        <h5>Frequently Asked Questions</h5>
-
-                                        <h6>❓ 1. How do I pick the best digital marketing company in Singapore?</h6>
-
-                                        <p>
-                                            Choosing the right agency is a big decision. Look for a team with a solid track
-                                            record, happy client stories, and a focus on transparency.
-                                        </p>
-
-                                        <p>
-                                            The best agency won’t just focus on “likes” or followers; they will focus on ROI—
-                                            turning website visitors into paying customers.
-                                        </p>
-
-                                        <p>
-                                            Make sure they truly understand SEO, Google Ads, and social media before you sign up.
-                                        </p>
-
-                                        <h6>❓ 2. What services do digital marketing agencies in Singapore offer?</h6>
-
-                                        <p>
-                                            Most agencies provide a full suite of services to grow your online presence,
-                                            including:
-                                        </p>
-
-                                        <ul>
-                                            <li><strong>SEO Services:</strong> To rank your website higher on Google.</li>
-                                            <li><strong>PPC Advertising:</strong> Paid ads for instant visibility.</li>
-                                            <li>
-                                                <strong>Social Media &amp; Content Marketing:</strong> To engage customers on
-                                                platforms like Facebook and Instagram.
-                                            </li>
-                                            <li>
-                                                <strong>Website Optimization &amp; Lead Generation:</strong> To ensure your site
-                                                is built to capture leads and grow your business.
-                                            </li>
-                                        </ul>
-
-                                        <h6>❓ 3. How long does SEO take to show results?</h6>
-
-                                        <p>
-                                            SEO is a long-term strategy. Typically, it takes 3 to 6 months to see a significant
-                                            improvement in rankings and organic traffic.
-                                        </p>
-
-                                        <p>
-                                            Unlike paid ads, SEO provides sustainable, lasting results that grow over time.
-                                        </p>
-
-                                        <h6>❓ 4. Is Google Ads or SEO better for my business?</h6>
-
-                                        <p>
-                                            Actually, they work best together. Google Ads gives you instant leads, while SEO
-                                            builds your long-term authority.
-                                        </p>
-
-                                        <p>
-                                            Using both ensures your business grows faster and remains steady in the long run.
-                                        </p>
-
-                                        <h6>❓ 5. Does digital marketing actually help get leads and sales?</h6>
-
-                                        <p>
-                                            Yes. With a solid strategy, any business can attract targeted customers and improve
-                                            conversions.
-                                        </p>
-
-                                        <p>
-                                            By using performance marketing and lead generation, you can turn your online
-                                            presence into a consistent sales machine.
-                                        </p>
-
-
-
-
-
-
+                                        <p>Your website shows up and:</p>
                                         
+                                        <ul class="website-impact">
+                                            <li>Loads instantly</li>
+                                            <li>Looks professional</li>
+                                            <li>Delivers a clear message</li>
+                                            <li>Provides an easy contact form</li>
+                                            <li>The customer inquires, and you gain a new client</li>
+                                        </ul>
+
+                                        <p>
+                                            This is an exciting opportunity to help someone with their needs and grow your business. Making that client happy becomes
+                                            your top priority, and it all starts with your online presence. The right website has the power to make a massive
+                                            difference for your business.
+                                        </p>
+
+                                       
+
+
+
+
+
+
+
                                     </div>
 
                                 </div>

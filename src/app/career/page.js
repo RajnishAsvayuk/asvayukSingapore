@@ -40,9 +40,9 @@ const EnterPrisePage = () => {
           home={"Home"}
           pageParent={"Resourses"}
           pageName={"Career"}
-          pageHeading={"Build Smart. Innovate Faster. Grow Limitlessly."}
+          pageHeading={"Architect the Future with Layerex: Join the AI Revolution"}
           pagePara={
-            "At LayerX, we build future-ready digital experiences. Join a team of innovators working on impactful global projects—where technology, creativity, and growth drive your next career leap."
+            "Step into an ecosystem where AI, Fintech, and IoT converge. We are looking for visionary thinkers to join our team of experts in deploying next-generation SaaS and smart-city infrastructure. At Layerex, your expertise doesn't just build products—it drives global change."
           }
           pageImg={EnterprisesBanner}
           pageAlt={"Enterprise Web Portal Development Services in Singapore"}
@@ -278,28 +278,28 @@ const EnterPrisePage = () => {
         </section>
 
         <Process
-          heading="Our Web Portal Development Process"
-          para="At Asvayuk Technologies, we follow a structured and transparent development process to ensure the delivery of high-quality apps."
-          col1Img={AppImages.processImg.container}
+          heading="Your Journey to Joining Layerex"
+          // para="At Asvayuk Technologies, we follow a structured and transparent development process to ensure the delivery of high-quality apps."
+          col1Img={AppImages.processImg.posting}
           col1Alt="website developement in Singapore"
-          col1head="Requirement Analysis"
-          col1para="We take time to understand your specific requirements, business objectives, and target audience. This helps us design the perfect app strategy."
-          col2Img={AppImages.processImg.planning}
+          col1head="Strategic Job Posting"
+          col1para="We identify specific gaps in our ecosystem and craft roles designed for high-impact innovators who align with our technology-driven mission."
+          col2Img={AppImages.processImg.reviewing}
           col2Alt="WEB PORTAL DEVELOPMENT COMPANY IN Singapore"
-          col2head="Design & Prototyping"
-          col2para="Our designers craft intuitive and engaging designs. We create wireframes and prototypes to give you an idea of how the final app will function."
-          col3Img={AppImages.processImg.pen}
+          col2head="Meticulous Profile Review"
+          col2para="Our team carefully evaluates your technical background and experience in AI or infrastructure to ensure a perfect fit for our advanced projects."
+          col3Img={AppImages.processImg.interview}
           col3Alt="Web portal development services in Singapore"
-          col3head="Development"
-          col3para="Using cutting-edge technologies, our development team brings your app to life, ensuring it is optimized for speed, security, and scalability."
-          col4Img={AppImages.processImg.development}
+          col3head="Collaborative Interview"
+          col3para="We engage in deep-dive discussions to understand your vision, problem-solving mindset, and how you can contribute to our multi-disciplinary fintech and IoT solutions."
+          col4Img={AppImages.processImg.challenge}
           col4Alt="Web developers for website portal development in Singapore"
-          col4head="Quality Assurance & Testing"
-          col4para="Our rigorous testing procedures help ensure that your app is bug-free and functions as expected on all devices and platforms."
-          col5Img={AppImages.processImg.test}
+          col4head="Technical Challenge"
+          col4para="Enter the Layerex Innovation Lab for a hands-on assessment. This stage showcases your ability to handle real-world technical complexities and AI-driven workflows in real-time."
+          col5Img={AppImages.processImg.joining}
           col5Alt="Responsive web development Singapore"
-          col5head="Launch & Post-Launch Support"
-          col5para="Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app."
+          col5head="Official Onboarding"
+          col5para="Once we identify a match, we extend an invitation for you to join our dynamic team and start building the smart infrastructure of tomorrow."
         />
 
 

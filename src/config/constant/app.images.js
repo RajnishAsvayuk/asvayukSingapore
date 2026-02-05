@@ -47,6 +47,11 @@ const AppImages = {
 
   processImg: {
     container: '/Images/processImg/container.webp',
+    posting: '/Images/processImg/post.webp',
+    reviewing: '/Images/processImg/reviewing.webp',
+    challenge: '/Images/processImg/challenge.webp',
+    interview: '/Images/processImg/interview.webp',
+    joining: '/Images/processImg/joining.webp',
     planning: '/Images/processImg/planning.webp',
     pen: '/Images/processImg/pen.webp',
     development: '/Images/processImg/development.webp',
