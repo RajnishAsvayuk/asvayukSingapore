@@ -11,6 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import c3 from "@/assets/Images/managed.webp";
 import c4 from "@/assets/Images/bthumb4.webp";
+import c5 from "@/assets/Images/data-backup.webp";
 import seo from "@/assets/Images/it-solution.webp";
 
 import { Col, Container, Row } from "react-bootstrap";
@@ -68,7 +69,13 @@ const BlogPage = () => {
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                        
-                                            <CardBlog singleBlogImg={c4} time=' 03 feb 2026' blogTitle='Best Digital Marketing Company in Singapore | Layerex' blogPara='Digital marketing team planning SEO, Google Ads, and social media strategy for business growth in the Singapore office' CommentNum='0' viwer='285' urlSingleBlog='/blog/best-digital-marketing-company-singapore' />
+                                            <CardBlog singleBlogImg={c4} time=' 04 feb 2026' blogTitle='Best Digital Marketing Company in Singapore | Layerex' blogPara='Digital marketing team planning SEO, Google Ads, and social media strategy for business growth in the Singapore office' CommentNum='0' viwer='285' urlSingleBlog='/blog/best-digital-marketing-company-singapore' />
+                                       
+                                    </Col>
+                                      <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
+                                       
+                                            <CardBlog singleBlogImg={c5} time=' 05 feb 2026' blogTitle='Why Data Backup & Disaster Recovery Is Your
+Business Lifeline' blogPara='Imagine this scenario: It is a Monday morning, and your team arrives ready to start the week. Suddenly, the system fails.' CommentNum='0' viwer='285' urlSingleBlog='/blog/data-backup-disaster-recovery-singapore' />
                                        
                                     </Col>
                                     
