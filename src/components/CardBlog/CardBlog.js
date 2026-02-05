@@ -4,13 +4,13 @@ import Image from "next/image";
 import { FaRegClock } from 'react-icons/fa';
 
 
-function CardBlog({ singleBlogImg, time, blogTitle, blogPara, CommentNum, viwer, urlSingleBlog }) {
+function CardBlog({ singleBlogImg, time, blogTitle, blogPara, CommentNum,alt, viwer, urlSingleBlog }) {
     return (
         <>
             <div className="card card_img_blog ">
                 <div className="imageBlog overflow-hidden">
                     <Link href={urlSingleBlog}>
-                        <Image src={singleBlogImg} className="card-img-top" alt="..." loading="lazy" width={350} height={177}/>
+                        <Image src={singleBlogImg} className="card-img-top" alt={alt} loading="lazy" width={350} height={177}/>
                     </Link>
                 </div>
                 <div className="card_body">

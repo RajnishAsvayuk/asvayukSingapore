@@ -8,10 +8,21 @@ import author_thumb from "@/assets/Images/vipasha2.jpg";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 import ContactFormComp from "@/components/ContactFormComp/ContactFormComp";
+import FaqAccordion from "@/components/FaqAccordion/FaqAccordion";
+import BlogFaq from "@/components/BlogFaq/BlogFaq";
+import SeoSchema from "@/components/SeoSchema/SeoSchema";
+import { schemasdata } from "@/components/SchemaData/SchemaData";
+
+export const metadata = {
+  title: "Best Digital Marketing Company in Singapore | Layerex",
+  description:
+    "Grow your business with Layerex, the best digital marketing company in Singapore, offering SEO, Google Ads, social media & lead generation.",
+};
 
 const blog = () => {
     return (
         <>
+         <SeoSchema schemas={schemasdata.Best_digital_marketing_company_singapore} />
             <main>
                 <section className="blog_cads">
                     <Container>
@@ -25,7 +36,8 @@ const blog = () => {
                                         </b>
                                     </h1>
                                     <div className="blog_card_img mt-4">
-                                        <Image src={c4} width="100%" />
+                                        <Image src={c4} width="100%" alt="
+Digital marketing team planning SEO, Google Ads, and social media strategy for business growth in the Singapore office"/>
                                     </div>
                                     <div className="blog_card_date mt-4">
                                         <h6>
@@ -264,84 +276,7 @@ const blog = () => {
 
                                         <hr />
 
-                                        <h5>Frequently Asked Questions</h5>
-
-                                        <h6>❓ 1. How do I pick the best digital marketing company in Singapore?</h6>
-
-                                        <p>
-                                            Choosing the right agency is a big decision. Look for a team with a solid track
-                                            record, happy client stories, and a focus on transparency.
-                                        </p>
-
-                                        <p>
-                                            The best agency won’t just focus on “likes” or followers; they will focus on ROI—
-                                            turning website visitors into paying customers.
-                                        </p>
-
-                                        <p>
-                                            Make sure they truly understand SEO, Google Ads, and social media before you sign up.
-                                        </p>
-
-                                        <h6>❓ 2. What services do digital marketing agencies in Singapore offer?</h6>
-
-                                        <p>
-                                            Most agencies provide a full suite of services to grow your online presence,
-                                            including:
-                                        </p>
-
-                                        <ul>
-                                            <li><strong>SEO Services:</strong> To rank your website higher on Google.</li>
-                                            <li><strong>PPC Advertising:</strong> Paid ads for instant visibility.</li>
-                                            <li>
-                                                <strong>Social Media &amp; Content Marketing:</strong> To engage customers on
-                                                platforms like Facebook and Instagram.
-                                            </li>
-                                            <li>
-                                                <strong>Website Optimization &amp; Lead Generation:</strong> To ensure your site
-                                                is built to capture leads and grow your business.
-                                            </li>
-                                        </ul>
-
-                                        <h6>❓ 3. How long does SEO take to show results?</h6>
-
-                                        <p>
-                                            SEO is a long-term strategy. Typically, it takes 3 to 6 months to see a significant
-                                            improvement in rankings and organic traffic.
-                                        </p>
-
-                                        <p>
-                                            Unlike paid ads, SEO provides sustainable, lasting results that grow over time.
-                                        </p>
-
-                                        <h6>❓ 4. Is Google Ads or SEO better for my business?</h6>
-
-                                        <p>
-                                            Actually, they work best together. Google Ads gives you instant leads, while SEO
-                                            builds your long-term authority.
-                                        </p>
-
-                                        <p>
-                                            Using both ensures your business grows faster and remains steady in the long run.
-                                        </p>
-
-                                        <h6>❓ 5. Does digital marketing actually help get leads and sales?</h6>
-
-                                        <p>
-                                            Yes. With a solid strategy, any business can attract targeted customers and improve
-                                            conversions.
-                                        </p>
-
-                                        <p>
-                                            By using performance marketing and lead generation, you can turn your online
-                                            presence into a consistent sales machine.
-                                        </p>
-
-
-
-
-
-
-                                        
+                                       
                                     </div>
 
                                 </div>
@@ -367,6 +302,10 @@ const blog = () => {
                                     </Link>
                                 </div>
 
+ <FaqAccordion
+                  title="Frequently Asked Questions"
+                  faqs={BlogFaq.DigitalMarketing}
+                />
 
                                 <div className="blogditup">
                                     <h2>Recent Posts</h2>
@@ -377,7 +316,7 @@ const blog = () => {
                                                     <Image
                                                         src={c4}
                                                         className="attachment-full size-full wp-post-image"
-                                                        alt="How AR is Reshaping Retail and E-Commerce"
+                                                        alt="Digital marketing team planning SEO, Google Ads, and social media strategy for business growth in the Singapore office"
                                                         decoding="async"
                                                     />
                                                     <p className="slider-caption-class">
