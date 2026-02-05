@@ -42,7 +42,7 @@ const BlogFaq = {
       question:
         "What about the safety of custom AI when dealing with sensitive financial data?",
       answer:
-        "For sure. Asvayuk helps you keep your data entirely yours by using private cloud setups and full encryption.",
+        "For sure.  Asvayuk helps you keep your data entirely yours by using private cloud setups and full encryption.",
     },
   ],
 
