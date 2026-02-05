@@ -5,7 +5,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import reviewGoogle from "@/assets/Images/review_google.webp";
 import GoodFirms from "@/assets/Images/GoodFirms.webp";
 import Glassdoor from "@/assets/Images/Glassdoor.webp";
-import blockchainSmallBanner from "@/assets/Images/blockchainSmallBanner.jpg";
+import blockchainSmallBanner from "@/assets/Images/blockchainSmallBanner.webp";
 import BlockChainBan4 from "@/assets/Images/BlockChainBan4.png";
 import work1 from "@/assets/Images/crypotoImg1.png";
 import work2 from "@/assets/Images/crypotoImg2.png";

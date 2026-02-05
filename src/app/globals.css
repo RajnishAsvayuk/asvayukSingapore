@@ -13202,7 +13202,7 @@ div#root {
 
 .ai-tab-item.active {
   background: #fff;
-  border: 2px solid #0f9d58;
+  border: 2px solid #2cbe9a;
   color: #111;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
@@ -13269,4 +13269,15 @@ textarea {
   padding: 10px 15px;
   color: rgb(77, 77, 77) !important;
 
+}
+
+.transformation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transformation-table th,
+.transformation-table td {
+  border: 1px solid #dcdcdc;
+  padding: 10px 14px;
 }

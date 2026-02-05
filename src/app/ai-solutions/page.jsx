@@ -14,6 +14,7 @@ import Magento_service_card from "@/components/Magento_service_card/Magento_serv
 import Industry from "@/components/Industry/Industry";
 import ServicesCaseStudy from "@/components/ServicesCaseStudy/ServicesCaseStudy";
 import AdvancedAIModels from "@/components/AdvancedAIModels";
+import Link from "next/link";
 
 const services = [
   {
@@ -168,9 +169,9 @@ const aiChatbot = () => {
               {activeService.content}
             </p>
 
-            <button className="btn btn-success px-4">
+            <Link href={"/contact-us"} className="btn green-btn px-4">
               Let’s Discuss →
-            </button>
+            </Link>
           </div>
         </div>
       </div>

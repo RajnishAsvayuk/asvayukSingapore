@@ -7,13 +7,13 @@ import Image from "next/image";
 import BannerButton from "@/components/BannerBtn/BannerButton";
 import CaseCard from "@/components/CaseCard/CaseCard";
 import caseLogo1 from "@/assets/Images/caseLogo1.webp";
-import caseLogo2 from "@/assets/Images/moonlight_logo.webp";
-import caseLogo3 from "@/assets/Images/caseLogo3.webp";
-import caseLogo4 from "@/assets/Images/49thcoffee_logo.webp";
-import caseLogo5 from "@/assets/Images/kri_logo.webp";
-import caseLogo6 from "@/assets/Images/SpiceTribe_logo.webp";
+import caseLogo2 from "@/assets/Images/aryanslogo.webp";
+import caseLogo3 from "@/assets/Images/layerextechlogo.webp";
+import caseLogo4 from "@/assets/Images/kamconlogo.webp";
+import caseLogo5 from "@/assets/Images/s5logo.webp";
+import caseLogo6 from "@/assets/Images/fortunenftlogo.webp";
 import caseLogo7 from "@/assets/Images/bookmytask_logo.webp";
-import caseLogo8 from "@/assets/Images/kre.webp";
+import caseLogo8 from "@/assets/Images/wibizlogo.webp";
 import layerx from "@/assets/Images/layerX.webp";
 import btCash from "@/assets/Images/btCash.webp";
 import layerlogo from "@/assets/Images/layerLogo.jpg";
@@ -57,28 +57,16 @@ const caseStudy = () => {
 
         <section className="singleCaseplan py-5">
           <Container>
-            <CaseCard
-              caseLogo={caseLogo1}
-              caseTitle="EVERY DAY, EVERY ADVENTURE."
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="Australia"
-              url="/case-studies/quadlock"
-              btnTitle="View Case Study"
-              caseImg={AppImages.casestudySliderImg.caseStu}
-              cardChild="card_child_1"
-              cardImgClass="card_img"
-            />
+
 
             <CaseCard
               caseLogo={caseLogo2}
-              caseTitle="IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS."
-              tools1="shopify Development"
+              caseTitle="EMPOWERING STUDENTS THROUGH ACCESSIBLE, FUTURE-READY EDUCATION."
+              tools1="Wordpress Development"
               tools2="User journey"
               tools3="UX Writing"
-              countryName="Qatar"
-              url="/case-studies/moonlightconcept"
+              countryName="India"
+              url="/case-studies/aryans-group-of-colleges"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu2}
               cardChild="card_child_1 card_child_2"
@@ -87,12 +75,14 @@ const caseStudy = () => {
 
             <CaseCard
               caseLogo={caseLogo3}
-              caseTitle="Modern lighting, furniture & accessories in Ottawa Canada."
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="Canada"
-              url="/case-studies/themodernshop"
+              caseTitle="ENGINEERING THE FUTURE OF CONNECTED ECOSYSTEMS"
+              tools1="AI Ecosystem
+"
+              tools2="Fintech & SaaS
+"
+              tools3="Smart City Infrastructure"
+              countryName="Worldwide"
+              url="/case-studies/layerextech"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu3}
               cardChild="card_child_1 card_child_3"
@@ -101,12 +91,12 @@ const caseStudy = () => {
 
             <CaseCard
               caseLogo={caseLogo4}
-              caseTitle="Small-batch roasting and always fresh."
-              tools1="shopify Development"
-              tools2="User journey"
+              caseTitle="PRECISION-ENGINEERED DESIGN AND ACOUSTIC SOLUTIONS"
+              tools1="Wordpress Development"
+              tools2="Elementor"
               tools3="UX Writing"
               countryName="Canada"
-              url="/case-studies/49thcoffee"
+              url="/case-studies/kamcon"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu4}
               cardChild="card_child_1 card_child_4"
@@ -115,12 +105,12 @@ const caseStudy = () => {
 
             <CaseCard
               caseLogo={caseLogo5}
-              caseTitle="Explore our exquisite collection of pearls jewellery and find your perfect piece today!"
-              tools1="shopify Development"
-              tools2="User journey"
+              caseTitle="ELEVATING MEDIA PRODUCTION IN THE GTA"
+              tools1="Wordpress Development"
+              tools2="Elementor"
               tools3="UX Writing"
-              countryName="India"
-              url="/case-studies/krishnapearlsandjewellers"
+              countryName="Canada"
+              url="/case-studies/s5podcaststudio"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu5}
               cardChild="card_child_1 card_child_5"
@@ -129,73 +119,37 @@ const caseStudy = () => {
 
             <CaseCard
               caseLogo={caseLogo6}
-              caseTitle="Add Flavors to Your Recipes with the Favorite Spice-Brand of top Chefs."
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="California"
-              url="/case-studies/spicetribe"
+              caseTitle="REVOLUTIONIZING THE WEB3 MARKETPLACE EXPERIENCE"
+              tools1="Next js"
+              tools2="Web3"
+              tools3="Node"
+              countryName="Worldwide"
+              url="/case-studies/fortunenft"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu1}
               cardChild="card_child_1 card_child_6"
               cardImgClass="card_img card_img6"
             />
 
-            <CaseCard
-              caseLogo={caseLogo7}
-              caseTitle="Connecting you with skilled professionals for every task, big or small."
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="California"
-              url="/case-studies/bookmytask"
-              btnTitle="View Case Study"
-              caseImg={AppImages.casestudySliderImg.caseStu8}
-              cardChild="card_child_1 card_child_7"
-              cardImgClass="card_img card_img7"
-            />
+
 
             <CaseCard
               caseLogo={caseLogo8}
-              caseTitle="Explore our exquisite collection of pearls jewellery and find your perfect piece today!"
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="California"
-              url="/case-studies/kreshya"
+              caseTitle="AUTOMATING THE FUTURE OF CUSTOMER ENGAGEMENT"
+              tools1="AI Workforce"
+              tools2="Omnichannel Automation"
+              tools3="Lead Management"
+              countryName="Worldwide"
+              url="/case-studies/wibiz"
               btnTitle="View Case Study"
               caseImg={AppImages.casestudySliderImg.caseStu6}
               cardChild="card_child_1 card_child_8"
               cardImgClass="card_img card_img8"
             />
 
-            <CaseCard
-              caseLogo={layerlogo}
-              caseTitle="Welcome To LayerEx – Your Gateway To Seamless Crypto Trading!"
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="California"
-              url="/case-studies/layerx"
-              btnTitle="View Case Study"
-              caseImg={layerx}
-              cardChild="card_child_1 card_child_9"
-              cardImgClass="card_img card_img9"
-            />
 
-            <CaseCard
-              caseLogo={rel20}
-              caseTitle="MTHT Token Listing"
-              tools1="shopify Development"
-              tools2="User journey"
-              tools3="UX Writing"
-              countryName="California"
-              url="/case-studies/openseaCap"
-              btnTitle="View Case Study"
-              caseImg={btCash}
-              cardChild="card_child_1 card_child_10"
-              cardImgClass="card_img card_img10"
-            />
+
+
           </Container>
         </section>
       </main>

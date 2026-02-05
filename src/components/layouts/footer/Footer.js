@@ -62,15 +62,47 @@ const serviceLinks = [
     label: "Search Engine Optimization",
   },
   {
-    href: "/enterprise-portal-development",
-    label: "Enterprise Portal Development",
+    href: "/blockchain-development",
+    label: "Blockchain Development",
   },
+  {
+    href: "/lowcode-nocode-app",
+    label: "Low-Code/No-Code App",
+  },
+  {
+    href: "/ar-vr-development",
+    label: "AR/VR Development",
+  },
+  {
+    href: "/saas-development",
+    label: "SaaS Development",
+  },
+  // {
+  //   href: "/magento-development",
+  //   label: "Magento Development",
+  // },
+  {
+    href: "/shopify-development",
+    label: "Shopify Development",
+  },
+  {
+    href: "/laravel-development",
+    label: "Laravel Development",
+  },
+  // {
+  //   href: "/woocomerce-development",
+  //   label: "WooCommerce Development",
+  // },
 ];
 
 const quickLinks = [
   { href: "/", label: "Home" },
   { href: "/ai-solutions", label: "AI Solutions" },
   { href: "/about-us", label: "About Us" },
+  { href: "/blog", label: "Blog" },
+  { href: "/case-studies", label: "Case Studies" },
+  { href: "/news", label: "News" },
+  { href: "/careers", label: "Careers" },
   { href: "/contact-us", label: "Contact Us" },
 ];
 
@@ -165,7 +197,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <ul className="list-unstyled d-flex gap-3">
+            {/* <ul className="list-unstyled d-flex gap-3">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -175,7 +207,7 @@ function Footer() {
               <li>
                 <Link href="/case-studies">Case Studies</Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="col-lg-5">
             <div>
