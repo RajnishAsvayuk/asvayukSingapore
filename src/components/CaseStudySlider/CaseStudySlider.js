@@ -62,77 +62,77 @@ const CaseStudySlider = () => {
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/spicetribe"><Image src={AppImages.casestudySliderImg.caseStu1} alt="best web development in chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/fortunenft"><Image src={AppImages.casestudySliderImg.caseStu1} alt="best web development in chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/spicetribe">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/spicetribe">Fortune NFT</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/fortunenft">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/fortunenft">Fortune NFT</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/moonlightconcept"><Image src={AppImages.casestudySliderImg.caseStu2} alt="website development provider chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/aryans-group-of-colleges"><Image src={AppImages.casestudySliderImg.caseStu2} alt="website development provider chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/moonlightconcept">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/moonlightconcept">Aryans Group of Colleges</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/aryans-group-of-colleges">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/aryans-group-of-colleges">Aryans Group of Colleges</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/themodernshop"><Image src={AppImages.casestudySliderImg.caseStu3} alt="Web developers for website portal development in chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/layerextech"><Image src={AppImages.casestudySliderImg.caseStu3} alt="Web developers for website portal development in chandigarh" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/themodernshop">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/themodernshop">Layerex Tech</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/layerextech">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/layerextech">Layerex Tech</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/49thcoffee"><Image src={AppImages.casestudySliderImg.caseStu4} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/kamcon"><Image src={AppImages.casestudySliderImg.caseStu4} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/49thcoffee">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/49thcoffee">Kamcon Design and Build</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/kamcon">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/kamcon">Kamcon Design and Build</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/49thcoffee"><Image src={AppImages.casestudySliderImg.caseStu5} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/s5podcaststudio"><Image src={AppImages.casestudySliderImg.caseStu5} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/49thcoffee">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/49thcoffee">S5 Podcast Studio</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/s5podcaststudio">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/s5podcaststudio">S5 Podcast Studio</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/49thcoffee"><Image src={AppImages.casestudySliderImg.caseStu6} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/wibiz"><Image src={AppImages.casestudySliderImg.caseStu6} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/49thcoffee">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/49thcoffee">wibiz</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/wibiz">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/wibiz">wibiz</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                     {/* <SwiperSlide>
                                         <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                             <div>
-                                                <Link href="/case-studies/49thcoffee"><Image src={AppImages.casestudySliderImg.caseStu5} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
+                                                <Link href="/case-studies/wibiz"><Image src={AppImages.casestudySliderImg.caseStu5} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid w-100" width={200} height={200} /></Link>
                                             </div>
                                             <div className="caseStuides_para">
-                                                <p className="mb-0 pb-1"><Link href="/case-studies/49thcoffee">Website Development</Link></p>
-                                                <h5><Link href="/case-studies/49thcoffee">S5 Podcast Studio</Link></h5>
+                                                <p className="mb-0 pb-1"><Link href="/case-studies/wibiz">Website Development</Link></p>
+                                                <h5><Link href="/case-studies/wibiz">S5 Podcast Studio</Link></h5>
                                             </div>
                                         </div>
                                     </SwiperSlide> */}

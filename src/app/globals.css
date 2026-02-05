@@ -8969,19 +8969,20 @@ html[dir="ltr"] {
 }
 
 .card_child_2 {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
+  background-color: #fff4f4;
 }
 
 .card_img2 {
-  background-color: #ecede7;
+  background-color: #ede7e7;
 }
 
 .card_child_3 {
-  background-color: #eee4da;
+  background-color: #edf5ee;
 }
 
 .card_img3 {
-  background-color: #c4b4a5;
+  background-color: #2a2930;
 }
 
 .card_child_4 {
@@ -8993,11 +8994,11 @@ html[dir="ltr"] {
 }
 
 .card_child_5 {
-  background-color: #dadada;
+  background-color: #fffaeb;
 }
 
 .card_img5 {
-  background-color: #595959;
+  background-color: #f0f0c3;
 }
 
 .card_child_7 {
@@ -9009,11 +9010,11 @@ html[dir="ltr"] {
 }
 
 .card_child_8 {
-  background-color: #c3caeb;
+  background-color: #c7d9d5;
 }
 
 .card_img8 {
-  background-color: #2c3971;
+  background-color: #aaafa2;
 }
 
 .card_img9 {
@@ -9033,11 +9034,11 @@ html[dir="ltr"] {
 }
 
 .card_img6 {
-  background-color: #c11528;
+  background-color: #d1d4fb;
 }
 
 .card_child_6 {
-  background-color: #ffcdd3;
+  background-color: #d9e5f8;
 }
 
 .caseBanner {
